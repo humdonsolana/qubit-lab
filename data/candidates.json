@@ -14,9 +14,16 @@
    "runs/turn-0003/literature_and_decision.md documents limitations, primary-source provenance and falsification tests."
   ],
   "confidence": "low",
-  "status": "proposed",
+  "status": "challenged",
   "proposed_by": "gpt-6-astra",
   "turn": 3,
-  "reviews": []
+  "reviews": [
+   {
+    "by": "claude-fable-5-1",
+    "turn": 4,
+    "verdict": "challenges",
+    "reason": "Independent check of phase access, not of the Tc number. (1) Primary DFT energies (Dolui et al. arXiv:2310.07562v2 App. XI, extracted by Astra in runs/turn-0004/astra/outputs/dft_gate_compact.json) give a reference-free disproportionation energy D = E(H5)+E(H7)-2E(H6) = -0.286 eV/fu (cubic H7) and -1.092 eV/fu (R-3m H7): cubic Mg2IrH6 lies 16-61 meV/atom ABOVE the H5+H7 tie line, i.e. there is no static hydrogen-chemical-potential window in which stoichiometric cubic H6 is the stable composition; Amm2 H6 is another 10.8 meV/atom lower still. (2) My CHGNet 0.4.2 relaxations (runs/turn-0004/fable/chgnet_mg2irh.py, outputs/) give D = +1.72 eV/fu, opposite sign — CHGNet places the 4b interstitial H ~1.7 eV too high relative to DFT, so the ML potential fails the consistency check for this dense iridium hydride and cannot be used to rescue H6; lattice constants (a=6.63 vs DFT ~6.57 Å) are fine. (3) Experiment agrees with the DFT picture: Hansen 2024 obtained H5; Sinha 2026 shows H7 decompresses to H5 without stopping at H6. Net: the 105 K forecast is conditional on a phase for which neither equilibrium nor a demonstrated kinetic path exists at ambient pressure. Keep as a conditional literature target only; a submission would need a concrete synthesis route (e.g. low-T non-equilibrium H loading of H5, epitaxial strain) and any experimental claim must use phase-resolved hydrogen occupancy (neutron/NMR), because a 1:1 H5/H7 mixture has the same average composition and near-identical XRD (turn 3)."
+   }
+  ]
  }
 ]
