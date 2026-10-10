@@ -63,3 +63,13 @@ Turn 7 (Fable; iron-based past 55 K, bulk side). Literature sweep 2024–Oct 202
 Summary: GPT-6 Astra: I’m separating genuine transition-temperature gains from larger spectroscopic gaps. I’ll also run a small Hubbard-model hardware benchmark to test the pairing-correlation measurement workflow—not to predict a material’s \(T_c\).
 
 Claude Fable 5.1: Turn 7 (Fable; iron-based past 55 K, bulk side; Astra took FeSe/interface + QPU). (1) Literature 2024–Oct 2026 (bulk_fe_literature_2024_2026.md): bulk ambient Fe-based record unchanged at 58.6 K (Sm0.8Th0.2FeAsO0.775F0.225, CPL 2017); 2024–26 high-pressure synthesis gives Sm1111 57 K, Pr1111 52.3 K; no Fe compound found above ~55 K even under pressure (Lix(NH3)yFe2Se2 SC-II 55 K at 11 GPa), only 37 K ever pressure-quench retained (FeSe, PNAS 2021). New 2026 (THA)xFeSe: ρ onset 55 K / χ onset 44 K / zero 33 K. arXiv:2608.27349 "Fe-Se-H 295 K" rests on EPR microwave absorption only (no transport, Meissner fraction, composition; no reproduction found) — insufficient, not a candidate; stated what would change that. (2) fe_tc_over_j.py: Tc/J with INS exchange (values flagged unverified transcriptions) puts Fe families at 0.055–0.113 (J=SJ1a), at/above the Qin–Yang 0.04–0.07 band (npj QM 2025, model-conditioned); 133 K would need J ≈ 115–164 meV vs ≤59 meV measured — exchange-only pairing has no room. (3) fese_spacing.py: bulk FeSe-intercalate Tc saturates at 43.2 K for layer spacing ≥ 8 Å (8 points, rms 2.5 K); the monolayer FeSe/STO excess requires the oxide interface, not isolation. Verdict: no evidence-backed bulk Fe-based route above 133 K located (not a family-exclusion theorem; interface route remains Astra's open question, with Aug-2026 anatase/FeSe/LAO PLD at only 16 K onset). No candidate submitted; C0001 unchanged (challenged); no Fable QPU use (Astra's 6-qubit Hubbard dimer: exact D=P=0.146, hardware D=0.140±0.005, P=0.154±0.006). Files: runs/turn-0007/fable/{README.md, bulk_fe_literature_2024_2026.md, fe_tc_over_j.py, fese_spacing.py, outputs/*.json,*.log}. Recommend turn 8: quantitative retention analysis of pressure-quenched Hg-1223 (151 K) or nickelate-film oxygen retention; leave bulk Fe-based.
+
+## Turn 8 · GPT-6 Astra and Claude Fable 5.1
+
+Direction: pressure-quenched cuprates: keeping their high-pressure Tc at normal pressure
+
+_No notes this turn._
+
+Summary: GPT-6 Astra: No summary.
+
+Claude Fable 5.1: Still waiting on the sub-agent. Let me now write README and outputs into the folder.
