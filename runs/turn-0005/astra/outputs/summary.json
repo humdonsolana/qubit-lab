@@ -1,0 +1,140 @@
+{
+  "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-08525-3/MediaObjects/41586_2024_8525_MOESM1_ESM.xlsx",
+  "source_sha256": "33012becd28a8578bd1342cb67a05c38dc10abffb7e3b86973c5dabb82f9ad6d",
+  "source_bytes": 13454360,
+  "criterion": "Source Fig5 Tc values are author onset; zero entries encode no observed transition, not proven physical Tc=0.",
+  "a_rows": [
+    {
+      "a_A": 3.7705,
+      "reported_onset_K_or_zero_code": 42.44
+    },
+    {
+      "a_A": 3.7827,
+      "reported_onset_K_or_zero_code": 32.963
+    },
+    {
+      "a_A": 3.792,
+      "reported_onset_K_or_zero_code": 0.0
+    },
+    {
+      "a_A": 3.868,
+      "reported_onset_K_or_zero_code": 0.0
+    },
+    {
+      "a_A": 3.792,
+      "reported_onset_K_or_zero_code": 0.0
+    }
+  ],
+  "c_duplicate_rows": [
+    {
+      "c_A": 20.23163,
+      "onsets_K": [
+        32.962,
+        30.1
+      ],
+      "minimum_worst_residual_K": 1.431000000000001
+    },
+    {
+      "c_A": 20.56135,
+      "onsets_K": [
+        42.44,
+        26.2
+      ],
+      "minimum_worst_residual_K": 8.12
+    }
+  ],
+  "c_positive_only_descriptive_linear_fit": {
+    "n": 11,
+    "slope_K_per_A": -9.195710093062827,
+    "R2": 0.08116827937045627,
+    "LOO_RMSE_K": 6.4017221988563575
+  },
+  "c_zero_coded_naive_fit_NOT_valid_Tc_regression": {
+    "n": 18,
+    "slope_K_per_A": 38.16631068034612,
+    "R2": 0.4456664507675143,
+    "LOO_RMSE_K": 14.170044153649862
+  },
+  "any_deterministic_c_only_fit_RMSE_lower_bound_all_rows_K": 2.7483765106776117,
+  "aging_025K_bins": [
+    {
+      "sheet": "Figure 2b",
+      "sample": "O3-annealed",
+      "bin_K": 0.25,
+      "raw_n": 14066,
+      "Tmin_K": 1.9989,
+      "rho50_mOhm_cm": 0.2922655834621329,
+      "T_fraction_0.9_K": 40.790010316202974,
+      "T_fraction_0.5_K": 22.10614710451474,
+      "T_fraction_0.1_K": 5.831581349059613,
+      "T_fraction_0.01_K": null,
+      "rho5_mOhm_cm": 0.023422370304114492,
+      "rho10_mOhm_cm": 0.058402260153031196,
+      "rho20_mOhm_cm": 0.13107219701614553,
+      "rho100_mOhm_cm": 0.361184175911252,
+      "rho200_mOhm_cm": 0.5221248208317861,
+      "rho5_over_rho50": 0.08014070636253752
+    },
+    {
+      "sheet": "Figure 2b",
+      "sample": "8 days",
+      "bin_K": 0.25,
+      "raw_n": 5218,
+      "Tmin_K": 2.05974,
+      "rho50_mOhm_cm": 0.43874767164179107,
+      "T_fraction_0.9_K": 37.09266078673551,
+      "T_fraction_0.5_K": 14.349132470575695,
+      "T_fraction_0.1_K": 2.3443694040551954,
+      "T_fraction_0.01_K": null,
+      "rho5_mOhm_cm": 0.09231522856459594,
+      "rho10_mOhm_cm": 0.16613156330648315,
+      "rho20_mOhm_cm": 0.2737845259291427,
+      "rho100_mOhm_cm": 0.5103043052296345,
+      "rho200_mOhm_cm": 0.6885751789824452,
+      "rho5_over_rho50": 0.21040619593296742
+    },
+    {
+      "sheet": "Figure 2b",
+      "sample": "20 days",
+      "bin_K": 0.25,
+      "raw_n": 5934,
+      "Tmin_K": 2.03404,
+      "rho50_mOhm_cm": 1.0152813176571518,
+      "T_fraction_0.9_K": 19.447603892379504,
+      "T_fraction_0.5_K": 6.176403290033494,
+      "T_fraction_0.1_K": null,
+      "T_fraction_0.01_K": null,
+      "rho5_mOhm_cm": 0.42605340532264235,
+      "rho10_mOhm_cm": 0.70720653877251,
+      "rho20_mOhm_cm": 0.9192980690341027,
+      "rho100_mOhm_cm": 0.9512220746108427,
+      "rho200_mOhm_cm": 1.0250732427548985,
+      "rho5_over_rho50": 0.4196407418446317
+    },
+    {
+      "sheet": "Figure 2b",
+      "sample": "O3 annealed again",
+      "bin_K": 0.25,
+      "raw_n": 4433,
+      "Tmin_K": 2.02978,
+      "rho50_mOhm_cm": 0.2819127353266888,
+      "T_fraction_0.9_K": 39.1773882003142,
+      "T_fraction_0.5_K": 18.217185796484046,
+      "T_fraction_0.1_K": 2.829933140141281,
+      "T_fraction_0.01_K": null,
+      "rho5_mOhm_cm": 0.0526174232123843,
+      "rho10_mOhm_cm": 0.09358112126873087,
+      "rho20_mOhm_cm": 0.15038543821488842,
+      "rho100_mOhm_cm": 0.3449421001059322,
+      "rho200_mOhm_cm": 0.49833829417092046,
+      "rho5_over_rho50": 0.18664436408454438
+    }
+  ],
+  "threshold_definition": "Highest warming crossing rho(T)/rho(50K)=p after median temperature binning. Linear interpolation; these are not author onsets or measured zeros. Null means no observed crossing within data, not Tc=0.",
+  "limitations": [
+    "Repeated c values are equal at published precision; not proof of microscopically identical strain.",
+    "No uncertainties/covariates or held-out composition validation. LOO rows are not independent experiments.",
+    "No causal strain coefficient, oxygen diffusion constant, vacancy density, new Tc, or bulk Meissner fraction inferred.",
+    "Binning repeated-temperature data may combine warming/cooling sweeps; no instrument detection limit available."
+  ]
+}
