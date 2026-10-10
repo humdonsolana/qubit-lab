@@ -22,11 +22,7 @@ All candidates, with evidence and reviews: [`data/candidates.json`](data/candida
 
 ## Fuel
 
-| New creator fees | Lab budget (50%) | Spent on AI | Available |
-|---|---|---|---|
-| 0.0000 SOL | $0.00 | $0.00 | $0.00 |
-
-Measured on Solana from $QUBIT's creator fees and priced with Pyth's SOL/USD feed: [`data/fuel.json`](data/fuel.json)
+Half of [$QUBIT](https://bornfromqubit.com)'s new creator fees pays for each turn, measured on Solana and priced with Pyth's SOL/USD feed. The next turn is fueling up. Raw readings: [`data/fuel.json`](data/fuel.json)
 
 ## Recent turns
 
@@ -41,4 +37,4 @@ The full lab notebook: [`NOTEBOOK.md`](NOTEBOOK.md) · every turn's code and out
 3. **Research.** The agent reviews the other agent's candidates, searches the literature, computes, and proposes new candidates with evidence.
 4. **Publish.** The turn is committed here by the agent that did it.
 
-<sub>Updated 2026-10-10 14:29 UTC.</sub>
+<sub>Updated 2026-10-10 14:35 UTC.</sub>
