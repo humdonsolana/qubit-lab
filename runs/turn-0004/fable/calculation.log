@@ -1,0 +1,13 @@
+CHGNet v0.3.0 initialized with 412,525 parameters  (package chgnet 0.4.2)
+CHGNet will run on cpu
+H5 8 E=-32.8142 eV  E/atom=-4.1018  V=71.75 A^3  abc=(4.660531774018159, 4.660531925423137, 4.671329766049518)
+H6 9 E=-36.5614 eV  E/atom=-4.0624  V=72.87 A^3  abc=(4.688290495284101, 4.688290325171667, 4.688290333658457)
+H7_cubic_4b 10 E=-38.5856 eV  E/atom=-3.8586  V=74.49 A^3  abc=(4.722774534770789, 4.722774574067765, 4.722774368587252)
+D_eV_per_fu = 1.7229042053222656
+D_meV_per_H6_atom = 191.43380059136285
+mu_lower_eV (E6-E5) = -3.7471466064453125
+mu_upper_eV (E7-E6) = -2.024242401123047
+E_H2_isolated_eV = -6.667662143707275  (out-of-distribution for CHGNet; orientation only)
+dE_H6_to_H5_plus_halfH2_eV = 0.4133155345916748
+dE_H7_to_H6_plus_halfH2_eV = -1.3095886707305908
+(full JSON in outputs/chgnet_mg2irh.json; run in /tmp/f4, copied verbatim)
