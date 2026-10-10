@@ -1,0 +1,28 @@
+{
+ "assumptions": "single Arrhenius process, nu0=1e13/s, first-order decay; +-1 decade in nu0 = -+0.06 eV at 300 K, -+0.015 eV at 77 K",
+ "constraints_eV": {
+  "Ea_min_77K_3d_90pct": 0.296,
+  "Ea_min_170K_1h_90pct": 0.591,
+  "Ea_max_200K_1h_lost": 0.657,
+  "Ea_max_300K_1h_lost": 0.985,
+  "Ea_goal_300K_1yr_90pct": 1.278,
+  "Ea_goal_77K_1yr_90pct": 0.328
+ },
+ "tau_table_s": {
+  "0.4": {"77": 1.52e13, "150": 2.75, "170": 0.0722, "200": 0.0012, "250": 1.16e-05, "300": 5.25e-07},
+  "0.5": {"77": 5.33e+19, "150": 6310.0, "170": 66.6, "200": 0.398, "250": 0.0012, "300": 2.51e-05},
+  "0.6": {"77": 1.87e+26, "150": 1.45e7, "170": 61400.0, "200": 132.0, "250": 0.125, "300": 0.0012},
+  "0.8": {"77": 2.31e+39, "150": 7.58e13, "170": 5.22e10, "200": 1.45e7, "250": 1340.0, "300": 2.75},
+  "1.0": {"77": 2.85e+52, "150": 3.98e+20, "170": 4.44e+16, "200": 1.58e12, "250": 1.45e7, "300": 6310.0},
+  "1.2": {"77": 3.51e+65, "150": 2.09e+27, "170": 3.77e+22, "200": 1.74e+17, "250": 1.56e11, "300": 1.45e7}
+ },
+ "S4_RT_excursion_estimate": {
+  "source": "PNAS 2026 SI S4 per Astra audit: onset 147 K before and 143 K after a warming excursion to 293 K; RT dwell time not given",
+  "onset_before_after_K": [147, 143],
+  "surviving_excess_fraction": 0.714,
+  "Ea_eV_for_RT_dwell_10min_to_4h": [0.945, 1.025],
+  "nu0_range_shift_eV": 0.06,
+  "consistency": "Ea~0.95-1.0 eV gives tau(170 K) > 1e15 s, consistent with the negligible loss on repeated 160-170 K warm-ups (S5), and tau(77 K) astronomically long. The earlier 'Ea_max_200K_1h_lost' bound assumed loss already at 200 K within an hour, which the source does not actually establish; the S4 RT excursion is the better-constrained datum."
+ },
+ "reading": "Best single-process estimate: Ea ~ 0.9-1.05 eV (nu0 1e13/s), tau(293 K) ~ 0.5-10 h. This is incompatible with athermal elastic strain release and consistent with the known range of oxygen (interstitial O_delta / apical) hopping barriers in Hg- and Y-based cuprates (~0.6-1.3 eV). A 300 K, 1-year retained state needs Ea >= ~1.28 eV, i.e. ~0.3 eV more than the inferred barrier; chemical pinning of the O_delta sublattice (fluoride substitution) or storage below ~230 K (tau > 1 yr at Ea=1.0 eV for T <~ 215 K) are the two routes."
+}

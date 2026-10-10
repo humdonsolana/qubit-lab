@@ -1,0 +1,13 @@
+CHGNet v0.3.0 initialized with 412,525 parameters (chgnet package 0.4.2), CPU
+relaxed a=3.8956 c=16.0649 V=243.798 E=-92.6788 eV/cell   (exp a=3.8532 c=15.818)
+fixed-volume cell-shape+ion relax, fmax 0.05 eV/A, 120 FIRE steps max:
+V/V0=0.860 V=209.47 E=-91.2214 a=3.7694 c=14.7425
+V/V0=0.890 V=216.83 E=-91.8480 a=3.8031 c=14.9919
+V/V0=0.920 V=224.24 E=-92.2636 a=3.8218 c=15.3523
+V/V0=0.950 V=231.60 E=-92.5274 a=3.8392 c=15.7131
+V/V0=0.980 V=238.92 E=-92.6603 a=3.8693 c=15.9586
+V/V0=1.010 V=246.23 E=-92.6723 a=3.9038 c=16.1573
+V/V0=1.040 V=253.53 E=-92.6093 a=3.9260 c=16.4488
+BM fit (pymatgen): V0=244.084 A^3  B0=67.5 GPa  B0'=5.73
+(pymatgen post-block crashed on FloatWithUnit*ndarray; refit in eos_postprocess.py: V0=244.08, B0=67.5 GPa, B0'=5.75)
+Run in /tmp/f8 because the turn folder is not shell-writable; copied verbatim.

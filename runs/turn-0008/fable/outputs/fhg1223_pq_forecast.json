@@ -1,0 +1,11 @@
+{"ratios_retained_excess_over_in_situ_excess": [0.316, 0.667, 0.737, 0.762, 0.72],
+ "protocol_order": "PNAS 2026: S1 26.0GPa/77K; S1 28.4GPa/4.2K; S2 10.1GPa/4.2K; S3 10.9GPa/4.2K; S4 18.9GPa/4.2K (Astra source_inputs.json)",
+ "cold_quench_mean_ratio": 0.721,
+ "F_Hg1223_inputs": {"ambient_Tc_K": 138, "Tc_max_K": 166, "P_at_max_GPa": 23, "sources": "Lokshin et al. PRB 63, 064511 (2001); Monteverde et al. EPL 72, 458 (2005)"},
+ "forecast_retained_dRdT_onset_K": {
+  "Pq_10GPa": {"Tc_at_Pq": 157.1, "retained_mean": 151.7, "range": [150.7, 152.5]},
+  "Pq_19GPa": {"Tc_at_Pq": 165.2, "retained_mean": 157.6, "range": [156.1, 158.7]},
+  "Pq_23GPa": {"Tc_at_Pq": 166.0, "retained_mean": 158.2, "range": [156.7, 159.3]}},
+ "pessimistic_half_efficiency_23GPa_K": 148.1,
+ "headline": "F-Hg-1223, PQ at 19-23 GPa / 4.2 K: ~155 K retained onset (quoted conservatively between pessimistic 148 K and mean 158 K)",
+ "note": "dR/dT onsets inside/outside DAC, metastable; parent state fades over hours at 293 K (Ea~1 eV); not a stable-at-300-K prediction. Linear-ratio extrapolation; the ratio is unmeasured for F-substituted material."}
