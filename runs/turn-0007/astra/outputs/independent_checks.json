@@ -1,0 +1,9 @@
+{
+  "full_Fock_energies_t":{"0":0.0,"1":-1.0,"2":-0.82842712474619},
+  "full_Fock_double_occupancy":0.14644660940672619,
+  "full_Fock_pair_hopping":0.14644660940672619,
+  "pair_binding_E2_plus_E0_minus_2E1_t":1.1715728752538102,
+  "pair_binding_interpretation":"positive: no energetic binding by this vacuum two-electron diagnostic; not a thermodynamic limit conclusion",
+  "folded_vs_full_Matsubara_eigenvalue_abs_error":2.220446049250313e-16,
+  "status":"all assertions passed"
+}

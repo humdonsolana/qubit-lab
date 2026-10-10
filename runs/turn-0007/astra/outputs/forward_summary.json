@@ -1,0 +1,31 @@
+{
+  "kind": "Feasibility scenarios only; not a Tc forecast or universal bound",
+  "kb_meV_per_K": 0.08617333262145,
+  "source_lambda_per_interface_range": [0.15,0.2],
+  "source_omega_meV": 100.0,
+  "omega80_status": "analyst sensitivity, not a fitted measurement",
+  "thresholds": [
+    {"target_K":133.0,"omega_meV":80.0,"lambda_required_analytic":0.5024922010068448},
+    {"target_K":133.0,"omega_meV":100.0,"lambda_required_analytic":0.3493326770701048},
+    {"target_K":151.0,"omega_meV":80.0,"lambda_required_analytic":0.6353060395943511},
+    {"target_K":151.0,"omega_meV":100.0,"lambda_required_analytic":0.4268841987697379},
+    {"target_K":300.0,"omega_meV":80.0,"lambda_required_analytic":21.155477094378647},
+    {"target_K":300.0,"omega_meV":100.0,"lambda_required_analytic":2.3036890971710875}
+  ],
+  "two_identical_interfaces": {
+    "assumed_total_lambda":[0.3,0.4],
+    "analytic_T_K_100meV":[120.04673918845162,145.05647651937903],
+    "additional_interface_retention_needed_if_base_lambda_0p2":0.7466633853505238,
+    "max_fractional_T_reduction_before_falling_below133_at_best_case":0.08311574090777207,
+    "min_omega_meV_to_reach133_at_lambda0p4":91.68842590922279
+  },
+  "diagnostics": [
+    {"lambda_total":0.15,"scalar_tau":0.061224501483155315,"kernel_tau_N128":0.061911242374006574,"kernel_tau_N256":0.06191124237760181,"kernel_convergence_K_at100meV":4.172097226919514e-09,"scalar_vs_direct_sum_error":2.220446049250313e-16},
+    {"lambda_total":0.175,"scalar_tau":0.06930702139238988,"kernel_tau_N128":0.07034352923584096,"kernel_tau_N256":0.07034352923835609,"kernel_convergence_K_at100meV":2.918683679799321e-09,"scalar_vs_direct_sum_error":0.0},
+    {"lambda_total":0.2,"scalar_tau":0.07692350494409676,"kernel_tau_N128":0.07839704132572135,"kernel_tau_N256":0.07839704132758586,"kernel_convergence_K_at100meV":2.163672322789313e-09,"scalar_vs_direct_sum_error":2.220446049250313e-16},
+    {"lambda_total":0.3,"scalar_tau":0.10346547970344198,"kernel_tau_N128":0.10761378821998406,"kernel_tau_N256":0.10761378822078344,"kernel_convergence_K_at100meV":9.276355354962131e-10,"scalar_vs_direct_sum_error":4.440892098500626e-16},
+    {"lambda_total":0.35,"scalar_tau":0.11480495139153477,"kernel_tau_N128":0.12085081896191564,"kernel_tau_N256":0.12085081896250956,"kernel_convergence_K_at100meV":6.892083536239984e-10,"scalar_vs_direct_sum_error":1.1102230246251565e-16},
+    {"lambda_total":0.4,"scalar_tau":0.12511613641992636,"kernel_tau_N128":0.1334156736465007,"kernel_tau_N256":0.13341567364696472,"kernel_convergence_K_at100meV":5.384701960877655e-10,"scalar_vs_direct_sum_error":6.661338147750939e-16}
+  ],
+  "checks":{"inverse_roundtrip_max_error_K":2.842170943040401e-14,"matsubara_sum_max_error":6.661338147750939e-16,"frequency_convergence_max_K":4.172097226919514e-09}
+}

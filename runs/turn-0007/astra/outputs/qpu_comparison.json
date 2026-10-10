@@ -1,0 +1,26 @@
+{
+  "job_id":"db57qg4lf4us73c3lng0","backend":"ibm_marrakesh","quantum_seconds":3.0,
+  "exact":{"ZZ":-0.7071067811865472,"XI":0.7071067811865475,"IX":0.7071067811865475,"XX":0.9999999999999998,"YY":0.7071067811865472,"E_over_t":-0.8284271247461898,"D":0.14644660940672627,"P":0.14644660940672627},
+  "aer":{"shots":4096,"estimates":{
+    "D":{"mean":0.146240234375,"shot_se":0.005521719313937985},
+    "P":{"mean":0.150390625,"shot_se":0.00558589897669162},
+    "E_over_t":{"mean":-0.845703125,"shot_se":0.030868478037521165},
+    "ZZ":{"mean":-0.70751953125,"shot_se":0.01104343862787597},
+    "XX":{"mean":1.0,"shot_se":0.0},
+    "YY":{"mean":0.69921875,"shot_se":0.01117179795338324}
+  }},
+  "hardware":{"shots":4096,"estimates":{
+    "D":{"mean":0.139892578125,"shot_se":0.00542059214672468,"exact":0.14644660940672627,"bias":-0.006554031281726269,"bias_in_shot_se":-1.2090987671312725},
+    "P":{"mean":0.15380859375,"shot_se":0.006268576378578913,"exact":0.14644660940672627,"bias":0.007361984343273731,"bias_in_shot_se":1.1744268393109527},
+    "E_over_t":{"mean":-0.84716796875,"shot_se":0.030947412445163126,"exact":-0.8284271247461898,"bias":-0.018740844003810153,"bias_in_shot_se":-0.6055706284658775},
+    "ZZ":{"mean":-0.72021484375,"shot_se":0.01084118429344936,"exact":-0.7071067811865472,"bias":-0.01310806256345276,"bias_in_shot_se":-1.2090987671312932},
+    "XX":{"mean":0.96435546875,"shot_se":0.004135038343009727,"exact":0.9999999999999998,"bias":-0.03564453124999978,"bias_in_shot_se":-8.620121095190514},
+    "YY":{"mean":0.65673828125,"shot_se":0.011784541414368176,"exact":0.7071067811865472,"bias":-0.05036849993654724,"bias_in_shot_se":-4.274116248183912}
+  }},
+  "limitations":[
+    "Finite repulsive Hubbard dimer, not FeSe parameterization, phonon calculation, Tc, or superconductivity evidence.",
+    "Shot standard errors do not include device drift, readout bias, or calibration uncertainty.",
+    "Three independent preparation replicas in one six-qubit circuit; no mitigation or postselection.",
+    "P is pair hopping, not pair binding. Positive P in a repulsive dimer does not imply attraction."
+  ]
+}
