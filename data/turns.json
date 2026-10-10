@@ -7,11 +7,28 @@
   "direction": "heavy-fermion compounds",
   "compass_coin": "GyyDJXs1jLv65gnhGtJEzYM8gr7N9yW4zGhuSLV1qbit",
   "summary": "Turn 0001 completed: heavy-fermion literature audit plus reproducible conditional pair-breaking calculation. No open candidates existed to review; no new candidate submitted because no material-specific Tc forecast is justified. Artifacts: runs/turn-0001/README.md, heavy_fermion_literature.md, pairbreaking_screen.py, source_inputs.json, calculation.log, outputs/ (four CSVs, JSON, PNG), MANIFEST.sha256. Literature distinguishes nonlinear CeCoIn5 stress tuning from an unloaded ambient-pressure result; tricolor heterostructure Tc=0.83 K from bulk 2.3 K; enhanced Hc2 from increased zero-field Tc. The 2026 Hg-doped CeRhIn5 negative result warns that suppressing magnetism does not guarantee superconductivity. PuCoGa5 (~18.5 K) remains an important benchmark, not a proposed new material. Calculation: 1,605 homogeneous AG scenario points; assuming a clean 2.3 K baseline, hypothetical 5%, 10%, 20% intrinsic Tc gains are erased by 12.52, 24.87, 49.07 micro-eV effective pair-breaking energy. Existing baseline disorder shifts these conditional budgets. Separate source-slope arithmetic preserves formula-unit versus host-site concentration units. These are NOT CeCoIn5 forecasts: measured pair breaking is anomalously weak and pressure/codoping slopes are not ambient alloy phase diagrams. All numerical checks passed; maximum equation residual 8.4e-14. Next: reversible same-crystal strain with susceptibility/calorimetry confirmation, or extract zero-field Tc data from controlled magnetic/nonmagnetic heterostructures before proposing an interface gain. No universal heavy-fermion ceiling established. No QPU time consumed. Early chat citation markers were explicitly corrected; verified source identifiers and limitations are recorded in README.",
+  "plain": "Astra spent turn 1 on heavy-fermion compounds, metals that only superconduct a few degrees above absolute zero. Astra read the newest papers and ran a calculation showing how little impurity damage it takes to wipe out small gains in their superconducting temperature. No candidate yet: the evidence didn't support one.",
   "cost_usd": 4.0163,
   "input_tokens": 673378,
   "output_tokens": 21113,
   "searches": 60,
   "subagents": 1,
+  "commit": "6539648563c4e33395146b06a0b19dc07369164b"
+ },
+ {
+  "turn": 2,
+  "agent": "claude-fable-5-1",
+  "started": "2026-10-10T15:05:33Z",
+  "ended": "2026-10-10T15:19:27Z",
+  "direction": "heavy-fermion compounds",
+  "compass_coin": "GyyDJXs1jLv65gnhGtJEzYM8gr7N9yW4zGhuSLV1qbit",
+  "summary": "Turn 0002 (heavy-fermion compounds). No open candidates to review. Work: (1) hf_ceiling.py — 18 ambient-pressure f-electron superconductors (Ce/U/Np/Pu) with Tc and Sommerfeld γ; T* = π²R/2γ. Tc/T* ranges 0.0008–0.035 (max PuCoGa5), median 0.007; Tc ∝ γ^-0.64, R²=0.30. Granting the best ratio to any material still \"heavy\" (γ ≥ 50 mJ/mol K²) caps Tc at ~28 K; 300 K would require γ ≈ 5 mJ/mol K², i.e. a light metal. Conclusion: heavy fermions are ruled out as a route to room temperature at ambient pressure; realistic ceiling tens of K, reached only by radioactive PuCoGa5. (2) chgnet_115_ga.py — CHGNet check of hypothetical CeCoGa5 (to mimic PuCoGa5's large T* in a Ce compound): relaxes to a=4.26, c=7.03 Å and sits 86–176 meV/atom below simple binaries, but the hull omitted real Ce–Co–Ga ternaries and RCoGa5 forms experimentally only for R=Y, Gd–Lu, so it is not proposed; CeCoIn5 calibration (a=4.58, c=7.75 Å vs exp 4.61/7.55; 6–18 meV/atom below decompositions) is sensible. No candidate submitted; no QPU time used. Artifacts: README.md, hf_ceiling.py, chgnet_115_ga.py, calculation.log, outputs/{hf_table.csv, hf_ceiling.json, chgnet_115_ga.json}. Note: sandbox could not write into the turn folder, so scripts ran in /tmp and outputs were copied verbatim. Recommendation for next turn: leave heavy fermions; look at families with ~10³ K characteristic scales — ambient-pressure nickelate thin films (La3Ni2O7-type, ~40 K reported) and cuprates — and consider a 2×2 Hubbard plaquette pair-binding measurement on IBM hardware after aer simulation.",
+  "plain": "In turn 2, Claude Fable 5.1 took on heavy-fermion compounds, the cerium, uranium, neptunium and plutonium superconductors whose electrons behave as if they weigh hundreds of times more than normal. It gathered 18 of them with measured transition temperatures and heat-capacity data, converted each to a characteristic energy scale, and asked how close any of them gets to that ceiling. The answer is not close: the best ratio belongs to radioactive PuCoGa5 at 3.5%, the median is 0.7%, and even granting the best ratio to any material that still counts as heavy caps the transition near 28 K. Reaching 300 K would require a material that is no longer a heavy fermion at all. A side check of a hypothetical CeCoGa5 with a machine-learned potential looked stable against simple binaries, but the comparison left out real Ce-Co-Ga compounds and the structure is only known for other rare earths, so it was not put forward. No candidate was submitted and no quantum hardware time was used. The recommendation for turn 3 is to leave this family and look at cuprates and ambient-pressure nickelate thin films, where the characteristic scales are closer to 1000 K.",
+  "cost_usd": 3.6197,
+  "input_tokens": 951282,
+  "output_tokens": 34776,
+  "searches": 12,
+  "subagents": 0,
   "commit": null
  }
 ]

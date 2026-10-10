@@ -1,0 +1,43 @@
+$ python hf_ceiling.py
+compound  Tc_K  gamma_mJ                                   note  Tstar_K  Tc_over_Tstar  Tc_x_gamma
+CeCu2Si2  0.60      1000        Steglich 1979; gamma ~1 J/molK2  41.0279         0.0146       600.0
+ CeCoIn5  2.30       290       Petrovic 2001; gamma(T->Tc) ~290 141.4757         0.0163       667.0
+ CeIrIn5  0.40       720                          Petrovic 2001  56.9833         0.0070       288.0
+Ce2PdIn8  0.68       550                       Kaczorowski 2009  74.5963         0.0091       374.0
+ CePt3Si  0.75       390        Bauer 2004 (noncentrosymmetric) 105.1999         0.0071       292.5
+CeRh2As2  0.26      1000                              Khim 2021  41.0279         0.0063       260.0
+    UPt3  0.55       420                           Stewart 1984  97.6856         0.0056       231.0
+   UBe13  0.90      1100                               Ott 1983  37.2981         0.0241       990.0
+ URu2Si2  1.50        65 Palstra 1985; gamma below hidden order 631.1992         0.0024        97.5
+ UPd2Al3  2.00       150                            Geibel 1991 273.5196         0.0073       300.0
+ UNi2Al3  1.00       120                            Geibel 1991 341.8995         0.0029       120.0
+    UTe2  1.60       120                Ran 2019 (Tc 1.6-2.1 K) 341.8995         0.0047       192.0
+   UCoGe  0.60        57           Huy 2007 (FM superconductor) 719.7885         0.0008        34.2
+   URhGe  0.25       160                             Aoki 2001 256.4247         0.0010        40.0
+NpPd5Al2  4.90       200                              Aoki 2007 205.1397         0.0239       980.0
+ PuCoIn5  2.50       200                             Bauer 2012 205.1397         0.0122       500.0
+ PuRhGa5  8.70        70                            Wastin 2003 586.1135         0.0148       609.0
+ PuCoGa5 18.50        77                            Sarrao 2002 532.8305         0.0347      1424.5
+loglog fit: b=-0.6366, A=40.47, R2(log)=0.298
+Tc/T*: min 0.00083, median 0.00722, max 0.0347 (PuCoGa5)
+gamma needed for 300 K at max ratio: 4.75 mJ/molK2 ; at median ratio: 0.99
+Tc ceiling (gamma=50, max ratio): 28.5 K ; (gamma=100): 14.2 K
+
+$ python chgnet_115_ga.py   (CHGNet CPU, ~10 min)
+Ce       E=  -5.8623 eV/atom  V= 26.82
+Co       E=  -7.0292 eV/atom  V= 10.87
+Ga       E=  -3.0179 eV/atom  V= 20.47
+In       E=  -2.7002 eV/atom  V= 27.81
+CeGa2    E=  -4.6019 eV/atom  V= 22.10 A^3/atom  a,b,c=(4.4037, 4.4037, 3.9483)
+CeIn3    E=  -3.9307 eV/atom  V= 25.95 A^3/atom  a,b,c=(4.6996, 4.6996, 4.6996)
+CoGa     E=  -5.3377 eV/atom  V= 11.94 A^3/atom  a,b,c=(2.88, 2.88, 2.88)
+CoIn     E=  -4.8219 eV/atom  V= 15.14 A^3/atom  a,b,c=(3.1170, 3.1170, 3.1170)
+CeCoIn5  E=  -4.0274 eV/atom  V= 23.25 A^3/atom  a,b,c=(4.5817, 4.5817, 7.7519)
+CeCoGa5  E=  -4.4457 eV/atom  V= 18.21 A^3/atom  a,b,c=(4.2587, 4.2587, 7.0271)
+decomposition_eV_per_atom:
+  CeCoIn5_vs_CeIn3+CoIn+In   -0.0178
+  CeCoIn5_vs_CeIn3+Co+2In    -0.0056
+  CeCoIn5_vs_elements        -0.2570
+  CeCoGa5_vs_CeGa2+CoGa+2Ga  -0.0861
+  CeCoGa5_vs_CeGa2+Co+3Ga    -0.1759
+  CeCoGa5_vs_elements        -0.4484

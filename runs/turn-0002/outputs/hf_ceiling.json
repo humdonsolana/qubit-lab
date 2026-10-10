@@ -1,0 +1,21 @@
+{
+  "n_compounds": 18,
+  "loglog_fit": {
+    "exponent_b": -0.6365571480907043,
+    "prefactor_A": 40.47001564206942,
+    "R2_log": 0.29771363130926587,
+    "comment": "Tc = A*gamma^b; b near -1 means Tc*gamma ~ const"
+  },
+  "Tc_over_Tstar": {
+    "min": 0.0008335781767062671,
+    "median": 0.007220688153486305,
+    "max": 0.03472023721397887,
+    "max_compound": "PuCoGa5"
+  },
+  "gamma_needed_for_300K_at_max_ratio_mJ": 4.748333333333333,
+  "gamma_needed_for_300K_at_median_ratio_mJ": 0.9875,
+  "Tc_ceiling_gamma50_at_max_ratio_K": 28.489999999999995,
+  "Tc_ceiling_gamma100_at_max_ratio_K": 14.244999999999997,
+  "fit_Tc_at_gamma_50": 3.354608720357288,
+  "fit_Tc_at_gamma_30": 4.643669248441705
+}

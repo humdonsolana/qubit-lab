@@ -1,0 +1,21 @@
+{
+  "note": "CHGNet (v0.3.x, CPU) relaxations run in /tmp because the turn folder was not writable from the sandbox; stdout copied verbatim. Hull is APPROXIMATE: only Ce, Co, Ga, In, CeGa2 (AlB2), CeIn3 (Cu3Au), CoGa (CsCl), CoIn (CsCl placeholder) are competing phases; real Ce-Co-Ga ternaries (CeCo2Ga8, Ce2Co3Ga9, CeCoGa4 ...) were NOT included, so a negative number here does NOT establish stability.",
+  "E_per_atom_eV": {
+    "Ce": -5.862342834472656, "Co": -7.029191493988037, "Ga": -3.017925977706909, "In": -2.7001757621765137,
+    "CeGa2": -4.601899147033691, "CeIn3": -3.9306881427764893, "CoGa": -5.337707042694092, "CoIn": -4.821910381317139,
+    "CeCoIn5": -4.027369907924107, "CeCoGa5": -4.445687430245536
+  },
+  "relaxed_lattice": {
+    "CeCoIn5": {"a": 4.5817, "c": 7.7519, "exp": {"a": 4.614, "c": 7.552}},
+    "CeCoGa5_hypothetical": {"a": 4.2587, "c": 7.0271}
+  },
+  "V_per_atom_A3": {"CeCoIn5": 23.246, "CeCoGa5": 18.207, "CeGa2": 22.103, "CeIn3": 25.949},
+  "decomposition_eV_per_atom": {
+    "CeCoIn5_vs_CeIn3+CoIn+In": -0.0178,
+    "CeCoIn5_vs_CeIn3+Co+2In": -0.0056,
+    "CeCoIn5_vs_elements": -0.2570,
+    "CeCoGa5_vs_CeGa2+CoGa+2Ga": -0.0861,
+    "CeCoGa5_vs_CeGa2+Co+3Ga": -0.1759,
+    "CeCoGa5_vs_elements": -0.4484
+  }
+}
