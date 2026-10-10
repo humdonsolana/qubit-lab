@@ -1,0 +1,11 @@
+CaFe2As2   Tc_max= 34.0 K  J1a:0.059  J1_avg:0.133  J1_avg+J2:0.071  max(|J1a|,|J1b|,|J2|):0.059
+BaFe2As2   Tc_max= 38.0 K  J1a:0.055  J1_avg:0.131  J1_avg+J2:0.085  max(|J1a|,|J1b|,|J2|):0.055
+SrFe2As2   Tc_max= 37.0 K  J1a:0.104  J1_avg:0.247  J1_avg+J2:0.092  max(|J1a|,|J1b|,|J2|):0.104
+NaFeAs     Tc_max= 25.0 K  J1a:0.054  J1_avg:0.077  J1_avg+J2:0.046  max(|J1a|,|J1b|,|J2|):0.054
+LaFeAsO    Tc_max= 58.6 K  J1a:0.113  J1_avg:0.262  J1_avg+J2:0.114  max(|J1a|,|J1b|,|J2|):0.113
+FeTe       Tc_max= 14.5 K  J1a:None  J1_avg:None  J1_avg+J2:None  max(|J1a|,|J1b|,|J2|):0.024
+T=58.6 K needs J(meV) = {'ratio_0.04': 126.2, 'ratio_0.07': 72.1, 'ratio_0.1': 50.5}
+T=133.0 K needs J(meV) = {'ratio_0.04': 286.5, 'ratio_0.07': 163.7, 'ratio_0.1': 114.6}
+T=151.0 K needs J(meV) = {'ratio_0.04': 325.3, 'ratio_0.07': 185.9, 'ratio_0.1': 130.1}
+T=300.0 K needs J(meV) = {'ratio_0.04': 646.3, 'ratio_0.07': 369.3, 'ratio_0.1': 258.5}
+Ceiling from J=59.2 meV: {0.04: 27.5, 0.07: 48.1, 0.1: 68.7}
