@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-10",
+  "primary": {
+    "doi": "10.1073/pnas.2536178123",
+    "arxiv": "2603.12437",
+    "pmcid": "PMC12993975",
+    "publication_date": "2026-03-09",
+    "extraction": "Main-text numeric statements; SI S4/S5 captions from arXiv PDF with appended SI; no pixel digitization."
+  },
+  "baseline_tc_k": 133,
+  "protocols": [
+    {"experiment": 1, "sample": "S1", "Pq_GPa": 26.0, "Tq_K": 77, "target_onset_K": 152, "first_retained_onset_K": 139, "next_retained_onset_K": 139, "max_warm_K": 220},
+    {"experiment": 2, "sample": "S1", "Pq_GPa": 28.4, "Tq_K": 4.2, "target_onset_K": 154, "first_retained_onset_K": 147, "next_retained_onset_K": 147, "max_warm_K": 165},
+    {"experiment": 3, "sample": "S2", "Pq_GPa": 10.1, "Tq_K": 4.2, "target_onset_K": 152, "first_retained_onset_K": 147, "next_retained_onset_K": 147, "max_warm_K": 160},
+    {"experiment": 4, "sample": "S3", "Pq_GPa": 10.9, "Tq_K": 4.2, "target_onset_K": 154, "first_retained_onset_K": 149, "next_retained_onset_K": 148, "max_warm_K": 160},
+    {"experiment": 5, "sample": "S4", "Pq_GPa": 18.9, "Tq_K": 4.2, "target_onset_K": 158, "first_retained_onset_K": 151, "next_retained_onset_K": 150, "max_warm_K": 170}
+  ],
+  "protocol_notes": [
+    "Intro says26.3GPa for77K experiment, detailed Results/Fig2 use26.0GPa. Use detailed26.0GPa; not independent measurement precision.",
+    "S2 identified by main stability discussion and SI S4; the 10.1GPa main paragraph does not name sample there.",
+    "All listed Tc values are dR/dT-defined onset, not zero resistance.",
+    "Experiments share parent crystals: S1,S2,S4 fromcrystal1, S3fromcrystal2; not five independent replicates."
+  ],
+  "s5_readout_schedule": [
+    {"elapsed_h": 0, "warming_endpoint_K": 160, "cooling_scan": true},
+    {"elapsed_h": 9, "warming_endpoint_K": 160, "cooling_scan": true},
+    {"elapsed_h": 24, "warming_endpoint_K": 170, "cooling_scan": true},
+    {"elapsed_h": 48, "warming_endpoint_K": 160, "cooling_scan": true},
+    {"elapsed_h": 72, "warming_endpoint_K": 170, "cooling_scan": false}
+  ],
+  "s4_warming_endpoints_K": [160, 200, 293],
+  "s4_onset_before_after_rt_K": [147, 143],
+  "magnetism": {"sample": "S2, retrieved after warm handling", "onset_K": 140, "measurement_temperature_K": 70, "field_Oe": 10, "abs_moment_over_field_emu_per_Oe": 1.9e-8, "effective_disk_radius_cm": 0.00425},
+  "xrd": {"pristine_200_fwhm_deg": 0.12, "quenched_200_fwhm_deg": 0.20, "lattice_change_direction": "slight expansion, not retained uniform compression"},
+  "thermal_dose_scenario": {"cold_temperature_K": 77, "cold_duration_s": 259200, "warm_temperatures_K": [160, 170, 293], "illustrative_warm_duration_s": 60, "assumed_barriers_eV": [0.05, 0.1, 0.2, 0.4, 0.8], "warning": "Assumed irreversible one-channel Arrhenius process only; no fitted Hg1223 barrier, ramp duration, phase fraction or lifetime."}
+}

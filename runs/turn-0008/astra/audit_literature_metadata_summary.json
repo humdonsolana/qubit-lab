@@ -1,0 +1,22 @@
+{
+  "audit_cutoff": "2026-10-10",
+  "working_folder": "/workspace/runs/turn-0008/astra",
+  "indexes_are_discovery_not_experimental_evidence": true,
+  "europe_pmc": {
+    "target_pmid": "41802058",
+    "doi_lookup_hits": 1,
+    "target_first_publication_date": "2026-03-09",
+    "forward_citation_count_observed": 3,
+    "forward_citing_pmids": ["42607708", "42654619", "42492587"],
+    "hg_quench_2026_query_hits": 5,
+    "bi2212_hg1223_quench_2022_2023_query_hits": 0
+  },
+  "openalex": {
+    "target_work": "W7134283102",
+    "target_forward_citation_count_observed": 8,
+    "citing_dois": ["10.1021/jacs.6c10866", "10.1103/physics.19.37", "10.3367/ufnr.2026.03.040117", "10.1088/1361-6633/ae9aae", "10.1063/5.0338010", "10.1016/j.physrep.2026.06.003", "10.1088/1361-648x/ae8fac", "10.3390/ma19163465"],
+    "fese_work": "W3167352516",
+    "fese_forward_records_observed": 54
+  },
+  "limitations": ["Citation indexes have different coverage and publication-date semantics.", "The JSON records observed counts, not a complete raw response archive.", "The initial helper attempt to persist raw JSON failed with PermissionError; the helper now emits JSON to stdout."]
+}
