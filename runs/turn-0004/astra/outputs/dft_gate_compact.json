@@ -1,0 +1,92 @@
+{
+  "source": "https://arxiv.org/html/2310.07562v2",
+  "source_doi": "10.1103/PhysRevLett.132.166001",
+  "scope": "Re-analysis of reported near-zero-pressure static DFT numerical data; not new DFT or finite-temperature free energy",
+  "records": {
+    "MgIrH-1-Mg2IrH6-Fm-3m": {
+      "appendix_html_id": "S11.p1.1",
+      "raw_sha256": "b5c2758778a93dfc516fa90c282c4537085023cc986bd7a7a9a1bea894479659",
+      "header": "TITL MgIrH-1-Mg2IrH6-Fm-3m 0.084500000000 71.835913608101 -15487.932800000000  0.00  0.00 9 (Fm-3m) n - 1",
+      "counts": {
+        "H": 6,
+        "Mg": 2,
+        "Ir": 1
+      },
+      "formula_units": 1,
+      "reported_energy_eV_per_formula": -15487.9328
+    },
+    "MgIrH-1-Mg2IrH7-Fm-3m": {
+      "appendix_html_id": "S11.p2.1",
+      "raw_sha256": "fd5916f39b0c920ac332e4342e2f4b453aeb0cccd9e2e0baa8698bd7331b6853",
+      "header": "TITL MgIrH-1-Mg2IrH7-Fm-3m 0.022400000000 72.344217934844 -15503.340800000000  0.00  0.00 10 (Fm-3m) n - 1",
+      "counts": {
+        "H": 7,
+        "Mg": 2,
+        "Ir": 1
+      },
+      "formula_units": 1,
+      "reported_energy_eV_per_formula": -15503.3408
+    },
+    "MgIrH-1-Mg2IrH7-R-3m": {
+      "appendix_html_id": "S11.p3.1",
+      "raw_sha256": "1ced1101a1b94364dc09ccf9696253ffe56bfc5b711e8a47baf6c27b788fb126",
+      "header": "TITL MgIrH-1-Mg2IrH7-R-3m 0.025500000000 100.588817128868 -15504.146900000000  0.00  0.00 10 (R-3m) n - 1",
+      "counts": {
+        "H": 7,
+        "Mg": 2,
+        "Ir": 1
+      },
+      "formula_units": 1,
+      "reported_energy_eV_per_formula": -15504.1469
+    },
+    "MgIrH-2-Mg2IrH5-Cmcm": {
+      "appendix_html_id": "S11.p7.1",
+      "raw_sha256": "a0f3a51fc0f0d6318daf843e0d080b818d4c3257bd9192e6ca6d6ed008bdb277",
+      "header": "TITL MgIrH-2-Mg2IrH5-Cmcm -0.076100000000 143.333691455769 -30945.621200000001  0.00  0.00 16 (Cc) n - 1",
+      "counts": {
+        "H": 10,
+        "Mg": 4,
+        "Ir": 2
+      },
+      "formula_units": 2,
+      "reported_energy_eV_per_formula": -15472.8106
+    },
+    "MgIrH-2-Mg2IrH6-Amm2": {
+      "appendix_html_id": "S11.p8.1",
+      "raw_sha256": "b7b18b24d80bc56eeed181431f116703824f20ec659c5856f16553289f6a0dcc",
+      "header": "TITL MgIrH-2-Mg2IrH6-Amm2 0.007200000000 144.379851302026 -30976.059300000001  0.00  0.00 18 (Amm2) n - 1",
+      "counts": {
+        "H": 12,
+        "Mg": 4,
+        "Ir": 2
+      },
+      "formula_units": 2,
+      "reported_energy_eV_per_formula": -15488.02965
+    }
+  },
+  "balanced_tests": [
+    {
+      "H7_competitor": "MgIrH-1-Mg2IrH7-Fm-3m",
+      "W_eV_per_balanced_reaction": -0.28580000000147265,
+      "lower_muH_eV_same_DFT_reference": -15.122199999999793,
+      "upper_muH_eV_same_DFT_reference": -15.407999999999447,
+      "strict_H6_window_exists_among_selected_567": false,
+      "H6_above_equal_mixture_meV_per_H6_atom": 15.877777777859592,
+      "sum_absolute_printed_PV_eV_per_reaction": 0.11992826779298534,
+      "sign_negative_even_under_printed_PV_bound": true
+    },
+    {
+      "H7_competitor": "MgIrH-1-Mg2IrH7-R-3m",
+      "W_eV_per_balanced_reaction": -1.0918999999994412,
+      "lower_muH_eV_same_DFT_reference": -15.122199999999793,
+      "upper_muH_eV_same_DFT_reference": -16.214099999999235,
+      "strict_H6_window_exists_among_selected_567": false,
+      "H6_above_equal_mixture_meV_per_H6_atom": 60.66111111108007,
+      "sum_absolute_printed_PV_eV_per_reaction": 0.12582340029587033,
+      "sign_negative_even_under_printed_PV_bound": true
+    }
+  ],
+  "Amm2_minus_cubic_H6_eV_per_formula": -0.09684999999990396,
+  "Amm2_minus_cubic_H6_meV_per_atom": -10.76111111110044,
+  "all_composition_and_settings_checks_passed": true
+}

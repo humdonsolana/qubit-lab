@@ -1,0 +1,51 @@
+{
+  "audit_date": "2026-10-10",
+  "primary_sources": [
+    {
+      "id": "dolui2024",
+      "doi": "10.1103/PhysRevLett.132.166001",
+      "arxiv_version": "2310.07562v2",
+      "retrieved_url": "https://arxiv.org/html/2310.07562v2",
+      "locations": ["Appendix XI .res blocks", "main-text diffusion paragraph"],
+      "use": "Numerical static energies, composition counts, common computational settings; not new DFT.",
+      "settings_checked": {"functional": "PBE for solids (2008)", "cutoff_eV": 600, "k_spacing_as_printed": 0.03, "same_pseudopotentials": true},
+      "diffusion_activation_eV_NOT_used_as_escape_barriers": {"H7_cubic": 0.06, "H6_cubic": 0.56, "H6_orthorhombic": 0.26},
+      "license_of_arxiv_HTML": "CC BY 4.0; numerical extraction attributed to Dolui et al."
+    },
+    {
+      "id": "hansen2024",
+      "arxiv_version": "2406.09538v1",
+      "retrieved_url": "https://arxiv.org/html/2406.09538v1",
+      "use": "H5 competing phase and non-equilibrium synthesis context; C0001's earlier 90-120 K computational range is retained, not recalculated.",
+      "date_caution": "arXiv identifier/header says June 2024 while rendered body prints August 24, 2026; no claim of a newly posted version based on body date."
+    },
+    {
+      "id": "sinha2026",
+      "arxiv_version": "2602.23675v1",
+      "retrieved_url": "https://arxiv.org/abs/2602.23675",
+      "submitted": "2026-02-27",
+      "use": "Observed H7 above approximately 40 GPa, reverting to H5 near 20 GPa during room-temperature decompression; no ambient H6 verification."
+    },
+    {
+      "id": "gerguri2026",
+      "doi": "10.1038/s42005-026-02553-3",
+      "retrieved_url": "https://www.nature.com/articles/s42005-026-02553-3",
+      "published": "2026-02-26",
+      "version_of_record": "2026-04-08",
+      "use": "CeRu2 heavy-fermion/flat-band strain audit; known composition, no retained new ambient candidate."
+    },
+    {
+      "id": "johnson2011",
+      "doi": "10.1103/PhysRevB.83.144510",
+      "arxiv_version": "1010.4653v2",
+      "use": "Subagent primary-source audit of CeCoIn5 onset/midpoint divergence under load."
+    }
+  ],
+  "assumptions_not_material_measurements": {
+    "kinetics": "Irreversible homogeneous sequential first-order H7->H6->H5 at fixed conditions, initially all H7. No reverse reaction, nucleation, spatial transport, interfaces or simultaneous direct H7->H5 channel.",
+    "storage": "One effective first-order loss rate and chosen Arrhenius prefactor; independent of synthesis-stage rates.",
+    "entropy": "Six equiprobable independent vacancy orientations per H5 formula only; not a full vibrational or configurational free energy.",
+    "W0_sweep": "Hypothetical energy sweep in phase_access_gates.py is separate from the actual Dolui numeric-data extraction.",
+    "uncertainty_sweep": "Per-atom error budgets are illustrative assumptions, not calibrated CHGNet or DFT uncertainty."
+  }
+}

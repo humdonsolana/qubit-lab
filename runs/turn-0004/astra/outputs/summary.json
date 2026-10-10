@@ -1,0 +1,42 @@
+{
+  "scope": "Conditional phase-access review of C0001, not material-specific rates or new Tc",
+  "kb_eV_K": 8.617333262145e-05,
+  "sequential_targets_at_300K_equal_prefactors": [
+    {
+      "target_peak_H6": 0.9,
+      "max_k65_over_k76": 0.028860939377390454,
+      "min_k76_over_k65": 34.648906846857386,
+      "optimum_k76_t": 3.6506266923648303,
+      "T_K": 300,
+      "A65_over_A76": 1.0,
+      "min_E65_minus_E76_eV": 0.09165222044308474
+    },
+    {
+      "target_peak_H6": 0.99,
+      "max_k65_over_k76": 0.0015512834674030838,
+      "min_k76_over_k65": 644.6275107115295,
+      "optimum_k76_t": 6.478722983057496,
+      "T_K": 300,
+      "A65_over_A76": 1.0,
+      "min_E65_minus_E76_eV": 0.1672281238940356
+    }
+  ],
+  "storage_example": {
+    "T_K": 300,
+    "duration_s": 86400.0,
+    "survival": 0.99,
+    "prefactor_per_s": 10000000000000.0,
+    "max_effective_loss_per_s": 1.1632333163774827e-07,
+    "min_effective_loss_barrier_eV": 1.1866196745882418
+  },
+  "H5_entropy_window_reduction_eV_at_300K": 0.04632056541582657,
+  "max_ODE_absolute_error": 5.6094018319186034e-12,
+  "all_checks_passed": true,
+  "gauge_invariance_tests": 100,
+  "versions": {
+    "python": "3.11.17",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pandas": "2.3.3"
+  }
+}
