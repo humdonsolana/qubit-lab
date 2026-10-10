@@ -1,0 +1,32 @@
+open square t
+  U=  1 E2=-3.7853 E3=-3.5541 E4=-3.3408 Dpb=-0.0180
+  U=  2 E2=-3.6272 E3=-3.2093 E4=-2.8284 Dpb=-0.0371
+  U=  3 E2=-3.5090 E3=-2.9485 E4=-2.4244 Dpb=-0.0363
+  U=  4 E2=-3.4186 E3=-2.7522 E4=-2.1027 Dpb=-0.0170
+  U=  5 E2=-3.3479 E3=-2.6029 E4=-1.8443 Dpb=+0.0137
+  U=  6 E2=-3.2915 E3=-2.4877 E4=-1.6346 Dpb=+0.0493
+  U=  8 E2=-3.2078 E3=-2.3246 E4=-1.3202 Dpb=+0.1211
+  U= 10 E2=-3.1489 E3=-2.2166 E4=-1.0999 Dpb=+0.1843
+  U= 12 E2=-3.1056 E3=-2.1407 E4=-0.9391 Dpb=+0.2367
+  U= 16 E2=-3.0462 E3=-2.0421 E4=-0.7229 Dpb=+0.3152
+  U= 20 E2=-3.0076 E3=-2.0000 E4=-0.5857 Dpb=+0.4066
+PBC 2x2 (doubled bonds, t_eff=2t)
+  U=  1 E2=-7.7686 E3=-7.5273 E4=-7.2980 Dpb=-0.0120
+  U=  2 E2=-7.5705 E3=-7.1081 E4=-6.6817 Dpb=-0.0360
+  U=  3 E2=-7.4007 E3=-6.7399 E4=-6.1381 Dpb=-0.0591
+  U=  4 E2=-7.2544 E3=-6.4185 E4=-5.6569 Dpb=-0.0743
+  U=  5 E2=-7.1279 E3=-6.1393 E4=-5.2294 Dpb=-0.0788
+  U=  6 E2=-7.0179 E3=-5.8971 E4=-4.8489 Dpb=-0.0727
+  U=  8 E2=-6.8371 E3=-5.5043 E4=-4.2055 Dpb=-0.0340
+  U= 10 E2=-6.6958 E3=-5.2058 E4=-3.6886 Dpb=+0.0273
+  U= 12 E2=-6.5830 E3=-4.9754 E4=-3.2692 Dpb=+0.0986
+  U= 16 E2=-6.4155 E3=-4.6491 E4=-2.6405 Dpb=+0.2422
+  U= 20 E2=-6.2979 E3=-4.4331 E4=-2.1998 Dpb=+0.3686
+
+Sign convention: Dpb = E0(4)+E0(2)-2E0(3) with E0(N) the ground state in the N-electron sector
+(any Sz). Dpb > 0 here means the two holes added to the half-filled plaquette prefer to go in
+separately (no binding); Dpb < 0 means hole pair binding. So on the open plaquette, pair
+binding (Dpb<0) exists only for U/t <~ 4.5 and is strongest (~ -0.037t) at U/t ~ 2-3; the
+periodic 2x2 cluster binds for U/t <~ 9.5 and is strongest (~ -0.079t) at U/t ~ 5, which
+matches the classic Hirsch/Fye-Scalapino-type 2x2 result. (Note: in the first chat message
+to the colleague the sign was read the other way; the numbers here are authoritative.)
