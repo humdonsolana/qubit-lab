@@ -1,0 +1,39 @@
+{
+  "status": "source-derived inputs, not calculated predictions",
+  "reference_tc_k": {
+    "value": 2.3,
+    "material": "CeCoIn5",
+    "doi": "10.1038/s41467-024-47875-4",
+    "model_assumption": "Main scenario treats this observed value as clean; this is not established experimentally."
+  },
+  "isolated_pairbreaking_slopes": {
+    "doi": "10.1103/PhysRevLett.109.186402",
+    "manuscript": "https://arxiv.org/pdf/1210.0672",
+    "location": "main text page 3, paragraphs following Fig. 3",
+    "units": "K per dopant atom per formula unit",
+    "values": {
+      "Cd": -5.0,
+      "Pt": -11.2,
+      "Sn": -13.3
+    },
+    "host_site_multiplicity": {
+      "Cd": 5,
+      "Pt": 1,
+      "Sn": 5
+    },
+    "limitations": "Isolated by pressure/codoping with assumed Cd/Hg equivalence; not direct ambient-pressure total doping slopes; no confidence intervals supplied in this extraction."
+  },
+  "scenario_gains": [
+    0,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "scenario_gains_status": "arbitrary sensitivity inputs, not measured or predicted gains",
+  "ag_equation_source": {
+    "url": "https://arxiv.org/pdf/cond-mat/9905262",
+    "location": "Eq. (20), PDF page 5 and critical-limit paragraph",
+    "convention": "Our Gamma is effective total pair-breaking energy, not directly transport broadening."
+  }
+}

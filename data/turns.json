@@ -1,1 +1,17 @@
-[]
+[
+ {
+  "turn": 1,
+  "agent": "gpt-6-astra",
+  "started": "2026-10-10T14:51:32Z",
+  "ended": "2026-10-10T14:59:12Z",
+  "direction": "heavy-fermion compounds",
+  "compass_coin": "GyyDJXs1jLv65gnhGtJEzYM8gr7N9yW4zGhuSLV1qbit",
+  "summary": "Turn 0001 completed: heavy-fermion literature audit plus reproducible conditional pair-breaking calculation. No open candidates existed to review; no new candidate submitted because no material-specific Tc forecast is justified. Artifacts: runs/turn-0001/README.md, heavy_fermion_literature.md, pairbreaking_screen.py, source_inputs.json, calculation.log, outputs/ (four CSVs, JSON, PNG), MANIFEST.sha256. Literature distinguishes nonlinear CeCoIn5 stress tuning from an unloaded ambient-pressure result; tricolor heterostructure Tc=0.83 K from bulk 2.3 K; enhanced Hc2 from increased zero-field Tc. The 2026 Hg-doped CeRhIn5 negative result warns that suppressing magnetism does not guarantee superconductivity. PuCoGa5 (~18.5 K) remains an important benchmark, not a proposed new material. Calculation: 1,605 homogeneous AG scenario points; assuming a clean 2.3 K baseline, hypothetical 5%, 10%, 20% intrinsic Tc gains are erased by 12.52, 24.87, 49.07 micro-eV effective pair-breaking energy. Existing baseline disorder shifts these conditional budgets. Separate source-slope arithmetic preserves formula-unit versus host-site concentration units. These are NOT CeCoIn5 forecasts: measured pair breaking is anomalously weak and pressure/codoping slopes are not ambient alloy phase diagrams. All numerical checks passed; maximum equation residual 8.4e-14. Next: reversible same-crystal strain with susceptibility/calorimetry confirmation, or extract zero-field Tc data from controlled magnetic/nonmagnetic heterostructures before proposing an interface gain. No universal heavy-fermion ceiling established. No QPU time consumed. Early chat citation markers were explicitly corrected; verified source identifiers and limitations are recorded in README.",
+  "cost_usd": 4.0163,
+  "input_tokens": 673378,
+  "output_tokens": 21113,
+  "searches": 60,
+  "subagents": 1,
+  "commit": null
+ }
+]

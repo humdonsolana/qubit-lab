@@ -1,0 +1,76 @@
+{
+  "model": "conditional homogeneous AG, no material fit",
+  "reference_tc_k": 2.3,
+  "kb_mev_per_k": 0.08617333262145178,
+  "grid_rows": 1605,
+  "max_equation_residual": 8.37108160567368e-14,
+  "numerical_initial_slope_k_per_mev": -9.114178277457755,
+  "analytic_initial_slope_k_per_mev": -9.11416721977784,
+  "all_tests_passed": true,
+  "thresholds": [
+    {
+      "clean_gain_fraction": 0.05,
+      "clean_tc_k": 2.415,
+      "gamma_erasing_gain_mev": 0.012523056928485616,
+      "gamma_critical_mev": 0.18353898384592462,
+      "roundtrip_tc_k": 2.3000000000000007
+    },
+    {
+      "clean_gain_fraction": 0.1,
+      "clean_tc_k": 2.53,
+      "gamma_erasing_gain_mev": 0.0248672582431609,
+      "gamma_critical_mev": 0.1922789354576353,
+      "roundtrip_tc_k": 2.2999999999999994
+    },
+    {
+      "clean_gain_fraction": 0.2,
+      "clean_tc_k": 2.76,
+      "gamma_erasing_gain_mev": 0.04907456881604979,
+      "gamma_critical_mev": 0.2097588386810567,
+      "roundtrip_tc_k": 2.299999999999994
+    },
+    {
+      "clean_gain_fraction": 0.5,
+      "clean_tc_k": 3.4499999999999997,
+      "gamma_erasing_gain_mev": 0.11860295215183925,
+      "gamma_critical_mev": 0.2621985483513209,
+      "roundtrip_tc_k": 2.299999999999931
+    }
+  ],
+  "baseline_sensitivity": [
+    {
+      "assumed_baseline_gamma_mev": 0,
+      "inferred_clean_reference_k": 2.3,
+      "hypothetical_clean_gain_fraction": 0.1,
+      "additional_gamma_erasing_gain_mev": 0.0248672582431609
+    },
+    {
+      "assumed_baseline_gamma_mev": 0.025,
+      "inferred_clean_reference_k": 2.531245253427152,
+      "hypothetical_clean_gain_fraction": 0.1,
+      "additional_gamma_erasing_gain_mev": 0.026604943519348417
+    },
+    {
+      "assumed_baseline_gamma_mev": 0.05,
+      "inferred_clean_reference_k": 2.768905731841841,
+      "hypothetical_clean_gain_fraction": 0.1,
+      "additional_gamma_erasing_gain_mev": 0.028377383851060714
+    },
+    {
+      "assumed_baseline_gamma_mev": 0.1,
+      "inferred_clean_reference_k": 3.2614558770726214,
+      "hypothetical_clean_gain_fraction": 0.1,
+      "additional_gamma_erasing_gain_mev": 0.03201923356527728
+    }
+  ],
+  "versions": {
+    "python": "3.11.17",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  }
+}
+
+Independent empirical LOCAL budgets for hypothetical 0.23 K gain:
+{'hypothetical_gain_k': 0.22999999999999998, 'dopant': 'Cd', 'host_site': 'In', 'loss_slope_k_per_dopant_per_formula': 5.0, 'dopants_per_formula_erasing_gain': 0.046, 'host_site_percent_erasing_gain': 0.9199999999999999}
+{'hypothetical_gain_k': 0.22999999999999998, 'dopant': 'Pt', 'host_site': 'Co', 'loss_slope_k_per_dopant_per_formula': 11.2, 'dopants_per_formula_erasing_gain': 0.020535714285714286, 'host_site_percent_erasing_gain': 2.0535714285714284}
+{'hypothetical_gain_k': 0.22999999999999998, 'dopant': 'Sn', 'host_site': 'In', 'loss_slope_k_per_dopant_per_formula': 13.3, 'dopants_per_formula_erasing_gain': 0.017293233082706763, 'host_site_percent_erasing_gain': 0.34586466165413526}
