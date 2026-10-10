@@ -1,0 +1,33 @@
+{
+  "as_of": "2026-10-10",
+  "prior_data": "../turn-0002/outputs/hf_table.csv",
+  "candidate": {
+    "formula": "Mg2IrH6", "space_group": "Fm-3m", "pressure_GPa": 0,
+    "forecast_K": 105,
+    "forecast_method": "Midpoint of 90-120 K dense-grid computational range reported by Hansen et al.; literature-anchored conditional forecast, not a new EPC calculation or a statistical confidence interval.",
+    "source": "https://arxiv.org/html/2406.09538v1",
+    "older_prediction_K": [160, 175],
+    "older_source": "https://doi.org/10.1103/PhysRevLett.132.166001"
+  },
+  "diffraction_model": {
+    "a_angstrom": 6.66, "H_24e_x": 0.26,
+    "Mg_8c": [0.25,0.25,0.25], "Ir_4a": [0,0,0], "H_24e": [0.26,0,0],
+    "H_occupancies": [1.0, 0.8333333333333334],
+    "wavelength": "CuKa", "two_theta_degrees": [10,90],
+    "geometry_source": "https://doi.org/10.1103/PhysRevLett.132.166001",
+    "site_assignment_crosscheck": "https://arxiv.org/html/2406.09538v1",
+    "vacancy_model_source": "https://arxiv.org/html/2406.09538v1",
+    "warning": "Fixed common geometry to isolate H occupancy contrast; NOT relaxed H5 coordinates. PRL prose reverses metal labels: multiplicities require Mg on 8c and Ir on 4a; Mg position crosschecked against Hansen et al. No thermal, anomalous, absorption, preferred-orientation, diffuse-scattering or instrument model."
+  },
+  "entropy_model": {
+    "vacancy_orientations_per_IrH5": 6,
+    "atoms_per_Mg2IrH5_formula": 8,
+    "temperatures_K": [100,300,600,800,1000,1500,2500],
+    "source": "https://arxiv.org/html/2406.09538v1",
+    "warning": "Ideal independent octahedron orientations, exactly one vacancy each; excludes hydrogen chemical potential and other entropies, cannot predict a phase boundary."
+  },
+  "current_experimental_checks": [
+    {"source": "https://arxiv.org/abs/2602.23675", "publisher": "https://doi.org/10.1103/zjbx-2wxp", "status": "PRB accepted September 28 2026 according to publisher-deposited Crossref metadata; publisher page blocked", "result": "Preprint assigns cubic H7 above ca 40 GPa, hexagonal coexistence, insulating behavior and reversion to H5 around 20 GPa during room-temperature decompression."},
+    {"source": "https://doi.org/10.1021/jacs.6c08889", "result": "Publisher-deposited abstract: related Rh H6 superconducts at 24 K at 30 GPa, 29 K at 53 GPa. Does not validate ambient-pressure Ir H6."}
+  ]
+}

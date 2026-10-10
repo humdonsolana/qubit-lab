@@ -1,0 +1,113 @@
+{
+  "hf": {
+    "all": {
+      "n": 18,
+      "slope": -0.6365571480907037,
+      "r2": 0.29771363130926576,
+      "slope_OLS_95_interval": [
+        -1.1547025254331134,
+        -0.11841177074829412
+      ],
+      "max_Tc_gamma": 1424.5,
+      "conditional_gamma50_K": 28.49
+    },
+    "without_PuCoGa5": {
+      "n": 17,
+      "slope": -0.48434527634797664,
+      "r2": 0.2389242769509971,
+      "slope_OLS_95_interval": [
+        -0.9600837666501489,
+        -0.008606786045804338
+      ],
+      "max_Tc_gamma": 990.0,
+      "conditional_gamma50_K": 19.8
+    },
+    "without_Pu": {
+      "n": 15,
+      "slope": -0.31543069671158214,
+      "r2": 0.14299232270221565,
+      "slope_OLS_95_interval": [
+        -0.7781271203310471,
+        0.14726572690788287
+      ],
+      "max_Tc_gamma": 990.0,
+      "conditional_gamma50_K": 19.8
+    },
+    "conditional_gamma50_alternate_Pu_gamma95_K": 35.15,
+    "300K_gamma50_extrapolation_factor": 10.53001053001053,
+    "warning": "Sample maximum is not a universal upper bound. OLS interval ignores selection and measurement errors."
+  },
+  "xrd": {
+    "n_peaks": 13,
+    "scale_H5_to_H6": 0.9989414085204839,
+    "scale_fitted_relative_L2": 0.0026430375852800956,
+    "intensity_vector_cosine": 0.999996507170061,
+    "max_relative_difference_strong_peaks": 0.014733931927694129,
+    "same_positions_by_construction": true,
+    "warning": "Illustrative kinematic fixed-geometry CuKa calculation, not real phase fingerprints or experimental detection limit."
+  },
+  "entropy": [
+    {
+      "T_K": 100,
+      "TS_one_vacancy_meV_per_H5_formula": 15.440188471942507,
+      "TS_one_vacancy_meV_per_H5_atom": 1.9300235589928134,
+      "TS_independent_sites_meV_per_H5_formula": 23.29581655077569
+    },
+    {
+      "T_K": 300,
+      "TS_one_vacancy_meV_per_H5_formula": 46.320565415827524,
+      "TS_one_vacancy_meV_per_H5_atom": 5.7900706769784405,
+      "TS_independent_sites_meV_per_H5_formula": 69.88744965232706
+    },
+    {
+      "T_K": 600,
+      "TS_one_vacancy_meV_per_H5_formula": 92.64113083165505,
+      "TS_one_vacancy_meV_per_H5_atom": 11.580141353956881,
+      "TS_independent_sites_meV_per_H5_formula": 139.77489930465413
+    },
+    {
+      "T_K": 800,
+      "TS_one_vacancy_meV_per_H5_formula": 123.52150777554006,
+      "TS_one_vacancy_meV_per_H5_atom": 15.440188471942507,
+      "TS_independent_sites_meV_per_H5_formula": 186.36653240620552
+    },
+    {
+      "T_K": 1000,
+      "TS_one_vacancy_meV_per_H5_formula": 154.40188471942508,
+      "TS_one_vacancy_meV_per_H5_atom": 19.300235589928135,
+      "TS_independent_sites_meV_per_H5_formula": 232.9581655077569
+    },
+    {
+      "T_K": 1500,
+      "TS_one_vacancy_meV_per_H5_formula": 231.60282707913763,
+      "TS_one_vacancy_meV_per_H5_atom": 28.950353384892203,
+      "TS_independent_sites_meV_per_H5_formula": 349.4372482616353
+    },
+    {
+      "T_K": 2500,
+      "TS_one_vacancy_meV_per_H5_formula": 386.0047117985627,
+      "TS_one_vacancy_meV_per_H5_atom": 48.25058897482034,
+      "TS_independent_sites_meV_per_H5_formula": 582.3954137693922
+    }
+  ],
+  "forecast": {
+    "formula": "Mg2IrH6",
+    "space_group": "Fm-3m",
+    "pressure_GPa": 0,
+    "forecast_K": 105,
+    "forecast_method": "Midpoint of 90-120 K dense-grid computational range reported by Hansen et al.; literature-anchored conditional forecast, not a new EPC calculation or a statistical confidence interval.",
+    "source": "https://arxiv.org/html/2406.09538v1",
+    "older_prediction_K": [
+      160,
+      175
+    ],
+    "older_source": "https://doi.org/10.1103/PhysRevLett.132.166001"
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "pymatgen": "2026.9.24"
+  },
+  "python": "3.11.17"
+}

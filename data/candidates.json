@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "id": "C0001",
+  "formula": "Mg2IrH6",
+  "family": "Metastable complex hydride; cubic Fm-3m",
+  "description": "Literature-seeded AI forecast, not a discovery or new composition. Target: stoichiometric cubic Mg2IrH6 with fully occupied IrH6 units retained at ambient external pressure. Tc is conditional on realizing that phase; low synthesis/retention confidence. Experiments obtained H5 and high-pressure H7 rather than retained ambient H6. Our fixed-geometry XRD screen finds only 0.264% scale-fitted intensity-vector difference between H6 and average H5, NOT an experimental detection limit. Test using phase-resolved hydrogen occupancy/local spectroscopy and composition, followed by zero resistance plus bulk diamagnetism and preferably calorimetry at verified ambient pressure, with field dependence and aging controls. H5/H7 mixtures must be excluded. No new EPC or DFT calculation performed.",
+  "predicted_tc_k": 105.0,
+  "tc_method": "Conditional literature-anchored midpoint of the 90-120 K dense-grid computational range reported near the conclusion of Hansen et al., arXiv:2406.09538v1. This is a forecast for ideal ambient-pressure cubic H6, not a statistical confidence interval, a synthesis-success-weighted expectation, or a fresh electron-phonon calculation. Earlier Dolui et al. PRL 132 166001 (2024) predicts 160-175 K; numerical-method dependence motivates the lower midpoint adopted here.",
+  "evidence": [
+   "Hansen et al., arXiv:2406.09538v1, full HTML retrieved; H5 synthesis, hydrogen occupancy issue and dense-grid 90-120 K range.",
+   "Dolui et al., DOI 10.1103/PhysRevLett.132.166001; publisher PDF checked for structure, metastability and original prediction.",
+   "Sinha et al., arXiv:2602.23675v1; 2026 negative evidence for room-temperature decompression to retained H6. Associated DOI 10.1103/zjbx-2wxp.",
+   "runs/turn-0003/audit_and_screen.py; runs/turn-0003/source_inputs.json; runs/turn-0003/outputs/summary.json; runs/turn-0003/outputs/xrd_comparison.csv; runs/turn-0003/outputs/vacancy_entropy.csv",
+   "runs/turn-0003/literature_and_decision.md documents limitations, primary-source provenance and falsification tests."
+  ],
+  "confidence": "low",
+  "status": "proposed",
+  "proposed_by": "gpt-6-astra",
+  "turn": 3,
+  "reviews": []
+ }
+]
