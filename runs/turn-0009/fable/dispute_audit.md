@@ -1,0 +1,21 @@
+# Turn 9 (Fable) — retraction / dispute audit for heavy-cage hydride leads
+
+Checked October 2026 via arXiv abstract pages, publisher pages (nature.com, APS, ACS via search excerpts) and web search. PubPeer returned HTTP 403 from the sandbox for every query, so PubPeer threads could **not** be checked; Retraction Watch database search likewise was not reachable. Nothing below should be read as "PubPeer-clean".
+
+| Item | ID | Status found | Notes |
+|---|---|---|---|
+| LaSc2H24, 271–298 K at 195–266 GPa | arXiv:2510.01273 (Ma group) | **Disputed, unverified**; no retraction (unpublished preprint) | Semenok, Troyan, Wu, Zhou, Yuzbashyan, Altshuler, Struzhkin arXiv:2605.29985 v2 (Aug 2026): 7 syntheses at 250–280 GPa from La–Sc alloys, no SC between 245 and 300 K; their own tetrahedron-method EPC gives >300 K at 300 GPa, so the dispute is about phase access/precursor, not theory. Needs >190 GPa either way — outside the moderate-pressure scope. |
+| Mg2IrH6, 160 K ambient (prediction) | Dolui et al. PRL 132, 166001 (2024) | No retraction. **Quantitative theory dispute** | Sanna, Cerqueira, Fang, Errea, Ludwig, Marques, npj Comput. Mater. 10, 44 (2024), DOI 10.1038/s41524-024-01214-9, Table 1 (read from the PDF): λ=2.1, ωlog=50 meV, N_F=2.6 /eV/f.u., Tc = 77.0 K (isotropic Eliashberg), 65.9 K (isotropic SCDFT), 71 K (anisotropic SCDFT); SSCHA anharmonicity "barely impacts" λ, ωlog. Difference from Dolui's 160 K comes from the Coulomb treatment (ab initio vs μ*=0.16) and the sharp van Hove DOS peak at E_F. Experimental: Mg2IrH5 insulating (Hansen PRB 110, 214513, 2024); Mg2IrH7 insulating, reverts to H5 below ~20 GPa (Sinha arXiv:2602.23675, 2026); cubic H6 never observed. |
+| Mg2RhH6 experiment | Wu … Jin, JACS 148, 36854 (2026); arXiv:2608.15745 v3 | Single report, no dispute found | 24 K at 30 GPa, 29 K at 53 GPa; zero resistance + field suppression. Sanna predicted 45–52 K for the same Fm-3m structure at 0 GPa. Not a like-for-like pressure, but the first experimental datum for the Mg2XH6 family and it sits at ~half the prediction. |
+| MgAlFeH6, ~130 K ambient (prediction) | npj Comput. Mater. 2026, DOI 10.1038/s41524-026-02040-x | Single prediction; no comment/retraction found | Paper itself: 0.11 eV/atom above decomposition into AlH3 + Mg2FeH6 + AlFe3H + H2. No synthesis. |
+| Fe–Se–H "295 K ambient" | arXiv:2608.27349 | Unsubstantiated single report | EPR microwave-absorption only; no transport, Meissner fraction, composition or structure (also covered turn 7). |
+| Lu–N–H | Nature 615, 244 (2023) | **Retracted** 7 Nov 2023 (DOI 10.1038/s41586-023-06774-2) | Multiple failed replications. |
+| C–S–H | Nature 586, 373 (2020) | **Retracted** (Nature 610, 804, 2022) | — |
+| LaBeH8 110 K at 80 GPa | PRL 130, 266001 (2023) | Single group (Jilin); no dispute found; no Meissner data | Theory 185 K (PRL 128, 047001) overshoots; SSCHA (Mater. Today Phys. 59, 101939, 2025) and vertex corrections (arXiv:2608.14949, −4 K) do not close the gap. |
+| LaB2H8 106 K at 90 GPa | JACS 146, 13797 (2024) | Single group; no dispute found | — |
+| BaSiH8 | arXiv:2603.14051 (Semenok et al., Mar 2026) | Single report (strong negative) | Predicted 71 K at ≥30 GPa (npj CM 8, 119, 2022); made at 18–31 GPa, **recovered to ambient**, but Tc only 9 K at 142 GPa and a degenerate semiconductor / weakly localised poor metal below 50 GPa. |
+| (La,Ce)H9–10 150–178 K at ~100 GPa | Nat. Commun. 13, 5952 (2022); Nat. Commun. 14 (2023) DOI 10.1038/s41467-023-38254-6 | Reproduced by two independent groups | Best confirmed Tc near 100 GPa. Semenok et al. review Ann. Phys. 2025 e00467 (arXiv:2509.22877): alloying lowers the stability pressure but does not raise Tc above the parent binary. |
+| Pressure-quenched Hg-1223, 151 K | PNAS 123, e2536178123 (2026) | Single group; no correction listed | Not a hydride; no hydride analogue with Tc > 77 K retained at ambient exists. |
+| Stability–Tc trade-off (systemic) | Sanna, Cerqueira, Cubuk, Errea, Fang, Commun. Phys. 9, 94 (2026), DOI 10.1038/s42005-026-02552-4 | Published | Screening of **thermodynamically stable** GNoME hydrides: maximum Tc 17 K (LiZrH6Ru). Every ambient prediction ≥100 K is off-hull. |
+
+Full literature table (sub-agent, with per-number verification tiers): `lit_low_pressure_cage_hydrides.md`.

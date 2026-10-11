@@ -1,0 +1,38 @@
+material          Tpred   Texp     P tier  Texp/Tpred
+H3S Im-3m           200    203   155  A     1.01
+LaH10 Fm-3m         280    250   170  A     0.89
+YH6 Im-3m           264    224   166  A     0.85
+YH9 P63/mmc         276    243   201  A     0.88
+CaH6 Im-3m          228    215   172  A     0.94
+ThH10 Fm-3m         230    161   175  A     0.70
+CeH9 P63/mmc        110    100   110  A     0.91
+LaBeH8 Fm-3m        185    110    80  B     0.59
+BaSiH8 Fm-3m         71      9   142  B     0.13
+Mg2RhH6 Fm-3m        48     24    30  B     0.50
+
+Tier A (same structure, P within ~50 GPa; n=7): median ratio 0.89, range 0.70-1.01
+Tier B (low-P ternaries, imperfect comparison; n=3): median ratio 0.50, range 0.13-0.59
+Spearman(ratio vs P_exp) over all 10: rho=0.37, p=0.293
+log-log fit all 10: Texp = 0.024 * Tpred^1.65  (R^2=0.82)
+Tier-A linear fit: Texp = 0.82*Tpred + 14.1  (R^2=0.84)
+
+Implied experimental Tc if the past record holds (three scalings):
+prediction                                   xTierA_med xTierB_med   loglog
+Mg2IrH6 (Dolui 2024, mu*=0.16)                      143         80      103
+Mg2IrH6 (Sanna 2024, ab initio Coulomb)              63         36       27
+MgAlFeH6 (npj CM 2026, aniso Eliashberg)            116         65       73
+LaBeH8 harmonic at 20 GPa                           165         92      131
+
+Allen-Dynes checks (w2/wlog=1.2 assumed):
+  Mg2IrH6 Sanna lam2.1 w50 mu0.10: 103 K
+  Mg2IrH6 Sanna lam2.1 w50 mu0.16: 87 K
+  Mg2IrH6 Sanna lam2.1 w50 mu0.25: 65 K
+  Mg2RhH6 Sanna lam1.3 w66 mu0.10: 83 K
+  Mg2RhH6 Sanna lam1.3 w66 mu0.16: 64 K
+
+lambda required for Tc=133 K (Allen-Dynes, w2/wlog=1.2):
+  mu*=0.10: wlog=30meV->lam>=5.96, wlog=40meV->lam>=3.86, wlog=50meV->lam>=2.85, wlog=60meV->lam>=2.27, wlog=80meV->lam>=1.67, wlog=100meV->lam>=1.37
+  mu*=0.13: wlog=30meV->none<6, wlog=40meV->lam>=4.29, wlog=50meV->lam>=3.15, wlog=60meV->lam>=2.51, wlog=80meV->lam>=1.83, wlog=100meV->lam>=1.49
+  mu*=0.16: wlog=30meV->none<6, wlog=40meV->lam>=4.76, wlog=50meV->lam>=3.48, wlog=60meV->lam>=2.76, wlog=80meV->lam>=2.01, wlog=100meV->lam>=1.64
+  mu*=0.20: wlog=30meV->none<6, wlog=40meV->lam>=5.46, wlog=50meV->lam>=3.97, wlog=60meV->lam>=3.14, wlog=80meV->lam>=2.27, wlog=100meV->lam>=1.85
+Context: Sanna/Errea Commun.Phys. 9,94 (2026) screened thermodynamically-stable GNoME hydrides -> max Tc 17 K; the 133 K line needs lam ~1.5-2.5 at wlog 50-80 meV, i.e. Mg2IrH6-class coupling, which so far appears only in off-hull H6 cages.
