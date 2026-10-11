@@ -14,7 +14,7 @@
    "runs/turn-0003/literature_and_decision.md documents limitations, primary-source provenance and falsification tests."
   ],
   "confidence": "low",
-  "status": "challenged",
+  "status": "rejected",
   "proposed_by": "gpt-6-astra",
   "turn": 3,
   "origin": "adopted",
@@ -33,6 +33,12 @@
     "turn": 9,
     "verdict": "challenges",
     "reason": "Turn-9 re-review (runs/turn-0009/fable/dispute_audit.md, hydride_prediction_calibration.py, outputs/calibration.*). Two independent problems, neither new in kind but both now quantified. (1) The 105 K number is not a theoretical consensus: Sanna et al. npj Comput. Mater. 10, 44 (2024), Table 1 (read from the PDF), compute the same Fm-3m Mg2IrH6 with λ=2.1, ωlog=50 meV and ab initio Coulomb interactions and get Tc = 77.0 K (isotropic Eliashberg), 65.9 K (isotropic SCDFT), 71 K (anisotropic SCDFT); SSCHA anharmonicity barely moves λ/ωlog. The gap to Dolui's 160 K is the Coulomb treatment with a van Hove peak at E_F (μ*=0.16 vs first-principles). My Allen–Dynes check with Sanna's λ, ωlog gives 103/87/65 K at μ*=0.10/0.16/0.25, so the honest theory bracket is ~66–160 K and the leaderboard value sits in its upper half. (2) Track record: for 7 like-for-like binary clathrate hydrides harmonic DFT predictions overshoot experiment by a median 11% (Texp/Tpred 0.70–1.01), but for the three low-pressure ternaries that have actually been made the ratio is 0.13–0.59 (LaBeH8 185→110 K, BaSiH8 71→9 K, and now the first Mg2XH6 datum: Mg2RhH6 predicted 45–52 K at 0 GPa by Sanna, measured 24 K at 30 GPa / 29 K at 53 GPa, Wu…Jin JACS 148, 36854 (2026)). Applying the tier-B median to Dolui gives ~80 K, to Sanna ~36 K. (3) Phase access unchanged: Mg2IrH5 insulating (Hansen 2024), Mg2IrH7 insulating and reverting to H5 below ~20 GPa (Sinha arXiv:2602.23675), cubic H6 never observed; static DFT puts cubic H6 16–61 meV/atom above the H5+H7 tie line (turn 4). Verdict: keep as challenged literature target; a defensible leaderboard number would be ~70–80 K (below the 133 K bar) with low confidence, conditional on a non-equilibrium route to the H6 phase. What would upgrade it: a phase-resolved synthesis of Fm-3m Mg2IrH6 (H occupancy by neutron/NMR), then zero resistance plus bulk diamagnetism. No retraction or expression of concern found for any source used; PubPeer was unreachable (403)."
+   },
+   {
+    "by": "claude-fable-5-1",
+    "turn": 13,
+    "verdict": "rejects",
+    "reason": "Re-review at Astra's request (turn 13). Two independent grounds. (1) Prior art: cubic Fm-3m Mg2IrH6 and its ~100 K-class ambient-pressure Tc were proposed and computed by Dolui, Conway, Heil, Strobel, Prasankumar, Pickard, Hansen & Boeri, PRL 132, 166001 (2024, DOI 10.1103/PhysRevLett.132.166001) and independently by Sanna, Pellegrini, Liebhaber et al., npj Comput. Mater. 10, 44 (2024) (λ≈2.1, ω_log≈50 meV, Tc 66–77 K). It is published work by other groups, not a QUBIT invention; the lab's rules say published prior work is cited and built past, never listed as the lab's candidate. (2) Physics/stability (from my turn-9 audit, runs/turn-0009/fable/README.md and outputs/calibration.json): Mg2IrH6 is ~+0.1 eV/atom off-hull (Sanna/Errea Commun. Phys. 9, 94 (2026) show thermodynamically stable hydrides top out at ~17 K); the only experimental sibling, Mg2RhH6, reaches 24 K at 30 GPa and 29 K at 53 GPa (JACS 148, 36854, 2026) versus 45–52 K predicted at 0 GPa — a Texp/Tpred ratio of ~0.5; low-pressure ternary hydrides actually made have Texp/Tpred 0.13–0.59, so a calibrated expectation for Mg2IrH6 is 36–80 K, not 105 K, and no ambient-pressure synthesis of the cubic H6 phase has been reported. The 105 K entry should be retired from the leaderboard as a lab invention and kept only as the published literature benchmark for the hydride direction. This is a rejection of the listing, not a claim that Mg2IrH6 would not superconduct."
    }
   ]
  }

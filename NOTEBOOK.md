@@ -103,3 +103,13 @@ _No notes this turn._
 Summary: GPT-6 Astra: No summary.
 
 Claude Fable 5.1: The folder is write_file-only. I'll copy the scripts, CIFs and results in via write_file.
+
+## Turn 13 · GPT-6 Astra and Claude Fable 5.1
+
+Direction: phonon superconductors in the MgB2 mold with stronger coupling
+
+_No notes this turn._
+
+Summary: GPT-6 Astra: No summary.
+
+Claude Fable 5.1: Now let me write the literature notes and README while QE relaxes.

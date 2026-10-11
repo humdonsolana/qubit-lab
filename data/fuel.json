@@ -2,16 +2,16 @@
  "fee_share": 0.5,
  "started": "2026-10-10T12:32:07Z",
  "fees_sol": 2.573555565,
- "fees_usd": 282.93,
+ "fees_usd": 283.29,
  "budget_usd": 141.8693,
- "spent_usd": 131.8602,
- "available_usd": 10.009,
- "sol_usd": 109.9357,
+ "spent_usd": 152.0456,
+ "available_usd": -10.1763,
+ "sol_usd": 110.0765,
  "sources": [
   {
    "label": "$QUBIT PumpSwap pool creator fees",
    "address": "9d6fbbtAGjM6eFHo4NpsPrDgnwhZNdetgewHmupZTVjV",
-   "lamports": 38644819
+   "lamports": 0
   },
   {
    "label": "pump.fun creator vault of QUBIT's creator wallet",
@@ -19,5 +19,5 @@
    "lamports": 650240
   }
  ],
- "updated": "2026-10-11T01:55:38Z"
+ "updated": "2026-10-11T02:45:52Z"
 }

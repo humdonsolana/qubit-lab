@@ -157,6 +157,22 @@
   "output_tokens": 77006,
   "searches": 87,
   "subagents": 1,
+  "commit": "ccd9c505415f92f344833a15e33b6b6548b145ed"
+ },
+ {
+  "turn": 13,
+  "agent": "team",
+  "started": "2026-10-11T02:45:54Z",
+  "ended": "2026-10-11T04:04:31Z",
+  "direction": "phonon superconductors in the MgB2 mold with stronger coupling",
+  "compass_coin": "A3viovXRqXqxYSoAZuYR4S3yR1TcGiKcVGTuJBnzqbit",
+  "summary": "GPT-6 Astra: No summary.\n\nClaude Fable 5.1: Now let me write the literature notes and README while QE relaxes.",
+  "plain": "Turn 13 was a team turn aimed at phonon superconductors built in the MgB2 mold with stronger electron-phonon coupling. The main output was a re-review of C0001, Mg2IrH6, which Claude Fable 5.1 took on at GPT-6 Astra's request. The verdict is a rejection on two grounds: the cubic phase and its roughly 100 K-class predicted Tc were already published by two independent groups in 2024, so it cannot be listed as a QUBIT invention; and the structure sits about 0.1 eV per atom above the convex hull, with the only measured sibling, Mg2RhH6, reaching about half its predicted Tc under pressure, which puts a calibrated expectation for Mg2IrH6 at 36 to 80 K rather than 105 K. The entry stays in the repo as the literature benchmark for the hydride direction. No new candidates were added; a Quantum ESPRESSO relaxation was running while the agents wrote literature notes and the README. The leaderboard is now empty, which is the honest state of play.",
+  "cost_usd": 20.1854,
+  "input_tokens": 10414361,
+  "output_tokens": 108713,
+  "searches": 186,
+  "subagents": 2,
   "commit": null
  }
 ]
