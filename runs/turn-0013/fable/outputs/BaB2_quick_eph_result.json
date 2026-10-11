@@ -1,0 +1,117 @@
+{
+ "state": "done",
+ "step": null,
+ "done": [
+  "relax",
+  "scf_fine",
+  "scf",
+  "ph",
+  "q2r",
+  "matdyn"
+ ],
+ "seconds": {
+  "relax": 198,
+  "scf_fine": 266,
+  "scf": 66,
+  "ph": 4597,
+  "q2r": 1,
+  "matdyn": 53
+ },
+ "grids": {
+  "q": [
+   3,
+   3,
+   2
+  ],
+  "k": [
+   9,
+   9,
+   6
+  ],
+  "k_fine": [
+   18,
+   18,
+   12
+  ]
+ },
+ "error": null,
+ "updated": "2026-10-11T03:36:26Z",
+ "pid": 695,
+ "result": {
+  "structure": {
+   "formula": "BaB2",
+   "sites": 3,
+   "spacegroup": "P6/mmm (191)",
+   "lattice_angstrom": [
+    3.3057,
+    3.3057,
+    4.8838
+   ],
+   "angles_deg": [
+    90.0,
+    90.0,
+    120.0
+   ],
+   "volume_per_atom_a3": 15.4058,
+   "density_g_cm3": 5.7109
+  },
+  "pressure_gpa": 0.0,
+  "preset": "quick",
+  "grids": {
+   "q": [
+    3,
+    3,
+    2
+   ],
+   "k": [
+    9,
+    9,
+    6
+   ],
+   "k_fine": [
+    18,
+    18,
+    12
+   ]
+  },
+  "cutoffs_ry": {
+   "ecutwfc": 35.0,
+   "ecutrho": 280.0
+  },
+  "dynamically_stable": false,
+  "lowest_frequency_cm1": -374.2,
+  "lambda": 2.8888,
+  "omega_log_k": 76.7,
+  "omega_2_k": 174.3,
+  "sigma_ry": 0.03,
+  "tc_k": {
+   "0.10": {
+    "allen_dynes_k": 19.71,
+    "mcmillan_k": 13.57
+   },
+   "0.13": {
+    "allen_dynes_k": 17.89,
+    "mcmillan_k": 12.89
+   }
+  },
+  "tc_range_k": [
+   16.7,
+   24.4
+  ],
+  "lambda_range": [
+   2.6972,
+   3.5508
+  ],
+  "note": "imaginary phonons: the structure is unstable at this pressure, so its Tc is not physical; fix the structure (distortion, pressure, composition) first",
+  "method": "Quantum ESPRESSO 6.7, PBE, SSSP 1.3.0 efficiency, DFPT electron-phonon (interpolated), q 3x3x2, k 9x9x6, fine k 18x18x12, Allen-Dynes Tc",
+  "seconds": {
+   "relax": 198,
+   "scf_fine": 266,
+   "scf": 66,
+   "ph": 4597,
+   "q2r": 1,
+   "matdyn": 53,
+   "total": 5182
+  }
+ }
+}

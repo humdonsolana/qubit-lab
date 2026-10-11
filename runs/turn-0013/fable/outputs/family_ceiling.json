@@ -1,0 +1,191 @@
+{
+ "table": [
+  {
+   "omega_log_meV": 60,
+   "lambda": 1.0,
+   "Tc_AD_mu0.10": 50.9,
+   "Tc_AD_mu0.13": 43.5
+  },
+  {
+   "omega_log_meV": 60,
+   "lambda": 1.3,
+   "Tc_AD_mu0.10": 73.5,
+   "Tc_AD_mu0.13": 65.5
+  },
+  {
+   "omega_log_meV": 60,
+   "lambda": 1.6,
+   "Tc_AD_mu0.10": 92.4,
+   "Tc_AD_mu0.13": 84.0
+  },
+  {
+   "omega_log_meV": 60,
+   "lambda": 2.0,
+   "Tc_AD_mu0.10": 113.4,
+   "Tc_AD_mu0.13": 104.6
+  },
+  {
+   "omega_log_meV": 60,
+   "lambda": 2.5,
+   "Tc_AD_mu0.10": 135.0,
+   "Tc_AD_mu0.13": 125.6
+  },
+  {
+   "omega_log_meV": 60,
+   "lambda": 3.0,
+   "Tc_AD_mu0.10": 153.3,
+   "Tc_AD_mu0.13": 143.3
+  },
+  {
+   "omega_log_meV": 70,
+   "lambda": 1.0,
+   "Tc_AD_mu0.10": 59.4,
+   "Tc_AD_mu0.13": 50.7
+  },
+  {
+   "omega_log_meV": 70,
+   "lambda": 1.3,
+   "Tc_AD_mu0.10": 85.8,
+   "Tc_AD_mu0.13": 76.4
+  },
+  {
+   "omega_log_meV": 70,
+   "lambda": 1.6,
+   "Tc_AD_mu0.10": 107.8,
+   "Tc_AD_mu0.13": 98.0
+  },
+  {
+   "omega_log_meV": 70,
+   "lambda": 2.0,
+   "Tc_AD_mu0.10": 132.3,
+   "Tc_AD_mu0.13": 122.0
+  },
+  {
+   "omega_log_meV": 70,
+   "lambda": 2.5,
+   "Tc_AD_mu0.10": 157.5,
+   "Tc_AD_mu0.13": 146.6
+  },
+  {
+   "omega_log_meV": 70,
+   "lambda": 3.0,
+   "Tc_AD_mu0.10": 178.8,
+   "Tc_AD_mu0.13": 167.1
+  },
+  {
+   "omega_log_meV": 80,
+   "lambda": 1.0,
+   "Tc_AD_mu0.10": 67.9,
+   "Tc_AD_mu0.13": 58.0
+  },
+  {
+   "omega_log_meV": 80,
+   "lambda": 1.3,
+   "Tc_AD_mu0.10": 98.0,
+   "Tc_AD_mu0.13": 87.3
+  },
+  {
+   "omega_log_meV": 80,
+   "lambda": 1.6,
+   "Tc_AD_mu0.10": 123.2,
+   "Tc_AD_mu0.13": 112.0
+  },
+  {
+   "omega_log_meV": 80,
+   "lambda": 2.0,
+   "Tc_AD_mu0.10": 151.2,
+   "Tc_AD_mu0.13": 139.5
+  },
+  {
+   "omega_log_meV": 80,
+   "lambda": 2.5,
+   "Tc_AD_mu0.10": 180.0,
+   "Tc_AD_mu0.13": 167.5
+  },
+  {
+   "omega_log_meV": 80,
+   "lambda": 3.0,
+   "Tc_AD_mu0.10": 204.3,
+   "Tc_AD_mu0.13": 191.0
+  },
+  {
+   "omega_log_meV": 90,
+   "lambda": 1.0,
+   "Tc_AD_mu0.10": 76.4,
+   "Tc_AD_mu0.13": 65.2
+  },
+  {
+   "omega_log_meV": 90,
+   "lambda": 1.3,
+   "Tc_AD_mu0.10": 110.3,
+   "Tc_AD_mu0.13": 98.2
+  },
+  {
+   "omega_log_meV": 90,
+   "lambda": 1.6,
+   "Tc_AD_mu0.10": 138.7,
+   "Tc_AD_mu0.13": 126.0
+  },
+  {
+   "omega_log_meV": 90,
+   "lambda": 2.0,
+   "Tc_AD_mu0.10": 170.1,
+   "Tc_AD_mu0.13": 156.9
+  },
+  {
+   "omega_log_meV": 90,
+   "lambda": 2.5,
+   "Tc_AD_mu0.10": 202.5,
+   "Tc_AD_mu0.13": 188.4
+  },
+  {
+   "omega_log_meV": 90,
+   "lambda": 3.0,
+   "Tc_AD_mu0.10": 229.9,
+   "Tc_AD_mu0.13": 214.9
+  },
+  {
+   "omega_log_meV": 100,
+   "lambda": 1.0,
+   "Tc_AD_mu0.10": 84.9,
+   "Tc_AD_mu0.13": 72.5
+  },
+  {
+   "omega_log_meV": 100,
+   "lambda": 1.3,
+   "Tc_AD_mu0.10": 122.5,
+   "Tc_AD_mu0.13": 109.1
+  },
+  {
+   "omega_log_meV": 100,
+   "lambda": 1.6,
+   "Tc_AD_mu0.10": 154.1,
+   "Tc_AD_mu0.13": 140.1
+  },
+  {
+   "omega_log_meV": 100,
+   "lambda": 2.0,
+   "Tc_AD_mu0.10": 189.0,
+   "Tc_AD_mu0.13": 174.3
+  },
+  {
+   "omega_log_meV": 100,
+   "lambda": 2.5,
+   "Tc_AD_mu0.10": 225.0,
+   "Tc_AD_mu0.13": 209.4
+  },
+  {
+   "omega_log_meV": 100,
+   "lambda": 3.0,
+   "Tc_AD_mu0.10": 255.4,
+   "Tc_AD_mu0.13": 238.8
+  }
+ ],
+ "lambda_needed_for_133K_mu0.13": {
+  "60": 2.7,
+  "70": 2.22,
+  "80": 1.9,
+  "90": 1.69,
+  "100": 1.53
+ }
+}

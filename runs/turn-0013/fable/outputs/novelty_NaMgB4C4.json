@@ -1,0 +1,31 @@
+{
+ "formula": "NaMg(BC)4",
+ "elements": [
+  "B",
+  "C",
+  "Mg",
+  "Na"
+ ],
+ "providers_searched": [
+  "aflow",
+  "alexandria",
+  "gnome",
+  "jarvis",
+  "mp"
+ ],
+ "providers_failed": {
+  "oqmd": "HTTPError: 502 Server Error: Bad Gateway for url: https://oqmd.org/optimade/v1/structures?filter=elements+HAS+ALL+%22B%22%2C+%22C%22%2C+%22Mg%22%2C+%22Na%22+AND+nelements%3D4&response_fields=chemical_formula_reduced%2Clattice_vectors%2Ccart",
+  "cod": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+ },
+ "same_formula": [],
+ "same_structure": [],
+ "arxiv": {
+  "searched": [
+   "B4C4MgNa",
+   "NaMgB4C4"
+  ],
+  "failed": "HTTPError: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=abs%3A%22B4C4MgNa%22+OR+ti%3A%22B4C4MgNa%22+OR+abs%3A%22NaMgB4C4%22+OR+ti%3A%22NaMgB4C4%22&id_list=&sortBy=relevance&sortOrder=descending&start=0&",
+  "papers": []
+ },
+ "verdict": "no match in the databases searched (some providers failed)"
+}

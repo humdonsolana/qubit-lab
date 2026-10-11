@@ -1,0 +1,56 @@
+&control
+  calculation = 'vc-relax'
+  prefix = 'lab'
+  outdir = './tmp'
+  pseudo_dir = '/opt/pseudo/sssp'
+  tprnfor = .true.
+  tstress = .true.
+  nstep = 150
+  forc_conv_thr = 1.0d-4
+  etot_conv_thr = 1.0d-6
+/
+&system
+  ibrav = 0
+  nat = 10
+  ntyp = 4
+  ecutwfc = 45
+  ecutrho = 360
+  occupations = 'smearing'
+  smearing = 'mv'
+  degauss = 0.02
+/
+&electrons
+  conv_thr = 1.0d-11
+  mixing_beta = 0.4
+/
+&ions
+  ion_dynamics = 'bfgs'
+/
+&cell
+  cell_dynamics = 'bfgs'
+  press = 0
+  press_conv_thr = 0.5
+  cell_dofree = 'all'
+/
+ATOMIC_SPECIES
+  B 10.8110 b_pbe_v1.4.uspp.F.UPF
+  C 12.0107 C.pbe-n-kjpaw_psl.1.0.0.UPF
+  Li 6.9410 li_pbe_v1.4.uspp.F.UPF
+  Mg 24.3050 Mg.pbe-n-kjpaw_psl.0.3.0.UPF
+CELL_PARAMETERS angstrom
+  0.0000000000 4.6644798458 0.0000000000
+  2.7512043000 0.0000000000 0.0000000000
+  0.0000000000 -0.0740948430 -7.1655216626
+ATOMIC_POSITIONS crystal
+  Li 0.0000000000 0.0000000000 0.5000000000
+  Mg 0.0000000000 0.0000000000 0.0000000000
+  B 0.8448180000 0.5000000000 0.7386632100
+  B 0.3562434700 0.0000000000 0.7477986900
+  B 0.6437565300 0.0000000000 0.2522013100
+  B 0.1551820000 0.5000000000 0.2613367900
+  C 0.6867237500 0.0000000000 0.7429301600
+  C 0.1837531500 0.5000000000 0.7547197000
+  C 0.8162468500 0.5000000000 0.2452803000
+  C 0.3132762500 0.0000000000 0.2570698400
+K_POINTS automatic
+  5 8 3 0 0 0

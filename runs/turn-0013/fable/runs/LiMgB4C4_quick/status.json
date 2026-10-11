@@ -1,0 +1,11 @@
+{
+ "done": [],
+ "seconds": {},
+ "state": "running",
+ "preset": "quick",
+ "pressure_gpa": 0.0,
+ "pid": 1829,
+ "error": null,
+ "updated": "2026-10-11T03:44:59Z",
+ "step": "relax"
+}

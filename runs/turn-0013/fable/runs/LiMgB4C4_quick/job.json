@@ -1,0 +1,17 @@
+{
+ "pid": 1829,
+ "workdir": "/workspace/runs/turn-0013/fable/runs/LiMgB4C4_quick",
+ "argv": [
+  "eph",
+  "run",
+  "/workspace/runs/turn-0013/fable/structs/LiMgB4C4-relaxed.cif",
+  "/workspace/runs/turn-0013/fable/runs/LiMgB4C4_quick",
+  "--preset",
+  "quick",
+  "--pressure-gpa",
+  "0.0",
+  "--np",
+  "0"
+ ],
+ "started": "2026-10-11T03:44:58Z"
+}

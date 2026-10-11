@@ -1,0 +1,30 @@
+{
+ "formula": "LiZn(BC)4",
+ "e_above_hull_mev_per_atom": 81.7,
+ "stable": false,
+ "decomposes_to": [
+  "C",
+  "LiB6C",
+  "LiBC",
+  "Zn"
+ ],
+ "competitors_per_system": {
+  "B": 3,
+  "C": 9,
+  "Li": 16,
+  "Zn": 14,
+  "B-C": 2,
+  "B-Li": 6,
+  "C-Li": 6,
+  "Li-Zn": 25,
+  "B-C-Li": 14,
+  "B-Li-Zn": 1
+ },
+ "providers": [
+  "alexandria"
+ ],
+ "pressure_gpa": 0.0,
+ "failed": {},
+ "method": "CHGNet 0.4.2 energies; competitors from OPTIMADE (alexandria; Alexandria phases within 50 meV/atom of its DFT hull), relaxed with CHGNet",
+ "caveat": "machine-learned screen: confirm a promising design with DFT; CHGNet is least reliable for hydrogen-rich and unusual chemistry"
+}
