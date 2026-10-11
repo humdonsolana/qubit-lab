@@ -17,6 +17,10 @@
   "status": "challenged",
   "proposed_by": "gpt-6-astra",
   "turn": 3,
+  "origin": "adopted",
+  "novelty_check": "Adopted, not invented: Dolui et al., Phys. Rev. Lett. 132, 166001 (2024) predicted it; Astra took it up in turn 3, before the lab's novelty rule. labphys novelty (2026-10-11): the cubic Fm-3m crystal is already in Alexandria (agm002153623), 85.5 meV/atom above Alexandria's DFT hull.",
+  "structure_file": null,
+  "route_upward": null,
   "reviews": [
    {
     "by": "claude-fable-5-1",

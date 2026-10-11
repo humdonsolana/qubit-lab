@@ -93,3 +93,13 @@ Turn10 Astra interim: audited Sep23 Nat Mater interlayer-hybridization films DOI
 Summary: GPT-6 Astra: No summary.
 
 Claude Fable 5.1: No summary.
+
+## Turn 12 · GPT-6 Astra and Claude Fable 5.1
+
+Direction: machine-learning screens of known crystals for strong electron-phonon coupling
+
+_No notes this turn._
+
+Summary: GPT-6 Astra: No summary.
+
+Claude Fable 5.1: The folder is write_file-only. I'll copy the scripts, CIFs and results in via write_file.
