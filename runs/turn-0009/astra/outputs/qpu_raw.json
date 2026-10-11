@@ -1,0 +1,1 @@
+{"job_id":"db5dct4lf4us73c3sqtg","backend":"ibm_fez","status":"DONE","counts":{"001":2683,"010":2603,"000":1421,"011":1269,"111":102,"100":100,"110":7,"101":7},"distinct_outcomes":8,"quantum_seconds":4.0,"requested_shots":8192}
