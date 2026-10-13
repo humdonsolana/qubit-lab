@@ -1,0 +1,89 @@
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+/usr/local/lib/python3.11/site-packages/chgnet/model/model.py:898: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  volumes = torch.tensor(volumes, dtype=TORCH_DTYPE, device=atomic_numbers.device)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.9494333729332237e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.9831069619205774e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 4.01768774119966e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.9979630767064404e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.9465563657605537e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 4.03656347197405e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.9968645237810827e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 4.0144675085244053e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.9899409497967415e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.948123497593198e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.993812344096122e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 4.065537486523594e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 4.033326007478349e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 4.072346968343184e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.9678013763740415e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.9942785683546507e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.9808477693786873e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 4.008209041451022e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.9653983756268286e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.943958908751278e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.9668174979515277e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 4.002025789094077e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7426338245323166e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7300791375170114e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7350973665049214e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 2.423972530542006e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 2.4797407456814834e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 2.400488053193598e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 2.4242108081641666e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 2.5761728932430303e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 2.638572014427337e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.420079034791949e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.497119307673834e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.51778966501002e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.472034794182006e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.7991359467343234e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.910866894086819e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.418500050934705e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.5057579737505744e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.514595139974672e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 3.4872078637645316e-13
+  return f(*arrays, *other_args, **kwargs)
+/home/lab/.local/lib/python3.11/site-packages/scipy/_lib/_util.py:1181: RuntimeWarning: logm result may be inaccurate, approximate err = 2.3803181647963356e-13
+  return f(*arrays, *other_args, **kwargs)

@@ -1,0 +1,26 @@
+{
+ "structure": {
+  "formula": "Sr8Mg3TiFe4(SeO3)4",
+  "sites": 32,
+  "spacegroup": "Pmm2 (25)",
+  "lattice_angstrom": [
+   7.9429,
+   3.9575,
+   16.9925
+  ],
+  "angles_deg": [
+   90.0,
+   90.0,
+   90.0
+  ],
+  "volume_per_atom_a3": 16.6919,
+  "density_g_cm3": 4.8278
+ },
+ "energy_ev_per_atom": -6.569122,
+ "enthalpy_ev_per_atom": -6.569122,
+ "pressure_gpa": 0.0,
+ "converged": true,
+ "steps": 84,
+ "method": "CHGNet 0.4.2 relaxation (FIRE, FrechetCellFilter), fmax 0.05 eV/A",
+ "written": "structures/B_Sr4Mg1.5Ti0.5O6Fe2Se2-relaxed.cif"
+}

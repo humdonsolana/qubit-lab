@@ -1,0 +1,26 @@
+{
+ "structure": {
+  "formula": "LaFeAsO",
+  "sites": 8,
+  "spacegroup": "P4/nmm (129)",
+  "lattice_angstrom": [
+   4.1394,
+   4.1394,
+   9.2999
+  ],
+  "angles_deg": [
+   90.0,
+   90.0,
+   90.0
+  ],
+  "volume_per_atom_a3": 19.919,
+  "density_g_cm3": 5.9537
+ },
+ "energy_ev_per_atom": -7.485847,
+ "enthalpy_ev_per_atom": -7.485847,
+ "pressure_gpa": 0.0,
+ "converged": true,
+ "steps": 35,
+ "method": "CHGNet 0.4.2 relaxation (FIRE, FrechetCellFilter), fmax 0.05 eV/A",
+ "written": "structures/ref_LaFeAsO-relaxed.cif"
+}

@@ -1,0 +1,28 @@
+{
+ "formula": "FeSe",
+ "e_above_hull_mev_per_atom": 2.5,
+ "stable": false,
+ "decomposes_to": [
+  "Fe2Se",
+  "FeSe2"
+ ],
+ "competitors_per_system": {
+  "Fe": 1,
+  "Se": 18,
+  "Fe-Se": 4
+ },
+ "providers": [
+  "alexandria"
+ ],
+ "pressure_gpa": 0.0,
+ "failed": {},
+ "skipped_large_cells": [
+  "alexandria:agm005222103 Se (64 sites)"
+ ],
+ "method": "CHGNet 0.4.2 energies; competitors from OPTIMADE (alexandria; Alexandria phases within 50 meV/atom of its DFT hull), relaxed with CHGNet",
+ "caveat": "machine-learned screen: confirm a promising design with DFT; CHGNet is least reliable for hydrogen-rich and unusual chemistry",
+ "dft_reference": {
+  "alexandria_id": "agm002065066",
+  "dft_e_above_hull_mev_per_atom": 0.0
+ }
+}

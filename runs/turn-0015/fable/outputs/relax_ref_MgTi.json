@@ -1,0 +1,26 @@
+{
+ "structure": {
+  "formula": "Sr4MgTiFe2(AsO3)2",
+  "sites": 32,
+  "spacegroup": "P2_1/m (11)",
+  "lattice_angstrom": [
+   7.9383,
+   3.977,
+   16.6545
+  ],
+  "angles_deg": [
+   90.0,
+   89.957,
+   90.0
+  ],
+  "volume_per_atom_a3": 16.431,
+  "density_g_cm3": 4.9279
+ },
+ "energy_ev_per_atom": -6.823267,
+ "enthalpy_ev_per_atom": -6.823267,
+ "pressure_gpa": 0.0,
+ "converged": true,
+ "steps": 77,
+ "method": "CHGNet 0.4.2 relaxation (FIRE, FrechetCellFilter), fmax 0.05 eV/A",
+ "written": "structures/ref_Sr4MgTiO6Fe2As2-relaxed.cif"
+}

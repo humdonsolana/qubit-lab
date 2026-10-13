@@ -1,0 +1,26 @@
+{
+ "structure": {
+  "formula": "Sr2VFeAsO3",
+  "sites": 16,
+  "spacegroup": "P4/nmm (129)",
+  "lattice_angstrom": [
+   4.0063,
+   4.0063,
+   16.3347
+  ],
+  "angles_deg": [
+   90.0,
+   90.0,
+   90.0
+  ],
+  "volume_per_atom_a3": 16.3863,
+  "density_g_cm3": 5.1295
+ },
+ "energy_ev_per_atom": -7.090519,
+ "enthalpy_ev_per_atom": -7.090519,
+ "pressure_gpa": 0.0,
+ "converged": true,
+ "steps": 46,
+ "method": "CHGNet 0.4.2 relaxation (FIRE, FrechetCellFilter), fmax 0.05 eV/A",
+ "written": "structures/ref_Sr4V2O6Fe2As2-relaxed.cif"
+}

@@ -1,0 +1,15 @@
+{
+ "dynamically_stable": false,
+ "lowest_frequency_thz": -1.4919,
+ "highest_frequency_thz": 17.2296,
+ "imaginary_modes_on_mesh": 49,
+ "cell": "primitive, 16 atoms",
+ "supercell": [
+  3,
+  3,
+  1
+ ],
+ "displacements": 14,
+ "method": "CHGNet 0.4.2 forces, phonopy finite displacements (0.01 A), mesh [12, 12, 12]",
+ "caveat": "machine-learned screen: confirm with DFT phonons (labphys eph computes them) before trusting a verdict, especially for hydrogen-rich chemistry"
+}

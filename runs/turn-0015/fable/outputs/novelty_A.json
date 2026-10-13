@@ -1,0 +1,32 @@
+{
+ "formula": "Sr2MgFeSeO3",
+ "elements": [
+  "Fe",
+  "Mg",
+  "O",
+  "Se",
+  "Sr"
+ ],
+ "providers_searched": [
+  "aflow",
+  "alexandria",
+  "cod",
+  "gnome",
+  "jarvis",
+  "mp"
+ ],
+ "providers_failed": {
+  "oqmd": "HTTPError: 502 Server Error: Bad Gateway for url: https://oqmd.org/optimade/v1/structures?filter=elements+HAS+ALL+%22Fe%22%2C+%22Mg%22%2C+%22O%22%2C+%22Se%22%2C+%22Sr%22+AND+nelements%3D5&response_fields=chemical_formula_reduced%2Clattice_v"
+ },
+ "same_formula": [],
+ "same_structure": [],
+ "arxiv": {
+  "note": "plain-text matches only; abstracts that typeset the formula (Mg$_2$IrH$_6$) can be missed, so search the web too",
+  "searched": [
+   "FeMgO3SeSr2",
+   "Sr2MgFeSeO3"
+  ],
+  "papers": []
+ },
+ "verdict": "no match in the databases searched (some providers failed)"
+}
