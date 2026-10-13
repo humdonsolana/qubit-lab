@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/u53OT3GxvxhpC7lBfMUg9Px5izA</id>
+  <title>arXiv Query: search_query=all:FeSe AND (all:"100 K" OR all:"100K")&amp;id_list=&amp;start=0&amp;max_results=60</title>
+  <updated>2026-10-13T21:15:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:FeSe+AND+(all:%22100+K%22+OR+all:%22100K%22)&amp;start=0&amp;max_results=60&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>60</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.15892v1</id>
+    <title>Preliminary Tc calculations for iron-based superconductivity in NaFeAs, LiFeAs, FeSe and nanostructured FeSe/SrTiO3 Superconductors</title>
+    <updated>2023-06-28T03:26:55Z</updated>
+    <link href="https://arxiv.org/abs/2306.15892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.15892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many theoretical models of iron-based superconductors have been proposed but Tc calculations based on the models are usually missing. We have chosen two models of iron-based superconductors in the literature and then compute the Tc values accordingly: Recently two models have been announced which suggest that superconducting electron concentration involved in the pairing mechanism of iron-based superconductors may have been underestimated, and that the antiferromagnetism and the induced xy potential may even have a dramatic amplification effect on electron-phonon coupling. We use bulk FeSe, LiFeAs and NaFeAs data to calculate the Tc based on these models and test if the combined model can predict the superconducting transition temperature (Tc) of the nanostructured FeSe monolayer well. To substantiate the recently announced xy potential in the literature, we create a two-channel model to separately superimpose the dynamics of the electron in the upper and lower tetrahedral plane. The results of our two-channel model support the literature data. Our computational model takes into account this amplifying effect of antiferromagnetism and the correction of the electron-phonon scattering matrix together with the abnormal soft out-of-plane lattice vibration of the layered structure, which allows us to calculate theoretical Tc values of LiFeAs, NaFeAs and FeSe as a function of pressure that correspond reasonably well to the experimental values. More importantly, by taking into account the interfacial effect between an FeSe monolayer and its SrTiO3 substrate as an additional gain factor, our calculated Tc value is up to 91 K high, and provides evidence that the strong Tc enhancement recently observed in such monolayers with Tc reaching 100 K may be contributed from the electrons within the ARPES range.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-28T03:26:55Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1905.13426</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Wong Chi Ho</name>
+    </author>
+    <author>
+      <name>Rolf Lortz</name>
+    </author>
+    <arxiv:doi>10.3390/ma16134674</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/ma16134674" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.01904v3</id>
+    <title>Imaging Se diffusion across the FeSe/SrTiO$_3$ interface</title>
+    <updated>2022-04-12T17:47:38Z</updated>
+    <link href="https://arxiv.org/abs/2104.01904v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.01904v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Monolayer FeSe on SrTiO$_3$ superconducts with reported $T_\mathrm{c}$ as high as 100 K, but the dramatic interfacial $T_\mathrm{c}$ enhancement remains poorly understood. Oxygen vacancies in SrTiO$_3$ are known to enhance the interfacial electron doping, electron-phonon coupling, and superconducting gap, but the detailed mechanism is unclear. Here we apply scanning transmission electron microscopy (STEM) and electron energy loss spectroscopy (EELS) to FeSe/SrTiO$_3$ to image the diffusion of selenium into SrTiO$_3$ to an unexpected depth of several unit cells, consistent with the simultaneously observed depth profile of oxygen vacancies. Our density functional theory (DFT) calculations support the crucial role of oxygen vacancies in facilitating the thermally driven Se diffusion. In contrast to excess Se in the FeSe monolayer or FeSe/SrTiO$_3$ interface that is typically removed during post-growth annealing, the diffused Se remains in the top few unit cells of the SrTiO$_3$ bulk after the extended post-growth annealing that is necessary to achieve superconductivity. Thus, the unexpected Se in SrTiO$_3$ may contribute to the interfacial electron doping and electron-phonon coupling that enhance $T_\mathrm{c}$, suggesting another important role for oxygen vacancies as facilitators of Se diffusion.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-05T13:31:14Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 105, 165407, 2022</arxiv:journal_ref>
+    <author>
+      <name>Samantha O'Sullivan</name>
+    </author>
+    <author>
+      <name>Ruizhe Kang</name>
+    </author>
+    <author>
+      <name>Jules A. Gardener</name>
+    </author>
+    <author>
+      <name>Austin J. Akey</name>
+    </author>
+    <author>
+      <name>Christian E. Matt</name>
+    </author>
+    <author>
+      <name>Jennifer E. Hoffman</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.105.165407</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.105.165407" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.13426v3</id>
+    <title>The interactions between antiferromagnetism, tetrahedral sites and electron-phonon coupling in FeSe1-xTex and FeSe/SrTiO3</title>
+    <updated>2019-06-28T09:01:03Z</updated>
+    <link href="https://arxiv.org/abs/1905.13426v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.13426v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the superconducting transition temperature Tc of FeSe1-xTex can be computed to reasonable values in a modified McMillan approach in which the electron-phonon coupling is amplified by the antiferromagnetism and the out-of-plane phonons triggered by the tetrahedral lattice sites. This interplay is not only effective at ambient pressure, but also under hydrostatic compression. According to our model, the theoretical Tc of the compressed FeSe0.5Te0.5 agrees with experiment results. More importantly, by taking into account the interfacial effect between an FeSe monolayer and its SrTiO3 substrate as an additional gain factor, our calculated Tc value is up to 91 K high, and provides evidence that the strong Tc enhancement recently observed in such monolayers with Tc reaching 100 K may be due to an enhanced-electron phonon coupling.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-31T05:56:37Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>C. H. Wong</name>
+    </author>
+    <author>
+      <name>R. Lortz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.02480v1</id>
+    <title>Unusual Effects of Be doping in the Iron Based Superconductor FeSe</title>
+    <updated>2018-10-05T01:16:41Z</updated>
+    <link href="https://arxiv.org/abs/1810.02480v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.02480v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent superconducting transition temperatures (Tc) over 100 K for monolayer FeSe on SrTiO3 have renewed interest in the bulk parent compound. In KCl:AlCl3 flux-transport-grown crystals of FeSe0.94Be0.06, FeSe0.97Be0.03 and, for comparison, FeSe, this work reports doping of FeSe using Be, among the smallest of possible dopants, corresponding to an effective chemical pressure. According to lattice parameter measurements, 6% Be doping shrank the tetragonal FeSe lattice equivalent to a physical pressure of 0.75 GPa. Using this flux-transport method of sample preparation, 6% of Be was the maximum amount of dopant achievable. At this maximal composition of FeSe0.94Be0.06, the lattice unit cell shrinks by 2.4%, Tc - measured in the bulk via specific heat - increases by almost 10%, the Tc vs pressure behavior shifts its peak Tconset downwards by ~1 GPa, the high temperature structural transition around TS = 89 K increases by 1.9 K (in contrast to other dopants in FeSe which uniformly depress TS), and the low temperature specific heat gamma increases by 10 % compared to pure FeSe. Also, upon doping by 6% Be the residual resistivity ratio, rho(300K)/rho(T-&gt;0), increases by almost a factor of four, while rho(300K)/rho(T=Tc+) increases by 50%.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-05T01:16:41Z</published>
+    <arxiv:comment>accepted by Journal of Physics: Condensed Matter</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>J. S. Kim</name>
+    </author>
+    <author>
+      <name>D. VanGennep</name>
+    </author>
+    <author>
+      <name>J. J. Hamlin</name>
+    </author>
+    <author>
+      <name>X. Wang</name>
+    </author>
+    <author>
+      <name>A. S. Sefat</name>
+    </author>
+    <author>
+      <name>G. R. Stewart</name>
+    </author>
+    <arxiv:doi>10.1088/1361-648X/aae3cf</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-648X/aae3cf" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.08861v2</id>
+    <title>Unconventional pairing in single FeSe layers</title>
+    <updated>2018-08-01T21:15:56Z</updated>
+    <link href="https://arxiv.org/abs/1710.08861v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.08861v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The pairing mechanism in iron-based superconductors is believed to be unconventional, i.e. not phonon-mediated. The achieved transition temperatures Tc in these superconductors are still significantly below those of some of the cuprates, with the exception of single layer FeSe films on SrTiO3 showing a Tc between 60 and 100 K, i.e. an order of magnitude larger than in bulk FeSe. This enormous increase of Tc demonstrates the potential of interface engineering for superconductivity, yet the underlying mechanism of Cooper pairing is not understood. Both conventional and unconventional mechanisms have been discussed. Here we report a direct measurement of the electron-boson coupling function in FeSe on SrTiO3 using inelastic electron scattering which shows that the excitation spectrum becomes fully gapped below Tc strongly supporting a predominantly electronic pairing mechanism. We also find evidence for strong electron-phonon coupling of low energy electrons, which is however limited to regions near structural domain boundaries.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-24T15:57:04Z</published>
+    <arxiv:comment>10 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 100, 020503 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Jasmin Jandke</name>
+    </author>
+    <author>
+      <name>Fang Yang</name>
+    </author>
+    <author>
+      <name>Patrik Hlobil</name>
+    </author>
+    <author>
+      <name>Tobias Engelhardt</name>
+    </author>
+    <author>
+      <name>Dominik Rau</name>
+    </author>
+    <author>
+      <name>Khalil Zakeri</name>
+    </author>
+    <author>
+      <name>Chunlei Gao</name>
+    </author>
+    <author>
+      <name>Jörg Schmalian</name>
+    </author>
+    <author>
+      <name>Wulf Wulfhekel</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.100.020503</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.100.020503" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08998v3</id>
+    <title>Frustrated spin order and stripe fluctuations in FeSe</title>
+    <updated>2019-05-06T17:00:02Z</updated>
+    <link href="https://arxiv.org/abs/1709.08998v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.08998v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The charge and spin dynamics of the structurally simplest iron-based superconductor, FeSe, may hold the key to understanding the physics of high temperature superconductors in general. Unlike the iron pnictides, FeSe lacks long range magnetic order in spite of a similar structural transition around 90\,K. Here, we report results of Raman scattering experiments as a function of temperature and polarization and simulations based on exact diagonalization of a frustrated spin model. Both experiment and theory find a persistent low energy peak close to 500cm$^{-1}$ in $B_{1g}$ symmetry, which softens slightly around 100\,K, that we assign to spin excitations. By comparing with results from neutron scattering, this study provides evidence for nearly frustrated stripe order in FeSe.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-26T13:18:31Z</published>
+    <arxiv:comment>12 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Commun. Phys. 2, 14 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Andreas Baum</name>
+    </author>
+    <author>
+      <name>Harrison N. Ruiz</name>
+    </author>
+    <author>
+      <name>Nenad Lazarević</name>
+    </author>
+    <author>
+      <name>Yao Wang</name>
+    </author>
+    <author>
+      <name>Thomas Böhm</name>
+    </author>
+    <author>
+      <name>Ramez Hosseinian Ahangharnejhad</name>
+    </author>
+    <author>
+      <name>Peter Adelmann</name>
+    </author>
+    <author>
+      <name>Thomas Wolf</name>
+    </author>
+    <author>
+      <name>Zoran V. Popović</name>
+    </author>
+    <author>
+      <name>Brian Moritz</name>
+    </author>
+    <author>
+      <name>Thomas P. Devereaux</name>
+    </author>
+    <author>
+      <name>Rudi Hackl</name>
+    </author>
+    <arxiv:doi>10.1038/s42005-019-0107-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s42005-019-0107-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.06321v1</id>
+    <title>Strongly enhanced temperature dependence of the chemical potential in FeSe</title>
+    <updated>2017-02-21T10:44:51Z</updated>
+    <link href="https://arxiv.org/abs/1702.06321v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.06321v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Employing a 10-orbital tight binding model, we present a new set of hopping parameters fitted directly to our latest high resolution angle-resolved photoemission spectroscopy (ARPES) data for the high temperature tetragonal phase of FeSe. Using these parameters we predict a large 10 meV shift of the chemical potential as a function of temperature. In order to confirm this large temperature dependence, we performed ARPES experiments on FeSe and observed a $\sim$25 meV rigid shift to the chemical potential between 100 K and 300 K. This unexpectedly strong shift has important implications for theoretical models of superconductivity and of nematic order in FeSe materials.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-21T10:44:51Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 95, 195111 (2017)</arxiv:journal_ref>
+    <author>
+      <name>L. C. Rhodes</name>
+    </author>
+    <author>
+      <name>M. D. Watson</name>
+    </author>
+    <author>
+      <name>A. A. Haghighirad</name>
+    </author>
+    <author>
+      <name>M. Eschrig</name>
+    </author>
+    <author>
+      <name>T. K. Kim</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.95.195111</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.95.195111" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.03603v2</id>
+    <title>Antiferromagnetic order in epitaxial FeSe films on SrTiO3</title>
+    <updated>2017-11-09T18:12:53Z</updated>
+    <link href="https://arxiv.org/abs/1611.03603v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.03603v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Single monolayer FeSe film grown on Nb-doped SrTiO$_3$(001) substrate shows the highest superconducting transition temperature (T$_C$ $\sim$ 100 K) among the iron-based superconductors (iron-pnictide), while T$_C$ of bulk FeSe is only $\sim$ 8 K. Antiferromagnetic spin fluctuations were believed to be crucial in iron-pnictides, which has inspired several proposals to understand the FeSe/SrTiO$_3$ system. Although bulk FeSe does not show the antiferromagnetic order, calculations suggest that the parent FeSe/SrTiO$_3$ films are AFM. Experimentally, due to lacking of direct probe, the magnetic state of FeSe/SrTiO$_3$ films remains mysterious. Here, we report the direct evidences of the antiferromagnetic order in the parent FeSe/SrTiO$_3$ films by the magnetic exchange bias effect measurements. The phase transition temperature is $\geq$ 140 K for single monolayer film. The AFM order disappears after electron doping.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-11T07:45:16Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 120, 097001 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Y. Zhou</name>
+    </author>
+    <author>
+      <name>L. Miao</name>
+    </author>
+    <author>
+      <name>P. Wang</name>
+    </author>
+    <author>
+      <name>F. F. Zhu</name>
+    </author>
+    <author>
+      <name>W. X. Jiang</name>
+    </author>
+    <author>
+      <name>S. W. Jiang</name>
+    </author>
+    <author>
+      <name>Y. Zhang</name>
+    </author>
+    <author>
+      <name>H. F. Ding</name>
+    </author>
+    <author>
+      <name>H. Zheng</name>
+    </author>
+    <author>
+      <name>J. F. Jia</name>
+    </author>
+    <author>
+      <name>D. Qian</name>
+    </author>
+    <author>
+      <name>D. Wu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.120.097001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.120.097001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.00843v2</id>
+    <title>The electron-phonon interaction with forward scattering peak is a relevant approach to high Tc superconductivity in FeSe films on SrTiO3 and TiO2</title>
+    <updated>2016-07-14T12:41:17Z</updated>
+    <link href="https://arxiv.org/abs/1607.00843v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.00843v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The theory of EPI with strong forward scattering peak (FSP)[1-3] is recently applied in [4-5] in studying high Tc(~100 K) in a FeSe grown on SrTiO3 [4] and TiO2 [6]. The EPI is due to a long-range dipolar electric field created by the high-energy oxygen vibrations (E0~90 meV) at the interface [4-5]. Besides obtaining new results we also correct some misleading results from the recent literature. We show that the mean-field critical temperature Tc0 is an interplay between the maximal pairing potential and the FSP-width qc. For Tc0~100 K the gap (G) is G~16 meV in agreement with ARPES experiments. We find that in leading order Tc0 is mass-independent and there is small oxygen isotope effect in next to leading order. In clean systems Tc0 for s-wave and d-wave pairing is degenerate but both are affected by non-magnetic impurities. The non-magnetic impurities are pair-weakening in the s-channel and pair-breaking in the d-channel. The normal state self-energy at the Fermi surface gives rise to the ARPES quasiparticle band at E=0 and to a replica band at Er=-E0(1+l(m))^1/2, respectively. The EPI coupling l(m), which enters the self-energy, is mass-dependent - the fact overlooked in the literature, makes at low energies the slope of the self-energy mass-dependent. The smallness of the oxygen isotope effect in Tc0 and its presence in the self-energy in FeSe films on SrTiO3 and TiO2 is a smoking-gun experiment for the application of the EPI-FSP theory to these systems. The EPI-FSP theory predicts a large number of low-laying pairing states (above the ground state) thus causing internal pair fluctuations. The latter reduce Tc0 additionally, by creating a pseudogap state for Tc&lt;T&lt;Tc0. Possibilities to increase Tc0 by designing novel structures are discussed in the framework of the EPI-FSP theory.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-04T12:13:09Z</published>
+    <arxiv:comment>11 pages, 1 figure, new results and references are added, some results are cleared up</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>M. L. Kulic</name>
+    </author>
+    <author>
+      <name>O. V. Dolgov</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/19/1/013020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/19/1/013020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.07950v2</id>
+    <title>20 K superconductivity in heavily electron doped surface layer of FeSe bulk crystal</title>
+    <updated>2015-12-15T02:09:13Z</updated>
+    <link href="https://arxiv.org/abs/1511.07950v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.07950v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A superconducting transition temperature Tc as high as 100 K was recently discovered in 1 monolayer (1ML) FeSe grown on SrTiO3 (STO). The discovery immediately ignited efforts to identify the mechanism for the dramatically enhanced Tc from its bulk value of 7 K. Currently, there are two main views on the origin of the enhanced Tc; in the first view, the enhancement comes from an interfacial effect while in the other it is from excess electrons with strong correlation strength. The issue is controversial and there are evidences that support each view. Finding the origin of the Tc enhancement could be the key to achieving even higher Tc and to identifying the microscopic mechanism for the superconductivity in iron-based materials. Here, we report the observation of 20 K superconductivity in the electron doped surface layer of FeSe. The electronic state of the surface layer possesses all the key spectroscopic aspects of the 1ML FeSe on STO. Without any interface effect, the surface layer state is found to have a moderate Tc of 20 K with a smaller gap opening of 4 meV. Our results clearly show that excess electrons with strong correlation strength alone cannot induce the maximum Tc, which in turn strongly suggests need for an interfacial effect to reach the enhanced Tc found in 1ML FeSe/STO.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-25T05:11:27Z</published>
+    <arxiv:comment>5 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>J. J. Seo</name>
+    </author>
+    <author>
+      <name>B. Y. Kim</name>
+    </author>
+    <author>
+      <name>B. S. Kim</name>
+    </author>
+    <author>
+      <name>J. K. Jeong</name>
+    </author>
+    <author>
+      <name>J. M. Ok</name>
+    </author>
+    <author>
+      <name>J. S. Kim</name>
+    </author>
+    <author>
+      <name>J. D. Denlinger</name>
+    </author>
+    <author>
+      <name>C. Kim</name>
+    </author>
+    <author>
+      <name>Y. K. Kim</name>
+    </author>
+    <arxiv:doi>10.1038/ncomms11116</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/ncomms11116" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.3435v1</id>
+    <title>Superconductivity in single-layer films of FeSe with a transition temperature above 100 K</title>
+    <updated>2014-06-13T06:45:57Z</updated>
+    <link href="https://arxiv.org/abs/1406.3435v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.3435v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, interface has been employed to enhance superconductivity in the single-layer FeSe films grown on SrTiO3(001)(STO) with a possible Tc of ~ 80 K, which is nearly ten times of the Tc of bulk FeSe and is above the Tc record of 56 K for the bulk Fe-based superconductors. This work together with those on superconducting oxides interfaces revives the long-standing idea that electron pairing at a two-dimensional (2D) interface between two different materials is a potential path to high transition temperature (Tc) superconductivity. Subsequent angle-resolved photoemission spectroscopy (ARPES) measurements revealed different electronic structure from those of bulk FeSe with a superconducting-like energy gap closing at around 65K. However, previous ex situ electrical transport measurements could only detect the zero-resistance below ~30 K. Here we report the observation of high Tc superconductivity in the FeSe/STO system. By in situ 4-point probe (4PP) electrical transport measurement that can be conducted at an arbitrary position of the FeSe film on STO, we detected superconductivity above 100 K. Our finding makes FeSe/STO the exciting and ideal research platform for higher Tc superconductivity.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-13T06:45:57Z</published>
+    <arxiv:comment>10 pages, 3 figures, 7 pages supplementary materials</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Nature Materials |V14 , 285 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Jian-Feng Ge</name>
+    </author>
+    <author>
+      <name>Zhi-Long Liu</name>
+    </author>
+    <author>
+      <name>Canhua Liu</name>
+    </author>
+    <author>
+      <name>Chun-Lei Gao</name>
+    </author>
+    <author>
+      <name>Dong Qian</name>
+    </author>
+    <author>
+      <name>Qi-Kun Xue</name>
+    </author>
+    <author>
+      <name>Ying Liu</name>
+    </author>
+    <author>
+      <name>Jin-Feng Jia</name>
+    </author>
+    <arxiv:doi>10.1038/nmat4153</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nmat4153" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.2007v1</id>
+    <title>Density of Phonon States in Superconducting FeSe as a Function of Temperature and Pressure</title>
+    <updated>2010-04-12T17:06:58Z</updated>
+    <link href="https://arxiv.org/abs/1004.2007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.2007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The temperature and pressure dependence of the partial density of phonon states of iron atoms in superconducting Fe1.01Se was studied by 57Fe nuclear inelastic scattering (NIS). The high energy resolution allows for a detailed observation of spectral properties. A sharpening of the optical phonon modes and shift of all spectral features towards higher energies by ~4% with decreasing temperature from 296 K to 10 K was found. However, no detectable change at the tetragonal - orthorhombic phase transition around 100 K was observed. Application of a pressure of 6.7 GPa, connected with an increase of the superconducting temperature from 8 K to 34 K, results in an increase of the optical phonon mode energies at 296 K by ~12%, and an even more pronounced increase for the lowest-lying transversal acoustic mode. Despite these strong pressure-induced modifications of the phonon-DOS we conclude that the pronounced increase of Tc in Fe1.01Se with pressure cannot be described in the framework of classical electron-phonon coupling. This result suggests the importance of spin fluctuations to the observed superconductivity.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-12T17:06:58Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>V. Ksenofontov</name>
+    </author>
+    <author>
+      <name>G. Wortmann</name>
+    </author>
+    <author>
+      <name>A. I. Chumakov</name>
+    </author>
+    <author>
+      <name>T. Gasi</name>
+    </author>
+    <author>
+      <name>S. Medvedev</name>
+    </author>
+    <author>
+      <name>T. M. McQueen</name>
+    </author>
+    <author>
+      <name>R. J. Cava</name>
+    </author>
+    <author>
+      <name>C. Felser</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.81.184510</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.81.184510" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.1612v1</id>
+    <title>Anomalous Raman scattering from phonons and electrons of superconducting FeSe$_{0.82}$</title>
+    <updated>2010-04-09T17:33:18Z</updated>
+    <link href="https://arxiv.org/abs/1004.1612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.1612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report interesting anomalies in the temperature dependent Raman spectra of FeSe$_{0.82}$ measured from 3K to 300K in the spectral range from 60 to 1800 cm$^{-1}$ and determine their origin using complementary first-principles density  functional calculations. A phonon mode near 100 cm$^{-1}$ exhibits a sharp increase by $\sim$ 5% in frequency below a temperature T$_s$ ($\sim$ 100 K) attributed to strong spin-phonon coupling and onset of short-range antiferromagnetic order. In addition, two high frequency modes are observed at 1350 cm$^{-1}$ and 1600 cm$^{-1}$, attributed to electronic Raman scattering from ($x^2-y^2$)to $xz$ / $yz$ $d$-orbitals of Fe.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-09T17:33:18Z</published>
+    <arxiv:comment>19 pages, 4 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Solid State Communications (Fast Track) vol. 150, pp. 557 (2010)</arxiv:journal_ref>
+    <author>
+      <name>Pradeep Kumar</name>
+    </author>
+    <author>
+      <name>Anil Kumar</name>
+    </author>
+    <author>
+      <name>Surajit Saha</name>
+    </author>
+    <author>
+      <name>D. V. S. Muthu</name>
+    </author>
+    <author>
+      <name>J. Prakash</name>
+    </author>
+    <author>
+      <name>S. Patnaik</name>
+    </author>
+    <author>
+      <name>U. V. Waghmare</name>
+    </author>
+    <author>
+      <name>A. K. Ganguli</name>
+    </author>
+    <author>
+      <name>A. K. Sood</name>
+    </author>
+    <arxiv:doi>10.1016/j.ssc.2010.01.033</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ssc.2010.01.033" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0808.4093v3</id>
+    <title>What will be the maximum Tc in the iron-based superconductors?</title>
+    <updated>2008-11-27T02:20:57Z</updated>
+    <link href="https://arxiv.org/abs/0808.4093v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0808.4093v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Using the newly developed real space vortex-lattice based theory of superconductivity, we study the maximum superconducting transition temperature (T_{c}^{\max}) in the iron-based superconductors. We find that all the reported FeAs superconductors can be divided into two basic classes (c/a=3 and c/a=5/2) depending on the lattice constants, where a is the Fe-Fe distance in the xy-plane and c is the Fe-Fe layer distance along the z-axis. Our results suggest that the former class has a maximum T_{c}^{\max}&lt;60K, while the latter class has a lower T_{c}^{\max}\leq 40K. Our investigations further indicate that, in order to enhance T_{c}^{\max} in this family of compounds, new class of superconductors with a larger ratio of c/a should be synthesized. It is likely that their T_{c}^{\max} values could be raised into the liquid nitrogen range (77K) and 100K, supposing the new analogues with c/a=5 (approximately c&gt;13A, if a=2.750A) and c/a=11 (c&gt;31A) can be experimentally achieved, respectively. For the new FeSe series, our mechanism predicts that their T_{c}^{\max} is impossible to exceed 30 K due to a relatively shorter c-axis lattice constant (c/a=2). Finally, based on the new experimental results (arXiv:0811.0094 and arXiv:0811.2205), the possible ways to raise the Tc of the iron-based superconductors into 70 K are also suggested.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-08-29T13:01:06Z</published>
+    <arxiv:comment>Based on the new experimental results (arXiv:0811.0094 and arXiv:0811.2205), the possible ways to raise the Tc of the iron-based superconductors into 70 K are suggested</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Xiuqing Huang</name>
+    </author>
+    <arxiv:doi>10.1063/1.2964706</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2964706" title="doi"/>
+  </entry>
+</feed>

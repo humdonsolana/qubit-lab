@@ -1,0 +1,75 @@
+{
+  "model": "two preformed pair islands, J=1; arbitrary dimensionless delta/J, not measured material parameters",
+  "expected": [
+    {
+      "delta_over_J": 0.0,
+      "ground_energy_over_J": -1.0,
+      "XX": 1.0,
+      "ZZ": -1.0
+    },
+    {
+      "delta_over_J": 3.0,
+      "ground_energy_over_J": -3.1622776601683795,
+      "XX": 0.31622776601683794,
+      "ZZ": -1.0
+    }
+  ],
+  "shots": 4096,
+  "circuit_depth": 4,
+  "operations": {
+    "measure": 8,
+    "x": 4,
+    "ry": 4,
+    "cx": 4,
+    "h": 4
+  },
+  "counts": {
+    "10101011": 3,
+    "01011111": 309,
+    "01101000": 159,
+    "10011100": 5,
+    "01010011": 350,
+    "01010000": 321,
+    "01011100": 357,
+    "01100111": 179,
+    "01011011": 190,
+    "10100100": 3,
+    "01010111": 164,
+    "01100000": 326,
+    "10011000": 6,
+    "01101111": 315,
+    "01100011": 303,
+    "01100100": 172,
+    "10010011": 9,
+    "01101011": 170,
+    "01011000": 185,
+    "10010100": 6,
+    "10100011": 6,
+    "10100000": 10,
+    "10101000": 3,
+    "10101100": 8,
+    "10011111": 8,
+    "10011011": 7,
+    "10010000": 12,
+    "01101100": 320,
+    "10101111": 8,
+    "10010111": 4,
+    "01010100": 175,
+    "10100111": 3
+  },
+  "simulation": {
+    "0.0": {
+      "XX": 1.0,
+      "XX_stderr": 0.0,
+      "ZZ": -1.0,
+      "odd_parity_probability": 1.0
+    },
+    "3.0": {
+      "XX": 0.30224609375,
+      "XX_stderr": 0.014894217651046157,
+      "ZZ": -1.0,
+      "odd_parity_probability": 1.0
+    }
+  },
+  "limitations": "Not Fe orbital model; no finite-T transition; no gap prediction; XX=YY only for ideal real number-conserving state. Hardware reports XX, not assumed YY."
+}

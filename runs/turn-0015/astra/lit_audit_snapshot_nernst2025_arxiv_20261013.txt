@@ -1,0 +1,725 @@
+--- PAGE 1 ---
+Study on fluctuations of interface-enhanced superconductivity in ultrathin
+FeSe/SrTiO3 by the Nernst effect
+Tomoki Kobayashi, Ryo Ogawa, and Atsutaka Maeda
+Department of Basic Science, The University of Tokyo,
+3-8-1 Komaba, Meguro-ku, Tokyo 153-8902, Japan
+(Dated: September 23, 2025)
+Ultrathin FeSe films on SrTiO3 substrate show interface-enhanced superconductivity. However,
+how the superconductivity is established including superconducting fluctuations remains unclear.
+This study investigates the Nernst effect, which is sensitive to superconducting fluctuations, in
+ultrathin FeSe films on SrTiO3. Temperature dependence of Nernst signals in the normal state is
+similar to bulk FeSe, suggesting that the electrons of SrTiO3 are transferred only to a few layers
+near the FeSe/SrTiO3 interface. The Nernst effect caused by SC fluctuations was observed only
+belowT∼1.2T onsetc within our measurement resolution, which is similar to other Fe chalcogenide
+systems. Our results suggest that the pseudogap in monolayer FeSe/STO possibly originates in
+other electronic states rather than superconductivity.
+I. INTRODUCTION
+Ultrathin FeSe/SrTiO3 (STO) has attracted consider-
+able attention owing to its higher superconducting tran-
+sition temperature (T c) compared to that of its bulk
+form[1, 2]. The FeSe/STO interface is repotedly plays
+a crucial role in increasing theTc. Charge transfer from
+STO[3–5] and possible electron-phonon coupling between
+electrons in FeSe and phonons of STO[6–8] have been
+studied as possible mechanisms causingTc enhancement.
+While the ultrathin FeSe/STO had been fabricated only
+by molecular beam epitaxy (MBE), a similar supercon-
+ductivity was recently achieved by pulsed laser deposi-
+tion (PLD)[9, 10]. Similar to MBE-grown films, in PLD-
+grown films, the electrons in STO are transferred to FeSe,
+and the FeSe/STO interface is critical for achieving in-
+creasedT c. Even though the thicknesses of these films
+are not monolayer, the measurement results of the upper
+critical field indicated confinement of superconductivity
+to a monolayer or a few layers near the FeSe/STO inter-
+face [11].
+In monolayer FeSe/STO grown using MBE, the
+achievedT c was reported to be 65 K due to the
+gap opening at the Fermi level, as observed using
+angle-resolved photoemission spectroscopy (ARPES)[2].
+Feng group reported the establishment of supercon-
+ductivity below 60–65 K, which correspond to gap-
+opening temperatures, usingµSR[12] and diamagnetism
+measurements[13]. However, nootherstudieshaveyetre-
+ported reliable evidence of superconductivity at 65 K us-
+ing transport and diamagnetism measurements. Regard-
+less of in-situ[14, 15]or ex-situ[1] measurements, a resis-
+tive transition with onsetTc (T onsetc )∼40 K and zero re-
+sistivity belowT zeroc <29 K[1, 14, 15] have been reported
+with an exception of a singular report[16]. The observed
+gap at approximately 65 K may be attributed to strong
+superconducting (SC) fluctuations[14, 15]. However, the
+gap around the Fermi level is also observed in other or-
+deredstatesincludingthepseudogapphaseincuprate[17]
+and charge density wave in kagome superconductors[18].
+Therefore, further studies are needed to understand the
+relation between the gap opening temperature,T onsetc ,
+andT zeroc .
+One of the probes sensitive to SC fluctuations is the
+Nernst effect, which is the generation of a transverse elec-
+tric field by a longitudinal thermal gradient. Nernst ef-
+fect was originally studied for vortex motion induced by
+the thermal gradient[19, 20]. In the last few decades,
+the Nernst effect by SC fluctuations has been reported.
+The SC fluctuations can be categorized to amplitude
+fluctuations, which is interpreted by short-lived cooper
+pairs, and phase fluctuations where proliferated vortices
+plays a role. The Nernst effect by amplitude fluctu-
+atinos was reported for NbSi amorphous thin film [21]
+at first. Subsequently, it was also observed in cuprate
+[22–24] and other amorphous or crystalline conventional
+superconductor[25, 26]. The Nernst effect caused by
+phase fluctuations have been reported in hole-doped
+cuprate[27], although it is still under debated[23]. Fea-
+tures of the Nernst effect caused by amplitude or phase
+fluctuations have been studied theoretically[28–30], al-
+lowing us to investigate the nature of these SC fluctua-
+tions.
+In this study, we investigated the Nernst effect in ul-
+trathin FeSe films on STO. Temperature dependence of
+Nernst signals in the normal state is similar to bulk FeSe,
+suggesting that the electrons of STO are transferred only
+to a few layers near the FeSe/STO interface. The Nernst
+effect caused by SC fluctuations was observed only below
+T∼1.2T onsetc within our measurement resolution, which
+is similar to those observed in other Fe chalcogenide sys-
+tems. The comparison to theories suggests that the ob-
+served Nernst effect caused by the SC fluctuations orig-
+inates from amplitude fluctuations of a superconducting
+parameter. Our results suggest that the pseudogap in
+monolayer FeSe/STO may originate in electronic states
+other than superconductivity.
+arXiv:2508.11018v1  [cond-mat.supr-con]  14 Aug 2025
+
+--- PAGE 2 ---
+2
+II. EXPERIMENT AL METHODS
+FeSefilmswithHallbargeometryweregrownonatom-
+ically flat STO (100) substrates with the step-terrace
+structure using the PLD technique. The growth con-
+ditions are detailed in Ref. [9, 11]. To prevent degrada-
+tion of the films by air exposure, amorphous Si with a
+thickness of approximately 10 nm was deposited at room
+temperaturealsousingPLD.Thec-axisorientationofthe
+grown films was confirmed using X-ray diffraction mea-
+surements with Cu Kαradiation at room temperature.
+The film thicknesses of the grown films were estimated
+using FeSe(001) reflections[9]. The thicknesses of FeSe
+films in this study were approximately 2.5 and 5 nm,
+which correspond to 4–5 and 9 layers. Resistance mea-
+surementswereperformedwiththefour-terminalmethod
+using a physical property measurement system (PPMS).
+Thermoelectric measurements were performed with the
+one-heater-two-thermometer configuration (Fig. 1(a)).
+The temperature gradient∇Twas measured with two
+Cernox thermometers attached to the samples via Cu
+wires (ϕ= 100µm) to reduce the thermal gradient error.
+Moreover, phosphor bronze wires were used for voltage
+measurements. Because the Si capping layer is insulat-
+ing, we scratched the contact pads before attaching the
+wires to the pads to ensure a direct electrical contact
+with FeSe. The measurement was performed with fixed
+temperatures and magnetic fields. At each measurement,
+we subtracted background voltage at∇T= 0. The Nerst
+signalNin eachBwas obtained by field antisymmetriza-
+tionofe y =− Vxy/w∆T /l, wherewandlaredistancesbetween
+electrodes and thermometers, respectively. Figure 1(b)
+shows measured voltageV xy as a function of a temper-
+ature difference between two thermometers∆Tat 38 K
+and 9 T in a 2.5 nm film. The linear relationship between
+∆TandV xy, which is necessary for thermoelectric mea-
+surement, was observed. Validity for the thermoelectric
+measurement was also confirmed by the measurements in
+Pt foil and STO bulk (see supplementary material).
+(a)
+Cu wire
+Thermometer
+heater
+voltage lead
+Cu bath
+−∇𝑇
+(b)
+FIG. 1. (a) Schematic picture of setup used for Nernst effect
+measurement in this study. (b)Vxy as a function of∆Tat 38
+K and 9 T in a 2.5 nm film.
+III. RESUL TS AND DISCUSSION
+Figure 2(a) shows the temperature dependence of nor-
+malized sheet resistanceR sq for 2.5 and 5 nm films.
+These films show metallic behavior and superconduct-
+ing transitions withT onsetc = 27.0K,T zeroc = 8.6K for
+the 2.5 nm film andTonsetc = 23.5K,T zeroc = 7.4K for
+the 5 nm film. The temperature dependence ofNof both
+films in 9 T is plotted in Fig. 2(b). In the 2.5 nm film,
+Nexhibits a broad peak feature at approximately 70 K,
+followed by a sharper peak at lower temperatures. This
+observation is discussed later. Notably, a similar temper-
+FIG. 2. (a) Temperature dependences of normalized sheet
+resistanceR sq at 0 T in the grown films. (b) Nernst signals
+Nas a function of temperature up to 90 K at 9 T in the 2.5
+nm film.
+ature dependence with the peak feature around 70 K was
+observed for bulk FeSe[31]. This can be explained as fol-
+lows: electrons of STO are transferred to a monolayer or
+a few layers near the FeSe/STO interface as suggested in
+previous studies[5, 11], and the layers distant from the in-
+terfaceretainanelectronicstructuresimilartobulk FeSe.
+For the electron-doped layer near the interface, only elec-
+tron carriers are present, which would lead to a negligible
+Nernst signal in the normal state due to the Sondheimer
+cancellation[27, 32, 33]. Indeed, electron-doped FeSe by
+intercalation of TBA+ does not exhibit the Nernst effect
+in the normal state[34]. Therefore, the observation of the
+Nernst effect similar to those in bulk FeSe indicates that
+Nernst signal in non-doped layers with hole and electron
+carriers is dominant in the normal state even in the 2.5
+nm-thick FeSe/STO.
+In 5 nm film, similar to 2.5 nm film, the Nernst effect
+appeared in the normal state, andNdecreased with tem-
+perature. At 45 K, however, theNwas larger than that
+in the 2.5 nm film. These differences in the magnitude of
+Ncan be explained in terms of the difference in the con-
+tribution of the non-doped layers. In a multiband system
+such as non-doped FeSe, the Nernst signal is sensitive to
+disorders[33, 35]. For instance, in semimetallic Bi, the
+Nernst signal becomes larger as the residual resistance
+ratio (RRR) is increased[36]. In the present samples, the
+5 nm film exhibited a higher RRR than that of the 2.5
+nm film(Fig. 2(a)). Therefore, the contributions of the
+non-doped layer in the 5 nm film are considered to be
+larger than those of the 2.5 nm film.
+
+--- PAGE 3 ---
+3
+Figures 3(a) and (c) shows the temperature depen-
+dence ofR sq andNnearT onsetc in 0–9 T for the 2.5 nm
+film, respectively. As the magnetic fields increase, the su-
+perconducting transition becomes broader. In this tem-
+perature region, the peak structure ofNwas observed
+at all magnetic fields, as mentioned earlier(Fig. 3(c)).
+The peak structure of Nernst signals corresponding to
+superconducting transition is generally observed in type-
+II superconductors, and this feature is partly attributed
+to vortex motion induced by thermal force[20]. The re-
+sistive transition broadening caused by the application
+of magnetic field is attributed to mobile vortices. Similar
+phenomenon was also observed in the case of 5 nm film,
+however, in this case, the peak structure caused by mo-
+bile vortices was relatively unclear atB= 9T compared
+with 2.5 nm film(Fig. 3(d)). Because the non-doped lay-
+ers are expected to be thicker in the 5 nm film than in
+the 2.5 nm film, the larger contribution of the non-doped
+layers obscured the peak structure despite the presence
+of mobile vortices at 9 T in the 5 nm film.
+FIG. 3. Temperature dependence of (a)R sq and (c)Nat
+0–9 T in the 2.5 nm film. (b) and (d) show the corresponding
+measurements results obtained for the 5 nm film. (e) and (f)
+plot theNandStanθat 9 T for the 2.5 nm and 5 nm films,
+respectively, for comparison.
+To discuss the Nernst effect by SC fluctuations, it is
+important to understand how the non-doped layer affects
+the measured Nernst signals. In general, conductivity
+tensor˜σand thermoelectric tensor˜αfollow the relation:
+Je = ˜σ⃗E−˜α∇T.(1)
+Here,J e is charge current density, and ⃗Eand∇T
+are electric field and thermal gradient, respectively. In
+FeSe/STO, a parallel circuit is formed by the non-doped
+layer and the electron-doped layer near the FeSe/STO in-
+terface. Because Eq. 1 is valid in each layer, and the total
+current of both layers becomes zero, the thermoelectric
+and conductivity tensors in each layer are represented by
+these equations:
+je(i) = ˜σ(i) ⃗E−˜α(i)∇T,(i= 1,2)
+je(1)d1 +j e(2)d2 = 0.
+(2)
+Here,d 1 andd 2 are the thickness of electron-doped and
+non-doped layers, respectively. Note that similar anal-
+yses based on the parallel circuit model for the Nernst
+signal were performed and considered to be reasonable
+in studies on other materials[37–39]. From Eq.(2), the
+measured Nernst signals can be derived as
+N=− Exy
+∇T = α2Dxyσ2Dxx − α2Dxxσ2Dxx σ2Dxyσ2Dxx ,(3)
+where˜α2D = ˜α(1)d1 + ˜α(2)d2, and˜σ2D = ˜σ(1)d1 + ˜σ(2)d2.
+Using sheet resistanceR sq, Seebeck coefficientS, and
+Hall angleθ, Eq.(3) is expressed as
+N=R sqα2Dxy −Stanθ.(4)
+In both films, the latter termStanθwas very small
+compared toNas shown in Fig.3(e) and (f). In this
+case,α 2Dxy is calculated using only sheet resistance and
+Nernst signals[21]. Because resistance can change the be-
+havior of Nernst signals besides the pure thermoelectric
+response,α 2Dxy was considered more suitable to discuss
+the Nernst effect by superconductivity originating in the
+electron-doped layers.
+The onset of SC fluctuations is usually defined by the
+temperature whereα xy orNstarts to increase. How-
+ever, magnetic field dependence is also important to dis-
+tinguish the Nernst effect by SC fluctuations from that
+caused by quasi-particles[40, 41]. Figure 4 plotsα2Dxy /B.
+As shown, in the case of 2.5 nm film, belowT∗ = 30K,
+αxy/Bstarted to increase(Fig. 4(a)). Importantly, while
+α2Dxy /Bis independent ofBforT > T ∗, it varies with
+magnetic fields at lower temperatures. In the normal
+state, the thermally diffused normal carrier suffers from
+the Lorentz force and inducesαxy with linear dependence
+ofmagneticfields. Incontrast,α xy bySCfluctuationsare
+rather complicated, and the magnetic field dependence
+ofα 2Dxy is non-linear[40–42]. Thus, based on the observed
+non-linearity, we concluded that theα2Dxy just belowT ∗
+is originated from SC fluctuations. This discussion is
+valid also for the 5 nm film, in which case, the temper-
+ature whereα 2Dxy starts to increase is unclear inB >3
+T compared to that observed for 2.5 nm film because of
+
+--- PAGE 4 ---
+4
+the large contribution of the non-doped layer(Fig. 4(b)).
+However, the variation of magnetic field dependence en-
+ables us to determine thatT∗ = 28K for the 5 nm film.
+FIG. 4. (a), (b) Temperature dependence of transverse ther-
+moelectric coefficients divided by magnetic fieldsα 2Dxy /Bin
+0.4, 1, 3, 5, and 9 T of 2.5 nm and 5 nm films, respectively.
+The insets show the expanded plots nearT∗. Solid lines are
+just the connection between the neighbouring points.
+As for the origin ofα2Dxy by SC fluctuations, phase fluc-
+tuations of superconducting order parameter|Ψ|exp(iϕ)
+is possible due to two-dimensional (2D) nature in
+ultrathin FeSe/STO. In a theoretical study, a for-
+mula ofα 2Dxy in a 2D superconductor, where Berezin-
+skii–Kosterlitz–Thouless(BKT) transition is expected,
+was proposed by R. Li and Z. S. She[43]. In Ref. [43],
+α2Dxy based on the phenomenological vortex-fluid model
+is given by
+α2Dxy = π¯h28meϕ0 ns(T)T BB+B T ln Bc2(T)B .(5)
+Here,m e,n s(T), andB c2(T)are electron mass, micro-
+scopic superfluid density, and upper critical field, re-
+spectively. In Ref. [43],B c2 is considered to weakly
+TABLE I. Parameters used for plotting the black line in Fig.
+5.
+Tc Tν Bc2(0)n s(0)B l b
+18.3 K 28.0 K 40.0 T 2.0×1011cm−2 40.0 T1.06
+depend on temperature based on the reports by Wang
+et al.[27]. However, the estimation ofB c2 in Ref.
+[27] is questionable[23]. Although theB c2(T)is usu-
+ally determined by resistivity data, it is not applica-
+ble in this case because resistivity may be insensitive
+to phase fluctuations[27]. Here, we adoptedB c2(T) =
+Bc2(0)
+ 
+1−(T /T∗)2 /  1 + (T /T∗)2 which is based on
+Ginzburg-Landau theory.B c2(0)was determined by re-
+sistance data with criterion of 90%. In addition, while
+ns(T) =n s(0)(1−T /T ∗)in Ref. [43], we replaced it
+withn s(T) =n s0(1−(T /T∗)2), which describesns(T)of
+BCS-superconductor near critical temperature[44]. Be-
+cause we assumed that Cooper pairs without phase co-
+herence vanish atT ∗,n s(T)andB c2(T)become zero
+atT ∗. Note that the modifications in the temperature
+dependence ofB c2(T)andn s(T)result in only a slight
+variation in the fitting results. The effect of thermally
+induced vortex and antivortex are incorporated in the ef-
+fective fieldBT =B l exp(−2b|T /TBKT −1|− 12 ), whereBl,
+TBKT, andbare a high-temperature limit ofB T, BKT
+transition temperature, and a constant, respectively. We
+assumeB l =B c2(TBKT)following Ref. [43]. Further-
+more, becauseT BKT is not well-defined due to the pres-
+ence of two-step transitions, we compared the proposed
+theory and our experimental data by tuning three pa-
+rametersb, T BKT, andn s0. Figure 5(a) shows the tem-
+perature dependence ofα2Dxy by SC fluctuations (α2Dxy(SC))
+at 0.4 T in the 5 nm film. These values were obtained
+by subtraction of linear extrapolation ofα2Dxy forT > T∗.
+Eq. (5) satisfactorily reproduced the data using the pa-
+rameters in Table I. However, with the same parameters,
+the magnetic field dependence ofα2Dxy , as estimated using
+Eq. (5), deviates from the experimental data (Fig. 5(b)).
+α2Dxy(SC) shows a peak inBpeak =5 T at 22.8 K. However,
+the calculatedα 2Dxy using Eq. 5 shows a peak around 1
+T, and the maximum value is smaller than peakα2Dxy(SC).
+Therefore, the observed Nernst effect by SC fluctuations
+can not be explained by the phase fluctuations scenario.
+Another type of SC fluctuations is the amplitude fluc-
+tuations of the order parameter. In 2D superconductor,
+α2Dxy is given as
+α2Dxy /B= kBe26π¯h2 ξ201−T /Tc0 ,(6)
+whereξ 0 andT c0 are a coherence length and mean
+field transition temperature[28]. In Fig. 5(a), blue line
+shows the curve given by Eq. (6) withξ 0 = 3.8 nm
+andT c0 = 20.44 K. Notably,ξ 0 is close to coherence
+
+--- PAGE 5 ---
+5
+FIG. 5. Analysis of SC fluctuations for the 5 nm film. Red
+points in (a) and (b) denoteα2Dxy(SC) as a function of temper-
+ature at 0.4 T and magnetic field at 22.8 K. The black curves
+in (a) and (b) were calculated from Eq. (5) using parameters
+in Table (I). The blue curve in (a) exhibits the fitting result
+for Eq.(6), while that in (b) is adjusted curve of Ref.[29] with
+Bpeak = 4.7T.
+length determined byξ=
+p
+ϕ0/2πBc2(0)= 2.86 nm
+(Bc2(0) = 40T). For magnetic field dependence, we em-
+ployed the theory in Ref.[29] because Eq.(6) is valid only
+in low-field regimes[28]. This theory involves the diffu-
+sion constantDin a superconductor, which is related to
+coherence length (D∝ξ 2), and coincides with Eq.6 at
+low-field limit. It requires numerical calculations, and
+only theB−α 2Dxy curve atT= 1.08T c0 was calculated in
+Ref. [29], which can be used for simulation of magnetic
+field dependence[23, 24]. Based on the this background,
+we compared the experimental data nearT= 1.08T c0
+with the theory in this study. Furthermore, theB peak
+may be determined by the balance ofξ(T)and magnetic
+lengthl B =
+p
+¯h/(eB)[24, 45]. Consideringξ0 =3.8 nm,
+Bpeak was measured to be 4.7 T at 22.8 K(= 1.11Tc0),
+whichiscloseto1.08T c0. InFig. 5(b), theadjustedcurve
+in Ref. [29] withB peak was plotted as a blue line. We
+found that the adjusted curve fitted well in contrast to
+the phase fluctuation formula(Eq.(5)). These results sug-
+gest that the observed Nernst effect by SC fluctuations
+originates from amplitude fluctuations. The absence of
+clear signatures of phase fluctuations nearTonsetc despite
+its 2D nature in ultrathin FeSe/STO may be attributed
+to the fact that BKT-type fluctuations are typically dom-
+inant only in the vicinity of theTBKT[46]. SinceT BKT is
+expected to be far belowTonsetc , the Nernst effect above
+T onsetc can be dominated by amplitude fluctuations.
+Finally, combining the diamagnetism measurement, we
+discuss how superconducting nature emerges in ultrathin
+FeSe/STO. In this study, the two-coil mutual inductance
+FIG. 6. Temperature dependence of (a)R sq at 0 and 1 T,
+(b) real part of mutual inductanceM1 in 0 T, andα2Dxy /Bin
+1 T, for the 5 nm film respectively.
+
+--- PAGE 6 ---
+6
+experiment was performed for diamagnetism measure-
+ment. Figures 5(a), (b), and (c) show temperature de-
+pendences ofR sq at 0 T and 1 T, the real part of mutual
+inductance of two coilsM1 at 0 T, andα2Dxy at 1 T, re-
+spectively. Although the decrease ofR sq was observed
+belowT∼T onsetc , the Meissner effect was observed be-
+low 8.5 K which is close toTzeroc (= 7.4 K). This result
+indicates that the formation of diamagnetic screening is
+established with a zero-resistance state. Some previous
+studies on the Meissner effect measurement reported that
+theMeissnereffectwasobservedbelownearT zeroc [47,48],
+while Feng group reported the Meissner effect below 65
+K [13] which is consistent with gap opening temperature
+reported in ARPES studies[2]. Our observed result is
+consistent with those of the former studies. AboveTzeroc ,
+while the diamagnetic effect was absent, we observed the
+peak feature in the Nernst effect, which suggests the par-
+tial presence of mobile vortices. AroundTonsetc , SC fluc-
+tuations should be dominant. Accordingly, the Nernst
+effect arising from SC fluctuations was observed up to
+T ∗ ∼1.2T onsetc . This finding is similar to the results ob-
+served for iron chalcogenide thin-film superconductor[49–
+51] and intercalated(TBA)xFeSe[34].
+The absence of the signature of SC fluctuations far
+aboveT onsetc is in contrast to the preformed Cooper par-
+ing scenario proposed in Ref. [14, 15]. These studies
+reported a gap opening, which may be attributed to SC
+fluctuations, at approximately 70 K which is1.6Tonsetc .
+Onepossibilityforthisdiscrepancyisthatthetotalthick-
+ness of the FeSe affects superconducting fluctuations.
+Another possibility is that the pseudo-gap phase is not
+the signature of superconductivity. The pseudo gap in
+cuprates initially attracted attention as a fingerprint of
+SC fluctuations[27, 52, 53]. However, many studies re-
+ported that other origins are rather likely[17, 40, 54, 55].
+InthecaseofFeSe/STO,theelectroniccheckerboardpat-
+tern was also reported[56], which can induce electronic
+reconstruction and the pseudogap.
+IV. CONCLUSION
+In conclusion, we investigated the Nernst effect in ul-
+trathin FeSe films on STO. The temperature dependence
+of Nernst signals in the normal state is similar to that ob-
+servedforbulkFeSe, suggestingthattheelectronsofSTO
+are transferred only to a few layers near the FeSe/STO
+interface, whichisconsistentwiththefindingsofprevious
+reports[5, 11]. Increase ofα2Dxy and variation of magnetic
+fielddependenceisobservedbelowT ∗ ∼1.2T onsetc within
+our measurement resolution, which is similar to other Fe-
+chalcogenide systems. A comparison to theories suggests
+that the observed Nenrst effect by the SC fluctuations
+originates from amplitude fluctuations of the supercon-
+ducting parameter. Our obtained results suggest that
+the origin of the pseudogap in monolayer FeSe/STO may
+originate in other electronic states rather than supercon-
+ductivity.
+V. ACKNOWLEDGEMENT
+We would like to thank S. Okuma at Tokyo Institute
+of Technology and K. Ienaga at Yamaguchi University
+for the fruitful discussion. We also thank K. Nakagawa
+and Y. Shiomi at the University of Tokyo for the dis-
+cussion of the Nernst experiments. This research was
+supported by JSPS KAKENHI Grants No. JP24KJ0799
+and JP24K06952.
+[1] Q.-Y. Wang, Z. Li, W.-H. Zhang, Z.-C. Zhang, J.-S.
+Zhang, W. Li, H. Ding, Y.-B. Ou, P. Deng, K. Chang,
+J. Wen, C.-L. Song, K. He, J.-F. Jia, S.-H. Ji, Y.-Y.
+Wang, L.-L. Wang, X. Chen, X.-C. Ma, and Q.-K. Xue,
+Interface-induced high-temperature superconductivity in
+single unit-cell FeSe films on SrTiO3, Chinese Physics
+Letters29, 037402 (2012).
+[2] S. He, J. He, W. Zhang, L. Zhao, D. Liu, X. Liu, D. Mou,
+Y.-B. Ou, Q.-Y. Wang, Z. Li, L. Wang, Y. Peng, Y. Liu,
+C. Chen, L. Yu, G. Liu, X. Dong, J. Zhang, C. Chen,
+Z.Xu, X.Chen, X.Ma, Q.Xue,andX.J.Zhou,Phasedi-
+agram and electronic indication of high-temperature su-
+perconductivity at 65 K in single-layer FeSe films, Nature
+Materials12, 605 (2013).
+[3] D. Liu, W. Zhang, D. Mou, J. He, Y.-B. Ou, Q.-Y. Wang,
+Z. Li, L. Wang, L. Zhao, S. He, Y. Peng, X. Liu, C. Chen,
+L. Yu, G. Liu, X. Dong, J. Zhang, C. Chen, Z. Xu,
+J. Hu, X. Chen, X. Ma, and X. J. Xue, Qikunand Zhou,
+Electronic origin of high-temperature superconductivity
+in single-layer FeSe superconductor, Nature Communica-
+tions3, 931 (2012).
+[4] H. Zhang, D. Zhang, X. Lu, C. Liu, G. Zhou, X. Ma,
+L. Wang, P. Jiang, Q.-K. Xue, and X. Bao, Origin of
+charge transfer and enhanced electron–phonon coupling
+in single unit-cell fese films on srtio3, Nature Communi-
+cations8, 214 (2017).
+[5] W. Zhao, M. Li, C.-Z. Chang, J. Jiang, L. Wu, C. Liu,
+J. S. Moodera, Y. Zhu, and M. H. W. Chan, Direct imag-
+ing of electron transfer and its influence on superconduct-
+ing pairing at fese/srtio3 interface, Science Advances4,
+eaao2682 (2018).
+[6] J. J. Lee, F. T. Schmitt, R. G. Moore, S. Johnston, Y.-T.
+Cui, W. Li, M. Yi, Z. K. Liu, M. Hashimoto, Y. Zhang,
+D. H. Lu, T. P. Devereaux, D.-H. Lee, and Z.-X. Shen, In-
+terfacial mode coupling as the origin of the enhancement
+of tc in fese films on srtio3, Nature515, 245 (2014).
+[7] W. H. Zhang, X. Liu, C. H. P. Wen, R. Peng, S. Y. Tan,
+B. P. Xie, T. Zhang, and D. L. Feng, Effects of surface
+electron doping and substrate on the superconductivity
+of epitaxial fese films, Nano Letters16, 1969 (2016).
+[8] Q. Song, T. L. Yu, X. Lou, B. P. Xie, H. C. Xu, C. H. P.
+Wen, Q.Yao, S.Y.Zhang, X.T.Zhu, J.D.Guo, R.Peng,
+and D. L. Feng, Evidence of cooperative effect on the
+
+--- PAGE 7 ---
+7
+enhanced superconducting transition temperature at the
+fese/srtio3 interface, Nature Communications10, 758
+(2019).
+[9] T. Kobayashi, H. Ogawa, F. Nabeshima, and A. Maeda,
+Interface superconductivity in fese thin films on srtio
+grown by the pld technique, Superconductor Science and
+Technology35, 07LT01 (2022).
+[10] Z. Zhao, Z. Wei, X. Yu, W. Dong, J. Huang, C. Chen,
+Z. Feng, M. Qin, X. Wang, S. Cao, Q. Huan, Y. Li,
+J. Yuan, B. Zhu, Q. Chen, Y. Sun, L. Wang, T. Qian,
+and K. Jin, Growth and characterization of high-quality
+fese thin films onSrTio3 with enhanced superconductiv-
+ity, Phys. Rev. B110, L140507 (2024).
+[11] T. Kobayashi, H. Nakagawa, H. Ogawa, F. Nabeshima,
+and A. Maeda, Anisotropy of upper critical fields and
+interface superconductivity in fese/srtio3 grown by pld,
+Journal of Physics: Condensed Matter35, 41LT01
+(2023).
+[12] P. K. Biswas, Z. Salman, Q. Song, R. Peng, J. Zhang,
+L. Shu, D. L. Feng, T. Prokscha, and E. Morenzoni, Di-
+rect evidence of superconductivity and determination of
+the superfluid density in buried ultrathin fese grown on
+srtio3, Phys. Rev. B97, 174509 (2018).
+[13] Z. Zhang, Y.-H. Wang, Q. Song, C. Liu, R. Peng,
+K. Moler, D. Feng, and Y. Wang, Onset of the meissner
+effect at 65k in fese thin film grown on nb-doped srtio3
+substrate, Science Bulletin60, 1301 (2015).
+[14] A. K. Pedersen, S. Ichinokura, T. Tanaka, R. Shimizu,
+T. Hitosugi, and T. Hirahara, Interfacial superconductiv-
+ity in fese ultrathin films onsrtio3 probed by in situ inde-
+pendently driven four-point-probe measurements, Phys.
+Rev. Lett.124, 227002 (2020).
+[15] B. D. Faeth, S.-L. Yang, J. K. Kawasaki, J. N. Nelson,
+P. Mishra, C. T. Parzyck, C. Li, D. G. Schlom, and K. M.
+Shen, Incoherent cooper pairing and pseudogap behav-
+ior in single-layerFeSe/SrTio3, Phys. Rev. X11, 021054
+(2021).
+[16] J.-F. Ge, Z.-L. Liu, C. Liu, C.-L. Gao, D. Qian, Q.-K.
+Xue, Y. Liu, and J.-F. Jia, Superconductivity above 100
+k in single-layer fese films on doped srtio3, Nature Mate-
+rials14, 285 (2015).
+[17] T. Kondo, Y. Hamaya, A. D. Palczewski, T. Takeuchi,
+J. S. Wen, Z. J. Xu, G. Gu, J. Schmalian, and A. Kamin-
+ski, Disentangling cooper-pair formation above the tran-
+sition temperature from the pseudogap state in the
+cuprates, Nature Physics7, 21 (2011).
+[18] K. Nakayama, Y. Li, T. Kato, M. Liu, Z. Wang, T. Taka-
+hashi, Y. Yao, and T. Sato, Multiple energy scales and
+anisotropic energy gap in the charge-density-wave phase
+ofthekagomesuperconductorcsv 3sb5,Phys.Rev.B104,
+L161112 (2021).
+[19] P. R. Solomon and F. A. Otter, Thermomagnetic effects
+in superconductors, Phys. Rev.164, 608 (1967).
+[20] K. Behnia, Nernst response, viscosity and mobile entropy
+in vortex liquids, Journal of Physics: Condensed Matter
+35, 074003 (2022).
+[21] A. Pourret, H. Aubin, J. Lesueur, C. A. Marrache-
+Kikuchi, L.Berg´ e, L.Dumoulin,andK.Behnia,Observa-
+tion of the nernst signal generated by fluctuating cooper
+pairs, Nature Physics2, 683 (2006).
+[22] I. Kokanovi´ c, J. R. Cooper, and M. Matu-
+siak, Nernst effect measurements of epitaxial
+y0.95ca0.05ba2(cu1−xznx)3oy andy 0.9ca0.1ba2cu3oy
+superconducting films, Phys. Rev. Lett.102, 187002
+(2009).
+[23] J. Chang, N. Doiron-Leyraud, O. Cyr-Choini` ere, G. Gris-
+sonnanche, F. Lalibert´ e, E. Hassinger, J.-P. Reid,
+R. Daou, S. Pyon, T. Takayama, H. Takagi, and L. Taille-
+fer, Decrease of upper critical field with underdoping in
+cuprate superconductors, Nature Physics8, 751 (2012).
+[24] F. F. Tafti, F. Lalibert´ e, M. Dion, J. Gaudet, P. Fournier,
+and L. Taillefer, Nernst effect in the electron-doped
+cuprate superconductorpr 2−xcexcuo4: Superconducting
+fluctuations, upper critical fieldH c2, and the origin of
+theT c dome, Phys. Rev. B90, 024519 (2014).
+[25] K. Ienaga, T. Hayashi, Y. Tamoto, S. Kaneko, and
+S. Okuma, Quantum criticality inside the anomalous
+metallic state of a disordered superconducting thin film,
+Phys. Rev. Lett.125, 257001 (2020).
+[26] C. W. Rischau, Y. Li, B. Fauqu´ e, H. Inoue, M. Kim,
+C. Bell, H. Y. Hwang, A. Kapitulnik, and K. Behnia,
+Universal bound to the amplitude of the vortex nernst
+signal in superconductors, Phys. Rev. Lett.126, 077001
+(2021).
+[27] Y. Wang, L. Li, and N. P. Ong, Nernst effect in high-Tc
+superconductors, Phys. Rev. B73, 024510 (2006).
+[28] I. Ussishkin, S. L. Sondhi, and D. A. Huse, Gaussian
+superconducting fluctuations, thermal transport, and the
+nernst effect, Phys. Rev. Lett.89, 287001 (2002).
+[29] K. Michaeli and A. M. Finkel’stein, Fluctuations of the
+superconducting order parameter as an origin of the
+nernst effect, Europhysics Letters86, 27007 (2009).
+[30] A. Roy, E. Shimshoni, and A. Frydman, Quantum criti-
+cality at the superconductor-insulator transition probed
+by the nernst effect, Phys. Rev. Lett.121, 047003 (2018).
+[31] H. Yang, G. Chen, X. Zhu, J. Xing, and H.-H. Wen, Bcs-
+like critical fluctuations with limited overlap of cooper
+pairs in fese, Phys. Rev. B96, 064501 (2017).
+[32] S. E. H., Theory of the galvanomagnetic and thermomag-
+netic effects in metals, The Proc. R. Soc. Lond. A193,
+484 (1948).
+[33] K. Behnia, The nernst effect and the boundaries of the
+fermi liquid picture, Journal of Physics: Condensed Mat-
+ter21, 113101 (2009).
+[34] B. L. Kang, M. Z. Shi, S. J. Li, H. H. Wang, Q. Zhang,
+D. Zhao, J. Li, D. W. Song, L. X. Zheng, L. P. Nie,
+T. Wu, and X. H. Chen, Preformed cooper pairs in lay-
+ered fese-based superconductors, Phys. Rev. Lett.125,
+097003 (2020).
+[35] V. Oganesyan and I. Ussishkin, Nernst effect, quasipar-
+ticles, andd-density waves in cuprates, Phys. Rev. B70,
+054503 (2004).
+[36] V. N. Galev, V. A. Kozlov, N. V. Kolomoets, S. Y. Skip-
+idarov, and N. A. Tsvetkova, Exponential temperature
+dependence of the coefficient of the nernst-ettingshausen
+transverse effect in bismuth, Письма в ЖЭТФ33, 112
+(1981).
+[37] R. Ramos, T. Kikkawa, K. Uchida, H. Adachi,
+I. Lucas, M. H. Aguirre, P. Algarabel, L. Morell´ on,
+S. Maekawa, E. Saitoh, and M. R. Ibarra, Ob-
+servation of the spin Seebeck effect in epitaxial
+Fe3O4 thin films, Applied Physics Letters102,
+072413 (2013), https://pubs.aip.org/aip/apl/article-
+pdf/doi/10.1063/1.4793486/14280374/072413_1_online.pdf.
+[38] K.-D. Lee, D.-J. Kim, H. Yeon Lee, S.-H. Kim, J.-H.
+Lee, K.-M. Lee, J.-R. Jeong, K.-S. Lee, H.-S. Song, J.-W.
+Sohn, S.-C. Shin, and B.-G. Park, Thermoelectric signal
+enhancement by reconciling the spin seebeck and anoma-
+
+--- PAGE 8 ---
+8
+lous nernst effects in ferromagnet/non-magnet multilay-
+ers, Scientific Reports5, 10249 (2015).
+[39] D. Tian, Y. Li, D. Qu, X. Jin, and C. L. Chien,
+Separation of spin Seebeck effect and anomalous Nernst
+effect in Co/Cu/YIG, Applied Physics Letters106,
+212407 (2015), https://pubs.aip.org/aip/apl/article-
+pdf/doi/10.1063/1.4921927/13226671/212407_1_online.pdf.
+[40] O. Cyr-Choini` ere, R. Daou, F. Lalibert´ e, C. Collignon,
+S. Badoux, D. LeBoeuf, J. Chang, B. J. Ramshaw, D. A.
+Bonn, W. N. Hardy, R. Liang, J.-Q. Yan, J.-G. Cheng,
+J.-S. Zhou, J. B. Goodenough, S. Pyon, T. Takayama,
+H. Takagi, N. Doiron-Leyraud, and L. Taillefer, Pseudo-
+gap temperatureT ∗ of cuprate superconductors from the
+nernst effect, Phys. Rev. B97, 064502 (2018).
+[41] G. Jotzu, G. Meier, A. Cantaluppi, A. Cavalleri, D. Pon-
+tiroli, M. Ricc` o, A. Ardavan, and M.-S. Nam, Supercon-
+ductingfluctuationsobservedfaraboveT c intheisotropic
+superconductork 3c60, Phys. Rev. X13, 021008 (2023).
+[42] K. Ienaga, Y. Tamoto, M. Yoda, Y. Yoshimura,
+T. Ishigami, and S. Okuma, Broadened quantum crit-
+ical ground state in a disordered superconducting thin
+film, Nature Communications15, 2388 (2024).
+[43] R. Li and Z.-S. She, A quantitative vortex-fluid descrip-
+tion of nernst effect in bi-based cuprate high-temperature
+superconductors, New Journal of Physics19, 113028
+(2017).
+[44] J. A. Bert, K. C. Nowack, B. Kalisky, H. Noad, J. R.
+Kirtley, C. Bell, H. K. Sato, M. Hosoda, Y. Hikita, H. Y.
+Hwang, and K. A. Moler, Gate-tuned superfluid density
+atthesuperconductinglaalo 3/srtio3 interface,Phys.Rev.
+B86, 060503 (2012).
+[45] A. Pourret, P. Spathis, H. Aubin, and K. Behnia, Nernst
+effect as a probe of superconducting fluctuations in dis-
+ordered thin films, New Journal of Physics11, 055071
+(2009).
+[46] L. Benfatto, C. Castellani, and T. Giamarchi, Broaden-
+ing of the berezinskii-kosterlitz-thouless superconducting
+transition by inhomogeneity and finite-size effects, Phys.
+Rev. B80, 214506 (2009).
+[47] H. Ru, Z. Li, S. Wang, B. Xiang, and Y. Wang, Suppres-
+sion and revival of superconducting phase coherence in
+monolayer fese/srtio3, Nano Letters22, 9997 (2022).
+[48] W. Zhang, Z. Li, F. Li, H. Zhang, J. Peng, C. Tang,
+Q. Wang, K. He, X. Chen, L. Wang, X. Ma, and Q.-K.
+Xue, Interface charge doping effects on superconductivity
+of single-unit-cell fese films on srtio3 substrates, Phys.
+Rev. B89, 060506 (2014).
+[49] F. Nabeshima, K. Nagasawa, A. Maeda, and Y. Imai,
+Superconducting fluctuations infese 0.5te0.5 thin films
+probed via microwave spectroscopy, Phys. Rev. B97,
+024504 (2018).
+[50] G. Matsumoto, R. Ogawa, K. Higasa, T. Kobayashi,
+H. Nakagawa, and A. Maeda, Microwave complex con-
+ductivity measurement of superconducting very thin
+fese1-xtex films (x = 0 - 0.5), Journal of Physics: Con-
+ference Series2776, 012002 (2024).
+[51] G. Matsumoto, R. Ogawa, K. Higasa, T. Kobayashi,
+H. Nakagawa, and A. Maeda, Study of superconduc-
+tivity of very thinFeSe 1−xTex films investigated by
+microwave complex conductivity measurements (2024),
+arXiv:2402.18082 [cond-mat.supr-con].
+[52] V.J.EmeryandS.A.Kivelson,Importanceofphasefluc-
+tuations in superconductors with small superfluid den-
+sity, Nature374, 434 (1995).
+[53] J. Lee, K. Fujita, A. R. Schmidt, C. K. Kim, H. Eisaki,
+S. Uchida, and J. C. Davis, Spectroscopic fingerprint
+of phase-incoherent superconductivity in the underdoped
+bi<sub>2</sub>sr<sub>2</sub>cacu<sub>2</sub>o<sub>8+&#x3b4;</sub>,
+Science325, 1099 (2009),
+https://www.science.org/doi/pdf/10.1126/science.1176369.
+[54] H. Kitano, T. Ohashi, A. Maeda, and I. Tsukada, Critical
+microwave-conductivity fluctuations across the phase di-
+agram of superconductingla2−xsrxCuo4 thin films, Phys.
+Rev. B73, 092504 (2006).
+[55] M. Hashimoto, E. A. Nowadnick, R.-H. He, I. M.
+Vishik, B. Moritz, Y. He, K. Tanaka, R. G. Moore,
+D. Lu, Y. Yoshida, M. Ishikado, T. Sasagawa, K. Fujita,
+S. Ishida, S. Uchida, H. Eisaki, Z. Hussain, T. P. Dev-
+ereaux, and Z.-X. Shen, Direct spectroscopic evidence for
+phase competition between the pseudogap and supercon-
+ductivity in bi2sr2cacu2o8+δ, Nature Materials14, 37
+(2015).
+[56] C.-L.Xue, Q.-Q.Yuan, Y.-J.Xu, Q.-Y.Li, L.-G.Dou, Z.-
+Y. Jia, and S.-C. Li, Checkerboard ordered state in a su-
+perconductingFeSe/SrTio 3(001)monolayer, Phys. Rev.
+B107, 134516 (2023).

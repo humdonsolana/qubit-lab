@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qx6edCVT4YFse3By8lMHHkbUHW8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.09880&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-13T21:18:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2407.09880" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.09880v1</id>
+    <title>Inferior interfacial superconductivity in 1 UC FeSe/SrVO$_3$/SrTiO$_3$ with screened interfacial electron-phonon coupling</title>
+    <updated>2024-07-13T13:07:30Z</updated>
+    <link href="https://arxiv.org/abs/2407.09880v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.09880v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Monolayer FeSe/TiO$_x$ and FeSe/FeO$_x$ interfaces exhibit significant superconductivity enhancement compared to bulk FeSe, with interfacial electron-phonon coupling (EPC) playing a crucial role. However, the reduced dimensionality in monolayer FeSe, which may drive superconducting fluctuations, complicates the understanding of the enhancement mechanisms. Here we construct a new superconducting interface: monolayer FeSe/SrVO$_3$/SrTiO$_3$, in which the itinerant electrons of highly metallic SrVO$_3$ films can screen all the high-energy Fuchs-Kliewer phonons, including those of SrTiO$_3$, making it the first FeSe/oxide system with screened interfacial EPC while maintaining the monolayer FeSe thickness. Despite comparable doping levels, the heavily electron-doped monolayer FeSe/SrVO$_3$ exhibits a lower pairing temperature ($T_\mathrm{g}$ $\sim$ 48 K) than FeSe/SrTiO$_3$ and FeSe/LaFeO$_3$. Our findings disentangle the contributions of interfacial EPC from dimensionality on enhancing $T_\mathrm{g}$ in FeSe/oxide interfaces, underscoring the importance of interfacial EPC in $T_\mathrm{g}$ enhancement. This FeSe/VO$_x$ interface also provides a platform for studying the interfacial superconductivity.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-13T13:07:30Z</published>
+    <arxiv:comment>Published in Nano Letters, 11 pages, 4 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Nan Guo</name>
+    </author>
+    <author>
+      <name>Xiaoyang Chen</name>
+    </author>
+    <author>
+      <name>Tianlun Yu</name>
+    </author>
+    <author>
+      <name>Yu Fan</name>
+    </author>
+    <author>
+      <name>Qinghua Zhang</name>
+    </author>
+    <author>
+      <name>Minyinan Lei</name>
+    </author>
+    <author>
+      <name>Xiaofeng Xu</name>
+    </author>
+    <author>
+      <name>Xuetao Zhu</name>
+    </author>
+    <author>
+      <name>Jiandong Guo</name>
+    </author>
+    <author>
+      <name>Lin Gu</name>
+    </author>
+    <author>
+      <name>Haichao Xu</name>
+    </author>
+    <author>
+      <name>Rui Peng</name>
+    </author>
+    <author>
+      <name>Donglai Feng</name>
+    </author>
+    <arxiv:doi>10.1021/acs.nanolett.4c01612</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acs.nanolett.4c01612" title="doi"/>
+  </entry>
+</feed>

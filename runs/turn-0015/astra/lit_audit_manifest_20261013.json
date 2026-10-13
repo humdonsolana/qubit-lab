@@ -1,0 +1,138 @@
+[
+  {
+    "file": "lit_audit_snapshot_pnas2026_arxiv_20261013.pdf",
+    "url": "https://arxiv.org/pdf/2607.27104",
+    "status": 200,
+    "bytes": 6536182,
+    "sha256": "9094370c121eb7a7cd49277157169541609261038546c4408b92822e8acbc90a",
+    "retrieved_utc": "2026-10-13T21:07:36Z"
+  },
+  {
+    "file": "lit_audit_snapshot_nernst2025_arxiv_20261013.pdf",
+    "url": "https://arxiv.org/pdf/2508.11018",
+    "status": 200,
+    "bytes": 5056369,
+    "sha256": "5834e089b5bfa012999da8dd1ae4ce4c1c306a6194e5cac705b09ab4001fe81c",
+    "retrieved_utc": "2026-10-13T21:07:37Z"
+  },
+  {
+    "file": "lit_audit_snapshot_100k2015_arxiv_20261013.pdf",
+    "url": "https://arxiv.org/pdf/1406.3435",
+    "status": 200,
+    "bytes": 2533589,
+    "sha256": "746ec5a29dfdba332f00ae649fe00af4eb64da7d39c17328fa6c3ac5f5734013",
+    "retrieved_utc": "2026-10-13T21:07:37Z"
+  },
+  {
+    "file": "lit_audit_snapshot_pnas2026_pmc_20261013.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13273281/",
+    "status": 200,
+    "bytes": 21209,
+    "sha256": "c3244878a93208b551dcd8058053e3b95eac14e8df8394e1cd8dc50344340b11",
+    "retrieved_utc": "2026-10-13T21:07:37Z"
+  },
+  {
+    "file": "lit_audit_snapshot_pnas2026_pubmed_20261013.html",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42263135/",
+    "status": 203,
+    "bytes": 5590,
+    "sha256": "e31bcf73c168727243cf384f19f269dec3c6a6ed98b625fa8bd9c668e370ee61",
+    "retrieved_utc": "2026-10-13T21:07:37Z"
+  },
+  {
+    "file": "lit_audit_snapshot_nernst2025_aps_20261013.html",
+    "url": "https://journals.aps.org/prb/abstract/10.1103/1yxb-1pl5",
+    "status": 403,
+    "bytes": 5550,
+    "sha256": "4830ef31dd8c2cd77d8cdd322816a62f86adadfd39ee8d9a1d8d52f8a3f5f852",
+    "retrieved_utc": "2026-10-13T21:07:37Z"
+  },
+  {
+    "file": "lit_audit_snapshot_growth2026_aps_20261013.html",
+    "url": "https://journals.aps.org/prmaterials/abstract/10.1103/3mjl-8p88",
+    "status": 403,
+    "bytes": 5574,
+    "sha256": "1bff4aec875371ba870a5d901cb45491c6a2fd58ffb93c8c791d02933248038e",
+    "retrieved_utc": "2026-10-13T21:07:37Z"
+  },
+  {
+    "file": "lit_audit_snapshot_dome2026_pmc_20261013.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13506021/",
+    "status": 200,
+    "bytes": 21213,
+    "sha256": "dc1c45693c844df5dc81812e1adae46f40ac7059e74b0724684c4bdf43131ce2",
+    "retrieved_utc": "2026-10-13T21:07:37Z"
+  },
+  {
+    "file": "lit_audit_snapshot_growth2026_pdf_20261013.json",
+    "url": "https://harvest.aps.org/v2/journals/articles/10.1103/3mjl-8p88/fulltext",
+    "status": 401,
+    "bytes": 57,
+    "sha256": "70f0f9eb2d187ab07b2a7291b93924fb0c0f212163878cfd68136264860fd0e6",
+    "retrieved_utc": "2026-10-13T21:10:26Z"
+  },
+  {
+    "file": "lit_audit_snapshot_nernst2025_vor_pdf_20261013.json",
+    "url": "https://harvest.aps.org/v2/journals/articles/10.1103/1yxb-1pl5/fulltext",
+    "status": 401,
+    "bytes": 57,
+    "sha256": "4cd44a721a71d46d6368eb336e169e0c887d589630347bc5d9e4effb84168eee",
+    "retrieved_utc": "2026-10-13T21:10:26Z"
+  },
+  {
+    "file": "lit_audit_snapshot_dome2026_pdf_20261013.pdf",
+    "url": "https://arxiv.org/pdf/2605.31459",
+    "status": 200,
+    "bytes": 1514103,
+    "sha256": "a3bd70930bce29330305c5cf902ba38cda921dd869a7483a7660710084fd4b0b",
+    "retrieved_utc": "2026-10-13T21:10:26Z"
+  },
+  {
+    "file": "lit_audit_snapshot_phonons2024_nature_20261013.html",
+    "url": "https://www.nature.com/articles/s41586-024-08118-0",
+    "status": 200,
+    "bytes": 427857,
+    "sha256": "cf8f23e499d376675681dc60b29220c97cf6ea211e86238ada922db5ce7c3c54",
+    "retrieved_utc": "2026-10-13T21:10:27Z"
+  },
+  {
+    "file": "lit_audit_snapshot_83k2021_nature_20261013.html",
+    "url": "https://www.nature.com/articles/s41467-021-23106-y",
+    "status": 200,
+    "bytes": 505343,
+    "sha256": "caa385e10f0fc036ee1506aff51051ae10e550be9f52c63d9c93486d3a79f472",
+    "retrieved_utc": "2026-10-13T21:10:27Z"
+  },
+  {
+    "file": "lit_audit_snapshot_interface2014_nature_20261013.html",
+    "url": "https://www.nature.com/articles/ncomms6044",
+    "status": 200,
+    "bytes": 388270,
+    "sha256": "0a2498bee43f71dd6f97b03f3da9375798b289c7cff483b98dd835c3aa399f31",
+    "retrieved_utc": "2026-10-13T21:10:27Z"
+  },
+  {
+    "file": "lit_audit_snapshot_100k2020_pdf_20261013.json",
+    "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.124.227002/fulltext",
+    "status": 401,
+    "bytes": 70,
+    "sha256": "2deb0f7b13a452cbd4e973e89518a4ff55be14284eba30cc43915687f220d9ea",
+    "retrieved_utc": "2026-10-13T21:10:26Z"
+  },
+  {
+    "file": "lit_audit_snapshot_pnas_idconv_20261013.json",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/?ids=10.1073/pnas.2602209123&format=json",
+    "status": 200,
+    "bytes": 459,
+    "sha256": "b65201429b5190ac4ad272ffb584dbdb7fb7458d243503331215a91fb05e7870",
+    "retrieved_utc": "2026-10-13T21:10:26Z"
+  },
+  {
+    "file": "lit_audit_snapshot_dome2026_crossref_20261013.json",
+    "url": "https://api.crossref.org/works/10.1073/pnas.2608091123",
+    "status": 200,
+    "bytes": 13661,
+    "sha256": "210d374cb4b57f21384b1ba6f65564b90ecf59475855e1b54a0078dab6c8358a",
+    "retrieved_utc": "2026-10-13T21:10:27Z"
+  }
+]

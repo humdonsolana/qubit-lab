@@ -1,0 +1,559 @@
+--- PAGE 1 ---
+ 
+1 
+ 
+Dual Enhancement of Superconductivity in FeSe/SrTiO3 via 
+Orbital and Correlation Synergy 
+Guihao Jiaa,b,1, Jingming Yana,b,1, Yucong Penga,b, Shendong Sua,b, Pei Ouyanga,b, Xiaopeng 
+Hua, Qi-Kun Xuea,b,c,d,e,*, and Wei Lia,b,e,* 
+aState Key Laboratory of Low-Dimensional Quantum Physics, Department of Physics, Tsinghua 
+University, Beijing 100084, China; bFrontier Science Center for Quantum Information, Beijing 
+100084, China; cBeijing Academy of Quantum Information Sciences, Beijing 100193, China; 
+dSouthern University of Science and Technology, Shenzhen 518055, China; eHefei National 
+Laboratory, Hefei 230088, China 
+1G.J. and J.Y. contributed equally to this work. 
+*Corresponding authors: Qi-Kun Xue, and Wei Li. 
+Email: qkxue@mail.tsinghua.edu.cn, weili83@tsinghua.edu.cn 
+Author Contributions: W.L. and Q.-K.X. designed research; G.J., J.Y., Y.P., S.S., and P.O. 
+performed research; W.L. and Q.-K.X. contributed new reagents/analytic tools; G.J., J.Y., Y.P., 
+S.S., and W.L. analyzed data; G.J. and W.L. wrote the paper. 
+Competing Interest Statement: The authors declare no competing interests. 
+  
+
+--- PAGE 2 ---
+ 
+2 
+ 
+Abstract 
+In iron-based superconductors, the dz2 orbital band typically resides far below the Fermi level 
+and has not been considered to participate in Cooper pairing. Here, using monolayer 
+FeSe/SrTiO3 as a model system, we demonstrate that tip-induced tensile strain controllably 
+shifts the dz2 band toward the Fermi level, driving a two -stage enhancement of 
+superconductivity. In-plane lattice expansion first enhances electronic correlation, amplifying 
+superconductivity in the initial stage. As strain further increases, the upward-shifted dz2 band 
+hybridizes with the dxy band, reconstructing the pairing-active d-orbital bands and inducing a 
+secondary, stronger gap enhancement. Collectively, these two stages enlarge the 
+superconducting gap from 17.8 to 23.6 meV. Throughout this process, invariant Fermi wave 
+vectors confirm that the enhancement originates from band renormalization and reconstruction 
+rather than carrier doping. Our work establishes a route to tailor superconducting states via 
+strain-activated electronic correlations and band engineering, and r eveals a previously 
+unrecognized orbital-selective pairing mechanism with broad implications for correlated 
+multiband superconductors. 
+ 
+Significance Statement 
+In iron-based superconductors, the dz2 orbital band lies deep below the Fermi energy and is 
+conventionally excluded from the superconducting pairing process. This work overturns this 
+view. Using a scanning tunneling microscope tip to apply local mechanical strain, we 
+dynamically shift dz2 band upward, activating its direct role in Cooper pairing and enhancing the 
+superconducting gap by over 30%. This strain -driven mechanism, which operates 
+independently of chemical doping, establishes a new paradigm for controlling superconductivity 
+via orbital-selective interactions and offers a general strategy for designing improved 
+superconducting materials. 
+ 
+Main Text 
+Introduction 
+The discovery of enhanced superconductivity in monolayer FeSe/SrTiO3 (FeSe/STO) (1) 
+has sparked transformative interest in the field of high-temperature superconductivity (2-13). 
+This enhancement is attributed to two types of interfacial interactions between FeSe and STO 
+(3-5). Specifically, optimal doping is inherently achieved through charge transfer from STO 
+substrate (3-5), and the interfacial electron -phonon coupling contributes additionally 
+(2,5,6,9,11,12). However, both interactions face limitations: (i) additional carrier doping cannot 
+further amplify the superconductivit y, as excess electrons or holes suppress the 
+superconducting gap (14,15). (ii) Strengthening the electron-phonon coupling is constrained by 
+the substrate’s intrinsic properties and epitaxial growth kinetics of FeSe (16). 
+
+--- PAGE 3 ---
+ 
+3 
+ 
+Electronic correlation offers an alternative pathway to overcome these limitations and 
+further amplify superconductivity in FeSe/STO. Strong electron correlations and symmetry-
+breaking electronic orderings have been observed in both cuprate superconductors (17-19) and 
+iron-based superconductors (20-24). Strong electronic correlations are manifested through a 
+stripe-like smectic phase in FeSe/STO (25,26). This smectic ordering becomes more 
+pronounced in multilayer FeSe/BaTiO3 (27), where both lattice constant and electronic 
+correlation exceed those in FeSe/STO. Concurrently, superconducting gaps of monolayer and 
+electron-doped multilayer FeSe/BaTiO3 surpass their FeSe/STO counterparts (8,16,27). These 
+results together reveal that in-plane lattice expansion strengthens electronic correlations, 
+thereby providing an additional dimension to optimize superconductivity (26,27). 
+In iron-based superconductors, the dz2 band lies deeply below the Fermi level (EF) and is 
+generally regarded as irrelevant to the Cooper pairing mechanism (28-30). However, this view 
+may overlook its potential role, a gap our work aims to address by providing direct evidence of 
+its active contribution. Moreover, the energy of the dz2 band in FeSe can serve as a reliable 
+indicator of electronic correlations via their shared sensitivity to lattice constants (30-34). Upon 
+in-plane lattice expansion and out-of-plane compression (see crystal structure in Fig. 1A), 
+electronic correlations are strengthened by lengthening the dominant hopping path, 
+concurrently shifting the dz2 band toward EF. This rigorously established band shift (4,16,30-34) 
+directly reflects the electronic correlation strength. 
+Using scanning tunneling microscopy (STM), we demonstrate a two-stage process that 
+further enhances the superconductivity through synergy of electronic correlations and dz2 band 
+engineering in monolayer FeSe/STO. Sub-ångström-precision tip approach induces in-plane 
+lattice expansion in FeSe via repulsive tip-sample interaction, and the resulting enhanced 
+electronic correlations, as evidenced by the dz2 band shift toward EF, constitute the first stage 
+of gap enhancement. In the second stage, a secondary stronger gap amplification emerges 
+when the dz2 band hybridizes with the flat dxy band at −80 meV, directly linking the d-orbital 
+band reconstruction to superconducting gap enhancement. This work provides the first 
+experimental demonstration of dz2 band-driven gap amplification, revealing its influence in 
+Cooper pairing and necessitating a revised theoretical framework for pairing mechanism. 
+ 
+Results 
+Tip-driven dual enhancement of superconducting gaps 
+Figure 1B schematically depicts our STM experimental configuration. Based on the typical 
+dependence of tunneling current on junction width in STM principle (35), the tip-sample distance 
+is precisely controlled by adjusting the current at a fixed bias under feedback. Subsequent 
+scanning tunneling spectroscopy (STS, or dI/dV spectrum) measurements are performed at 
+
+--- PAGE 4 ---
+ 
+4 
+ 
+stabilized tip-sample distances (defined by setpoint bias and current) by sweeping bias with the 
+feedback loop disabled. 
+High quality monolayer FeSe film with an atomically flat and homogeneous surface 
+morphology is prepared on the STO substrate by molecular beam epitaxy (MBE) growth (Fig. 
+1 C-D). U-shaped superconducting gap with characteristic double coherence pe aks are 
+observed (100 pA curve in Fig. 1E) on the prepared sample, consistent with previous reports 
+(1). Intriguingly, with increasing tunneling current (i.e., reducing tip -sample distance), the 
+coherence peaks shift anomalously away from EF, resulting in enlargement of superconducting 
+gaps (dashed guidelines in Fig. 1E). This gap amplification is quantitatively demonstrated 
+through systematically acquired dI/dV spectra across varying currents (Fig. 1F), which not only 
+track the continuous energy shift of coherence peaks but also reveal an obvious transition 
+during the amplification process (see purple arrow in Fig. 1F). The corresponding second-
+derivative intensity map of the dI/dV spectra [-d2(dI/dV)/dV2] further highlights the evolution of 
+coherence peaks (red-colored features marked by arrows in Fig. 1G) with logarithmic current 
+scale. 
+Figure 1H quantitatively displays the current-dependent evolution of superconducting gaps 
+on a logarithmic current scale. From 100 pA to 9 nA, the outer gap (Δ1) rises from 17.8 meV to 
+23.6 meV (32% increase), while the inner gap (Δ2) increases from 11.5 meV to 16.0 meV (39% 
+enhancement). Both gaps exhibit a two-stage evolution. Below 1.25 nA, Δ1 rises modestly from 
+17.8 to 19.7 meV (10%), and Δ2 increases marginally from 11.5 to 12.2 meV (6%). Above 1.25 
+nA, both gaps undergo synchronous rapid enhancement, contributing the remaining gap 
+increases (22% for Δ1 and 33% for Δ2). Notably, the slopes of both gaps sharpen abruptly 
+around 1.25 nA (dashed lines in Fig. 1H), suggesting the emergence of a critical transition that 
+activates the stronger secondary superconducting gap amplification. This transition region, 
+defined by the intersection of the two-stage evolution trends (dashed lines in Fig. 1H), is marked 
+by purple arrows in Fig. 1 F and H and a purple dashed line in Fig. 1G, indicating the onset of 
+the secondary superconducting gap amplification. This gap evolution has been repeated across 
+multiple samples and tips cross-validated in two independent STM-MBE systems (see SI 
+Appendix, Fig. S1). Moreover, the U-shaped superconducting gaps persist during the 
+superconducting gap amplification, and the density-of-states (DOS) at EF remain zero (SI 
+Appendix, Fig. S2). 
+d-orbital band reconstruction and superconducting gap dual amplification 
+To investigate the origin of the gap amplification, we systematically measured the current-
+dependent electronic structure. Figure 2A presents a typical wide-bias-range dI/dV spectrum of 
+monolayer FeSe/STO acquired under conditions that minimize tip perturb ation (see SI 
+Appendix, Fig. S3), consistent with previous studies (36). The dI/dV spectrum measures the 
+local DOSs, and we assign the observed peaks and kinks in Fig. 2A to specific d-orbital band 
+
+--- PAGE 5 ---
+ 
+5 
+ 
+edges (Fig. 2B, see SI Appendix, Note S1 and Fig. S4 for details) by comparing them with the 
+band structure determined by angle -resolved photoemission spectroscopy (ARPES) 
+(5,11,16,32,37,38). Alternative interpretations, such as inelastic electron tunneling processes 
+mediated by bosonic modes, are excluded (SI Appendix, Note S1). The suppression of spectral 
+weight near EF in the dI/dV spectrum arises from the momentum-space integration inherent to 
+STS, which yields a dominant contribution from states around the Γ point (7) (SI Appendix, Fig. 
+S4). 
+Figure 2C displays dI/dV spectra measured over a wide range of setpoint current from 5 
+pA to 6 nA, spanning three orders of magnitude at a fixed setpoint bias voltage of 30 mV 
+(corresponding junction resistances from 6 GΩ to 5 MΩ). The measurement varies about 260 
+picometers of tip-sample distance reduction (lower inset of Fig. 2C). The spectrum at 5 pA, 
+corresponding to the farthest tip-sample distance in that series to maintain a stable tunneling 
+junction, represents the pristine band structure of unperturbed FeSe/STO, consistent with the 
+spectrum in Fig. 2A. The current-dependent waterfall plot delineates the concurrent evolutions 
+of d-orbital bands and superconducting gaps, with dashed lines (color-matched to arrows) 
+tracking the band energy shifts. As the STM tip approaches the surface, the dxz/yz and dxy band 
+kinks retreat slightly from EF, while the dz2 peak rapidly shifts towards EF, ultimately merging 
+with the kinks. This synchronous d-orbital band evolution here links dz2 orbital electrons to the 
+M-point pairing-relevant dxz/yz and dxy orbital electrons, indicating large correlation enhancement 
+in these d-orbital bands (upper inset of Fig. 2C). 
+In the corresponding zoomed-in second-derivative intensity maps (Fig. 2D), the red-
+colored regions further highlight the evolution trajectories of d-orbital bands (arrows) and 
+superconducting gaps (near EF). Notably, below 1.2 nA, the enhanced electronic correlation 
+mainly contributes to the first-stage superconducting gap amplification. Within 1.2-2.2 nA, the 
+dz2 peak merges with the dxz/yz band kink at -90 meV and subsequently merges with dxy band 
+kink at -80 meV (see SI Appendix, Fig. S5), coinciding with the transition of stronger secondary 
+superconducting gap amplification (Δ1 ~ 20 meV, denoted by a double-headed purple arrow). 
+These mergers of the d-orbital band signatures indicate strong inter-band hybridization. 
+Schematic reconstructed band structures at the Γ point under two setpoint currents (Fig. 2 E 
+and F) display the pronounced continuous energy shift of the dz2 band, though the hybridization 
+and band reconstruction details (unresolved in dI/dV spectra) are omitted. 
+The findings here are consistently reproduced (see SI Appendix, Fig. S3 and S6). The 
+absence of such peak energy shifts on the Ag surface (see SI Appendix, Fig. S7) further 
+confirms the unique tip-induced behavior on FeSe/STO. Although the critical tunneling current 
+or the relative tip-sample distance required to observe the secondary gap amplification may 
+vary across measurements with different tips and samples (Fig. 2 and see SI Appendix, Fig. 
+S6), the causal link between d-orbital band hybridization and the emergence of secondary gap 
+
+--- PAGE 6 ---
+ 
+6 
+ 
+amplification remains universally consistent in all experimental configurations. Therefore, the 
+combined electronic correlation and band engineering (via hybridization) is demonstrated to be 
+a viable strategy for further enhancement of superconductivity, serving as a complementary 
+approach to carrier doping and electron-phonon coupling mechanisms. 
+Repulsive tip-sample interaction 
+To provide insights into the microscopic mechanism behind the tip -induced 
+superconductivity enhancement, we show the tip-induced non-monotonic dz2 band shift at 
+larger distances which mirrors the tip-sample force-distance relation (Fig. 3). 
+Figure 3A shows dI/dV spectra from 400 pA to 80 nA at 500 mV, acquired at larger tip-
+sample distances than those in Fig. 2 (see SI Appendix, Fig. S3), which are not reachable with 
+the 30 mV data. The dz2 band energy exhibits a non-monotonic evolution: it initially shifts away 
+from EF, then reverses and moves sharply toward EF with increasing current. This trend is 
+highlighted in Fig. 3B with the reversal point marked (also reproduced from a different sample 
+in SI Appendix, Fig. S3 and S8), and shows good qualitative agreement with the schematic tip-
+sample force-distance profile adapted from characteristic atomic force microscopy (AFM) 
+measurements (39) in Fig. 3C, where the comparison focuses on the reversal point of the curve. 
+This correlation suggests a tip-induced in-plane lattice constant variation under tip-sample 
+interaction. The magnitude of the energy shift further underscores this transition: under 
+attraction, the shift is about 10-15 meV over 250 pm (Fig. 3), whereas under repulsion, it 
+exceeds ~200 meV over a similar range (Fig. 2 and SI Appendix, Fig. S8), an order of 
+magnitude larger, highlighting the dominance of repulsive interactions at closer distances (Fig. 
+2). This strong repulsion is further corroborated by tip manipulation of subsurface Fe-vacancy 
+(SI Appendix, Fig. S9-S10). 
+The non-monotonic energy shift of the dz2 band, which mirrors the tip-sample force-
+distance profile, together with direct manipulation of subsurface Fe-vacancy, identifies repulsive 
+tip-sample interaction as the mechanical origin of the perturbation. This repulsion induces in-
+plane lattice expansion, and given the established sensitivity of the dz2 band to in-plane strain, 
+selectively drives its pronounced upward shift (16,30-34). 
+In intact FeSe lattice, the approaching tip exerts a progressively stronger rep ulsive 
+interaction on Se/Fe atoms (particularly those directly beneath the tip apex), resulting in 
+continuous in-plane enlargement and out-of-plane reduction of the interatomic distances (40) 
+that effectively imposes a local in-plane tensile strain on FeSe monolayer. The inherent tensile 
+strain imposed by the STO substrate already induces a foundational lattice expansion on the 
+FeSe monolayer, and the pronounced tip-sample interaction synergistically amplifies the lattice 
+expansion (Fig. 4A). While the absolute value of lattice expansion is challenging to measure 
+directly under our experimental geometry (see SI Appendix, Note S2 and Fig. S11-S15 for 
+details), the observed shift of the dz2 band provides a consistent indicator. Its movement aligns 
+
+--- PAGE 7 ---
+ 
+7 
+ 
+with previous ARPES studies (16), which report a ~50 meV shift of the dz2 band toward EF as 
+the in-plane lattice constant expands from 3.90 Å to 3.99 Å (see SI Appendix, Fig. S11). In the 
+two-dimensional FeSe layer, the tip induces such lattice expansion over a region sufficiently 
+large and uniform to preserve a well-defined local band structure (SI Appendix, Note S2). 
+Dual superconductivity enhancement via correlation and orbital synergy 
+Lattice expansion enhances electronic correlations in FeSe, stabilizing frustrated spin 
+fluctuations (41,42) and generating striped charge order phases (25 -27,43,44). Without 
+sufficient carrier doping, such correlation enhancement suppresses superconductivity while 
+reinforcing charge/spin order dominance (26,27). In monolayer FeSe/SrTiO3, however, the STO 
+substrate naturally provides sufficient doping, allowing tip-induced correlation enhancement to 
+cooperatively boost superconductivity, which constitutes t he origin of first-stage gap 
+amplification, with dz2 band shift reflecting electronic correlation enhancement. 
+Remarkably, the secondary gap amplification emerges as the dz2 band hybridizes with the 
+flat dxy bands at -80 meV, highlighting the critical role of orbital-selective band reconstruction. 
+This phenomenon aligns with two key electronic attributes of FeSe: (i) the orbital composition 
+of electron-like bands crossing EF at the M point [including dxy/dxz components (11,37), Fig. 2B], 
+and (ii) the dxy band’s larger effective mass (34,37) and dominant role in local spin susceptibility 
+(45). These factors collectively drive the observed superconductivity enhancement through d-
+orbital band reconstruction and emergent local spin fluctuations, suggesting a potential role of 
+both incipient bands and spin fluctuations in promoting superconducting electron pairing (46). 
+We clarify that while the observed spectral evolution corresponds to dz2-dxy band merging at 
+the Γ point, the essential band reconstruction of dxy orbital band is also expected to occur near 
+the M point, where these pairing-relevant d-bands cross EF. The precise origins, however, 
+remain elusive due to limited k-space resolution in band structure characterization. It is unclear 
+whether the dz2 orbital becomes directly involved in pairing at the M point during this process, 
+despite its absence in pristine FeSe/STO (SI Appendix, Fig. S4). Notably, the involvement of 
+the dz2 bands in Cooper pairing has been largely unexplored in iron-based superconductors, as 
+they typically reside hundreds of meV below EF. Our work achieves tunability of the dz2 band 
+position (from -270 meV to -80 meV), enabling its hybridization with the dxy/dxz bands near EF 
+and leading to reconstruction of band structure, which results in enhanced superconductivity. 
+This highlights the need for further development of pairing theories incorporating the dz2 orbital. 
+The significant roles of electronic correlation and band reconstruction in enhancing 
+superconductivity are further corroborated by comparing the Fermi wave vector (kF) values 
+under different setpoint currents. We extract the apparent kF,app from spatial oscillation of Yu-
+Shiba-Rusinov (YSR) bound state induced by a Fe-vacancy (47) (Fig. 4 B-E and SI Appendix, 
+Fig. S16). Crucially, the unchanged kF,app before and after the secondary gap amplification (Fig. 
+4 D and F) corresponds to an identical carrier density per unit cell based on the carrier density 
+
+--- PAGE 8 ---
+ 
+8 
+ 
+relation nsa2 = (kFa)2/2π (SI Appendix, Note S3 and Fig. S17-S18). This confirms that no 
+additional charge transfer occurs during tip approach, which excludes doping variations as the 
+cause and strengthens band reconstruction and enhanced electronic correlation as the 
+dominant mechanism for gap enhancement. 
+In addition, the pronounced tip-sample interaction can reduce the FeSe/STO interfacial 
+distance and strengthen the interfacial interaction. This enhanced electron-phonon coupling is 
+realized without any substrate modifications that synergizes with the enhanced electronic 
+correlations, collectively amplifying the superconductivity. 
+Discussion 
+Finally, we address why tip-induced superconductivity enhancement is pronounced in 
+FeSe/STO, yet rarely reported in other single-crystal systems. Although STM-tip modifications 
+of YSR states are previously reported (48-50), they rarely perturb superconducting gaps. The 
+two-dimensional nature of monolayer FeSe enables strain-sensitive structural adaptability 
+under tip pressure, directly triggering the pronounced dz2 band shift and its hybridization with 
+the bands near EF. On the other hand, as mentioned before, electron doping from the STO 
+substrate counterbalances enhanced electronic correlations, without triggering other competing 
+correlated electronic orders (25-27,43,44,51), and enabling significant superconductivity 
+amplification. Furthermore, our result relies on synchronous tracking of the gap and high-energy 
+d-orbital band signatures over a wide range of setpoint currents, thus providing a perspective 
+for understanding the superconductivity. 
+By harnessing strain-mediated energy band reconstruction to amplify superconductivity 
+and suppressing competing orders through substrate-enabled doping, we not only reveal the 
+dz2 band’s influence to Cooper pairing (previously unexplored), but also demonst rate a 
+transformative framework for engineering quantum phases. This approach could extend to 
+diverse two-dimensional multiband superconductors, where atomic-scale lattice control may 
+stabilize hidden correlated states. Future studies could explore multi-orbital correlation models 
+combined with strain engineering, particularly in systems where orbital hybridization governs 
+emergent phenomena (e.g., electronic topology). The interplay of strain, doping, and orbital 
+selectivity opens new pathways to tailor superconducting phases in atomically designed 
+heterostructures. Such advances offer routes to optimize quantum devices while deepening our 
+understanding of how dimensionality, correlations, and topology intertwine in quantum 
+materials. 
+  
+
+--- PAGE 9 ---
+ 
+9 
+ 
+Materials and Methods 
+Our experiments were conducted on two independent STM-MBE systems: (i) home-built 
+ultra-high vacuum (UHV) in-situ transport-STM-MBE system, (ii) commercial UHV in-situ STM-
+MBE system (Unisoku-1300). 
+Monolayer FeSe/STO samples preparation 
+High-quality monolayer FeSe films were prepared by MBE. The Nb-doped (0.05 wt%) 
+SrTiO3(001) substrates (Shinkosha) were degassed in UHV chamber (base pressure is better 
+than 3 × 10−10 Torr) at 600 °C for several hours and subsequently annealed at 1200 °C for 
+20 min to obtain the TiO2-terminated surface. Then, high-purity Fe (99.995%) and Se 
+(99.9999%) sources were coevaporated by two Knudsen cells to deposit monolayer FeSe films 
+on the SrTiO3 substrates. During deposition, the substrates were maintained at either 450 °C 
+(i) or 430 °C (ii) via direct current heating. The as-grown films were subjected to stepwise 
+annealing from 480 to 520 °C for hours to optimize sample quality. These samples underwent 
+additional postannealing at 560 °C (i) or 550 °C (ii) for several tens of minutes to fully optimize 
+the superconducting gap. Finally, the samples were transferred to the in-situ low-temperature 
+STM for studies. 
+STM measurements 
+In-situ STM measurements were performed at 4.2 K. To ensure the reproducibility, 
+polycrystalline Pt-Ir STM tips were subjected to an in-situ regeneration procedure before each 
+independent measurement. First, the tips were heated by electron -beam irradiation to 
+temperatures above 600 °C for several minutes to completely remove residual apex structures 
+of tips. Then, the tips were recalibrated on the freshly prepared Ag(111) surface. 
+The tip-sample distance was precisely regulated by tuning the tunneling current at a fixed 
+setpoint bias voltage under feedback control. The Proportional-Integral parameters, which were 
+optimized for the specific STM, ensured stable tip-sample distance at the designated setpoint 
+current. Subsequent STS measurements were performed at these stabilized tip -sample 
+distances (determined by setpoint bias and current values) by sweeping bias with the feedback 
+loop disabled. STS data were acquired by standard lock -in technique with a reference 
+oscillation frequency of 973.0 Hz.  
+Manipulation of Fe-vacancy 
+The manipulation of Fe-vacancy was performed by approaching the STM tip to the specific 
+lattice position (SI Appendix, Fig. S9A) while maintaining a fixed setpoint bias of 15 mV (in-gap) 
+with repeatedly varying the tunneling current from 4.5 nA to 9.5 nA. 
+Data availability 
+All study data are included in the article and/or SI Appendix. 
+
+--- PAGE 10 ---
+ 
+10 
+ 
+Acknowledgments 
+We thank P. J. Hirschfeld, J. P. Hu, Y. Zhang, and H. Yao for helpful discussions. The 
+experimental work was supported by the National Natural Science Foundation (Grants No. 
+92365201, No. 52388201, No. 11427903), the National Key R&D Program of China (Grants 
+No. 2022YFA1403100), and the Innovation Program for Quantum Science and Technology 
+(2021ZD0302402). 
+  
+
+--- PAGE 11 ---
+ 
+11 
+ 
+References 
+1. Q.-Y. Wang et al., Interface-Induced High-Temperature Superconductivity in Single Unit-
+Cell FeSe Films on SrTiO3, Chin. Phys. Lett. 29, 037402 (2012). 
+2. Y.-Y. Xiang, F. Wang, D. Wang, Q.-H. Wang, and D.-H. Lee, High-temperature 
+superconductivity at the FeSe/SrTiO3 interface, Phys. Rev. B 86, 134508 (2012). 
+3. S. He et al., Phase diagram and electronic indication of high-temperature 
+superconductivity at 65 K in single-layer FeSe films, Nat. Mater. 12, 605-610 (2013). 
+4. S. Tan et al., Interface-induced superconductivity and strain-dependent spin density 
+waves in FeSe/SrTiO3 thin films, Nat. Mater. 12, 634-640 (2013). 
+5. J. J. Lee et al., Interfacial mode coupling as the origin of the enhancement of Tc in FeSe 
+films on SrTiO3, Nature 515, 245-248 (2014). 
+6. S. Zhang et al., Role of SrTiO3 phonon penetrating into thin FeSe films in the 
+enhancement of superconductivity, Phys. Rev. B 94, 081116 (2016). 
+7. D. Huang et al., Revealing the Empty-State Electronic Structure of Single-Unit-Cell 
+FeSe/SrTiO3, Phys. Rev. Lett. 115, 017002 (2015). 
+8. D.-H. Lee, Routes to High-Temperature Superconductivity: A Lesson from FeSe/SrTiO3, 
+Annu. Rev. Condens. Matter Phys. 9, 261-282 (2018). 
+9. Q. Song et al., Evidence of cooperative effect on the enhanced superconducting 
+transition temperature at the FeSe/SrTiO3 interface, Nat. Commun. 10, 758 (2019). 
+10. Y. Xu et al., Spectroscopic evidence of superconductivity pairing at 83 K in single-layer 
+FeSe/SrTiO3 films, Nat. Commun. 12, 2840 (2021). 
+11. C. Liu et al., High-order replica bands in monolayer FeSe/SrTiO3 revealed by polarization-
+dependent photoemission spectroscopy, Nat. Commun. 12, 4573 (2021). 
+12. H. Yang et al., Phonon modes and electron–phonon coupling at the FeSe/SrTiO3 
+interface, Nature 635, 332-336 (2024). 
+13. D. Zhao et al., Electronic inhomogeneity and phase fluctuation in one-unit-cell FeSe films, 
+Nat. Commun. 15, 3369 (2024). 
+14. Y. Zhang et al., Nodeless superconducting gap in AxFe2Se2 (A=K,Cs) revealed by angle-
+resolved photoemission spectroscopy, Nat. Mater. 10, 273-277 (2011). 
+15. C.-L. Song et al., Observation of Double-Dome Superconductivity in Potassium-Doped 
+FeSe Thin Films, Phys. Rev. Lett. 116, 157001 (2016). 
+16. R. Peng et al., Tuning the band structure and superconductivity in single-layer FeSe by 
+interface engineering, Nat. Commun. 5, 5044 (2014). 
+17. P. A. Lee, N. Nagaosa, and X.-G. Wen, Doping a Mott insulator: Physics of high-
+temperature superconductivity, Rev. Mod. Phys. 78, 17 (2006). 
+18. B. Keimer, S. A. Kivelson, M. R. Norman, S. Uchida, and J. Zaanen, From quantum 
+matter to high-temperature superconductivity in copper oxides, Nature 518, 179-186 
+(2015). 
+19. Ø. Fischer, M. Kugler, I. Maggio-Aprile, C. Berthod, and C. Renner, Scanning tunneling 
+spectroscopy of high-temperature superconductors, Rev. Mod. Phys. 79, 353 (2007). 
+20. F. Wang and D.-H. Lee, The Electron-Pairing Mechanism of Iron-Based 
+Superconductors, Science 332, 200-204 (2011). 
+
+--- PAGE 12 ---
+ 
+12 
+ 
+21. Z. P. Yin, K. Haule, and G. Kotliar, Kinetic frustration and the nature of the magnetic and 
+paramagnetic states in iron pnictides and iron chalcogenides, Nat. Mater. 10, 932-935 
+(2011). 
+22. Q. Si, R. Yu, and E. Abrahams, High-temperature superconductivity in iron pnictides and 
+chalcogenides, Nat. Rev. Mater. 1, 16017 (2016). 
+23. T.-M. Chuang et al., Nematic Electronic Structure in the “Parent” State of the Iron-Based 
+Superconductor Ca(Fe1–xCox)2As2. Science 327,181-184(2010). 
+24. A. Kostin et al., Imaging orbital-selective quasiparticles in the Hund’s metal state of 
+FeSe. Nat. Mater. 17, 869-874 (2018).  
+25. W. Li et al., Stripes developed at the strong limit of nematicity in FeSe film, Nat. Phys. 13, 
+957-961 (2017). 
+26. Y. Yuan et al., Incommensurate smectic phase in close proximity to the high-Tc 
+superconductor FeSe/SrTiO3, Nat. Commun. 12, 2196 (2021). 
+27. X. Fan, W. Cui, Y. Yuan, Q.-K. Xue, and W. Li, Ubiquitous stripe phase and enhanced 
+electron pairing in the interfacial high-Tc superconductor FeSe/BaTiO3, Phys. Rev. B 106, 
+024517 (2022). 
+28. S. Graser, T. A. Maier, P. J. Hirschfeld, and D. J. Scalapino, Near-degeneracy of several 
+pairing channels in multiorbital models for the Fe pnictides, New J. Phys. 11, 025016 
+(2009). 
+29. P. J. Hirschfeld, M. M. Korshunov, and I. I. Mazin, Gap symmetry and structure of Fe-
+based superconductors, Rep. Prog. Phys. 74, 124508 (2011). 
+30. M. Yi, Y. Zhang, Z.-X. Shen, and D. Lu, Role of the orbital degree of freedom in iron-
+based superconductors, npj Quantum Mater. 2, 57 (2017). 
+31. D. Guterding, H. O. Jeschke, and R. Valentí, Basic electronic properties of iron selenide 
+under variation of structural parameters, Phys. Rev. B 96, 125107 (2017). 
+32. S. Y. Tan et al., Observation of Dirac cone band dispersions in FeSe thin films by 
+photoemission spectroscopy, Phys. Rev. B 93, 104513 (2016). 
+33. Y. Yuan et al., Edge States at Nematic Domain Walls in FeSe Films, Nano Lett. 18, 7176-
+7180 (2018). 
+34. J. Huang et al., Correlation-driven electronic reconstruction in FeTe1−xSex, Commun. 
+Phys. 5, 29 (2022). 
+35. G. Binnig, H. Rohrer, C. Gerber, and E. Weibel, Tunneling through a controllable vacuum 
+gap, Appl. Phys. Lett. 40, 178-180 (1982). 
+36. C.-L. Xue et al., Iron Vacancy Tunable Superconductor-Insulator Transition in 
+FeSe/SrTiO3 Monolayer, Phys. Rev. Lett. 131, 256002 (2023). 
+37. M. Yi et al., Observation of universal strong orbital-dependent correlation effects in iron 
+chalcogenides, Nat. Commun. 6, 7777 (2015). 
+38. Y. Zhang et al., Superconducting Gap Anisotropy in Monolayer FeSe Thin Film, Phys. 
+Rev. Lett. 117, 117001 (2016). 
+39. F. J. Giessibl, AFM’s path to atomic resolution, Mater. Today 8, 32-41 (2005). 
+40. D. Hu et al., c-axis pressure-induced antiferromagnetic order in optimally P-doped 
+BaFe2(As0.70P0.30)2 superconductor, npj Quantum Mater. 3, 47 (2018). 
+
+--- PAGE 13 ---
+ 
+13 
+ 
+41. J. K. Glasbrenner et al., Effect of magnetic frustration on nematicity and superconductivity 
+in iron chalcogenides, Nat. Phys. 11, 953-958 (2015). 
+42. K. Liu, Z.-Y. Lu, and T. Xiang, Nematic antiferromagnetic states in bulk FeSe, Phys. Rev. 
+B 93, 205154 (2016). 
+43. C. M. Yim et al., Discovery of a strain-stabilised smectic electronic order in LiFeAs, Nat. 
+Commun. 9, 2602 (2018). 
+44. W. Liu et al., Tunable vortex Majorana modes controlled by strain in homogeneous 
+LiFeAs, Quantum Front. 1, 20 (2022). 
+45. J. Li et al., Spin-Orbital-Intertwined Nematic State in FeSe, Phys. Rev. X 10, 011034 
+(2020). 
+46. A. Linscheid, S. Maiti, Y. Wang, S. Johnston, and P. J. Hirschfeld, High Tc via Spin 
+Fluctuations from Incipient Bands: Application to Monolayers and Intercalates of FeSe, 
+Phys. Rev. Lett. 117, 077003 (2016). 
+47. T. Zhang et al., Phase Shift and Magnetic Anisotropy Induced Field Splitting of Impurity 
+States in (Li1-xFex)OHFeSe Superconductor, Phys. Rev. Lett. 130, 206001 (2023). 
+48. P. Fan et al., Observation of magnetic adatom-induced Majorana vortex and its 
+hybridization with field-induced Majorana vortex in an iron-based superconductor, Nat. 
+Commun. 12, 1348 (2021). 
+49. D. Chatzopoulos et al., Spatially dispersing Yu-Shiba-Rusinov states in the 
+unconventional superconductor FeTe0.55Se0.45, Nat. Commun. 12, 298 (2021). 
+50. Y. Zhang et al., High-Resolution Spectroscopy of the Intermediate Impurity States near a 
+Quantum Phase Transition, Nano Lett. 24, 14222-14228 (2024). 
+51. S. M. Hayden and J. M. Tranquada, Charge Correlations in Cuprate Superconductors, 
+Annu. Rev. Condens. Matter Phys. 15, 215-235 (2024).  
+
+--- PAGE 14 ---
+ 
+14 
+ 
+Figures and Tables 
+ 
+Figure 1. Tip-driven dual enhancement of superconducting gap in monolayer FeSe/STO. (A) 
+Crystal structure of FeSe. (B) Schematic of the experiment. (C) Large-scale STM topography 
+of monolayer FeSe/STO (bias voltage V = 2.0 V, tunneling current It = 20 pA). (D) Atomically 
+resolved STM topography of topmost Se-layer (Se-I) (V = 30 mV, It = 8 nA). (E) Tunneling 
+current-dependent dI/dV spectra, exhibiting enlarged superconducting gaps under decreasing 
+tip-sample distance. Dashed lines trace the energy shifts of coherence peaks. (F) Normalized 
+dI/dV spectra of superconducting gap (100 pA to 9 nA; vertical offset for clarity). Colored dots 
+highlight the coherence peaks. (G) Second-derivative [-d2(dI/dV)/dV2, i.e., -d3I/dV3] intensity 
+maps of (F) (logarithmic current scale), highlighting the evolution of the coherence peaks 
+marked by arrows. Purple dashed line indicates a transition of gap evolution [defined in (H)]. 
+(H) Current-modulated superconducting gap evolution (logarithmic scale). Dashed lines track 
+the gap evolutions; purple arrows mark the transition. Gap energies are extracted as the mean 
+of the asymmetric positive and negative coherence peaks. Setpoint in (E-G), V = 30 mV.  
+
+
+--- PAGE 15 ---
+ 
+15 
+ 
+ 
+Figure 2. Tip-driven d-orbital band reconstruction and superconducting gap dual amplification 
+in monolayer FeSe/STO. (A) Wide-bias-range dI/dV spectrum (V = 200 mV, It = 2 nA). Red 
+arrow marks the dz2 band peak. Blue and green arrows indicate two kinks attributed to the dxz/yz 
+and dxy bands. Color representations remain consistent in subsequent figures. (B) Schematic 
+band structure and orbital characters of monolayer FeSe/STO [adapted from ref. (11,37)]. (C) 
+Current-dependent dI/dV spectra (V = 30 mV, It from 5 pA to 6 nA; vertical offsets for clarity), 
+revealing the evolutions of the d-orbital bands and superconducting gaps, simultaneously. 
+Dashed lines track the band energy shifts. Upper inset: Fermi surface schematic [adapted from 
+ref. (38)]. Lower inset: Linear response of logarithmic tunneling current with reducing tip-sample 
+distance (Δz = 0 is defined at V = 30 mV, It = 5 pA). The purple arrow marks the transition point 
+of gap evolution. (D) Second-derivative intensity maps of data in (C) (100 pA to 6 nA, logarithmic 
+current scale), the corresponding Δz values are displayed on the right axis. (E-F) Schematic 
+band structures at Γ point under two setpoint currents: 2.2 nA for (E), and 100 pA for (F). The 
+dz2 band shifts upwards to -80 meV and -180 meV, respectively. 
+  
+
+
+--- PAGE 16 ---
+ 
+16 
+ 
+ 
+Figure 3. Tip-driven non-monotonic dz2 band shift mirrors tip-sample force-distance relation. (A) 
+Normalized dI/dV spectra (V = 500 mV, It from 400 pA to 80 nA; vertical offsets). Red shades 
+highlight the dz2 band peaks on each spectrum, outlining the energy shift. Inset: Wide-bias-
+range dI/dV spectrum (V = 500 mV, It = 1.25 nA) with the analyzed energy range marked. (B) 
+dz2 band energy (left y-axis, yellow circles) and setpoint current (right y-axis, purple line) versus 
+tip-sample distance variation. Red dashed line marks the reversal point in the dz2 band evolution. 
+(C) Schematic tip-sample force-distance curve [adapted from ref. (39)]. Red dashed line marks 
+the position of maximum attraction defined as the reversal point of the total force curve. Insets 
+illustrate the schematics of the attractive and repulsive interaction regimes.  
+
+
+--- PAGE 17 ---
+ 
+17 
+ 
+ 
+Figure 4. Invariant Fermi wave vectors during superconducting gap enhancement. (A) Tip 
+approach generates local in-plane lattice expansion in FeSe. (B-C) Spatially resolved YSR 
+bound states around an Fe-vacancy under setpoint currents of 300 pA (B) and 8000 pA (C) (V 
+= 30 mV). Dashed arrows indicate the direction of the DOS line cuts. (D) Spatial distribution of 
+normalized DOS under the two setpoint currents along the dashed arrows (vertical offset for 
+clarity). The YSR bound states exhibit identical apparent wavelengths under both setpoint 
+currents. (E) dI/dV spectrum measured at the Fe-vacancy (V = 200 mV, It = 2 nA). (F) Schematic 
+of the electron-like pocket and kF around the M point in FeSe/STO. 
+ 

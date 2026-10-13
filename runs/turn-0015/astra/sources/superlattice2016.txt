@@ -1,0 +1,1017 @@
+Proposal for a bulk material based on a monolayer FeSe on SrTiO 3 high-temperature
+superconductor
+Sinisa Coh, ∗ Dung-Hai Lee, Steven G. Louie, and Marvin L. Cohen
+Department of Physics, University of California, and Materials Sciences Division,
+Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+(Dated: May 25, 2022)
+Motivated by the high superconducting transition temperature of monolayer FeSe on SrTiO 3, we
+propose a potential three-dimensional high-temperature superconductor superlattice FeSe–SrTiO 3
+and study its structural stability and electronic structure using density functional theory. We ﬁnd
+that the binding energy between the FeSe and SrTiO 3 layers is about ∼0.7 eV per (Fe 2Se2) unit
+and that it saturates already within a single TiO 2 atomic layer of SrTiO 3. In addition we analyzed
+the dynamical stability of the superlattice and compared it to the case of bulk SrTiO 3.
+PACS numbers: 74.78.Na, 74.20.Pq
+I. INTRODUCTION
+The discovery of superconductivity in single unit cell
+thick FeSe grown on the TiO 2-terminated surface of
+SrTiO3 (1 UC FeSe/STO) 1 is remarkable in several re-
+spects. Not only is the superconducting gap opening
+temperature Tgap = 55–75 K estimated from angle-
+resolved photoemission spectroscopy 2–7 (ARPES) the
+highest among all iron-based superconductors, it also has
+the simplest electronic structure. These ﬁndings have
+motivated many theoretical studies.8–12 Recently the mu-
+tual inductance measurement made on a sample showing
+a 65 K gap opening temperature in ARPES exhibited
+an onset of a Meissner eﬀect at the same temperature. 13
+This largely removed the long standing doubt of whether
+the energy gap measured by ARPES is caused by super-
+conductivity.
+In the bulk form, FeSe has a Tc of only 8 K
+at ambient pressure, 14 and it peaks at 37 K under
+pressure.15–17 This temperature is close to Tc ∼ 30 K
+found in AxFe1−ySe at optimal doping with A be-
+ing either K, Rb, Cs, or Tl. 18 A recently discovered
+bulk crystal consisting of FeSe layers intercalated with
+Li1−xFexOH again has a similar transition tempera-
+ture of ∼ 41 K. 19,20 For potassium coated three mono-
+layer FeSe on SrTiO 3 [Kx(FeSe)3/STO] ARPES shows
+that the gap opens around 48 K. 21–23 All of the latter
+three superconductors have the same electronic struc-
+ture as the 1 UC FeSe/STO, but their Tc is considerably
+lower. This raises the question concerning the mecha-
+nism for the Tc enhancement in the 1 UC FeSe/STO.
+The fact that the measured Fermi surfaces ofAxFe1−ySe,
+(Li1−xFexOH)FeSe, and Kx(FeSe)3/STO are nearly iden-
+tical to that of 1 UC FeSe/STO suggests that the reason
+for the enhanced Tc is likely the close proximity of FeSe
+to SrTiO3.
+It is suggested in Ref. 7 by one of us and collabora-
+tors that the origin of the enhancement from 30–40 K to
+55–75 K is the coupling between the FeSe electrons and
+SrTiO3 phonons. On the other hand, the three other au-
+thors focused (Ref. 8) on the role of the intrinsic coupling
+of the FeSe electrons to the FeSe phonons beyond the
+conventional density functional theory approach. Now
+we brieﬂy discuss the roles of SrTiO 3 phonons and FeSe
+phonons in these two studies.
+According to Ref. 7 the phonons in the SrTiO3 enhance
+the intrinsic Tc from 30–40 K to 55–75 K (see Ref. 9
+for a review). Moreover, due to the small momentum
+transfer nature of the electron-phonon interaction, the
+coupling to the SrTiO 3 phonons enhances Tc regardless
+of the intrinsic pairing symmetry, as veriﬁed by a recent
+minus-sign-free quantum Monte Carlo simulation. 24 The
+evidence for a strong coupling between the FeSe electron
+and the SrTiO3 phonon and its small momentum transfer
+nature is provided by the replication of all low-binding
+energy bands approximately 100 meV away, in the di-
+rection of higher binding energies. This replication was
+interpreted as a phonon shake-oﬀ eﬀect 7,25 and is con-
+sistent with the presence of ∼ 100 meV optical phonon
+band in SrTiO 3,26–28 and similar replicas of the surface
+bands of the (001) surface of pure SrTiO 3.29
+Regarding the contribution of FeSe phonons to pair-
+ing, early local-density approximation calculations 30,31
+on related materials estimated this contribution to be
+too small to explain the experimentally found transition
+temperatures. On the other hand in Refs. 8 and 32 it is
+found that the strength of this interaction may have been
+severely underestimated in the early theoretical work.
+The reason for this underestimation in earlier work is
+attributed in Ref. 8 to a tendency of a local-density ap-
+proximation to underestimate the shearing (also called
+nematic, orthorhombic) instability relative to experiment
+in iron-based superconductors, as well as to strongly re-
+duce the density of states at the Fermi level. In addi-
+tion, scanning tunneling microscopy features 23 found in
+1 UC FeSe/STO are consistent with the calculated FeSe
+phonon spectral function 8 as well as with the kinks in
+the ARPES spectra on a similar material. 33
+In the present work we set aside the superconduct-
+ing pairing mechanism intrinsic to FeSe and the validity
+of either of the above two suggested mechanisms. 7,8 In-
+stead we focus on proposing bulk materials composed of
+stacked FeSe-SrTiO3 interfaces for possible further en-
+arXiv:1603.03377v2  [cond-mat.supr-con]  29 Jun 2016
+2
+hancement of Tc. Thus our purpose here is to study the
+structural stability and electronic structure of a novel
+bulk material, ﬁrst proposed in Ref. 9, in which FeSe
+layers are bonded from both sides by TiO 2 terminated
+layers of SrTiO 3. Our motivation is to double the in-
+terface between FeSe and SrTiO 3, relative to the case
+of 1 UC FeSe/STO. Due to the exponential sensitiv-
+ity of Tc to the pairing strength, this may lead to a
+even larger Tc enhancement.7,9 In addition, the three-
+dimensionality of the proposed material should sup-
+press the superconducting phase ﬂuctuation in the two-
+dimensional 1 UC FeSe/STO (such phase ﬂuctuation is
+observed in Ref. 13).
+II. METHODS AND RESUL TS
+We now discuss the results of our density func-
+tional theory (DFT) based ﬁrst-principles calcula-
+tions of the FeSe-SrTiO 3 superlattices performed us-
+ing the Quantum-ESPRESSO package. 34 Most of our
+calculations use the Perdew-Burke-Ernzerhof 35 (PBE)
+exchange-correlation functional. However, for a more ac-
+curate determination of the binding energy we use the
+vdW-DF236 functional that includes van der Waals in-
+teractions. The ultrasoft pseudopotentials used are from
+the GBRV37 library with 40 and 200 Ry kinetic energy
+cutoﬀs for the electron wavefunction and the charge den-
+sity. The Gaussian smearing is set to 13 meV and a 14 3
+k-point grid is used. To correct the band gap of SrTiO 3
+we apply Hubbard + U correction on the Ti atom with
+U = 6 eV, which gives a Γ point energy gap of 3.0 eV
+in bulk SrTiO 3. Electron doping is compensated with a
+uniform positive background, to keep the computational
+unit cell neutral. All structural relaxation is done with-
+out electron doping.
+It is important to note that certain features of the
+ARPES measured band structure of 1 UC FeSe/STO and
+related FeSe based superconductors are not well repro-
+duced by a conventional DFT calculation. Some aspects
+of the measured band structure are better captured by
+DFT calculation assuming a nonmagnetic (NM) ground
+state while others agree with assuming a checkerboard
+antiferromagnetic (c-AFM) ground state. In particular,
+ARPES ﬁnds no hole pockets at the zone center and two
+pockets at the M point. In DFT there are no hole pock-
+ets at the zone center in the c-AFM case (and not in
+NM) while there are two pockets at the M point in the
+NM case (and not in c-AFM). However, structural sta-
+bility, the main focus of this work, is largely the same in
+the NM and the c-AFM states as we demonstrate later
+in this paper.
+A. Structure
+We focus here on structures where FeSe is on both
+sides interfaced with TiO2 terminated surfaces of SrTiO3,
+O
+Se
+O
+Se
+O
+O
+Se
+O
+Se
+O
+O
+Se
+O
+Se
+O
+O
+O
+O
+O
+O
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+Se
+Se
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+Se
+O
+O
+Se
+O
+Se
+O
+O
+Se
+O
+Se
+O
+O
+Se
+O
+Se
+O
+Se
+Se
+n = 1
+Fe
+Ti
+Fe
+Fe
+Ti
+Fe
+Fe
+Ti
+Ti
+Fe Fe
+Ti
+Fe
+Ti
+Fe
+Fe Fe
+Ti
+Fe
+Ti
+Fe
+Fe Fe
+Ti
+Ti
+Fe Fe
+Ti
+Fe
+Ti
+Fe
+Fe Fe
+Ti
+Fe
+Ti
+Fe
+Fe Fe
+Ti
+Ti
+Fe Fe
+Ti
+Fe
+Ti
+Fe Fe
+Ti
+Fe
+Ti
+Fe Fe
+Ti
+Fe
+Fe
+Se
+O
+O
+O
+Se
+O
+O
+O
+Se
+O
+O
+O
+Se
+O
+O
+O
+Se
+O
+O
+O
+Se
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+Sr
+O
+Se
+O
+Sr
+O
+O
+Sr
+O
+Se
+O
+Sr
+O
+O
+Sr
+O
+Se
+O
+Sr
+O
+O
+Se
+O
+O
+O
+O
+Se
+O
+O
+O
+O
+O
+O
+Se
+O
+O
+O
+O
+O
+O
+Se
+O
+O
+O
+Se
+O
+Sr
+O
+Se
+O
+Sr
+O
+Se
+O
+Sr
+O
+Se
+O
+Sr
+O
+Se
+O
+Sr
+O
+Se
+O
+Sr
+O
+Se
+Sr
+Se
+Sr
+n = 2
+Ti
+Ti
+Fe
+Fe
+Ti
+Ti
+Fe
+Ti
+Ti
+Fe
+Ti
+Ti
+Fe
+Fe Fe
+Ti
+Ti
+Fe
+Ti
+Ti
+Fe
+Ti
+Ti
+Fe
+Ti
+Ti
+Fe
+Fe Fe
+Ti
+Ti
+Fe
+Ti
+Ti
+Fe
+Ti
+Ti
+Fe
+Ti
+Ti
+Fe Fe
+Ti
+Ti
+Fe
+Ti
+Ti
+Fe
+Fe
+Se
+O
+O
+O
+O
+O
+Se
+O
+Se
+O
+O
+O
+O
+O
+Se
+O
+Se
+O
+O
+O
+O
+O
+Se
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+Se
+O
+Sr
+O
+Sr
+O
+O
+Se
+O
+Sr
+O
+Sr
+O
+O
+Se
+O
+Sr
+O
+Sr
+O
+Se
+O
+O
+O
+Se
+O
+O
+O
+O
+O
+O
+Se
+O
+O
+O
+O
+O
+O
+Se
+O
+O
+O
+O
+O
+Se
+O
+Sr
+O
+Sr
+O
+Se
+O
+Se
+O
+Sr
+O
+Sr
+O
+Se
+O
+Se
+O
+Sr
+O
+Sr
+O
+Se
+O
+Se
+Sr
+Sr
+Se
+n = 3
+Ti
+Fe
+Fe
+Ti
+Ti
+Ti
+Fe
+Ti
+Fe
+Ti
+Ti
+Ti
+Fe
+Fe Fe
+Ti
+Ti
+Ti
+Fe
+Ti
+Fe
+Ti
+Fe
+Ti
+Ti
+Ti
+Fe
+Fe Fe
+Ti
+Ti
+Ti
+Fe
+Ti
+Fe
+Ti
+Fe
+Ti
+Ti
+Ti
+Fe Fe
+Ti
+Ti
+Ti
+Fe
+Ti
+Fe
+Fe
+FIG. 1. Three FeSe-SrTiO 3 superlattices (n = 1, 2, 3) stud-
+ied in this work with varying number of layers between FeSe.
+Dark and light blue circles correspond to Fe and Se atoms
+while dark, medium, and light red circles correspond to Ti,
+O, and Sr atoms.
+both because that is a signiﬁcantly lower energy interface
+(0.65 eV versus 0.44 eV per Fe 2Se2 formula unit for n =
+3, see Table I) and because high Tc in the monolayer
+FeSe on SrTiO 3 was observed for this type of interface.
+While bulk SrTiO 3 contains equal numbers of TiO 2 and
+SrO layers, our proposed superlattice contains exactly
+one more TiO2 layer than the number of SrO layers. The
+repeat unit of our superlattice is therefore
+—Fe2Se2—TiO2—
+(
+SrO—TiO2—
+)
+n−1
+for any positive integer n. Figure 1 shows the n = 1, 2,
+and 3 superlattices we studied. The structure proposed
+in Ref. 9 is the one indexed by n = 2. Table I shows the
+binding energies and other structural parameters. We
+computed the binding energy by comparing the energy
+of the entire superlattice with that of isolated FeSe and
+isolated SrTiO3 slab with the same number of layers and
+the same in-plane lattice constants.
+1. Binding energy
+As shown in Table I the binding energy of the super-
+lattice per one Fe2Se2 formula unit is nearly independent
+of n for n > 1. We ﬁnd it to equal 0.79 eV for the
+thinnest superlattice (n = 1) and 0.65 eV for two thicker
+cases ( n = 2 , 3). Therefore we conclude that the cohe-
+sive energy between the FeSe and SrTiO3 components of
+the superlattice is reached already within a single TiO 2
+layer. A similar trend is found for the structural param-
+eters such as the in-plane lattice constant, the selenium
+3
+TABLE I. This table contains the binding energies of FeSe-SrTiO 3 superlattices per one formula unit (Fe 2Se2), the relaxed
+in-plane lattice constant (a), the selenium height relative to the plane of iron atoms, the distance from Fe in FeSe to Ti in the
+top-most TiO 2 layer, the rumpling in the Ti-O surface, and the magnetic moment ( µ) per iron atom (in the c-AFM state).
+The binding energy is given both with and without van der Waals interaction in the nonmagnetic (NM) and the checkerboard
+antiferromagnetic (c-AFM) states. The inference on the eﬀects of magnetic states on the binding energies is made by comparing
+the second and third columns. The binding energy quoted in the text are computed with the van der Waals interaction in the
+nonmagnetic state. The remaining quantities are calculated without van der Waals correction in the c-AFM state.
+Binding energy per Fe 2Se2 a Se height Fe-Ti Ti-O rumpling µ
+with vdW without vdW
+NM NM c-AFM
+(eV) (eV) (eV) (˚A) ( ˚A) ( ˚A) ( ˚A) ( µB)
+FeSe-SrTiO3 superlattices
+n = 1 0.79 0.36 0.41 3.78 1.41 4.37 2.14
+n = 2 0.65 0.17 0.20 3.87 1.39 4.50 0.046 2.33
+n = 3 0.65 0.15 0.18 3.90 1.37 4.52 0.054 2.41
+Reference points
+Relaxed FeSe monolayer 3.82 1.41 2.20
+SrTiO3 3.97 0.073
+Alternative conﬁgurations
+SrO termination (n=3) 0.44
+primitive tetragonal (n=3) 0.61
+height, and the distance between FeSe and TiO 2 layers
+(see Table I).
+In the lowest energy structure, Se atoms in the FeSe
+layer are directly above/below the Ti atoms in the TiO 2
+layer. For this reason, the lowest energy structure is in
+the body centered tetragonal phase (see Fig. 1). In the
+primitive tetragonal phase, where Se is above/below Ti
+on only one side of FeSe, the binding energy per Fe 2Se2
+unit is reduced from 0.65 eV to 0.61 eV (in the n = 3
+case).
+Comparing the relaxed in-plane lattice constant of the
+superlattice, we ﬁnd that it is larger than that of isolated
+FeSe monolayer and smaller than that of bulk SrTiO 3
+(Table I), with the exception of n = 1 case. As expected,
+when n increases the lattice constant of the superlattice
+approaches that of bulk SrTiO 3.
+We ﬁnd nearly no eﬀect of the magnetic ground state
+on the cohesive energy of the superlattice. As shown in
+the second and third columns of Table I the binding en-
+ergy without the van der Waals interaction of the super-
+lattice in the NM and c-AFM state diﬀer only between
+30 and 50 meV.
+2. Polar instability
+Bulk SrTiO3 is known to be on the verge of a polar in-
+stability. Its dielectric constant is nearly divergent 38 at
+low temperatures (below 50 K). Density functional the-
+ory calculations without quantum ﬂuctuations 39,40 ﬁnd
+unstable phonon modes at the zone center corresponding
+to polar distortion. These modes are stabilized only by
+the inclusion of quantum ﬂuctuation eﬀects. 41
+However, the surface of SrTiO 3, unlike the bulk, is
+known to be polar 42 due to a slight displacement (rum-
+pling) of oxygen atoms relative to titanium atoms. The
+direction of the atomic displacement is such that the oxy-
+gen atoms are moved away from the TiO 2 plane towards
+the vacuum region. Our calculations show this rumpling
+to be equal 0.073 ˚A on a pristine SrTiO 3 surface (see Ta-
+ble I) while it is somewhat reduced in the FeSe-SrTiO 3
+superlattices to 0.046 for n = 2 and 0.054 ˚A for n = 3.
+The direction of the rumpling is the same as for the pris-
+tine SrTiO3 surface. Since the magnitude of the rumpling
+distortion is so similar, we conclude that surface polar in-
+stabilities of SrTiO 3 are likely not aﬀected much by the
+presence of the FeSe layer in the superlattice.
+To further compare polar instabilities in bulk SrTiO 3
+and the superlattice, we computed phonon frequencies
+in pure SrTiO 3 and the n = 3 superlattice at high-
+symmetry q vectors. These frequencies are reported in
+Table II and they do not include the LO-TO correction at
+q = 0 (i.e., in all cases we report transverse optical, TO,
+modes only). For phonons associated with the structure
+instabilities, the frequencies are purely imaginary.
+In bulk high-symmetry cubic SrTiO 3 we ﬁnd several
+4
+TABLE II. Phonon instabilities at high-symmetry q points in the bulk SrTiO 3 and n = 3 superlattice. We divide instabilities
+into two classes: those due to a polar distortion and those due to oxygen octahedra rotations.
+Frequency Degeneracy q Type of instability
+(cm−1)
+Polar Ti-O distortion
+Bulk SrTiO3
+140i 3 (0 0 0) Polar, Ti-O
+50i 2 ( 12 0 0) Antipolar, Ti-O
+The n = 3 superlattice
+122i 2 (0 0 0) In-plane polar, Ti-O
+78i 2 (0 0 0) In-plane polar, mostly O
+62i 2 (0 0 0) In-plane anti-polar, a Ti-O
+51i 2 (0 0 0) In-plane polar, mostly O
+Oxygen octahedron rotation
+Bulk SrTiO3
+7i 1 (0 12 12) In-phase oxygen octahedra rotation
+75i 3 ( 12 12 12) Out-of-phase oxygen octahedra rotation
+The n = 3 superlattice
+122i 1 ( 12 12 0) Rotation of middle oxygen octahedron, along ˆ z
+60i 2 ( 12 12 0) In-phase oxygen octahedra rotation around ˆ x, ˆy
+a In the n = 3 superlattice primitive unit cell contains three Ti atoms. Therefore this mode is antipolar despite the fact that q = (0 0 0).
+In this particular mode Ti atoms at the opposite end of the superlattice move in opposite directions.
+unstable phonon modes. For example, at the Brillouin
+zone center q = (0 0 0) we ﬁnd a phonon triplet with a
+frequency of 140i cm−1 corresponding to the polar modes
+in which Ti and O atoms move in opposite directions. At
+the three equivalent centers of the Brillouin zone faces
+such as q = ( 12 0 0) we ﬁnd a doublet of unstable modes
+with a frequency of 50 i cm−1 corresponding to the an-
+tipolar distortion of Ti and O atoms.
+In the n = 3 FeSe-SrTiO 3 superlattice we ﬁnd very
+similar frequencies of unstable polar phonon modes rang-
+ing from 122 i cm−1 to 51 i cm−1, as shown in Table II.
+The out-of plane polar mode is stabilized in the super-
+lattice (its frequency is 330 cm −1) since there is a static
+polar distortion (the Ti-O rumpling) at the FeSe-SrTiO 3
+interface. The antipolar mode in the superlattice has
+nearly the same frequency as in the bulk (it is 62 i cm−1
+versus 50i cm−1 in the bulk). In the superlattice case the
+antipolar mode appears at the zone center q = (0 0 0)
+since the primitive unit cell of the superlattice contains
+three Ti atoms.
+3. Rotation of oxygen octahedra
+We now turn to the analysis of the remaining unsta-
+ble modes corresponding to the rotation of oxygen oc-
+tahedra. Unlike polar and antipolar distortions, oxygen
+octahedral distortions are not removed by quantum ﬂuc-
+tuations and static distortion occurs in bulk SrTiO 3 at
+temperatures below 105 K.
+In cubic bulk SrTiO 3 we ﬁnd unstable modes at the
+(0 12 12) point corresponding to the in-phase rotations
+with a frequency of 7 i cm−1. On the other hand, out-of-
+phase octahedral rotations are even more unstable since
+their frequency is 75 i cm−1. Here by in-phase rotation
+we have in mind a rotation in which adjacent octahedra
+along the rotation axis rotate in the same sense. This
+kind of rotation is also denoted as a ”+” rotation by
+Glazer.43 The out-of-phase rotations are denoted as a
+”−” rotation.
+In the case of the superlattice the strongest rotational
+instability has a frequency of 122 i cm−1 and it corre-
+sponds to the rotation of the oxygen octahedron in the
+middle of the SrTiO 3 slab around the z axis (the z axis
+is perpendicular to the slab). However, the calculated
+condensation energy of this mode is only 75 meV per
+primitive unit cell of n = 3 superlattice. Another insta-
+bility with a frequency of 60 i cm−1 corresponds to the
+in-phase rotation of octahedra around the x and y axes.
+Therefore, we can conclude that all structural instabil-
+ities in the superlattice are originating from the SrTiO 3
+layers and are present even in bulk SrTiO 3. While po-
+5
+□0.6
+□0.4
+□0.2
+0.0
+0.2
+0.4
+Ek (eV)
+NM, n = 1 NM, n = 2 NM, n = 3 NM, isolated
+□ X M □
+□0.6
+□0.4
+□0.2
+0.0
+0.2
+0.4
+Ek (eV)
+c-AFM, n = 1
+□ X M □
+c-AFM, n = 2
+□ X M □
+c-AFM, n = 3
+□ X M □
+c-AFM, isolated
+FIG. 2. Comparison of band structures with varying layer index n and a ﬁxed doping level of 0.12 electrons per single Fe
+atom. The right-most panel shows the band structure of an isolated FeSe monolayer with a lattice constant of bulk SrTiO 3
+for comparison. The top row panels show the band structure in the nonmagnetic (NM) case while the bottom row panels
+correspond to the checkerboard antiferromagnetic (c-AFM) case.
+lar distortions are slightly suppressed in the superlattice,
+oxygen octahedral distortions are somewhat enhanced
+(from 75 i cm−1 to 122 i cm−1). Therefore, we expect
+that the same series of structural phase transitions will
+appear in the superlattice as in the SrTiO 3 slab.
+B. Electronic structure
+We now turn to the electronic structure of the superlat-
+tices. As in the case of 1 UC FeSe/STO, we expect that
+the FeSe layers in our superlattice will be electron-doped
+by oxygen vacancies in the SrTiO 3 layers. In fact, oxy-
+gen vacancies are a common occurrence in SrTiO 3 and
+other perovskite oxides. To simulate the eﬀect of oxy-
+gen vacancies in our calculations, we added in the cal-
+culation excess electrons along with a uniform positive
+charge background, to keep the computational unit cell
+charge-neutral. The concentration of the added electron
+density is 0.12 electrons per single Fe atom, the same as
+estimated from the Fermi volume measured by ARPES
+in 1 UC FeSe/STO.
+The calculated band structures are shown in Fig. 2 for
+the n = 1, 2, 3 superlattices. For a comparison, we also
+show a band structure of an isolated FeSe monolayer but
+with an lattice constant equal to that of bulk SrTiO 3. In
+all four cases, we show band structures in the NM and
+the c-AFM states for a comparison. The band structure
+near the Fermi level of all superlattices we studied are
+very two-dimensional. For example we ﬁnd that the z
+axis dispersion at the M point is at most 2 meV.
+As shown in the left-most panel of Fig. 2, in the case
+of the n = 1 there is a hole pocket at M originating from
+oxygen p states at the Fermi level (even with included
+electron doping of 0.12 electrons per Fe). However, as n
+is increased, the top of the oxygen band moves below the
+Fermi level. The energy separation between the top of
+the oxygen band and the Fermi level is roughly linearly
+proportional to n. Already at n = 2 we ﬁnd that the
+Fermi level electronic structure is dominated by FeSe and
+is nearly indistinguishable from the case of an isolated
+FeSe monolayer (rightmost panel in Fig. 2).
+III. SUMMAR Y AND OUTLOOK
+The single layer of FeSe or FeAs is a common structural
+motif for all iron-based superconductors. These FeSe or
+FeAs layers are commonly thought to be where conduc-
+tion and superconductivity occurs while the in-between
+buﬀer layers serve only as reservoirs of charge and for
+structure stabilization. Here we are proposing a family
+of superlattices in which the in-between layers serve an
+active role in the superconductivity by enhancing the su-
+perconducting transition temperature Tc of the material.
+We expect a high superconducting transition tempera-
+ture in FeSe-SrTiO3 superlattices for the following three
+reasons. First, SrTiO 3 layers adjacent to the FeSe lay-
+ers can electron dope them and thus allow the intrinsic
+pairing mechanism operating in heavily doped FeSe to
+act. Second, the enhancement mechanism due to SrTiO 3
+phonons proposed in Ref. 7 is doubled in the superlattice.
+Third, three-dimensionality of the superlattice will sup-
+press the superconducting phase ﬂuctuations and thus
+enhance Tc. Indeed in Ref. 13 it is shown that in the
+two-dimensional case (1 UC FeSe/STO) the full diamag-
+netism is not achieved until ∼15 K despite the fact that
+the Meissner eﬀect onset occurs at 65 K. This wide phase
+6
+transition is consistent with suppression of superconduc-
+tivity by phase ﬂuctuations in two dimensions.
+Furthermore, we expect the Tc enhancement mecha-
+nism due to the substrate phonons proposed in Ref. 7 to
+hold for other oxides. For example earlier work found
+that one can replace SrTiO 3 with BaTiO 3 and have a
+similar Tc enhancement5 as in 1 UC FeSe/STO. This ob-
+servation is consistent with the fact that BaTiO 3 has
+similar high energy phonon bands as SrTiO 3. In addi-
+tion, we expect that the structural-template eﬀect 8 on a
+cubic SrTiO3, as well as doping due to oxygen vacancies,
+will continue to hold for other transition metal oxides as
+well.
+We hope that FeSe-SrTiO 3 superlattices might be
+grown by bulk crystal growth techniques molecular beam
+epitaxy (MBE), or pulsed layer deposition (PLD) meth-
+ods. For the latter two techniques controlling the chem-
+ical potential of all ﬁve elements in the superlattice (Fe,
+Se, Sr, Ti, and O) and the diﬀerent growth temperatures
+for FeSe and SrTiO 3 poses strong challenges. On the
+other hand, we expect the Tc enhancement mechanism
+to hold for even binary oxides such as TiO 2 (our n = 1
+superlattice), which might be grown more easily with the
+MBE or PLD method. In fact, in a recent study 44 an
+FeSe monolayer was successfully grown on top of TiO 2
+anatase.
+ACKNOWLEDGMENTS
+This work was supported by the Theory Program at
+the Lawrence Berkeley National Lab through the Of-
+ﬁce of Basic Energy Sciences, U.S. Department of En-
+ergy under Contract No. DE-AC02-05CH11231 which
+provided for the theoretical analysis and the National
+Science Foundation under Grant No. DMR15-1508412
+which provided for the structural calculation. This re-
+search used resources of the National Energy Research
+Scientiﬁc Computing Center, which is supported by the
+Oﬃce of Science of the U.S. Department of Energy.
+∗ sinisacoh@gmail.com
+1 W. Qing-Yan, L. Zhi, Z. Wen-Hao, Z. Zuo-Cheng, Z. Jin-
+Song, L. Wei, D. Hao, O. Yun-Bo, D. Peng, C. Kai,
+W. Jing, S. Can-Li, H. Ke, J. Jin-Feng, J. Shuai-Hua,
+W. Ya-Yu, W. Li-Li, C. Xi, M. Xu-Cun, and X. Qi-Kun,
+Chinese Phys. Lett. 29, 037402 (2012).
+2 D. Liu, W. Zhang, D. Mou, J. He, Y.-B. Ou, Q.-Y. Wang,
+Z. Li, L. Wang, L. Zhao, S. He, Y. Peng, X. Liu, C. Chen,
+L. Yu, G. Liu, X. Dong, J. Zhang, C. Chen, Z. Xu, J. Hu,
+X. Chen, X. Ma, Q. Xue, and X. J. Zhou, Nat Commun
+3, 931 (2012).
+3 S. He, J. He, W. Zhang, L. Zhao, D. Liu, X. Liu, D. Mou,
+Y.-B. Ou, Q.-Y. Wang, Z. Li, L. Wang, Y. Peng, Y. Liu,
+C. Chen, L. Yu, G. Liu, X. Dong, J. Zhang, C. Chen, Z. Xu,
+X. Chen, X. Ma, Q. Xue, and X. J. Zhou, Nat Mater 12,
+605 (2013).
+4 S. Tan, Y. Zhang, M. Xia, Z. Ye, F. Chen, X. Xie, R. Peng,
+D. Xu, Q. Fan, H. Xu, J. Jiang, T. Zhang, X. Lai, T. Xiang,
+J. Hu, B. Xie, and D. Feng, Nat Mater 12, 634 (2013).
+5 R. Peng, H. C. Xu, S. Y. Tan, H. Y. Cao, M. Xia, X. P.
+Shen, Z. C. Huang, C. H. P. Wen, Q. Song, T. Zhang, B. P.
+Xie, X. G. Gong, and D. L. Feng, Nat Commun 5, 5044
+(2014).
+6 R. Peng, X. P. Shen, X. Xie, H. C. Xu, S. Y. Tan, M. Xia,
+T. Zhang, H. Y. Cao, X. G. Gong, J. P. Hu, B. P. Xie,
+and D. L. Feng, Phys. Rev. Lett. 112, 107001 (2014).
+7 J. J. Lee, F. T. Schmitt, R. G. Moore, S. Johnston, Y.-T.
+Cui, W. Li, M. Yi, Z. K. Liu, M. Hashimoto, Y. Zhang,
+D. H. Lu, T. P. Devereaux, D.-H. Lee, and Z.-X. Shen,
+Nature 515, 245 (2014).
+8 S. Coh, M. L. Cohen, and S. G. Louie, New Journal of
+Physics 17, 073027 (2015).
+9 D.-H. Lee, Chinese Physics B 24, 117405 (2015).
+10 K. Liu, Z.-Y. Lu, and T. Xiang, Phys. Rev. B 85, 235123
+(2012).
+11 J. Bang, Z. Li, Y. Y. Sun, A. Samanta, Y. Y. Zhang,
+W. Zhang, L. Wang, X. Chen, X. Ma, Q.-K. Xue, and
+S. B. Zhang, Phys. Rev. B 87, 220503 (2013).
+12 F. Zheng, Z. Wang, W. Kang, and P. Zhang, Sci. Rep. 3,
+2213 (2013).
+13 Z. Zhang, Y.-H. Wang, Q. Song, C. Liu, R. Peng, K. Moler,
+D. Feng, and Y. Wang, Science Bulletin 60, 1301 (2015).
+14 F.-C. Hsu, J.-Y. Luo, K.-W. Yeh, T.-K. Chen, T.-W.
+Huang, P. M. Wu, Y.-C. Lee, Y.-L. Huang, Y.-Y. Chu,
+D.-C. Yan, and M.-K. Wu, Proc. Natl. Acad. Sci. 105,
+14262 (2008).
+15 Y. Mizuguchi, F. Tomioka, S. Tsuda, T. Yamaguchi, and
+Y. Takano, Applied Physics Letters 93, 152505 (2008).
+16 S. Margadonna, Y. Takabayashi, Y. Ohishi, Y. Mizuguchi,
+Y. Takano, T. Kagayama, T. Nakagawa, M. Takata, and
+K. Prassides, Phys. Rev. B 80, 064506 (2009).
+17 S. Medvedev, T. M. McQueen, I. A. Troyan, T. Palasyuk,
+M. I. Eremets, R. J. Cava, S. Naghavi, F. Casper,
+V. Ksenofontov, G. Wortmann, and C. Felser, Nat Mater
+8, 630 (2009).
+18 Y. Zhang, L. X. Yang, M. Xu, Z. R. Ye, F. Chen, C. He,
+H. C. Xu, J. Jiang, B. P. Xie, J. J. Ying, X. F. Wang,
+X. H. Chen, J. P. Hu, M. Matsunami, S. Kimura, and
+D. L. Feng, Nat Mater 10, 273 (2011).
+19 X. F. Lu, N. Z. Wang, H. Wu, Y. P. Wu, D. Zhao, X. Z.
+Zeng, X. G. Luo, T. Wu, W. Bao, G. H. Zhang, F. Q.
+Huang, Q. Z. Huang, and X. H. Chen, Nat Mater 14, 325
+(2015).
+20 L. Zhao, A. Liang, D. Yuan, Y. Hu, D. Liu, J. Huang,
+S. He, B. Shen, Y. Xu, X. Liu, L. Yu, G. Liu, H. Zhou,
+Y. Huang, X. Dong, F. Zhou, K. Liu, Z. Lu, Z. Zhao,
+C. Chen, Z. Xu, and X. J. Zhou, Nat Commun 7, 10608
+(2016).
+21 Y. Miyata, K. Nakayama, K. Sugawara, T. Sato, and
+T. Takahashi, Nat Mater 14, 775 (2015).
+22 C. H. P. Wen, H. C. Xu, C. Chen, Z. C. Huang, X. Lou,
+Y. J. Pu, Q. Song, B. P. Xie, M. Abdel-Haﬁez, D. A. Cha-
+reev, A. N. Vasiliev, R. Peng, and D. L. Feng, Nat Com-
+mun 7, 10840 (2016).
+7
+23 C. Tang, C. Liu, G. Zhou, F. Li, H. Ding, Z. Li, D. Zhang,
+Z. Li, C. Song, S. Ji, K. He, L. Wang, X. Ma, and Q.-K.
+Xue, Phys. Rev. B 93, 020507 (2016).
+24 Z.-X. Li, F. Wang, H. Yao, and D.-H. Lee, Science Bulletin
+advance online publication , 1 (2016).
+25 D. W. Turner, Phil. Trans. Roy. Soc. Lond. A 268, 7
+(1970).
+26 N. Choudhury, E. J. Walter, A. I. Kolesnikov, and C.-K.
+Loong, Phys. Rev. B 77, 134111 (2008).
+27 C. Lasota, C.-Z. Wang, R. Yu, and H. Krakauer, Ferro-
+electrics 194, 109 (1997).
+28 W. G. Stirling, Journal of Physics C: Solid State Physics
+5, 2711 (1972).
+29 Z. Wang, S. McKeown Walker, A. Tamai, Y. Wang, Z. Ris-
+tic, F. Y. Bruno, A. de la Torre, S. Ricco, N. C. Plumb,
+M. Shi, P. Hlawenka, J. Sanchez-Barriga, A. Varykhalov,
+T. K. Kim, M. Hoesch, P. D. C. King, W. Meevasana,
+U. Diebold, J. Mesot, B. Moritz, T. P. Devereaux,
+M. Radovic, and F. Baumberger, Nat Mater advance
+online publication (2016).
+30 L. Boeri, O. V. Dolgov, and A. A. Golubov, Phys. Rev.
+Lett. 101, 026403 (2008).
+31 L. Boeri, M. Calandra, I. I. Mazin, O. V. Dolgov, and
+F. Mauri, Phys. Rev. B 82, 020506 (2010).
+32 S. Mandal, R. E. Cohen, and K. Haule, Phys. Rev. B 89,
+220502 (2014).
+33 W. Malaeb, T. Shimojima, Y. Ishida, T. Kondo,
+K. Okazaki, Y. Ota, K. Ohgushi, K. Kihou, C. H. Lee,
+A. Iyo, H. Eisaki, S. Ishida, M. Nakajima, S. Uchida,
+H. Fukazawa, T. Saito, Y. Kohori, and S. Shin, Phys.
+Rev. B 90, 195124 (2014).
+34 P. Giannozzi et al., Journal of Physics: Condensed Matter
+21, 395502 (19pp) (2009).
+35 J. P. Perdew, K. Burke, and M. Ernzerhof, Phys. Rev.
+Lett. 77, 3865 (1996).
+36 K. Lee, E. D. Murray, L. Kong, B. I. Lundqvist, and D. C.
+Langreth, Phys. Rev. B 82, 081101 (2010).
+37 K. F. Garrity, J. W. Bennett, K. M. Rabe, and D. Van-
+derbilt, Computational Materials Science 81, 446 (2014).
+38 E. Sawaguchi, A. Kikuchi, and Y. Kodera, J. Phys. Soc.
+Jpn. 17, 1666 (1962).
+39 W. Zhong and D. Vanderbilt, Phys. Rev. Lett. 74, 2587
+(1995).
+40 N. Sai and D. Vanderbilt, Phys. Rev. B 62, 13942 (2000).
+41 W. Zhong and D. Vanderbilt, Phys. Rev. B 53, 5047
+(1996).
+42 N. Bickel, G. Schmidt, K. Heinz, and K. M¨ uller, Phys.
+Rev. Lett. 62, 2009 (1989).
+43 A. M. Glazer, Acta Crystallographica Section B 28, 3384
+(1972).
+44 H. Ding, Y.-F. Lv, K. Zhao, W.-L. Wang, L. Wang, C.-
+L. Song, X. Chen, X.-C. Ma, and Q.-K. Xue, preprint
+arXiv:1603.00999 (2016).

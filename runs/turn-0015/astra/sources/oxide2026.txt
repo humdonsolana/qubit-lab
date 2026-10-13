@@ -1,0 +1,397 @@
+APS/123-QED
+Fabrication of Oxide/FeSe multilayer films using the PLD
+technique
+Tomoki Kobayashi, Hiroki Nakagawa, Ryo Ogawa, and Atsutaka Maeda
+Department of Basic Science, The University of Tokyo,
+3-8-1 Komaba, Meguro-ku, Tokyo 153-8902, Japan
+(Dated: August 6, 2026)
+1
+arXiv:2509.23591v2  [cond-mat.supr-con]  5 Aug 2026
+Abstract
+In this study, we demonstrate the successful fabrication of TiO 2/FeSe/SrTiO3 and
+TiO2/FeSe/LaAlO3 heterostructures using PLD. When the growth rates were sufficiently low,
+anatase TiO 2, which has been reported to induce superconductivity in FeSe, could be grown epi-
+taxially on FeSe. For TiO 2/FeSe/SrTiO3 with FeSe layers thicker than 5 nm, the FeSe/TiO 2
+interface was clean, as confirmed by the observation of Laue fringes around the FeSe(001) re-
+flection. Although a thinner FeSe layer is expected to enhanceT c, we could not observe such
+behavior because it was difficult to realize interfacial superconductivity while growing anatase
+TiO2. Most strikingly, superconductivity appeared when TiO 2 was deposited on FeSe/LaAlO 3,
+clearly demonstrating that the interaction between the top oxide layer and underlying FeSe can
+induce superconductivity. This work demonstrates the feasibility of fabricating FeSe/oxide super-
+lattices by PLD, establishing a novel platform for the exploration of interfacial superconductivity
+in iron-based superconductors.
+I. INTRODUCTION
+Fe-chalcogenide superconductors have attracted much attention because of their high
+tunability of the superconducting transition temperature (Tc). Although theT c of bulk FeSe
+is 9 K at ambient pressure [1], it can be significantly enhanced by compressive strain [2–4],
+chemical pressure [5], hydrostatic pressure [6, 7], and electron doping through intercalation
+[8, 9] or the electric-field effect [10–16]. In particular, a zero-resistance temperature (T zeroc )
+as high as 46 K has been achieved in Refs. [15, 16].
+Intriguingly, ultrathin FeSe films grown on typical oxide substrates such as SrTiO3 (STO)
+[17] and TiO 2 [18, 19] also exhibit enhanced superconductivity owing to interfacial effects.
+Electron transfer [20–22] and interfacial electron–phonon coupling [23–25] have been re-
+ported to play essential roles in this enhancement. For FeSe/STO, angle-resolved photoe-
+mission spectroscopy (ARPES) measurements revealed a gap opening at the Fermi level as
+high as 65 K [26]. However, it remains unclear whether this observation is a direct signature
+of superconductivity, since transport measurements indicate an onsetT c (T onsetc ) around 40
+K, which is much lower than the gap-opening temperature [17, 27, 28]. Furthermore, the
+resistance drop is typically broad, and the zero-resistance state emerges only atT zeroc =
+10–30 K, well belowT onsetc . This unexpectedly lowT zeroc has been attributed to the Berezin-
+2
+skii–Kosterlitz–Thouless (BKT) transition[17] or strong inhomogeneity effects[29], both of
+which originate from the two-dimensional (2D) nature of superconductivity in FeSe/STO.
+Therefore, suppressing the 2D character while keeping the presence of the interfaces is a
+promising approach to achieving a higherT zeroc in this system. One possible strategy is to
+fabricate a superlattice composed of alternating FeSe and oxide layers. In such a structure,
+if the intermediate FeSe layers are thinner than the coherence length, superconductivity at
+each FeSe/oxide interface may be Josephson-coupled and reduce the 2D nature. In addi-
+tion, interfacial electron–phonon coupling may be enhanced, leading to a higherT c [30]. So
+far, superlattices based on FeSe have been fabricated using FeSe and FeTe[31], which are
+chemically and structurally similar compounds. However, superlattices composed of FeSe
+and oxide materials are more challenging, because direct growth of oxide layers on FeSe is
+difficult due to its high sensitivity to oxygen. As a first step toward realizing such super-
+lattices, it is important to construct oxide/FeSe/oxide multilayer structures(Fig. 1(a)), in
+which superconducting layers are confined near each interface. Even in this structure, super-
+conductivity originating at the two interfaces can be coupled to form a Josephson junction,
+leading to the suppression of 2D nature and an enhancement ofT c if the FeSe interlayer is
+sufficiently thin.
+Pulsed laser deposition (PLD) offers a promising route to deposit oxide materials without
+oxidizing FeSe. In the PLD growth process, a high-energy laser pulse ablates the target
+material and generates vaporized species that retain the stoichiometry of the target. As a
+result, PLD can produce thin films that nearly reproduce the target composition[32]. This
+feature of PLD allows the growth of epitaxial oxide films under vacuum conditions. Indeed,
+growth of STO under vacuum has been achieved by tuning laser condition [33]. Furthermore,
+different materials can be deposited simply by switching the target, which is advantageous
+for exploring high-T c superconductivity in FeSe/oxide systems via interface engineering.
+In this study, we demonstrate the successful fabrication of TiO2/FeSe/STO and TiO2/FeSe/LaAlO3
+heterostructures using PLD. When the growth rates were sufficiently low, anatase TiO 2,
+which has been reported to induce superconductivity in FeSe [18], could be grown epitaxially
+on FeSe. For TiO2/FeSe/STO, the FeSe/TiO2 interface was relatively clean, as confirmed by
+the observation of Laue fringes in FeSe(001) reflection. With FeSe thicknessesd FeSe >5 nm,
+no further enhancement of superconductivity was observed, probably because the observed
+Tc originates from the FeSe/STO interface. Although a thinner FeSe layer is expected to
+3
+enhanceT c, we could not observe such behavior because it was difficult to realize interfacial
+superconductivity while growing anatase TiO 2. Most strikingly, however, superconductiv-
+ity appeared when TiO 2 was deposited on FeSe/LaAlO 3, clearly demonstrating that the
+interface between the top oxide layer and underlying FeSe can induce superconductivity.
+This work demonstrates the feasibility of fabricating FeSe/oxide superlattice by PLD, es-
+tablishing a novel platform for the exploration of interfacial superconductivity in iron-based
+superconductors.
+II. EXPERIMENT AL METHODS
+We used STO and LaAlO 3(LAO) substrates for the growth of oxide/FeSe/oxide het-
+erostructures. Prior to PLD deposition, surface treatments were performed on both sub-
+strates. STO substrates were annealed in air and subsequently soaked in water, following
+the detailed procedure described in previous reports [34]. For LAO, the substrates were
+first annealed at 1000°C for 12 hours in air, followed by quenching from 500°C to room
+temperature (∼27 ◦C) during cooling to obtain an atomically flat surface. After quenching,
+the substrates were soaked in deionized water for two days to achieve AlO −2 termination
+[35]. FeSe films were grown on STO and LaAlO 3 substrates at a substrate temperature of
+500°C with a laser repetition rate of 1 Hz under high vacuum (∼1.0×10 −8 Torr). As the
+top oxide material, we employed TiO 2. The anatase phase of TiO 2 has an in-plane lattice
+constant comparable to that of FeSe (a= 3.78 ˚A for TiO 2 and 3.81 ˚A for FeSe/STO), and
+it has been reported that FeSe on anatase TiO 2 exhibits superconductivity similar to that
+observed for FeSe/STO [18]. After the growth of FeSe, TiO 2 layers were subsequently de-
+posited at the same substrate temperature under high vacuum (∼1.0×10 −8 Torr), using
+a pellet fabricated from rutile TiO 2 powder. All films were finally capped with undoped Si
+to prevent degradation due to air exposure. We note that this Si capping layer does not
+change the carrier density of TiO 2 or FeSe because it is an intrinsic semiconductor with a
+very low carrier density. The orientation and crystal structure of the grown films were char-
+acterized by X-ray diffraction (XRD) using Cu Kαradiation at room temperature. Film
+thicknesses were estimated from the Laue fringes around the FeSe(001) reflections or from
+the deposition time. Details are described in the Supplemental Material[36]. Resistivity
+measurements were carried out using a Physical Property Measurement System (PPMS) in
+4
+the temperature range of 2–300 K.
+III. RESUL TS
+The growth of anatase TiO 2 on FeSe requires careful optimization of deposition parame-
+ters. Previous studies of PLD growth of anatase TiO 2 on LAO showed that the deposition
+rate influences the density of oxygen vacancies [37], which may affect the growth of anatase
+phase on FeSe. We fabricated TiO2/FeSe/STO heterostructures while varying the deposition
+rates of both FeSe (r FeSe) and TiO 2 (rTiO2). The phase of the top TiO 2 layer was examined
+using Reflection High-Energy Electron Diffraction (RHEED) just after the deposition (Fig.
+1(b)). Because the in-plane lattice constants of FeSe and anatase TiO 2 are nearly identical,
+the streak spacing in the RHEED patterns is expected to be equivalent after FeSe deposition
+and after deposition of the top TiO 2 layer. When TiO 2 was deposited at a rate exceeding
+0.04 nm/min, the streak spacing clearly deviated from that of FeSe, irrespective of the FeSe
+growth rate, indicating that the top oxide layer was not anatase TiO 2. Furthermore, we
+found that when FeSe itself was grown at a rate higher than 0.25 nm/min, the subsequent
+TiO2 layer failed to crystallize in the anatase phase, even when the TiO2 deposition rate was
+kept below 0.04 nm/min. These observations suggest that both the growth rates of FeSe
+and TiO2 must be carefully controlled to suppress competing phases.
+Successful growth of anatase TiO 2 was achieved only under the combined conditions of
+rFeSe <0.25 nm/min andr TiO2 <0.04 nm/min, as illustrated in the right panel in Fig.
+1(b). The corresponding RHEED image exhibits streaks with identical spacing for FeSe
+and TiO 2, confirming that the grown oxide phase was anatase. The appropriateness of
+this lowr TiO2 was confirmed by growing a TiO 2 film on an LAO substrate under similar
+conditions, where the anatase phase was confirmed by RHEED and XRD measurements (see
+the Supplemental Material[36]). A systematic summary of the RHEED images obtained at
+different growth rates is also provided in Fig. 1(c), clearly indicating that bothr TiO2 and
+rFeSe are important to obtain the anatase phase on FeSe. Figure 1(d) shows the XRD pattern
+of a representative anatase TiO 2/FeSe/STO heterostructure. Distinct FeSe(00l) diffraction
+peaks were observed even after deposition of the TiO 2, demonstrating that the crystalline
+order of FeSe was preserved during the process. In addition, Laue fringes were clearly visible
+around the FeSe(001) reflection (Fig. 1(e)), indicating flat interfaces between FeSe and TiO2.
+5
+These results demonstrate that careful control of the growth rates (r TiO2 andr FeSe) enables
+the fabrication of TiO2/FeSe/STO heterostructures, while preserving the single crystallinity
+of FeSe and ensuring flat top oxide/superconductor interfaces.
+FIG. 1. (a) Schematic illustration of the oxide/FeSe/oxide heterostructure. Superconductivity
+originating from each FeSe/oxide interface emerges. (b) RHEED images obtained after the growth
+of FeSe (top) and TiO 2 (bottom). Left, middle, and right images correspond tor TiO2 >0.04
+nm/min,r TiO2 <0.04 nm/min withr FeSe >0.25 nm/min, andr TiO2 <0.04 nm/min withr FeSe <
+0.25 nm/min, respectively. (c) Summary of RHEED patterns for variousr TiO2 andr FeSe. (d) XRD
+pattern of a representative TiO 2/FeSe/STO heterostructure withd FeSe = 10 nm andd TiO2 ∼2
+nm. The peak indicated by an asterisk is the Fe(101) peak originating from the sample stage. (e)
+Enlarged plot of the FeSe(001) reflection.
+Figure 2(a) shows the temperature dependence of the sheet resistance of TiO2/FeSe/STO
+heterostructures and FeSe/STO films with FeSe thicknesses (d FeSe) ranging from 10 to 1.5
+nm, while keeping the TiO2 thickness (dTiO2) fixed at 2 nm. Whend FeSe = 10 and 5 nm, the
+sheet resistance and residual resistance ratio RRR( =R (300K)/R(40K)) were almost the same
+for the TiO 2/FeSe and FeSe/STO films. This suggests that TiO 2 deposition did not cause
+6
+significant degradation of FeSe, which is consistent with the presence of Laue fringes around
+the FeSe(001) reflection. Furthermore,T onsetc was unchanged regardless of the presence of
+the TiO2 overlayer (Fig. 2(b)). This result is not surprising, since possible superconductivity
+at the TiO2/FeSe and FeSe/STO interfaces is not expected to couple owing to the short co-
+herence length [38]. This indicates that the observed superconductivity originates from the
+FeSe/STO interface. For thinner FeSe layers, superconductivity in FeSe/STO was slightly
+suppressed as the FeSe thickness decreased, and the 1.5-nm-thick film did not exhibit super-
+conductivity. This suppression of superconductivity is in contrast to the literature[22, 39]
+and our previous study[34, 38], which reported an enhancement of superconductivity with
+decreasing thickness. This discrepancy may be due to the FeSe deposition rate being as
+low as 0.1 nm/min in the present study, whereas it was 0.2–0.5 nm/min in the previous
+study[34]. Although such a low deposition rate was necessary for the subsequent growth
+of anatase TiO 2, it was not optimal for obtaining high-quality ultrathin FeSe films. When
+comparing the TiO 2/FeSe (dFeSe = 2.5 nm) and FeSe (d FeSe = 3 nm) films, the sheet resis-
+tance increased by a factor of 3.4 and the transition became broader after TiO 2 deposition.
+Atd FeSe ∼1.5 nm, TiO 2/FeSe/STO exhibited higher resistance than FeSe/STO. The re-
+sistance of these films exceeded the quantum critical value (h/(2e) 2) associated with the
+superconductor–insulator transition[40], and no superconducting transition was detected.
+These differences between films with and without a TiO 2 layer may be caused either by a
+slight difference in thickness or by the deposition of TiO 2 on FeSe. In the latter case, one
+possible mechanism is structural damage to, or oxidation of, FeSe caused by high-energy
+species in the laser ablation plume.
+To overcome this issue, we employed a different substrate material, LAO, in an attempt
+to prepare interfaces with reduced degradation. LAO has a lattice constant ofa= 3.78 ˚A,
+which is almost identical to that of anatase TiO 2. Therefore, using an LAO substrate is
+expected to provide a better interface, as the in-plane lattice constants of anatase TiO 2 and
+FeSe are more closely matched. Figures 3(a) and (c) show the XRD patterns of FeSe/LAO
+(dFeSe = 5.5 nm)and TiO 2/FeSe/LAO (dFeSe = 5.5 nm,d TiO2 ∼2 nm) .
+All FeSe (00l) peaks were observed for FeSe/LAO; however, the FeSe(002) and (004)
+reflections were not observed for TiO 2/FeSe/LAO because of their reduced intensities.
+Furthermore, Laue fringes were not observed for the film with a TiO 2 overlayer (Fig. 3(d)),
+in contrast to FeSe/LAO (Fig. 3(b)). These results indicate that the TiO 2/FeSe interface
+7
+FIG. 2. (a) Temperature dependence of the sheet resistance of TiO 2/FeSe/STO and FeSe/STO
+films with differentd FeSe. For TiO 2/FeSe/STO heterostructures, the TiO 2 thickness was kept at
+dTiO2 ∼2 nm. (b) Temperature dependence of the normalized resistance of TiO 2/FeSe/STO and
+FeSe/STO films in the range 0–80 K.
+became unexpectedly rough and that deposition of TiO 2 probably introduces disorder into
+FeSe, as in the case of FeSe/STO. However, in contrast to the films on STO, emergence of
+superconductivity only after depositing TiO2 was observed for the films on LAO. Figure 3(e)
+shows the temperature dependence of the resistance of FeSe/LAO films with and without a
+TiO2 overlayer. FeSe/LAO without TiO 2 did not show a superconducting transition down
+to 2 K. This absence of superconductivity, unlike in FeSe/STO, can be attributed to the
+lack of electron doping from the substrate. First, the work function of AlO
+−
+2 -terminated
+LAO is calculated to be 6.87 eV[41], which is higher than that of FeSe (5.1 eV), in con-
+trast to the situation in FeSe/STO[21]. Second, although charge transfer driven by polar
+discontinuity, as in LAO/STO, may in principle occur in LAO-based structures, the B-
+terminated surface employed in this study would result in hole doping rather than electron
+doping. In contrast to FeSe/LAO, the film with a TiO 2 overlayer exhibited a superconduct-
+ing transition at low temperatures. The superconducting origin of the resistive drop was
+further confirmed by its suppression under applied magnetic fields (Fig. 3(f)). The onset
+8
+transition temperature wasT onsetc = 16 K, which is higher than that of bulk FeSe. Zero
+resistivity was observed at 3 K, which may be related to structural damage, as suggested
+by the absence of Laue fringes around the FeSe(001) reflection. This result suggests that
+the emergence of superconductivity can be attributed to interfacial effects at the TiO 2/FeSe
+interface. The detailed mechanism underlying the emergence of superconductivity is still
+unclear. However, we believe that electron transfer from the oxide to FeSe is likely to be
+relevant, similar to the case of FeSe/STO. This possibility could be investigated by electron
+energy-loss spectroscopy (EELS) combined with scanning transmission electron microscopy
+(STEM)[22]. The different behavior of the films on STO and LAO upon TiO 2 deposition
+is likely related to the presence of superconductivity originating from the FeSe/substrate
+interface. In the case of FeSe/STO, superconductivity withT onsetc ∼25 K emerges from
+the FeSe/STO interface and may mask a possible superconducting transition originating
+from the TiO 2/FeSe interface with a lowerT c, whereas FeSe/LAO does not exhibit such
+substrate-induced superconductivity.
+The emergence of superconductivity in TiO 2/FeSe/LAO demonstrates that a top ox-
+ide overlayer can induce the emergence of superconductivity, analogous to the substrate-
+induced effect[18]. This observation indicates that coupling between the superconductivity
+originating at each interface in the TiO 2/FeSe/oxide heterostructure is, in principle, possi-
+ble. Therefore, our results suggest that constructing a TiO 2/FeSe superlattice provides a
+promising platform for enhancing or engineering interfacial superconductivity. At this stage,
+however, the existence of superconductivity originating at the TiO 2/FeSe interface on the
+STO substrate was not experimentally confirmed because theT c associated with FeSe/STO
+may be higher than that associated with the TiO 2/FeSe interface. To reveal the existence of
+superconductivity near the TiO 2/FeSe interface, AC diamagnetic measurements would be
+promising. However, because the superconductivity is expected to be inhomogeneous, im-
+proving the interface quality is also necessary. In addition, degradation of FeSe during TiO 2
+deposition may hinder coupling between the superconducting regions at the two interfaces.
+In this case, one possible degradation mechanism is damage to FeSe caused by high-energy
+species in the laser ablation plume. Thus, a promising way to mitigate damage is to reduce
+the kinetic energy of the plume. This could be achieved by introducing a He buffer gas
+during PLD[42], which reduces the kinetic energy through scattering between plume species
+and He atoms, and will be explored in future work.
+9
+FIG. 3. (a) and (c) XRD patterns of FeSe/LAO and TiO 2/FeSe/LAO, respectively. (b) and
+(d) show enlarged plots around the FeSe(001) reflections. (e) Temperature dependence of the
+normalized resistance of TiO2/FeSe/LAO and FeSe/LAO films withdFeSe ∼5 nm. (f) Temperature
+dependence of the sheet resistance of TiO 2/FeSe/LAO films under magnetic fields of 0–9 T.10
+IV. CONCLUSION
+In this study, we demonstrate the successful fabrication of TiO2/FeSe/STO and TiO2/FeSe/LAO
+heterostructures using PLD. When the growth rates were sufficiently low, anatase TiO 2,
+which has been reported to induce superconductivity in FeSe, could be grown epitaxially
+on FeSe. For TiO 2/FeSe/SrTiO3 with FeSe layers thicker than 5 nm, the FeSe/TiO 2 in-
+terface was clean, as confirmed by the observation of Laue fringes around the FeSe(001)
+reflection. Although a thinner FeSe layer is expected to enhanceT c, we could not observe
+such behavior because it was difficult to realize interfacial superconductivity while growing
+anatase TiO 2. Most strikingly, however, superconductivity appeared when TiO 2 was de-
+posited on FeSe/LAO, clearly demonstrating that the interface between the top oxide layer
+and underlying FeSe can induce superconductivity. This work demonstrates the feasibil-
+ity of fabricating FeSe/oxide superlattices by PLD, establishing a novel platform for the
+exploration of interfacial superconductivity in iron-based superconductors.
+V. ACKNOWLEDGEMENT
+We would like to acknowledge K Ueno and H Okuma at the University of Tokyo for
+their technical support of the XRD measurements. This research was supported by JSPS
+KAKENHI Grants No. JP24KJ0799 and JP24K06952.
+[1] F.-C. Hsu, J.-Y. Luo, K.-W. Yeh, T.-K. Chen, T.-W. Huang, P. M. Wu, Y.-C. Lee, Y.-L.
+Huang, Y.-Y. Chu, D.-C. Yan, and M.-K. Wu, Superconductivity in the pbo-type structure
+alphafese, Proceedings of the National Academy of Sciences105, 14262 (2008),
+https://www.pnas.org/content/105/38/14262.full.pdf.
+[2] F. Nabeshima, M. Kawai, T. Ishikawa, N. Shikama, and A. Maeda, Systematic study on
+transport properties of FeSe thin films with various degrees of strain, Japanese Journal of
+Applied Physics57, 120314 (2018).
+[3] M. Nakajima, Y. Ohata, and S. Tajima, Control of band structure of fese single crystals via
+biaxial strain, Phys. Rev. Materials5, 044801 (2021).
+11
+[4] M. Ghini, M. Bristow, J. C. A. Prentice, S. Sutherland, S. Sanna, A. A. Haghighirad, and
+A. I. Coldea, Strain tuning of nematicity and superconductivity in single crystals of fese, Phys.
+Rev. B103, 205139 (2021).
+[5] Y. Imai, R. Tanaka, T. Akiike, M. Hanawa, I. Tsukada, and A. Maeda, Superconductivity of
+fese0.5te0.5 thin films grown by pulsed laser deposition, Japanese Journal of Applied Physics
+49, 023101 (2010).
+[6] Y. Mizuguchi, F. Tomioka, S. Tsuda, T. Yamaguchi, and Y. Takano, Appl. Phys. Lett.93,
+152505 (2008).
+[7] J. P. Sun, K. Matsuura, G. Z. Ye, Y. Mizukami, M. Shimozawa, K. Matsubayashi, M. Ya-
+mashita, T. Watashige, S. Kasahara, Y. Matsuda, J. Q. Yan, B. C. Sales, Y. Uwatoko, J. G.
+Cheng, and T. Shibauchi, Nat. Commun7, 12146 (2016).
+[8] J. Guo, S. Jin, G. Wang, S. Wang, K. Zhu, T. Zhou, M. He, and X. Chen, Superconductivity
+in the iron selenide K xFe2Se2 (0≤x≤1.0), Phys. Rev. B82, 180520 (2010).
+[9] M. Z. Shi, N. Z. Wang, B. Lei, J. J. Ying, C. S. Zhu, Z. L. Sun, J. H. Cui, F. B. Meng,
+C. Shang, L. K. Ma, and X. H. Chen, FeSe-based superconductors with a superconducting
+transition temperature of 50 k, New Journal of Physics20, 123007 (2018).
+[10] B. Lei, J. H. Cui, Z. J. Xiang, C. Shang, N. Z. Wang, G. J. Ye, X. G. Luo, T. Wu, Z. Sun,
+and X. H. Chen, Evolution of high-temperature superconductivity from a low-T c phase tuned
+by carrier concentration in FeSe thin flakes, Phys. Rev. Lett.116, 077002 (2016).
+[11] J. Shiogai, Y. Ito, T. Mitsuhashi, T. Nojima, and A. Tsukazaki, Electric-field-induced su-
+perconductivity in electrochemically etched ultrathin FeSe films on SrTiO3 and MgO, Nature
+Physics12, 42 (2016).
+[12] C. Wang, X. Yi, Y. Qiu, Q. Tang, X. Zhang, Y. Luo, and B. Yu, Transport properties and
+anisotropy of superconducting (li1-xfex)ohfese single crystals, Superconductor Science and
+Technology29, 055003 (2016).
+[13] K. Hanzawa, H. Sato, H. Hiramatsu, T. Kamiya, and H. Hosono, Electric field-induced su-
+perconducting transition of insulating fese thin film at 35 K, Proceedings of the National
+Academy of Sciences113, 3986 (2016).
+[14] S. Kouno, Y. Sato, Y. Katayama, A. Ichinose, D. Asami, F. Nabeshima, Y. Imai, A. Maeda,
+and K. Ueno, Superconductivity at 38 k at an electrochemical interface between an ionic liquid
+and fese0.8te0.2 on various substrates, Scientific Reports8, 14731 (2018).
+12
+[15] N. Shikama, Y. Sakishita, F. Nabeshima, Y. Katayama, K. Ueno, and A. Maeda, Enhancement
+of superconducting transition temperature in electrochemically etched FeSe/LaAlO3 films,
+Applied Physics Express13, 083006 (2020).
+[16] N. Shikama, Y. Sakishita, F. Nabeshima, and A. Maeda, Positive and negative chemical
+pressure effects investigated in electron-doped fese films with an electric-double-layer structure,
+Phys. Rev. B104, 094512 (2021).
+[17] Q.-Y. Wang, Z. Li, W.-H. Zhang, Z.-C. Zhang, J.-S. Zhang, W. Li, H. Ding, Y.-B. Ou,
+P. Deng, K. Chang, J. Wen, C.-L. Song, K. He, J.-F. Jia, S.-H. Ji, Y.-Y. Wang, L.-L. Wang,
+X. Chen, X.-C. Ma, and Q.-K. Xue, Interface-induced high-temperature superconductivity in
+single unit-cell FeSe films on SrTiO3, Chinese Physics Letters29, 037402 (2012).
+[18] H. Ding, Y.-F. Lv, K. Zhao, W.-L. Wang, L. Wang, C.-L. Song, X. Chen, X.-C. Ma, and Q.-K.
+Xue, High-temperature superconductivity in single-unit-cell fese films on anatase tio 2(001),
+Phys. Rev. Lett.117, 067001 (2016).
+[19] S. N. Rebec, T. Jia, C. Zhang, M. Hashimoto, D.-H. Lu, R. G. Moore, and Z.-X. Shen,
+Coexistence of replica bands and superconductivity in fese monolayer films, Phys. Rev. Lett.
+118, 067002 (2017).
+[20] D. Liu, W. Zhang, D. Mou, J. He, Y.-B. Ou, Q.-Y. Wang, Z. Li, L. Wang, L. Zhao, S. He,
+Y. Peng, X. Liu, C. Chen, L. Yu, G. Liu, X. Dong, J. Zhang, C. Chen, Z. Xu, J. Hu, X. Chen,
+X. Ma, and X. J. Xue, Qikunand Zhou, Electronic origin of high-temperature superconduc-
+tivity in single-layer FeSe superconductor, Nature Communications3, 931 (2012).
+[21] H. Zhang, D. Zhang, X. Lu, C. Liu, G. Zhou, X. Ma, L. Wang, P. Jiang, Q.-K. Xue, and
+X. Bao, Origin of charge transfer and enhanced electron–phonon coupling in single unit-cell
+fese films on srtio3, Nature Communications8, 214 (2017).
+[22] W. Zhao, M. Li, C.-Z. Chang, J. Jiang, L. Wu, C. Liu, J. S. Moodera, Y. Zhu, and M. H. W.
+Chan, Direct imaging of electron transfer and its influence on superconducting pairing at
+fese/srtio3 interface, Science Advances4, eaao2682 (2018).
+[23] J. J. Lee, F. T. Schmitt, R. G. Moore, S. Johnston, Y.-T. Cui, W. Li, M. Yi, Z. K. Liu,
+M. Hashimoto, Y. Zhang, D. H. Lu, T. P. Devereaux, D.-H. Lee, and Z.-X. Shen, Interfacial
+mode coupling as the origin of the enhancement of tc in fese films on srtio3, Nature515, 245
+(2014).
+13
+[24] W. H. Zhang, X. Liu, C. H. P. Wen, R. Peng, S. Y. Tan, B. P. Xie, T. Zhang, and D. L.
+Feng, Effects of surface electron doping and substrate on the superconductivity of epitaxial
+fese films, Nano Letters16, 1969 (2016).
+[25] Q. Song, T. L. Yu, X. Lou, B. P. Xie, H. C. Xu, C. H. P. Wen, Q. Yao, S. Y. Zhang, X. T.
+Zhu, J. D. Guo, R. Peng, and D. L. Feng, Evidence of cooperative effect on the enhanced
+superconducting transition temperature at the fese/srtio3 interface, Nature Communications
+10, 758 (2019).
+[26] S. He, J. He, W. Zhang, L. Zhao, D. Liu, X. Liu, D. Mou, Y.-B. Ou, Q.-Y. Wang, Z. Li,
+L. Wang, Y. Peng, Y. Liu, C. Chen, L. Yu, G. Liu, X. Dong, J. Zhang, C. Chen, Z. Xu,
+X. Chen, X. Ma, Q. Xue, and X. J. Zhou, Phase diagram and electronic indication of high-
+temperature superconductivity at 65 k in single-layer fese films, Nature Materials12, 605
+(2013).
+[27] A. K. Pedersen, S. Ichinokura, T. Tanaka, R. Shimizu, T. Hitosugi, and T. Hirahara, Interfacial
+superconductivity in fese ultrathin films on srtio3 probed by in situ independently driven four-
+point-probe measurements, Phys. Rev. Lett.124, 227002 (2020).
+[28] B. D. Faeth, S.-L. Yang, J. K. Kawasaki, J. N. Nelson, P. Mishra, C. T. Parzyck, C. Li, D. G.
+Schlom, and K. M. Shen, Incoherent cooper pairing and pseudogap behavior in single-layer
+FeSe/SrTio3, Phys. Rev. X11, 021054 (2021).
+[29] X. Jiao, W. Dong, M. Shi, H. Wang, C. Ding, Z. Wei, G. Gong, Y. Li, Y. Li,
+B. Zuo, J. Wang, D. Zhang, M. Pan, L. Wang, and Q.-K. Xue, Significantly en-
+hanced superconductivity in monolayer fese films on srtio3(001) via metallicδ-doping,
+National Science Review11, nwad213 (2023), https://academic.oup.com/nsr/article-
+pdf/11/3/nwad213/56534474/nwad213.pdf.
+[30] S. Coh, D.-H. Lee, S. G. Louie, and M. L. Cohen, Proposal for a bulk material based on a
+monolayer fese on srtio 3 high-temperature superconductor, Phys. Rev. B93, 245138 (2016).
+[31] F. Nabeshima, Y. Imai, A. Ichinose, I. Tsukada, and A. Maeda, Growth and transport prop-
+erties of fese/fete superlattice thin films, Japanese Journal of Applied Physics56, 020308
+(2017).
+[32] D. H. Lowndes, D. B. Geohegan, A. A. Puretzky, D. P. Norton, and C. M. Rouleau,
+Synthesis of novel thin-film materials by pulsed laser deposition, Science273, 898 (1996),
+https://www.science.org/doi/pdf/10.1126/science.273.5277.898.
+14
+[33] H. N. Lee, S. S. Ambrose Seo, W. S. Choi, and C. M. Rouleau, Growth control of oxygen
+stoichiometry in homoepitaxial srtio3 films by pulsed laser epitaxy in high vacuum, Scientific
+Reports6, 19941 (2016).
+[34] T. Kobayashi, H. Ogawa, F. Nabeshima, and A. Maeda, Interface superconductivity in fese
+thin films on srtio grown by the pld technique, Superconductor Science and Technology35,
+07LT01 (2022).
+[35] J. R. Kim, J. N. Lee, J. Mun, Y. Kim, Y. J. Shin, B. Kim, S. Das, L. Wang, M. Kim,
+M. Lippmaa, T. H. Kim, and T. W. Noh, Experimental realization of atomically flat and
+Alo2-terminated LaAlo3 (001) substrate surfaces, Phys. Rev. Mater.3, 023801 (2019).
+[36] See the Supplemental Material at for the estimation of FeSe thicknesses. It also describes the
+growth of a TiO 2 film on an LAO substrate, which was performed to confirm the suitability
+of the low TiO 2 deposition rate used for growth on FeSe.
+[37] T. Tachikawa, M. Minohara, Y. Nakanishi, Y. Hikita, M. Yoshita,
+H. Akiyama, C. Bell, and H. Y. Hwang, Metal-to-insulator transition
+in anatase tio2 thin films induced by growth rate modulation, Applied
+Physics Letters101, 022104 (2012), https://pubs.aip.org/aip/apl/article-
+pdf/doi/10.1063/1.4733724/13164671/022104 1 online.pdf.
+[38] T. Kobayashi, H. Nakagawa, H. Ogawa, F. Nabeshima, and A. Maeda, Anisotropy of upper
+critical fields and interface superconductivity in fese/srtio3 grown by pld, Journal of Physics:
+Condensed Matter35, 41LT01 (2023).
+[39] Q. Wang, W. Zhang, Z. Zhang, Y. Sun, Y. Xing, Y. Wang, L. Wang, X. Ma, Q.-K. Xue, and
+J. Wang, Thickness dependence of superconductivity and superconductor–insulator transition
+in ultrathin FeSe films on SrTiO3(001) substrate, 2D Materials2, 044012 (2015).
+[40] A. M. Goldman and N. Markovi´ c, Superconductor-insulator transitions in the two-
+dimensional limit, Physics Today51, 39 (1998), https://pubs.aip.org/physicstoday/article-
+pdf/51/11/39/8312500/39 1 online.pdf.
+[41] R. Jacobs, J. Booske, and D. Morgan, Understanding and controlling the work function of
+perovskite oxides using density functional theory, Advanced Functional Materials26, 5471
+(2016), https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adfm.201600243.
+[42] R. Takahashi, T. Yamamoto, and M. Lippmaa, He buffer gas for moderating the kinetic energy
+of pulsed laser deposition plumes, Crystal Growth & Design21, 5017 (2021).
+15

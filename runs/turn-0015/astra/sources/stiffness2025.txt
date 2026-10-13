@@ -1,0 +1,881 @@
+Correlation between unconventional superconductivity and strange 
+metallicity revealed by operando superfluid density measurements 
+Ruozhou Zhang 1,2†, Mingyang Qin 1,3†*, Chenyuan Li 4†, Zhanyi Zhao 1,5†, Zhongxu 
+Wei1,6, Juan Xu1, Xingyu Jiang1,5, Wenxin Cheng1,5, Qiuyan Shi1,5, Xuewei Wang1,5, Jie 
+Yuan1,5,7, Yangmu Li 1,5, Qihong Chen 1,5,7, Tao Xiang 1,8, Subir Sachdev 4*, Zi -Xiang 
+Li1,5*, Kui Jin1,5,7*, and Zhongxian Zhao1,5,7 
+ 
+1Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese 
+Academy of Sciences, Beijing 100190, China 
+2State Key Laboratory of Surface Physics and Department of Physics, Fudan University, 
+Shanghai 200433, China 
+3Department of Materials Science and Engineering, Southern University of Science and 
+Technology, Shenzhen 518055, China 
+4Department of Physics, Harvard University, Cambridge MA 02138, USA 
+5School of Physical Sciences, University of Chinese Academy of Sciences, Beijing 100049, 
+China 
+6Department of Physics, Southern University of Science and Technology, Shenzhen 518055, 
+China 
+7Songshan Lake Materials Laboratory, Dongguan, Guangdong 523808, China 
+8Beijing Academy of Quantum Information Sciences, Beijing, 100193, China 
+ 
+†These authors contributed equally to this work. 
+*: qinmy@sustech.edu.cn; sachdev@g.harvard.edu; zixiangli@iphy.ac.cn; kuijin@iphy.ac.cn 
+ 
+Abstract 
+Strange-metal behavior has been observed in superconduct ors ranging from  
+cuprates to pressurized nickelates 1-7, but its relationship  to unconventional  
+superconductivity remains elusive. Here, we perform operando superfluid density 
+measurements on ion-gated FeSe films. We observe for the first time a 
+synchronized evolution of superconducting condensate and the strange -metal 
+phase with electron doping. A linear scaling between zero-temperature superfluid 
+density and the strange -metal resistivity coefficient is further established, which 
+nails down a direct link between the formation of superfluid in the 
+superconducting state and the scattering of carrier s in the strange -metal normal 
+state. Remarkably, the scaling also applies for different iron -based and cuprate 
+superconductors despite their distinct electronic structures and pairing 
+symmetries. Such a correlation can be reproduced in a theoretical calculation on 
+the two-dimensional Yukawa-Sachdev-Ye-Kitaev model8 by considering a 
+cooperative effect of quantum critical fluctuation and disorder.  These findings 
+indicate a fundamental principle governing superconducting condensation and 
+strange-metal scattering in unconventional superconductors.  
+ 
+Main text 
+In the search for the microscopic mechanism of unconventional superconductors, a 
+concerted effort has been directed to ward understanding their normal states and how 
+they link to superconductivity. It has been found that t he normal state of various 
+unconventional superconductors, e.g.,  cuprates 1,2,9, iron -based materials 3,10, magic -
+angle graphene7, and nickelates4-6 exhibits a linear-in-temperature (T-linear) resistivity 
+extending to the low temperature. Such an anomalous transport  behavior11, termed as 
+the strange metal, is acknowledged to be intimately related to  unconventional 
+superconductivity1,2,9,10,12. However, despite extensive investigations over the past 
+decades8,13-16, the microscopic mechanism of strange-metal transport and the interplay 
+between strange metal and superconductivity remain actively debated. One of the  
+central questions is what the fundamental correlation between the strange-metal normal 
+state and superconductivity  is. To find clues for solving the puzzle , inspecting the 
+crucial ingredient governing superconductivity across the strange -metal regime is 
+immensely required.  
+One key parameter characterizing the superconducting state is the superfluid density, 
+ρs ( ≡ λab-2  ∝ ns/m* , with λab the in -plane magnetic penetration depth, ns the 
+superconducting carrier density and m* the effective electron mass), which encodes the 
+rigidity of quantum -mechanism phase of Cooper pairs, reflecting the resilience of 
+pairing condensate against phase fluctuations 17,18. It has been widely observed  in 
+cuprates that the  superconducting transition temperature  (Tc) scales with ρs0 
+[≡ ρs (T → 0)   (see e.g., Refs. 18-20), which is beyond the standard Barden-Cooper-
+Schrieffer (BCS)  scenario that  Tc is determined by the pairing strength. More 
+intriguingly, in overdoped cuprates such as Tl 2Ba2CuO6+δ (Tl2201) and La2-xSrxCuO4 
+(LSCO), the normal-state carrier density increases with hole doping, but both ρs0 and 
+the T-linear resistivity coefficient A1 decrease13,14, suggesting a pivotal role of the 
+strange-metal state in the pairing condensate. Consequently, establishing a quantitative 
+relationship between ρs0 and A1, and exploring to what extent it can be applied to  
+unconventional superconductors are of vital importance in understanding the essential 
+physics underlying the connection between unconventional superconductivity and the 
+strange metallicity, and establishing a unified theoretical framework of unconventional 
+superconductors. However, the great challenge s involve manipulating 
+superconductivity minutely across the strange -metal regime and obtaining precise ρs0 
+data in an efficient way. 
+For LSCO, the systematic evolution of ρs0 with Tc in the overdoped regime has been 
+revealed by Božović  et al 18, based on massive data from over 2000 films  prepared 
+within about 12 years. Other than chemical substitution methods, the ionic liquid gating 
+(ILG) technique is an approach that can continuously tune Tc of a single sample by 
+virtue of either electrostatic or electrochemical effects 21. FeSe, a prototype iron-based 
+superconductor with the simplest crystal structure containing only the Fe-Se layer, has 
+shown its unique compatibility with the ILG technique, i.e. , the almost fivefold 
+enhancement of Tc under gating22. Importantly, the strange -metal state of FeSe films 
+with T-linear resistivity, linear -in-field ( H) magnetoresistance, and H/T scaling of 
+magnetoresistance was unambiguously identified, and its evolution with ionic-liquid 
+gating was also disclosed in our previous work10. 
+Here, we perform operando ρs measurements by the two -coil mutual inductance 
+(TCMI) technique on the ion-gated FeSe films, with Tc finely tuned in a wide range of 
+approximately 11 to 43 K in a single sample. With this high -efficiency approach, we 
+uncover a systematic dependence of Tc on ρs0 for the iron-based superconductors, i.e., 
+Tc ∝ ρs00.55 ± 0.11. Intriguingly, we find that the superfluid condensate keeps in lockstep 
+with the strange-metal phase during the gating process. A linear correlation between ρs0 
+and A1, i.e., ρs0 ~ A1, is further quantified, which also works for iron pnictides and 
+overdoped cuprates. Such a relation is well captured by the two-dimensional Yukawa-
+Sachdev-Ye-Kitaev (2d-YSYK) model with a spatially disordered fermion -scalar 
+coupling and potential disorder . Our findings reveal the quantitative connection 
+between unconventional superconductivity and the strange metallicity, which may be 
+common to the physics of different unconventional superconductors. (In this text, the 
+symbols " ∝ " and "~" denote a proportional relationship and a generic linear 
+relationship allowing for a constant intercept, respectively.) 
+FeSe films ( Tc ≈ 11 K) with thicknesses of 60 ± 5  nm were deposited on (001) -
+oriented LiF substrates with size of 5 × 5 mm2 by the pulsed laser deposition technique. 
+The x-ray diffraction measurements confirm the high -quality (00l) oriented growth of 
+the film (Supplementary Section 1). The pristine films were loaded in our ILG device 
+as schematically shown in Fig. 1a. An ionic liquid N,N-diethyl-N-(2-methoxyethyl)-N-
+methyl ammonium bis(trifluoromethylsulfonyl)imide (DEME-TFSI) was used as the 
+dielectric, covering both the FeSe film and the gate electrode.  Under a positive gate 
+voltage, the H+ ions in the ionic liquid enter the FeSe film, which has been evidenced 
+by the time-of-flight secondary ion mass spectroscopy measurement10. Such an electron 
+doping effect brings forth a transition in the carrier type of FeSe from the coexistence 
+of electrons and holes to high-density electrons only (Supplementary Section 2), which 
+is accompanied by an enhancement of Tc to approximately 40 K (Refs. 10,22). 
+The superfluid density, ρs ≡ λab-2 , is difficult to be accurately measured since λab is 
+typically thousands of angstroms. The TCMI technique is a suitable method to obtain 
+the absolute value of ρs of superconducting films , which has attracted increasing 
+attention due to its high sensitivity  and flexibility 18. In order to in situ monitor the 
+evolution of ρs of FeSe films, the ILG device was integrated into a homemade 
+transmission-type TCMI apparatus that consists of a drive coil and a pickup coil 23. 
+Figure 1c shows the temperature-dependent pickup coil voltage, V = Vx + iVy, for a gated 
+state with  Tc ≈ 43 K. The real component, Vx, undergoes a rapid drop around Tc, 
+originating from the diamagnetic effect of the screening supercurrent (see the calculated 
+current distribution in the FeSe film in Fig. 1b) . Correspondingly, the imaginary 
+component, Vy, shows a sharp dip, resulting from the energy dissipation24. The absolute 
+value of ρs can be accurately extracted from V by employing a self-developed fast 
+wavelet collocation (FWC) method25, as shown in Fig. 1d (see Supplementary Sections 
+3 and 4 about the device configuration and the λab measurements). 
+By minutely tuning the superconductivity of FeSe film via the ILG technique, a  
+systematic evolution of the diamagnetic responses is obtained . It is shown that the 
+diamagnetic signals exhibit a quasi -parallel shift to high temperature with gating  
+(Supplementary Sections 5). Importantly, each curve exhibits only a single transition, 
+confirming the bulk modulation of the superconductivity. Figure 2a shows the extracted 
+temperature dependence of superfluid density, ρs(T), for all gated states. A common 
+feature is the flattening of ρs at low temperatures, which becomes more prominent for 
+higher-Tc states. Such a feature has been observed in iron-based superconductors, e.g., 
+Ba1-xKxFe2As2 (Ref. 26), noted as an indication of the nodeless pairing gap. We fit the 
+ρs(T) data with nodeless gap equation, i.e., ρs(T) = ρs0(1 − 𝐶e−Δmin/𝑘B𝑇), where Δmin is 
+the minimum gap size, 𝑘B is the Boltzmann constant, 𝐶 is the numerical parameter, and 
+ρs0 is the  superfluid density at zero -temperature limit , which works well at low 
+temperatures (see Fig. 2b). We note that the ρs0 value of the pristine FeSe film (1.09 ± 
+0.09 μm-2) is consistent with the value of FeSe1-xTex film (1.29 ± 0.11 μm-2) measured 
+by the scanning SQUID microscope27, but is about 1/6 of the bulk FeSe (6.25 μm-2, Ref. 
+28). Such a relatively low ratio of thin film to bulk crystal seems ubiquitous in 
+unconventional superconductors, e.g., 1/5 for Ba(Fe 1-xCox)2As (Refs. 29,30) and 1/9 for 
+YBa2Cu3O6+y (Refs. 20,24), which was attributed to the relatively strong quantum phase 
+fluctuations31 and/or disorder effect32 in thin films. 
+With the systematic ρs data, we explore the dependence of Tc on ρs0, which exhibits 
+a simple power -law behavior (Fig. 2 c), that is, Tc = γρs00.55 ± 0.11, where γ is a numeric 
+parameter. Here, the uncertainty in the power -law exponent is mainly caused by the 
+error bars of the Tc value, i.e., Tc (see Fig. 1c), which may be associated with the 
+relatively inhomogeneous modulation of the superconductivity by ionic -liquid gating, 
+or the strong superconducting fluctuations of FeSe28. Such a relationship between Tc 
+and ρs0 holds well against different gap symmetries used to extract ρs0 (Supplementary 
+Section 6). We emphasize that this is the first systematic Tc(ρs0) scaling established in 
+iron-based superconductors, benefiting from our high -efficiency operando 
+measurements.  
+It was suggested that a power-law index ≈ 0.5 m ight occur in the dirty limit of a d-
+wave BCS superconductor 33,34. However, such a simple ‘dirty’ BCS picture could not 
+quantitatively explain our observations, since our data unambiguously violate the 
+Homes’ law, i.e., ρs0 ∝σdcTc  (where σdc  is the normal -state conductivity measured 
+closed to Tc) ( see Supplementary Section 7 ), that typically holds for a dirty BCS 
+superconductors owing to the Glover–Ferrell–Tinkham sum rule18,35,36. We noticed that 
+the Tc ∝ ρs00.5  relation was also observed near the critical doping where 
+superconductivity vanishes 18,37 and was attributed to the critical quantum phase 
+fluctuations20,38,39. Besides, a similar scaling relation is found by our 2d-YSYK 
+modeling of a quantum critical metal with fermion-scalar Yukawa couplings and 
+potential disorder (Fig. S13b in Supplementary Section 14). Although further studies 
+are needed to determine the mechanism responsible for the power -law behavior  
+observed here, the strong correlation between Tc and ρs0 demonstrates that phase rigidity 
+plays a dominant role in determining Tc of ion-gated FeSe, in contrast to the standard 
+BCS paradigm where Tc is bounded by the temperature at which Cooper pairs form . 
+This is corroborated by large ratios of (Tc/TF, Δmin/EF) ≈ (0.11, 0.23) for samples with 
+Tc > 39 K (EF = kBTF is the effective Fermi energy derived from ρs0), indicating that ion-
+gated FeSe locates in the BCS -Bose-Einstein condensation (BEC) crossover regime 28 
+(Fig. 2d).  
+More importantly, by displaying the systematic ρs data in the phase diagram with 
+varying electron doping and temperature , we are able to trac e the evolution of the 
+superconducting condensate with the normal-state resistivity (Fig. 3a). Intriguingly, we 
+find that the magnitude of the superfluid  density and the strength of the strange -metal 
+scattering (dissipation) are synchronously enhanced with electron doping, which is 
+accompanied by the similar increasing trends for Tc (see the gray circles and gray 
+squares) and the upper bound temperature of T-linear resistivity (T1 defined in the inset 
+of Fig. S7). These observations provide strong evidence that the formation of superfluid 
+condensation is linked with the strange-metal normal state, which is compatible with 
+the scenario recently proposed in overdoped cuprates that superfluid  condensation 
+originates from incoherent carriers contributing to the strange -metal transport13,40. To 
+the best of our knowledge, such a visualized description of the interplay between 
+unconventional superconductivity and the strange metallicity has not been established 
+before. 
+Figure 3b shows both ρs0 and A1□ as a function of electron doping for the ion-gated 
+FeSe film, where A1□ is the T-linear resistivity coefficient normalized by the distance 
+between adjacent superconducting layers. Strikingly, ρs0 tracks A1□ closely for all gated 
+states, which unambiguously points to a linear correlation between ρs0 and A1□, i.e., ρs0 
+= αÃ1□ with α = 0.43 ± 0.02 μm-2 Ω-1K (Fig. 3c). Here, a constant has been subtracted 
+from A1□, namely Ã 1□ = A1□ - A0, where A0 = 17.5 Ω  K-1  represents the non -zero 
+extrapolation of A1 to ρs0 = 0 μm-2 or Tc = 0 K (Ref. 10). Note that with the error bars 
+taking into account, the linear relationship is the best fit  to the ρs0 versus A1□ data 
+(Supplementary Section 9). 
+To figure out to what extent the linear scaling of ion-gated FeSe is applied to other 
+superconducting materials, we collect the ρs0 and A1□ data from previous reports (see 
+the original data in Supplementary Section 11). Systematic A1□ data of electron-doped 
+cuprate La2-xCexCuO4 (LCCO) have been obtained on composition -spread films9, but 
+corresponding ρs0 data are lacking due to the difficulty of accurately characterizing the 
+local superfluid density. The calculated upper bound of ρs0 and measured A1□ of magic-
+angle graphene follow the similar trend as doping varies7,41, but systematic superfluid 
+measurements are required to obtain a quantitative relation. In spite of large error bars, 
+the data of iron-pnictide superconductors BFCA reside in the linear trend . For 
+overdoped Tl2201, ρs0 and A1□ were found to decrease in tandem with the increase of 
+hole doping, as pointed out by Philips et al.40, which is similar to our finding and implies 
+a linear relation despite the relatively scarce data points . For overdoped LSCO, 
+although the strong correlation between ρs0 and A1□ still persists, a quantitative 
+relationship cannot be pinned down due to the large uncertainty of the A1□ data (see 
+Supplementary Section 12 ). The data points of A1□ and ρs0 are well fitted by a linear 
+relation within error bar, particularly in the regime of Tc < 12K. To summarize, we plot 
+the ρs0/(ρs0)max  versus Ã1□ /(Ã1□)max relationship in Fig. 4a (the superscripts max refer to 
+the maximum values in the literature), which suggests a linear scaling behavior that 
+captures the common relation between ρs0 and A1□ among different superconducting 
+systems. 
+The similarity of ion-gated FeSe and overdoped cuprates  revealed by the ρs0 versus 
+A1□ relation is surprising because they are distinct in many aspects . In overdoped 
+cuprates, the normal-state carrier density exhibits an anticorrelation with ρs0 as the hole 
+doping varies13,18. Whereas in FeSe,  the ionic-liquid gating gives rise to the 
+enhancement in ρs0, accompanied with an increase in the electron density and a decrease 
+in the hole density (Supplementary Section 2) . FeSe’s nodeless gap (see e.g., Ref. 28 
+and Fig. 2b)  also indicates that it differs from the cuprates in the pairing symmetry . 
+Hence, the universal scaling shown in Fig. 4a indicates a fundamental link between 
+superconducting condensation  and the strange -metal scattering in unconventional 
+superconductors. Since ρs0 is a crucial ingredient determining Tc in unconventional 
+superconductors18-20,37, it may also provide a natural explanation of the scaling relation 
+between A1□ and Tc ubiquitously observed during the last decades (see e.g., Refs. 1,2,9,40).  
+To gain further insights into the correlation between ρs0 versus A1, we perform the 
+calculations based on a universal theory of strange metals , captured by a model 
+involving metals of fermions coupled to quantum critical order -parameter scalars, 
+dubbed as the 2d-YSYK model. The recent work unambiguously shows that the 2d-
+YSYK model 8,42,43 with spatially random Yukawa couplings exhibits the T-linear 
+resistivity of strange metals , and can display the instability from the strange metal to 
+the superconductivity 42 (see details in Supplementary Section 14). Strikingly, by 
+varying the renormalized boson mass M and the potential disorder  stimulatingly, a 
+linear ρs0 versus A1 relation is reproduced (Fig. 4b). Here, M is changed to tune the 
+distance to the putative quantum critical point (QCP)42, which is a basic effect of doping 
+or gating in experiments. Notably, such a choice of model parameters is consistent with 
+the fact that doping or gating also inevitably alters the amount of disorder, as evidenced 
+by the evolution of the residual resistivity ratio (Supplementary Section 13) and was 
+highlighted by recent studies of overdoped cuprates (see e.g., Refs. 44,45). Disorder is a 
+strongly relevant perturbation to clean quantum -criticality, which can explain the 
+applicability of the 2d -YSYK theory to relatively clean samples 42,46. The agreement 
+between the theoretical calculations and the experimental data thus suggests a 
+comprehensive consideration of quantum criticality and disorder provides a promising 
+route for deciphering the interplay between strange metallicity and superconductivity 
+in unconventional superconductors . As a consequence, combining the theoretical 
+calculation on 2d-YSYK model, our experimental findings bring us closer to a unified 
+understanding of the normal -state strange metal and superconductivity in  
+unconventional superconductors. 
+In addition, a non-zero extrapolation of A1□ to ρs0 = 0 μm-2 or Tc = 0 K is seemingly 
+ubiquitous in overdoped cuprates including LSCO and Bi2201 (Ref. 14), which is 
+witnessed from the difference of the boundaries of superconducting dome (psc) and the 
+strange-metal phase (psm) in the T versus doping phase diagram , as depicted in 
+Supplementary Section 15. This may stem from the suppression of superconductivity 
+between psc and psm due to  pair breaking 47 or the presence of competing orders 48. 
+Besides, it was suggested that the  multi-orbital effect in iron-based superconductors, 
+which involves orbital-dependent quasi-particle spectral weights in the normal state and 
+orbital-selective pairing in the superconducting state49, could contribute to the residual 
+A1□ (Ref. 10). Whether these scenarios could account for the residual A1□ remains to be 
+investigated.  
+ 
+Acknowledgments 
+The authors would like to thank Dung-Hai Lee and Yuji Matsuda for fruitful discussions. 
+This work was supported by the National Key Research and Development Program of 
+China (Grants Nos. 2021YFA0718700, and 2022YFA1603903), the National Natural 
+Science Foundation of China (Grants Nos. 12225412, 11927808, and 12274439), the 
+CAS Project for Young Scientists in Basic Research (Grant No. 2022YSBR-048), the 
+Key-Area Research and Development Program of Guangdong Province (Grant No. 
+2020B0101340002), the Beijing Nova Program of Science and Technology (Grant No. 
+20220484014).   
+ 
+Author contributions 
+K.J. and Z.X.Z. conceived the project. M.Y .Q. and Z.X.L. supervised the project. 
+M.Y .Q. and R.Z.Z. designed the two -coil mutual inductance measurement device. 
+R.Z.Z and M.Y .Q developed the fast wavelet collocation method for extracting the 
+magnetic penetration depth from the pickup coil voltage. R.Z.Z. and M.Y .Q. performed 
+the ionic liquid gating and the superfluid density measurements, with help from J.X., 
+W.X.C., X.W.W. and Q.Y .S.. C.Y .L. performed the calculations based on the two-
+dimensional YSYK model, with the guidance of S. S.. Z.Y .Z. synthesized the FeSe films. 
+M.Y .Q. and R.Z.Z. analyzed the experimental data, with assistance from Z.X.W., X.Y .J., 
+J.Y ., Y .M.L., and Q.H.C.. T.X., Z.X.L. and S.S. contributed to the theoretical 
+discussions. R.Z.Z., M.Y .Q., C.Y .L., S.S., Z.X.L. and K.J. wrote the manuscript with 
+input from all authors. 
+ 
+Competing interests  
+The authors declare no competing interests. 
+ 
+Data availability 
+Source data are provided with this paper. All other data that support the findings of this 
+study are available from the corresponding authors upon reasonable request.  
+  
+ 
+Fig. 1 | Operando superfluid density measurements on the ion-gated FeSe film. a, 
+Schematic of a typical ILG device and the TCMI measurement scheme. The ILG device 
+consists of a FeSe film and a gate electrode, with the ionic liquid DEME-TFSI covered. 
+A positive gate voltage (VG) is applied between the gate electrode and the film to induce 
+the electrochemical protonation. A drive coil and a pickup coil are mounted on opposite 
+sides of the ILG device for in -situ measurements of the diamagnetic response of the 
+sample. The lower picture shows the enlarged schematic of the ion-gated FeSe. Under 
+a positive VG, the cations in the DEME -TFSI will enter the FeSe film, result ing in an 
+enhancement of the superfluid density. Consequently, the diamagnetic response 
+becomes stronger, from which the evolution of superfluid density with ionic-liquid 
+gating can be extracted. b, Top view of the induced screening current density, js, for the 
+
+ion-gated FeSe film with Tc ≈ 43 K , calculated using the FWC method 25 
+(Supplementary Section 4) . The red dashed line shows the position of the drive coil. 
+The lower panel shows the cut at y = 0. c, Temperature dependence of the pickup coil 
+voltage, V = Vx + iVy, for a gated state with  Tc ≈ 43 K. The sudden drop of Vx (black 
+line) around Tc reflects the strong diamagnetism of the superconducting state. 
+Accordingly, Vy (red line) shows a dip and its full width at half maximum is smaller 
+than 1 K, indicating good homogeneity of superconductivity20. Inset: Zoom-in of the Vy 
+versus T curve. Tc and ΔTc are the position and the full width at half maximum of the 
+dip, respectively, following the definitions in Ref. 24. d, Temperature-dependent 
+superfluid density, ρs(T), extracted from the pickup coil voltage in c. The dashed line 
+represents the nodeless -gap fit (Supplementary Section 6). Inset: Temperature -
+dependent in-plane magnetic penetration depth, λab(T).  
+  
+   
+Fig. 2 | Evolution of the superfluid density in the ion -gated FeSe film.  a, 
+Temperature-dependent superfluid density, ρs(T), for the ion -gated FeSe film with Tc 
+systematically tuned from approximately 11 to 43 K. The dashed lines are the nodeless-
+gap fits to the first 10% drop in ρs(T) / ρs(T → 0), as depicted in the expanded view of 
+the ρs data at low temperatures in b. c, Dependence of Tc on the zero -temperature 
+superfluid density, ρs0 ≡ ρs (T → 0), where ρs0 is determined from the nodeless-gap fit. 
+The definition of Tc is shown in Fig. 1 c. The blue squares represent the experimental 
+data; the red solid line is the fit to Tc = γρs00.55, where γ is the fit parameter. d, Uemura 
+plot: Tc versus Fermi temperature, TF, for various superconductors 50. The ion -gated 
+FeSe with Tc > 39 K, as well as other FeSe-based superconductors, i.e., monolayer FeSe 
+on SrTiO3 substrate (1 uc FeSe) and (Li0.8Fe0.2)OHFeSe (FeSe-11111) are located closer 
+to the BEC limit for three-dimensional bosonic gas (Tc = 0.218TF, the dashed line) than 
+cuprate and heavy-fermion superconductors (the shade region). The large ratio of /EF 
+
+≈ 0.23 for ion-gated FeSe also indicates it lies in the BCS -BEC crossover regime (see 
+the inset). TF and EF are obtained from ρs0 using the formula given in Ref. 28, i.e., EF = 
+kBTF = 
+𝜋ℏ2𝑑
+𝜇0𝑒2ρs0, where 𝑑 is the interlayer distance. The values of  are obtained from 
+the nodeless-gap fits in b. 
+  
+      
+Fig. 3 | Correlation between unconventional superconductivity and the strange 
+metallicity in the ion-gated FeSe film. a, Synchronized evolution of the strange-metal 
+phase and the superfluid condensate with ionic -liquid gating.  The strength of the 
+strange-metal scattering, ( ρ - ρ0)/T, and the magnitude of the superfluid density, ρs ≡ 
+λab-2 , versus temperature T and election doping level are shown by the contour plot. The 
+gray circles and gray squares represent the upper bound temperature of T-linear 
+resistivity ( T1) and Tc, respectively. It is shown that the strange -metal phase 
+[characterized by (ρ - ρ0)/T and T1  and the superfluid condensate (characterized by ρs 
+and Tc) changes synchronously with doping. Here ρ0 is the residual resistivity obtained 
+by fitting the resistivity at low temperatures (see the inset of Fig. S7) with the function 
+ρ = ρ0 + A1T. The normal state data are extracted from Fig. S8. The doping levels are 
+extracted from the  Tc versus doping relation in Ref. 10. b, The zero -temperature 
+superfluid density, ρs0, (blue squares) and the T-linear coefficient per Fe-Se layer, A1□, 
+(red circles) versus electron doping in the ion -gated FeSe film . Here A1□= A1/dFe-Se, 
+where dFe-Se is the distance between adjacent Fe -Se layers. Evidently, ρs0 tracks A1□ 
+closely with electron doping, demonstrating a direct link between the formation of the 
+superfluid in the ground state and the scattering or carriers in the strange-metal normal 
+state. c, ρs0 as a function of A1□ in the ion-gated FeSe film.  
+
+ 
+Fig. 4 | Scaling of the zero-temperature superfluid density and the T-linear 
+resistivity coefficient for unconventional superconductors. a, Scaling of ρs0 with Ã1□ 
+for different superconducting systems, where ρs0 and Ã 1□ are normalized by their 
+respective maximum values in the literature. Here, a constant has been subtracted from 
+A1□, namely Ã1□ = A1□ - A0, where A0 represents the non-zero extrapolation of A1 to Tc 
+= 0 K (Ref. 10). Data for Ba(Fe 1-xCox)2As2 (BFCA) are extracted from Refs. 9,30. Data 
+for Tl2Ba2CuO6+δ (Tl2201) are obtained from Ref. 40 and references therein. Data for 
+heavily overdoped La2-xSrxCuO4 (LSCO, Tc ≤ 12 K) are extracted from Refs. 10,18. The 
+error bars are reproduced from published data. The red shading is a guide to the eye. b, 
+ρs0 versus A1 relation calculated based on the two-dimensional Yukawa-Sachdev-Ye-
+Kitaev (2d-YSYK) model (Supplementary Section 14), where ℏ is the reduced Planck 
+constant and t is the fermion hopping. 
+  
+
+References 
+1 Cooper, R. A. et al. Anomalous criticality in the electrical resistivity of La 2-xSrxCuO4. Science 
+323, 603-607 (2009). 
+2 Jin, K., Butch, N. P., Kirshenbaum, K., Paglione, J. & Greene, R. L. Link between spin 
+fluctuations and electron pairing in copper oxide superconductors. Nature 476, 73-75 (2011). 
+3 Licciardello, S. et al. Electrical resistivity across a nematic quantum critical point. Nature 567, 
+213-217 (2019). 
+4 Lee, K.  et al.  Linear-in-temperature resistivity for optimally superconducting (Nd,Sr)NiO 2. 
+Nature 619, 288-292 (2023). 
+5 Zhang, Y . et al.  High-temperature superconductivity with zero resistance and strange -metal 
+behaviour in La3Ni2O7−δ. Nat. Phys. (2024). 
+6 Zhu, Y . et al. Superconductivity in pressurized trilayer La 4Ni3O10−δ single crystals. Nature 631, 
+531-536 (2024). 
+7 Cao, Y . et al. Strange metal in magic-angle graphene with near Planckian dissipation. Phys. Rev. 
+Lett. 124, 076801 (2020). 
+8 Patel, A. A., Guo, H., Esterlis, I. & Sachdev, S. Universal theory of strange metals from spatially 
+random interactions. Science 381, 790-793 (2023). 
+9 Yuan, J. et al. Scaling of the strange-metal scattering in unconventional superconductors. Nature 
+602, 431-436 (2022). 
+10 Jiang, X. et al. Interplay between superconductivity and the strange -metal state in FeSe. Nat. 
+Phys. 19, 365-371 (2023). 
+11 Chen, L. et al. Shot noise in a strange metal. Science 382, 907-911 (2023). 
+12 Keimer, B., Kivelson, S. A., Norman, M. R., Uchida, S. & Zaanen, J. From quantum matter to 
+high-temperature superconductivity in copper oxides. Nature 518, 179-186 (2015). 
+13 Putzke, C. et al. Reduced Hall carrier density in the overdoped strange metal regime of cuprate 
+superconductors. Nat. Phys. 17, 826-831 (2021). 
+14 Ayres, J. et al.  Incoherent transport across the strange -metal regime of overdoped cuprates. 
+Nature 595, 661-666 (2021). 
+15 Greene, R. L., Mandal, P. R., Poniatowski, N. R. & Sarkar, T. The strange metal state of the 
+electron-doped cuprates. Annu. Rev. Condens. Matter Phys. 11, 213-229 (2020). 
+16 Taillefer, L. Scattering and pairing in cuprate superconductors. Annu. Rev. Condens. Matter 
+Phys. 1, 51-70 (2010). 
+17 Emery, V . J. & Kivelson, S. A. Importance of phase fluctuations in superconductors with small 
+superfluid density. Nature 374, 434-437 (1995). 
+18 Bozovic, I., He, X., Wu, J. & Bollinger, A. T. Dependence of the critical temperature in 
+overdoped copper oxides on superfluid density. Nature 536, 309-311 (2016). 
+19 Uemura, Y . J. et al. Universal correlations between Tc and ns/m (carrier density over effective 
+mass) in high-Tc cuprate superconductors. Phys. Rev. Lett. 62, 2317-2320 (1989). 
+20 Hetel, I., Lemberger, T. R. & Randeria, M. Quantum critical behaviour in the superfluid density 
+of strongly underdoped ultrathin copper oxide films. Nat. Phys. 3, 700-702 (2007). 
+21 Leighton, C. Electrolyte-based ionic control of functional oxides. Nat. Mater. 18, 13-18 (2019). 
+22 Lei, B. et al. Evolution of high -temperature superconductivity from a low -Tc phase tuned by 
+carrier concentration in FeSe thin flakes. Phys. Rev. Lett. 116, 077002 (2016). 
+23 Qin, M. et al. In situ magnetic measurements of ionic -liquid-gated superconducting films. J. 
+Supercond. Nov. Magn. 33, 159-163 (2020). 
+24 Zuev, Y ., Kim, M. S. & Lemberger, T. R. Correlation between superfluid density and Tc of 
+underdoped YBa 2Cu3O6+x near the superconductor -insulator transition. Phys. Rev. Lett.  95, 
+137002 (2005). 
+25 Zhang, R. et al. Determining the absolute value of magnetic penetration depth in small -sized 
+superconducting films. Supercond. Sci. Technol. 34, 085022 (2021). 
+26 Hashimoto, K. et al. Microwave surface-impedance measurements of the magnetic penetration 
+depth in single crystal Ba 1-xKxFe2As2 superconductors: Evidence for a disorder -dependent 
+superfluid density. Phys. Rev. Lett. 102, 207001 (2009). 
+27 Lin, H. T. et al. Determination of the London penetration depth of FeSe 0.3Te0.7 thin films by 
+scanning SQUID microscope. Supercond. Sci. Technol. 28, 085006 (2015). 
+28 Shibauchi, T., Hanaguri, T. & Matsuda, Y . Exotic superconducting states in FeSe -based 
+materials. J. Phys. Soc. Jpn. 89, 102002 (2020). 
+29 Valdés Aguilar, R. et al. Pair-breaking effects and coherence peak in the terahertz conductivity 
+of superconducting BaFe2−2xCo2xAs2 thin films. Phys. Rev. B 82, 180514(R) (2010). 
+30 Williams, T. J. et al. Superfluid density and field -induced magnetism in Ba(Fe 1−xCox)2As2 and 
+Sr(Fe1−xCox)2As2 measured with muon spin relaxation. Phys. Rev. B 82, 094512 (2010). 
+31 Dordevic, S. V . & Homes, C. C. Superfluid density in overdoped cuprates: Thin films versus 
+bulk samples. Phys. Rev. B 105, 214514 (2022). 
+32 Li, Z. -X., Kivelson, S. A. & Lee, D. -H. Superconductor -to-metal transition in overdoped 
+cuprates. npj Quantum Mater. 6, 36 (2021). 
+33 Lee-Hone, N. R., Dodge, J. S. & Broun, D. M. Disorder and superfluid density in overdoped 
+cuprate superconductors. Phys. Rev. B 96, 024501 (2017). 
+34 Kogan, V . G. Strong pairbreaking in anisotropic superconductors. Phys. Rev. B 81 (2010). 
+35 Homes, C. C. et al. A universal scaling relation in hightemperature superconductors. Nature 430, 
+539-541. 
+36 Homes, C. C., Dordevic, S. V ., Valla, T. & Strongin, M. Scaling of the superfluid density in 
+high-temperature superconductors. Phys. Rev. B 72, 134517 (2005). 
+37 Broun, D. M.  et al. Superfluid density in a highly underdoped YBa 2Cu3O6+y superconductor. 
+Phys. Rev. Lett. 99, 237003 (2007). 
+38 Franz, M. & Iyengar, A. P. Superfluid density of strongly underdoped cuprate superconductors 
+from a four-dimensional XY model. Phys. Rev. Lett. 96, 047007 (2006). 
+39 Sachdev, S. Quantum phase transitions .  (Cambridge University Press, Cambridge, England, 
+1999). 
+40 Phillips, P. W., Hussey, N. E. & Abbamonte, P. Stranger than metals. Science 377, eabh4273 
+(2022). 
+41 Hazra, T. a., Verma, N. a. & Randeria, M. Upper bounds on the superfluid stiffness and 
+superconducting Tc: Applications to twisted -bilayer graphene and ultra -cold Fermi gases. 
+Preprint at https://arxiv.org/abs/1811.12428. 
+42 Li, C. et al. Strange metal and superconductor in the two -dimensional Yukawa-Sachdev-Ye-
+Kitaev model. Preprint at https://arxiv.org/abs/2406.07608. 
+43 Hardy, A., Parcollet, O., Georges, A. & Patel, A. A. Enhanced strange metallicity from Coulomb 
+repulsion. Preprint at https://arxiv.org/abs/2407.21102. 
+44 Tranquada, J. M., Lozano, P. M., Yao, J., Gu, G. D. & Li, Q. From nonmetal to strange metal at 
+the stripe-percolation transition in La2−xSrxCuO4. Phys. Rev. B 109, 184510 (2024). 
+45 Ye, S. et al. Emergent normal fluid in the superconducting ground state of overdoped cuprates. 
+Nat. Commun. 15, 4939 (2024). 
+46 Patel, A. A., Lunts, P. & Sachdev, S. Localization of overdamped bosonic modes and transport 
+in strange metals. Proc. Natl. Acad. Sci. USA 121, e2402052121 (2024). 
+47 Juskus, D., Ayres, J., Nicholls, R. & Hussey, N. E. Insensitivity of Tc to the residual resistivity 
+in high-Tc cuprates and the tale of two domes. Front. Phys. 12, 1396463 (2024). 
+48 Li, Q. et al. Prevailing Charge Order in Overdoped La 2−xSrxCuO4 beyond the Superconducting 
+Dome. Phys. Rev. Lett. 131, 116002 (2023). 
+49 Sprau, P. O. et al. Discovery of orbital -selective Cooper pairing in FeSe. Science 357, 75-80 
+(2017). 
+50 Nakagawa, Y . et al. Gate-controlled BCS-BEC crossover in a two-dimensional superconductor. 
+Science 372, 190-195 (2021). 
+ 
+  
+Supplementary Information 
+Table of Contents 
+1. Film characterizations 
+2. Evolution of the normal-state carrier density with ionic-liquid gating 
+3. Device configuration and the in-situ TCMI measurement 
+4. Extracting the magnetic penetration depth using the FWC method 
+5. Evolution of the diamagnetic responses in the ion-gated FeSe film 
+6. Determining 𝝆𝐬𝟎 based on different gap symmetries 
+7. Failure of the dirty BCS model to account for the Tc versus 𝝆𝐬𝟎 scaling 
+8. Evolution of the electrical transport properties in the ion-gated FeSe film 
+9. Fitting the 𝝆𝐬𝟎 versus A1□ relation with error bars 
+10. Raw data shown in Fig. 3c 
+11. Correlation between 𝝆𝐬𝟎 and A1□ in other superconducting systems  
+12. 𝝆𝐬𝟎 versus A1□ relation in overdoped LSCO 
+13. Residual resistivity ratio of ion-gated FeSe and overdoped Tl2201 
+14. Two-dimensional Yukawa-Sachdev-Ye-Kitaev model 
+15. The residual T-linear resistivity term of overdoped cuprates 
+References  
+1. Film characterizations 
+To characterize the structural property of the film, we have performed the x -ray 
+diffraction (XRD) measurements on FeSe films with two Ge (220) single crystals, as 
+shown in Fig. S1. The XRD θ-2θ scan pattern shows a high -quality (00 l) oriented 
+growth (Fig. S1a), i.e., the ab plane is parallel to the film surface. The full width at half 
+maximum (FWHM) of the XRD rocking curve is 0 .477◦, showing high crystalline 
+quality (Fig. S1b). In addition, the high -quality epitaxy of the film is confirmed by a 
+clear four-fold symmetry in the XRD φ scan pattern for the (011) diffraction peak (Fig. 
+S1c). The c-axis lattice parameter calculated from the XRD θ-2θ scan data by Bragg’s 
+law is 5.54 Å, which is close to the 5.48 Å of bulk FeSe (Ref. 1). 
+ 
+Fig. S1. XRD characterizations of a typical FeSe (FS) film grown on LiF substrate. 
+a, The θ-2θ diffraction pattern. Only (00l) peaks are observed for FeSe, indicating high 
+crystallinity along the c-axis. b, The rocking curve of (001) peak, showing a narrow full 
+width at half maximum (FWHM) of 0 .48◦. c, The φ-scan result of FeSe (011) and LiF 
+(022) peaks, both of which show clear four-fold symmetry. 
+The chemical composition distributions of the film were characterized by the energy-
+dispersive x-ray (EDX) spectroscopy with a Hitachi SU5000 field -emission scanning 
+electron microscope (SEM). Figure S2a shows a typical SEM micrograph of the film, 
+showing a relatively flat surface. The averaged EDX spectrum of the image area is 
+depicted in Fig. S2b. The EDX mappings of the image area are shown in Fig. S2c -d, 
+demonstrating no signature of inhomogeneous compositional distributions on the 
+micron scale. 
+
+ 
+Fig. S2. EDX characterizations of a typical FeSe (FS) film grown on LiF substrate. 
+a, SEM micrograph. b, EDX spectra for chemical compositions. c-d, EDX mappings 
+corresponding to the SEM imagine area in a.  
+2. Evolution of the normal-state carrier density with ionic-liquid gating 
+FeSe is a multi -band system with hole pockets at Γ point and electron pockets at M 
+point (see e.g., Ref. 2). With ionic -liquid gating, it was found that the hole density 
+decreases and the electron density increases 3,4. Meanwhile, the superfluid density 
+increases, as depicted in Fig. S3. 
+ 
+Fig. S3. a, Evolution of the normal-state carrier density and the superfluid density with 
+
+ionic-liquid gating. Data of the normal-state carrier density are obtained from Table. 1 
+in Ref. 4. b, Schematic illustrations of the band structure before (top) and after (down) 
+ionic-liquid gating. 
+3. Device configuration and the in-situ TCMI measurement 
+Figure S4a shows a photograph of the ILG device. A FeSe/LiF film with size of 
+5 × 5 mm2 is placed next to a Si substrate covered by the SiO2 insulating layer. A gate 
+electrode with size of 10 × 7 mm2 is fabricated on the SiO2 layer by depositing Au/Ti 
+(50 nm/5 nm) with electron-beam evaporation. Electrical contacts are made by indium 
+(In) soldering on the side of the FeSe film and a corner of the gate electrode. The ionic 
+liquid DEME-TFSI is covered by a 6-μm-thick Kapton foil to confine its coverage on 
+the sample and the gate electrode. 
+ 
+Fig. S4. Photographs of a, the ILG device and b, the TCMI apparatus . The ILG 
+device is mounted inside the TCMI apparatus, indicated by the dashed line. 
+During the ionic-liquid gating, the ILG device is mounted inside a sapphire block of 
+the TCMI apparatus (Fig. S4b). A drive coil and a pickup coil are sealed in the sapphire 
+block with epoxy and aligned axially with the center of the FeSe film. The two coils are 
+the same in size: The number of turns is 300, the inner diameter is 0.5 mm, the outer 
+diameter is 1.3 mm, and the length is 1.6 mm. The pickup coil is pressed against the 
+
+backside of the LiF substrate, while the drive coil is about 0.4 mm away from the 
+surface of the FeSe film. A plastic electric board is fastened on the sapphire block to 
+provide a platform for wiring. To reduce noise and interference, coils are connected to 
+coaxial cables. The apparatus is thermally connected to the 3 K platform of a Montana 
+Instruments cryocooler. A Lakeshore thermometer is mounted inside the sapphire block 
+to measure the sample temperature. A Keithley 2450 source meter is used to apply th e 
+gate voltage and monitor the leakage current. A Stanford Research SR830 lock -in 
+amplifier is used to supply the alternating current to the drive coil. The current 
+amplitude is 0.2 mA, and the frequency is 50 kHz, which is in the linear -response 
+regime5. The induced pickup coil voltage, 𝑉 = 𝑉𝑥 + 𝑖𝑉𝑦, is probed by the same lock-in 
+amplifier with a reference phase of 90∘. 
+A complete experiment includes a set of sequences, each of which involves 1) 
+warming up to a target temperature ( TG) under a positive gate voltage ( VG), 2) staying 
+at the target temperature for a given period of time (tG), and 3) cooling down to measure 
+the induced pickup coil voltage. 
+ 
+4. Extracting the magnetic penetration depth using the FWC method 
+Among various techniques for measuring the magnetic penetration depth 6 (𝜆𝑎𝑏), the 
+TCMI technique has attracted increasing attention due to its high sensitivity, simplicity, 
+and flexibility 7-12. A transmission -type TCMI system consists of a drive coil and a 
+pickup coil, which are located on opposite sides of the superconducting film, as shown 
+in Fig. 1a of the main text. A magnetic field is produced by the alternating current in 
+the drive coil, inducing a voltage, 𝑉 = 𝑉𝑥 + 𝑖𝑉𝑦, in the pickup coil. The real component, 
+𝑉𝑥, represents the inductive coupling, whereas the imaginary component, 𝑉𝑦, represents 
+the resistive coupling.  
+When the films enter the Meissner state, two types of currents in the system will 
+contribute to 𝑉𝑥 . One is the alternating current applied to the drive coil, whose 
+contribution can be calculated with the coil parameters based on classical 
+electrodynamics. The other is the screening current induced in the superconducting film, 
+which is related to 𝜆𝑎𝑏 through13   
+𝐣s(𝐫) + sinh (𝑑/𝜆𝑎𝑏)4𝜋𝜆𝑎𝑏 ∫ 𝑑2𝐫′Ω 𝐣s(𝐫′)|𝐫 − 𝐫′| = − 1𝜇0𝜆𝑎𝑏2  𝐀d(𝐫), (S1) 
+where 𝐣s is the screening current density, Ω is the projection of the film on the 𝑥-𝑦 plane 
+(film surface), 𝐫 = 𝐱̂𝑥 + 𝐲̂𝑦 , 𝑑  is the film thickness, 𝜇0 = 4𝜋 × 10−7 N A−2  is the 
+vacuum permeability, and 𝐀d  is the vector potential generated by the drive current. 
+Employing the FWC algorithm, Eq. S1 can be accurately solved and 𝐣s is obtained (Fig. 
+1b in the main text). Then the pickup coil voltage, 𝑉cal, can be calculated by integrating 
+the vector potential of both the drive and screening currents around each loop of the 
+pickup coil. Finally, the absolute 𝜆𝑎𝑏 can be extracted from a lookup table consisting of 
+𝑉cal/𝑉cal(𝑇 > 𝑇c)  for different 𝜆𝑎𝑏  values. More details about this procedure can be 
+found in Ref. 13. 
+ 
+5. Evolution of the diamagnetic responses in the ion-gated FeSe film 
+Figure S5 shows the raw TCMI data used for determining the superfluid density in Fig. 
+2a of the main text. With ionic-liquid gating, Tc of the FeSe film is systematically tuned 
+from approximately 8 to 43 K, reflecting as a continuous shift of the dip of the Vy(T ) 
+curve. For each gated state, only a single magnetic transition is observed, confirming  
+the bulk modulation of the superconductivity. 
+ 
+Fig. S5. Evolution of the diamagnetic responses in the ion -gated FeSe film. a, The 
+real and b, the imaginary components of the pickup coil voltage, V = Vx + iVy, as a 
+function of temperature for successive gated states, respectively. From left to right, the 
+gate voltages are VG = 0, 0.69, 0.7, 0.71, 0.73, 0.75, 0.76, 0.77, 0.78, 0.79, 0.8, 0.83, 
+
+0.87, 0.91, 0.92, 0.97, 0.99, 1.06, 1.12, 1.18, 1.2, 1.4 V . TG ≈ 325 K and TG ≈ 3 h for 
+each curve.  
+ 
+6. Determining 𝝆𝐬𝟎 based on different gap symmetries  
+    
+Fig. S6. Determination of the zero -temperature superfluid density, 𝝆𝐬𝟎 ≡ 𝝆𝐬(𝑻 →
+𝟎). a, Expanded view of the 𝜌s data at low temperatures for the sample with 𝑇c ≈ 42 K. 
+The solid and dashed lines denote the best fits using Eq. S2a and S2b to the first 10% 
+drop of the 𝜌s(𝑇)  data, respectively. b, Dependence of 𝑇c  on 𝜌s0 , where 𝜌s0  is 
+extrapolated using Eq. S2a (blue solid squares) and Eq. S2b (brown hollow triangles), 
+respectively. The solid line indicates 𝑇c = 𝛾𝜌s00.55, as depicted in the main text. 
+To determine the extrapolated value of the zero -temperature superfluid density, 𝜌s0 ≡
+𝜌s(𝑇 → 0), we have fitted the first 10% drop of the 𝜌s(𝑇) data using the equations for 
+nodeless-gap superconductors14 
+𝜌s(𝑇)/𝜌s0  = 1 − 𝐶 exp(−Δmin/𝑘B𝑇) , (S2a) 
+and nodal-gap superconductors9,14,15 
+𝜌s(𝑇)/𝜌s0  = 1 − 𝐷 𝑇2𝑇 + 𝑇∗ , (S2b) 
+respectively. Here, Δmin  is the minimum gap size at 𝑇 = 0 K , 𝑘B  is the Boltzmann 
+constant, 𝐶 and 𝐷 are fit parameters, and 𝑇∗ represents the crossover temperature from 
+quadratic to linear behavior. Figure S6a is an expanded view of the low -temperature 
+behavior of 𝜌s for a gated state with 𝑇c ≈ 42 K. It is shown that the nodeless -gap fit 
+(the blue solid line) is in better agreement with our data, implying a nodeless pairing 
+
+gap in ion -gated FeSe. Nevertheless, the dependence of 𝑇c on 𝜌s0 obtained with two 
+gap symmetries are almost the same, as displayed in Fig. S6b. 
+ 
+7. Failure of the dirty BCS model to account for the Tc versus 𝝆𝐬𝟎 scaling 
+ 
+Fig. S7. C omparison of ρdc values calculated using Homes' law with measured 
+values. The orange squares represent ρdc calculated from measured Tc and ρs0 values by 
+applying Homes’ law (multiplied by 1/16), i.e., ρs0 ∝σdcTc, which follows from the 
+Ferrell-Glover-Tinkham sum rule for dirty BCS superconductors. Blue squares are the 
+ρdc obtained by extrapolating the T-linear resistivity, i.e., ρ = ρ0 + A1T, above 
+superconducting transition (the red dashed line) to Tc, as depicted in the inset. T1 
+represents the upper bound temperature of T-linear resistivity. It is clear that ρdc 
+calculated using Homes' law grows rapidly with Tc decreases, whereas the measured 
+ρdc saturates when Tc < 15 K (see the blue dashed line). 
+ 
+8. Evolution of the electrical transport properties in the ion-gated FeSe film 
+ 
+Fig. S8. Evolution of the electrical transport in the ion -gated FeSe film.  a, 
+
+Temperature dependence of the resistivity for successive gating sequences. b, 
+Temperature dependence of the resistance at zero field (solid line) and high field (33 T; 
+blue dots). The black dashed line is a guide for T-linear resistivity. Data are extracted 
+from our recent work16. 
+ 
+9. Fitting the 𝝆𝐬𝟎 versus A1□ relation with error bars 
+By fitting the data points in Fig. 3c together with the error bars using a more general 
+power-law formula, i.e., 𝐴1□ ~ 𝜌s𝑚, the power-law exponent m is found to be 0.978 ±
+0.063, which is close to 1 and supports a linear relationship. We emphasize that the 
+linear relationship is the most reasonable function to fit the data with the error bars  
+taken into account. To further demonstrate this point, we present the fitting results using 
+several common functions: root (𝐴1□ ~ 𝜌s01/2); linear (𝐴1□ ~ 𝜌s0); and quadratic (𝐴1□ ~ 𝜌s02 ) 
+power-law dependences in Fig. S9. It is obvious that the data are in better agreement 
+with the linear fit (Fig. S9b) than the root (Fig. S9a) and the quadratic (Fig. S9c) fits.  
+  
+Fig. S9. Best fits of the 𝝆𝐬𝟎 versus 𝑨𝟏□ data together with the error bars in Fig. 3b 
+to a, root (𝑨𝟏□ ~ 𝝆𝐬𝟎𝟏/𝟐); b, linear (𝑨𝟏□ ~ 𝝆𝐬𝟎); and c, quadratic ( 𝑨𝟏□ ~ 𝝆𝐬𝟎𝟐 ) power-law 
+dependences. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+10. Raw data shown in Fig. 3c 
+Table S1. T-linear coefficients and zero-temperature superfluid density  
+shown in Fig. 3c of the main text. 
+Tc (K) 𝐴1  □ (Ω K-1) 𝜌s0 (μm−2) 
+6.18 
+5.25 
+1.4 
+4.43 
+4.03 
+3.66 
+3.35 
+2.68 
+2.36 
+2.13 
+1.95 
+1.77 
+1.59 
+1.51 
+1.38 
+1.22 
+1.09 
+34.69 31.32 
+31.98 29.42 
+30.96 28.79 
+29.43 27.94 
+27.92 27.27 
+26.24 26.29 
+24.82 25.66 
+21.76 24.16 
+20.29 23.48 
+18.98 22.81 
+17.85 22.26 
+16.66 21.7 
+15.29 21.09 
+14.49 20.79 
+13.64 20.51 
+12.29 20.15 
+11.38 19.87 
+ 
+11. Correlation between 𝝆𝐬𝟎 and A1□ in other superconducting systems  
+ 
+Fig. S10. Doping dependences of ρs0 and A1□ in a, Tl2Ba2CuO6+δ (Tl2201), b, La2-
+xSrxCuO4 (LSCO), and c, Ba(Fe 1-xCox)2As2 (BFCA). The Tc values correspond to 
+different hole dopings for a, and b, and different cobalt concentrations for c. Data for 
+Tl2201 are extracted from Ref. 17 and references therein; Data for LSCO are extracted 
+from Refs. 9,16; Data for BFCA are extracted from Refs. 18,19. 
+ 
+ 
+ 
+ 
+ 
+
+12. 𝝆𝐬𝟎 versus A1□ relation in overdoped LSCO 
+ 
+Fig. S11. Fitting the ρs0 and A1□ relation for overdoped LSCO with Tc > 12 K using 
+a, ρs0 ~ (Ã1□)1/2 and b, ρs0 ~ Ã1□. It is noteworthy that the R-square (R2) for two fits are 
+almost equal, i.e., R 2 = 0.966 and 0.960, respectively, indicating that a quantitative 
+relation cannot be pinned down. This is due to the large uncertainty of the A1□ data for 
+Tc > 12 K, where the fit of c, Tc ~ (Ã1□)1/2 or d, Tc ~ A1□ [that is, similar to the behavior 
+of Tc(ρs0) which changes from parabolic to linear relation as Tc exceed 12 K (Ref. 9)  
+are better remains unclear. Further studies are necessary to quantify the relation in this 
+range. Data are obtained from Refs. 9,16. 
+ 
+13. Residual resistivity ratio of ion-gated FeSe and overdoped Tl2201 
+Figure S12 shows the evolution of 𝑅𝑅𝑅 = 𝜌(200 K)/𝜌0  for ion -gated FeSe and 
+overdoped Tl2201, both of which exhibit positive correlation with Tc, indicating that 
+doping changes the amount of disorder in these systems. For FeSe, the disorder may 
+relate to the Fe vacancy, of which the effects on transport and superconducting 
+
+properties were found to be suppressed by electron doping20,21. For overdoped cuprates, 
+it has been believed that the dopant ion serves as an intrinsic disorder (see e.g., Ref. 22).   
+ 
+Fig. S12. Residual resistivity ratio of 𝑹𝑹𝑹 = 𝝆(𝟐𝟎𝟎 𝐊)/𝝆𝟎, where 𝝆𝟎 is obtained 
+by fitting the resistivity above superconducting transition with 𝝆 = 𝝆𝟎 + 𝑨𝟏𝑻. a, 
+Ion-gated FeSe film. b, Overdoped Tl2Ba2CuO6+δ (Tl2201). The Tc values correspond 
+to different electron dopings for a, and different hole dopings for b,. Data for overdoped 
+Tl2201 are obtained from Ref. 23 and references therein 
+14. Two-dimensional Yukawa-Sachdev-Ye-Kitaev model 
+This supplementary section will consider the 2d -YSYK model24-26 with the potential 
+disorder 𝑣 and the spatially random Yukawa coupling 𝑔′. We start with the imaginary 
+time action 
+𝑆 = ∫ 𝑑𝜏 ∑ ∑ 𝜓𝑖𝒌𝜎† (𝜏)
+𝑁
+𝑖=1𝒌,𝜎=±1
+[𝜕𝜏 + 𝜖(𝒌)]𝜓𝑖𝒌𝜎(𝜏) + 12 ∫ 𝑑𝜏 ∑ ∑ 𝜙𝑖𝒒(𝜏)
+𝑁
+𝑖=1𝒒
+[−𝜕𝜏2 + 𝜔2(𝒒)]𝜙𝑖,−𝒒(𝜏) 
++ ∫ 𝑑𝜏𝑑2 𝑟 ∑ ∑ 𝑣𝑖𝑗(𝒓)
+√𝑁𝜎=±1
+𝑁
+𝑖,𝑗=1
+𝜓𝑖𝜎† (𝒓, 𝜏)𝜓𝑗𝜎(𝒓, 𝜏)+ ∫ 𝑑𝜏𝑑2 𝑟 ∑ ∑ 𝑔𝑖𝑗𝑙′ (𝒓)𝑁𝜎=±1𝑁𝑖,𝑗,𝑙=1 𝜓𝑖† (𝒓, 𝜏)𝜓𝑗(𝒓, 𝜏)𝜙𝑙(𝒓, 𝜏), 
+(S3) 
+where the potential disorder 𝑣𝑖𝑗 and interaction disorder 𝑔𝑖𝑗𝑙′  satisfy 
+𝑣i j(𝒓)̅̅̅̅̅̅̅̅ = 0, 𝑣i j∗ (𝒓)𝑣i' j' (𝒓′)̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ = 𝑣2𝛿(𝒓 − 𝒓′)𝛿𝑖𝑖′𝛿𝑗𝑗′,  
+𝑔i j 𝑙′ (𝒓)̅̅̅̅̅̅̅̅̅ = 0, 𝑔i j 𝑙′∗ (𝒓)𝑔i' j' 𝑙′′ (𝒓′)̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ = 𝑔′2𝛿(𝒓 − 𝒓′)𝛿𝑖𝑖′𝛿𝑗𝑗′𝛿𝑙𝑙′. (S4) 
+
+This was the model studied in Ref. 21, with an emphasis on the 𝑣 = 0 case. The lattice 
+dispersion is chosen as 
+𝜖(𝒌) = −2𝑡(cos 𝑘𝑧 + cos 𝑘𝑦) − 𝜇, 
+𝜔2(𝒒) = 𝑚b2 + 2𝐽(2 − cos 𝑞𝑥 − cos 𝑞𝑦), (S5) 
+where 𝑡 is the fermion hopping, 𝜇 is the chemical potential, 𝑚b is the bare boson mass 
+and 𝐽 determines the boson dispersion. 
+A fixed length constraint 
+∑ ∑ 𝜙𝑖𝒒(𝜏)𝜙𝑖,−𝒒(𝜏)
+𝑁
+𝑖=1
+= 𝑁𝛾 ,
+𝒒
+(S6) 
+is included and the boson mass 𝑚b is self-consistently determined for a fixed value of 
+𝛾. We tune the scalar mass 𝑚b away from the quantum critical point, and present our 
+results in terms of the zero -temperature value of the renormalized boson mass 𝑀2 =
+𝑚𝑏2 −  Π(ω = 0 , T = 0), where Π is the bosonic self -energy. The conductivity 
+calculations26,27 yields the residual resistivity  𝜌0 ∼ 𝑣2 and the linear -in-T slope 𝐴1 ∼
+𝑔′2. Considering the fact that doping changes the amount of disorder (Fig. S6), we have 
+also tuned the potential disorder 𝑣 simultaneously. For all the results presented below, 
+we fix the following parameters: √𝐽/𝑡 = 1 , 𝜇/𝑡 = −0.5 , 𝑔′/𝑡3/2  = 5 . 𝛾  and 𝑣  are 
+chosen as 
+(1/𝛾)/𝑡 = 0.19 − 0.00375(𝑖 − 1), 
+𝑣/𝑡 = 0.5 + 0.075(𝑖 − 1), (S7) 
+where 𝑖 goes from 1 to 14. 
+Following the steps in Ref. 25, we obtain normal state resistivity 𝜌 , the 
+superconducting transition temperature 𝑇c, and superfluid stiffness 𝜌s. As shown in Fig. 
+S13b, the dependence of 𝑇c  on 𝜌s0  exhibits a power -law behavior, 𝑇c ∝ 𝜌s00.67 ± 0.03 , 
+which shares similarities with the measurement 𝑇c ∝ 𝜌s00.55 ± 0.11 of ion-gated FeSe (Fig. 
+2c). The coefficient 𝐴1 is extracted by fitting the T-linear resistivity in Fig. S13c with 
+𝜌 = 𝜌0 + 𝐴1𝑇 . We find superfluid stiffness 𝜌s0  can increase approximately linearly 
+with the slope 𝐴1, as shown in Fig. 4b in the main text. 
+ 
+Fig. S13. Resistivity and superfluid stiffness in 2d -YSYK model. a,  Temperature 
+dependence of superfluid stiffness for different values of 𝑀/𝑡. b, Dependence of 𝑇c on 
+the zero-temperature superfluid density, ρs0 extracted from a. The solid line is the fit to 
+𝑇c = 𝛾𝜌s00.67. c, Normal state resistivity for varies M/t. In a and c, from dark red (i = 1) 
+to dark blue ( i = 14) the system is tuned away from the critical point, for 𝑀/𝑡 = 0.4, 
+0.61, 0.79, 0.95, 1.1, 1.25, 1.39, 1.53, 1.67, 1.81, 1.95, 2.09, 2.23, 2.37. 
+15. The residual T-linear resistivity term of overdoped cuprates 
+ 
+Fig. S14. Origin of the residual T-linear resistivity term for hole-doped cuprates. 
+a, Schematic temperature versus doping phase diagram of overdoped cuprates. Tc is the 
+onset temperature of the superconducting (SC) phase, A1□ is the T-linear resistivity 
+coefficient of the strange -metal (SM) state. psc and psm represent the doping levels at 
+which Tc and A1□ fade away, respectively. The mismatch between psc and psm results in 
+a residual A1□ value (A0) at the boundary of the SC dome. b, Dependence of A0 on the 
+mismatch between psc and psm for Tl2Ba2CuO6+δ (Tl2201), Bi2Sr2CuO6+δ (Bi2201), and 
+
+La2-xSrxCuO4 (LSCO). Data are obtained from Ref. 23. 
+References 
+1 Hsu, F.-C. et al. Superconductivity in the PbO-type structure α-FeSe. Proc. Natl. Acad. Sci. USA 
+105, 14262-14264 (2008). 
+2 Sprau, P. O. et al. Discovery of orbital -selective Cooper pairing in FeSe. Science 357, 75-80 
+(2017). 
+3 Lei, B. et al. Evolution of high -temperature superconductivity from a low -Tc phase tuned by 
+carrier concentration in FeSe thin flakes. Phys. Rev. Lett. 116, 077002 (2016). 
+4 Zhang, X. et al. Enhancement of electron correlations in ion-gated FeSe film by in situ Seebeck 
+and Hall measurements. Phys. Rev. B 103, 214505 (2021). 
+5 Zhang, R. et al. Measurement of magnetic penetration depth in superconducting films by two -
+coil mutual inductance technique. Acta Phys. Sin. 69, 047401 (2020). 
+6 Prozorov, R. & Kogan, V . G. London penetration depth in iron -based superconductors. Rep. 
+Prog. Phys. 74, 124505 (2011). 
+7 Hebard, A. F. & Fiory, A. T. Evidence for the Kosterlitz -Thouless Transition in Thin 
+Superconducting Aluminum Films. Phys. Rev. Lett. 44, 291-294 (1980). 
+8 Logvenov, G., Gozar, A. & Bozovic, I. High-temperature superconductivity in a single copper-
+oxygen plane. Science 326, 699-702 (2009). 
+9 Bozovic, I., He, X., Wu, J. & Bollinger, A. T. Dependence of the critical temperature in 
+overdoped copper oxides on superfluid density. Nature 536, 309-311 (2016). 
+10 Hetel, I., Lemberger, T. R. & Randeria, M. Quantum critical behaviour in the superfluid density 
+of strongly underdoped ultrathin copper oxide films. Nat. Phys. 3, 700-702 (2007). 
+11 Yao, G. et al. Diamagnetic response of potassium -adsorbed multilayer FeSe film. Phys. Rev. 
+Lett. 123, 257001 (2019). 
+12 Kinney, J., Garcia -Barriocanal, J. & Goldman, A. M. Homes scaling in ionic liquid gated 
+La2CuO4+x thin films. Phys. Rev. B 92, 100505(R) (2015). 
+13 Zhang, R. et al. Determining the absolute value of magnetic penetration depth in small -sized 
+superconducting films. Supercond. Sci. Technol. 34, 085022 (2021). 
+14 Skinta, J. A., Kim, M. S., Lemberger, T. R., Greibe, T. & Naito, M. Evidence for a transition in 
+the pairing symmetry of the electron -doped cuprates La2-xCexCuO4-y and Pr2-xCexCuO4-y. Phys. 
+Rev. Lett. 88, 207005 (2002). 
+15 Hirschfeld, P. J. & Goldenfeld, N. Effect of strong scattering on the low-temperature penetration 
+depth of a d-wave superconductor. Phys. Rev. B 48, 4219-4222 (1993). 
+16 Jiang, X. et al. Interplay between superconductivity and the strange -metal state in FeSe. Nat. 
+Phys. 19, 365-371 (2023). 
+17 Phillips, P. W., Hussey, N. E. & Abbamonte, P. Stranger than metals. Science 377, eabh4273 
+(2022). 
+18 Yuan, J. et al. Scaling of the strange-metal scattering in unconventional superconductors. Nature 
+602, 431-436 (2022). 
+19 Williams, T. J. et al. Superfluid density and field -induced magnetism in Ba(Fe 1−xCox)2As2 and 
+Sr(Fe1−xCox)2As2 measured with muon spin relaxation. Phys. Rev. B 82, 094512 (2010). 
+20 Chen, T. K. et al. Fe-vacancy order and superconductivity in tetragonal beta-Fe1-xSe. Proc. Natl. 
+Acad. Sci. U S A 111, 63-68 (2014). 
+21 Qin, M. et al. Granular metallicity as a minimal normal state for superconductivity. Phys. Rev. 
+B 104, 174511 (2021). 
+22 Tranquada, J. M., Lozano, P. M., Yao, J., Gu, G. D. & Li, Q. From nonmetal to strange metal at 
+the stripe-percolation transition in La2−xSrxCuO4. Phys. Rev. B 109, 184510 (2024). 
+23 Ayres, J. et al.  Incoherent transport across the strange -metal regime of overdoped cuprates. 
+Nature 595, 661-666 (2021). 
+24 Esterlis, I., Guo, H., Patel, A. A. & Sachdev, S. Large-N theory of critical Fermi surfaces. Phys. 
+Rev. B 103, 235129 (2021). 
+25 Li, C. et al. Strange metal and superconductor in the two -dimensional Yukawa-Sachdev-Ye-
+Kitaev model. Preprint at https://arxiv.org/abs/2406.07608. 
+26 Patel, A. A., Guo, H., Esterlis, I. & Sachdev, S. Universal theory of strange metals from spatially 
+random interactions. Science 381, 790-793 (2023). 
+27 Aldape, E. E., Cookmeyer, T., Patel, A. A. & Altman, E. Solvable theory of a strange metal at 
+the breakdown of a heavy Fermi liquid. Phys. Rev. B 105, 235111 (2022). 
+ 
+ 

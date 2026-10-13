@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/m3UqU0xQfk5l+00ON1Y4LDtg0Kg</id>
+  <title>arXiv Query: search_query=all:"2602209123" OR (all:FeSe AND all:"Jia" AND all:Comment)&amp;id_list=&amp;start=0&amp;max_results=60</title>
+  <updated>2026-10-13T21:15:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%222602209123%22+OR+(all:FeSe+AND+(all:%22Jia%22+AND+all:Comment))&amp;start=0&amp;max_results=60&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>60</opensearch:itemsPerPage>
+  <opensearch:totalResults>0</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+</feed>

@@ -1,0 +1,47 @@
+{
+  "pubpeer_strain": {
+    "status": 403,
+    "url": "https://pubpeer.com/search?q=10.1073%2Fpnas.2602209123",
+    "bytes": 5551
+  },
+  "retractionwatch_fese": {
+    "status": 200,
+    "url": "https://retractionwatch.com/?s=FeSe",
+    "bytes": 66317
+  },
+  "aps_nernst": {
+    "status": 403,
+    "url": "https://journals.aps.org/prb/abstract/10.1103/1yxb-1pl5",
+    "bytes": 5550
+  },
+  "nature100": {
+    "status": 200,
+    "url": "https://www.nature.com/articles/nmat4153",
+    "bytes": 325112
+  },
+  "pnas_strain": {
+    "status": 403,
+    "url": "https://www.pnas.org/doi/10.1073/pnas.2602209123",
+    "bytes": 5537
+  },
+  "crossref_stiffness": {
+    "status": 200,
+    "url": "https://api.crossref.org/works/10.1126/sciadv.adu0795",
+    "bytes": 17658
+  },
+  "crossref_dome": {
+    "status": 200,
+    "url": "https://api.crossref.org/works/10.1073/pnas.2608091123",
+    "bytes": 13661
+  },
+  "crossref_screening": {
+    "status": 200,
+    "url": "https://export.arxiv.org/api/query?id_list=2407.09880",
+    "bytes": 3695
+  },
+  "fourprobe": {
+    "status": 200,
+    "url": "https://export.arxiv.org/api/query?search_query=all:FeSe+AND+(all:probe+OR+all:resistance)&start=0&max_results=70&sortBy=submittedDate&sortOrder=descending",
+    "bytes": 191990
+  }
+}

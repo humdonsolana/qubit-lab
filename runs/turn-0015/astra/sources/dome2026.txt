@@ -1,0 +1,737 @@
+ 
+ 
+1 
+ 
+What controls the superconducting dome of electron-doped FeSe? 
+Paul T. Malinowski1, Chad J. Mowers1, Yaoju Tarn1, Darrell G. Schlom2,4,5, Brendan D. Faeth1,3, 
+and Kyle M. Shen1,4,* 
+1Department of Physics, Laboratory of Atomic and Solid State Physics, Cornell University, 
+Ithaca, NY, 14853, USA 
+2Department of Materials Science and Engineering, Cornell University, Ithaca, New York, 
+14853, USA 
+3Platform for the Accelerated Realization, Analysis, and Discovery of Interface Materials 
+(PARADIM), Cornell University, Ithaca, NY, 14853, USA 
+4Kavli Institute at Cornell for Nanoscale Science, Cornell University, Ithaca, NY, 14853, USA 
+5Leibniz-Institut für Kristallzüchtung, Max-Born-Str. 2, 12489 Berlin, Germany 
+*Corresponding author: Kyle M. Shen 
+Email:  kmshen@cornell.edu 
+ 
+Abstract 
+Superconducting domes are conspicuous features of the phase diagrams of most 
+unconventional and high-temperature superconductors. The superconducting transition 
+temperature (Tc) of FeSe can be dramatically enhanced with electron doping, but unlike all other 
+high-temperature and unconventional superconductors, its full phase diagram and 
+superconducting dome have yet to be fully explored. Here, we employ a combination of 
+molecular beam epitaxy synthesis, alkali surface doping, in-vacuum electrical transport, and 
+angle-resolved photoemission spectroscopy to investigate the entire superconducting dome of 
+electron-doped FeSe, achieving a fully metallic state where superconductivity is suppressed in 
+the heavily overdoped regime. We discover a robust scaling between Tc and the residual 
+resistivity (ρ0) which holds across the entire superconducting dome, suggesting that the evolution 
+of Tc is heavily influenced by the evolution of the elastic scattering rate in the high-Tc electron-
+doped phase. This in turn suggests that the superconducting dome in electron-doped FeSe 
+appears to be fundamentally different than that of other unconventional superconductors where 
+ 
+ 
+2 
+ 
+doping plays the primary role, and may be driven primarily by the sensitivity of the 
+superconductivity to disorder. 
+Introduction 
+Among unconventional superconductors, a common hallmark is that the superconducting 
+transition temperature (Tc) exhibits a dome as a function of some tuning parameter such as 
+doping or pressure. The careful investigation of these domes has provided crucial insights into 
+the origin of superconductivity and its relation to properties of the normal state. For instance, in 
+Fe-pnictide1, cuprate2, and heavy fermion3 superconductors, the optimal Tc often appears 
+proximate to an enigmatic strange metal phase4 with linear-in-temperature electrical resistivity 
+and a critical fan emanating from a putative quantum critical point, whereas Fermi liquid 
+behavior is recovered in the overdoped regime. These interdependencies between 
+superconductivity and the normal state provide critical information about the pairing mechanism 
+and the nature of superconductivity. For FeSe, Tc is enhanced with electron doping, but unlike all 
+other high-Tc and unconventional superconductors, its full phase diagram and superconducting 
+dome have yet to be fully explored due to the difficulty in continuously and uniformly doping the 
+material up to high carrier concentrations past optimal doping.   
+Bulk, undoped FeSe has a relatively modest Tc ~ 8K, however when doped with electrons 
+so that the hole pockets at the Brillouin zone center (G) are pushed below the Fermi level (Ef), Tc 
+can be substantially enhanced. This doping can be achieved in a variety of ways, such as liquid5–9 
+or solid10–12 ionic gating, electrochemical etching13–16, and the intercalation of alkali metals17–22 
+or organic materials23,24 into single crystals, where values of Tc near 40 K have been reported.  In 
+monolayer FeSe / SrTiO3, doping is realized via interfacial charge transfer, resulting in a zero 
+resistance state approaching Tc ~ 30 K25 and a spectroscopic gap opening below TΔ ~ 70 K25–28.  
+Despite this substantial body of work establishing electron doping as a key ingredient for 
+high Tc’s in FeSe,  there have not yet been systematic studies spanning the entire 
+superconducting dome in a continuous fashion, for several reasons. First, in protonated or 
+intercalated systems such as AxFe2-ySe2 (A = alkali metal), the doping is difficult to control 
+precisely and cannot be varied in a continuous or uniform fashion. Instead, only certain, discrete 
+ 
+ 
+3 
+ 
+doping concentrations are stable, which typically form different crystallographic structures, and 
+at other concentrations the dopants microscopically phase separate into insulating, 
+semiconducting, or discretely disconnected superconducting regions9,11,12,20,29,30. On the other 
+hand, electrostatic gating experiments can eventually cause irreversible damage to the sample at 
+high voltages / doping levels5,7, leaving the overdoped region of the phase diagram inaccessible. 
+Surface alkali doping can resolve these issues, allowing for uniform, precise, and continuous 
+doping of the sample up to very high levels, but must be performed in ultrahigh vacuum on 
+atomically clean surfaces. However, to date, no in situ electrical transport measurements have 
+been performed on surface-doped materials. As the spectroscopic gap measured by ARPES or 
+tunneling measurements only reflects local pairing which is known to occur at higher 
+temperatures than the thermodynamic superconducting transition in this material25, the use of 
+electrical transport is essential for tracking the true, phase-coherent superconducting Tc across the 
+phase diagram. 
+Here, we comprehensively probe the entire superconducting dome of electron-doped 
+FeSe, spanning from the undoped parent compound all the way into the heavily overdoped, non-
+superconducting, metallic regime, combining surface electron doping of thin films of FeSe with 
+in situ electrical transport and ARPES measurements. We discover an unusual non-monotonic 
+dependence of the extrapolated residual resistivity, ρ0, which reaches a minimum at precisely 
+optimal doping, and find that Tc scales precisely with ρ0 across the entire dome on both the 
+under- and overdoped sides. This unique behavior, where ρ0 determines Tc in spite of the 
+changing carrier density, electronic structure, and other variables tuned by doping, suggests that 
+disorder, not carrier doping, plays a dominant role in controlling the superconducting dome of 
+electron-doped FeSe, in contrast to other unconventional superconductors such as the cuprates, 
+Fe pnictides, and infinite-layer nickelates. While electron doping is necessary to initially reach 
+the high-Tc  phase, our results suggest that once this minimum doping level is achieved, further 
+changes in carrier density play a secondary role. This result places constraints on the microscopic 
+aspects of superconductivity in this system, including shedding light on the as yet undetermined 
+ 
+ 
+4 
+ 
+symmetry of the superconducting state of electron-doped FeSe, providing evidence for a sign-
+changing s± superconducting order parameter. 
+Results 
+In Fig. 1, we show resistivity measurements taken in situ on a 10-unit cell (u.c.) thick 
+FeSe thin film as a function of Cs deposition. A key for this experiment was the precise control 
+over the doping, which was achieved by evaporating Cs from a novel Cs-In alloy source31 in an 
+effusion cell. Due to the volatility of the adsorbed Cs, measurements were performed below 80 
+K, where the resistivity is repeatable upon temperature cycling and no Cs migration or loss 
+occurs (Methods and SI Appendix, Fig. S4). Although bulk FeSe superconducts below T ~ 8 K, 
+thin films on SrTiO3 show little to no signature of the bulk superconducting phase, possibly due 
+to epitaxial strain from the substrate32. Such films can exhibit superconductivity due to the 
+singular interfacial FeSe layer, but here we deliberately omit the postgrowth annealing step 
+essential for developing interfacial high-Tc superconductivity  (SI Appendix, Figs. S1-S2), 
+allowing us to probe only the superconductivity that develops due to the surface doping of the 
+topmost layer.  
+In Fig. 1b, we show data spanning from undoped to optimal doping, and in Fig. 1c 
+spanning from optimal doping to overdoped. Upon depositing x = 0.03 Cs atoms per surface Fe 
+atom, as determined by quartz crystal microbalance (QCM) measurements, a clear 
+superconducting transition develops around Tc = 15 K, accompanied by a drop in the normal 
+state resistance (RN). Increasing x further raises Tc and continues to lower RN, until the maximum 
+Tc,opt = 36.5 K is reached at an optimal doping level of xopt = 0.076. When increasing x beyond 
+optimal doping (Fig. 1c), Tc is smoothly suppressed and eventually extinguished around x ~ 0.24. 
+Upon crossing xopt, RN begins to increase monotonically with x on the overdoped side of the 
+phase diagram. To better visualize the doping / temperature phase diagram, we plot the resistivity 
+as a color map in Fig. 1d and define two characteristic temperatures, Tc0 (zero resistivity) and Tons 
+(transition onset) (SI Appendix, Fig. S5), which are also plotted in Fig. 1d. The non-monotonic 
+evolution of RN with x is apparent as a region of low resistance (green color, white dashed lines) 
+ 
+ 
+5 
+ 
+which exhibits a larger dome-like structure above the superconducting dome, indicating a clear 
+correlation between the superconductivity and the normal state resistivity.   
+The data presented in Fig. 1 is the full sheet resistance of the entire 10 u.c. thin film, but 
+the charge transfer of the deposited Cs is confined almost entirely to the topmost FeSe layer (SI 
+Appendix). This has been clearly established by prior studies using surface alkali metal 
+deposition on FeSe33,34 and is also shown in our experiments. ARPES measurements as a 
+function of doping (Fig. 2, SI Appendix, Fig. S3) highlight the changes in Fermiology induced 
+by Cs deposition. As has been previously reported, a Lifshitz transition occurs at x ~ 0.02, before 
+the onset of the superconducting dome, when the hole pockets at G are pushed below the Fermi 
+level, leaving only electron pockets at M. With further doping, the electron pockets at M grow 
+smoothly and monotonically, passing through optimal doping and well into the overdoped 
+regime without any qualitative changes in the Fermiology.  
+Spectra at G (Fig. 2c-d;  SI Appendix, Fig. S3) also show that the electron doping is 
+confined to the first surface layer, as the bulk-like, undoped hole bands of the second layer do 
+not shift in energy, regardless of the amount of Cs deposited, while the hole bands of the doped 
+topmost layer continuously move to higher binding energy (Fig. 2f). These measurements also 
+demonstrate that the change in Luttinger volume of this topmost layer, as measured by the size of 
+the electron pockets at the M point (Fig. 2e,g), scales 1:1 with the amount of Cs deposited on the 
+surface, determined independently by QCM measurements of the Cs flux. Furthermore, in Figs. 
+1 and 2, x is plotted assuming the doped electrons are confined to the topmost FeSe layer, and 
+these values of x are consistent with previous studies33–35.  
+Since only the doping of the topmost layer is changing with Cs deposition, we extract the 
+sheet resistivity of the top layer alone by modeling the system as a stack of resistors with a doped 
+top layer in parallel with 9 layers of undoped FeSe (see Methods). This is shown in Figs. 3a,b 
+and is qualitatively like that of the entire film shown in Figs. 1b,c, but the doping-induced 
+changes to the top layer are more dramatic. In Fig. 3c we plot the extrapolated residual resistivity 
+(ρ0) (SI Appendix, Fig. S6) of the doped layer which evolves non-monotonically, dropping over 
+80% from its undoped value ρ0 = 4.1 kW to a minimum ρ0 = 760 W at xopt, and then returning to 
+ 
+ 
+6 
+ 
+ρ0 = 4.2 kW at the highest doping of x = 0.26. We note that this drop in the resistivity is unlikely 
+to be attributable to superconducting fluctuations which manifest as small, temperature-
+dependent deviations from the normal state resistivity, and only become significant close to Tc0. 
+The behavior we observe instead demonstrates a nearly vertical (i.e., temperature independent) 
+offset of the curves for different doping levels, indicative of a change in the elastic scattering rate 
+and reminiscent of Matthiessen’s rule for point defects. Furthermore, the magnitude of the 
+change (~ 80%) as well as the temperature range over which the drop is observed (T  > 2Tc0) 
+clearly suggests that conventional paraconductivity cannot be the origin of the doping 
+dependence of ρ0.  
+A comparison of the behavior of ρ0 to the superconducting dome in Fig. 3d reveals that 
+the minimum in ρ0 occurs precisely at xopt. Moreover, a comparison of underdoped and 
+overdoped curves with similar values of Tc0 (Fig. 3e) show that each pair of curves are strikingly 
+similar with nearly identical values of the normal state resistance, indicating a clear correlation 
+between Tc and ρ0 on both sides of the superconducting dome. This is made evident in Fig. 3g, 
+where plotting Tc0 as a function of ρ0 reveals a direct linear scaling of these two quantities, with 
+both underdoped and overdoped data points lying on a single line. We note this relationship also 
+holds for the raw resistivity curves shown in Fig. 1 and also applies when comparing the normal 
+state resistivity to Tc0, e.g. plotting Tc0 vs. RN(50 K), and is largely insensitive to which 
+temperature the resistivity is sampled (SI Appendix, Fig. S7). Furthermore, this behavior has 
+been reproduced on multiple samples, demonstrating that this behavior is robust and 
+reproducible (SI Appendix, Fig. S9). In addition, this relationship between Tc and ρ0 holds even 
+when considering the raw resistivity for the full 10 u.c. thick FeSe film (SI Appendix, Fig. S8). 
+These considerations demonstrate that this correlation between Tc and ρ0 is an intrinsic 
+phenomenon, in particular not dependent on details of how the residual resistivity is extracted 
+and is qualitatively robust against details of the parallel resistor model used to extract the 
+resistance of the topmost layer. 
+This scaling between Tc and ρ0 as both quantities are tuned via Cs deposition is the main 
+result of this manuscript, and does not appear to be limited to this particular Cs surface doped 
+system. A similar scaling between Tc and ρ0 is also observed in monolayer FeSe / SrTiO3 as a 
+ 
+ 
+7 
+ 
+function of progressive annealing (Fig. 3f-g) where ρ0 is initially high and Tc is low, but with 
+subsequent annealing, ρ0 falls to a minimum of 1.2 kW and Tc0 increases to a maximum of 31.4 
+K. The key distinction between monolayer FeSe / SrTiO3 and surface-doped FeSe is that in the 
+monolayer FeSe / SrTiO3, the doping level largely is fixed throughout the annealing process, as 
+the Luttinger volume, as measured by ARPES, changes minimally with annealing25 (SI 
+Appendix, Fig. S11), and thus the primary variable is solely the level of disorder. Given that such 
+similar Tc - ρ0 scaling is observed in both systems (Fig. 3g), it follows that the same mechanism 
+may be at play in the surface doped system, and furthermore that the driving force behind the Tc - 
+ρ0 scaling is not primarily a carrier doping effect.  The presence of the SrTiO3 interface and 
+additional sources of interfacial disorder may explain the different slopes in the ρ0- Tc relation 
+(Fig. 3g). Nevertheless, it is very clear that there is the same, inverse linear relationship between 
+ρ0 and Tc in both systems. Furthermore, in intercalated and electrostatically gated FeSe5–7,13, ρ0 
+and Tc also follow the same qualitative relationship all the way up to the highest doping levels 
+reported (typically up to optimal doping). One notable study on Li+-intercalated FeSe flakes 
+exhibits the same qualitative correlation between ρ0 and Tc even slightly past optimal doping, 
+before the sample becomes highly insulating10. 
+It is interesting to note that the relationship between ρ0 and Tc as shown in Fig. 3g is so 
+robust, given that ρ0 is a composite and not fundamental quantity. The residual resistivity is 
+determined by both the elastic scattering rate (𝜏!) and details of the electronic structure via the 
+carrier density (n) and effective mass (m), (𝜌!="#$!%"). The fact that ρ0 determines Tc for both 
+underdoped and overdoped compositions regardless of the evolution of the electronic structure 
+suggests that 𝜏! may be the primary control parameter for superconductivity, and not changes in 
+the electronic structure with doping. This is qualitatively confirmed by converting the data 
+shown in Fig. 3g to scattering times using the measured carrier densities, effective masses, and 
+residual resistivities (SI Appendix, Fig. S10) which show a similar general trend of longer 
+scattering times corresponding to higher critical temperatures with the highest Tc0 values 
+coinciding exactly with the longest scattering times. This is also consistent with the quasiparticle 
+widths extracted from the ARPES data (SI Appendix, Fig. S10) which show that the scattering 
+ 
+ 
+8 
+ 
+time measured from the spectroscopic linewidths exhibits a non-monotonic doping dependence, 
+with the sharpest spectra and longest scattering times near optimal doping.  
+Discussion  
+In most systems exhibiting a superconducting dome, the parent compound is an insulator 
+or bad metal, where doped carriers increase the carrier density and screening, which can offset 
+the disorder induced by impurity dopants. Figures 4a-c show the domes of the Fe-pnictide36-38, 
+cuprate39,40, and oxide 2DEG41–43 superconductors, plotted together with the evolution of the 
+normal state resistance, RN, with doping, where RN is taken just above Tc (here we use RN instead 
+of ρ0 due to the availability of data in the existing literature).  In all of these cases, RN decreases 
+monotonically across the entire phase diagram and Tc appears largely insensitive to RN. This is in 
+sharp contrast to the highly non-monotonic behavior of RN (or equivalently ρ0) and its correlation 
+with Tc that we observe in FeSe (Fig. 4d). We emphasize again that along the doping axis, many 
+factors that could plausibly affect both ρ0 and Tc are changing, most obviously the elastic 
+scattering rate and the carrier density. With regards to the non-monotonic evolution of ρ0, one 
+possibility is a natural minimum which occurs as a result of the counterbalancing effects of 
+increasing dopant disorder and increasing screening of impurity scattering as a function of 
+increased doping. However, this picture cannot explain the fact that the minimum of ρ0 coincides 
+exactly with the highest Tc optimal doping, nor the precise quantitative relationship between ρ0 
+and Tc for doping levels on opposite sides of the phase diagram with very different carrier 
+densities. Furthermore, as discussed previously, the same Tc - ρ0 scaling also occurs in the 
+monolayer FeSe / SrTiO3 system as a function of annealing which rules out changes in doping as 
+the primary factor. We emphasize that although the non-monotonic evolution of ρ0 with Cs 
+deposition allows for us to conclusively and causally link Tc and ρ0 via the relationship shown in 
+Fig. 3g, such a non-monotonic dependence is not required for the relationship to still hold, as 
+seen in the case of monolayer FeSe / SrTiO3. 
+In other systems, the superconducting dome often appears near a quantum critical point 
+of a magnetic or other competing phase whose fluctuations are believed to be involved in the 
+superconducting pairing mechanism. The combination of the ordered phase competing with 
+ 
+ 
+9 
+ 
+superconductivity and the fluctuations of the phase contributing to the superconducting pairing 
+naturally leads to the presence of a superconducting dome. In electron-doped FeSe, a completely 
+unique mechanism may be at play, where the superconductivity is controlled by impurity 
+scattering from disorder, with carrier doping not playing a direct role in determining Tc, and thus 
+the superconducting phase diagram may be of a qualitatively different nature than that of other 
+unconventional superconductors. We speculate that in electron-doped FeSe, the interplay 
+between the two competing doping-controlled factors of increased screening versus increased 
+disorder leads to a non-monotonic evolution of its elastic scattering rate, generating the 
+superconducting dome without phase competition or the presence of a quantum critical point. 
+Future experiments combining electron doping with other tuning parameters such as high-energy 
+electron irradiation or high pressure and tracking how the superconducting dome and 
+inelastic/elastic scattering rates evolve across the entire phase space will be useful for probing 
+the correlation between changes in the inelastic scattering rate and superconductivity 
+traditionally associated with quantum critical phenomena, as well as providing a greater range of 
+parameters over which to correlate superconductivity and the residual resistivity.  
+These results clearly demonstrate the primary role of the residual resistivity in 
+determining Tc in electron-doped FeSe, regardless of the doping level. Nevertheless, it is well 
+established that increasing the carrier density is still essential for transmuting bulk FeSe with a 
+low Tc and a multiband Fermi surface, with both hole and electron pockets, into a high-Tc phase 
+with only electron pockets. We emphasize that our result does not contradict this fact that 
+electron doping is required to induce a high Tc in FeSe. Rather, our results indicate a possible 
+scenario (Fig. 4e) where once the high-Tc phase is reached, it becomes largely insensitive to 
+further changes in carrier doping, and the superconducting dome is generated as the doping 
+parameter traces a nonlinear path through the phase space of impurity scattering and carrier 
+density (black path in Fig. 4e).  
+One open question remains as to why Tc exhibits such a strong sensitivity to disorder. In 
+superconductors with a sign-changing order parameter, Tc can be heavily suppressed by impurity 
+scattering, e.g., Sr2RuO444. The low Tc bulk phase of FeSe is also suppressed by disorder45,46, 
+likely due to the effect of interband impurity scattering on the s+- order parameter. The results 
+ 
+ 
+10 
+ 
+presented here suggest a sign-changing superconducting order parameter in electron-doped FeSe 
+as well. Although ARPES measurements on monolayer FeSe / SrTiO3 do not observe nodes in 
+the superconducting gap47, other possibilities for the electron-doped FeSe superconducting order 
+parameter include an s+/- structure where the sign change occurs between the inner and outer 
+pockets formed by hybridization between the two nearly degenerate electron pockets at the M 
+point (Fig. 4e). While there is consensus that the superconducting order parameter of bulk FeSe 
+is of s+/- symmetry, similar to most Fe-based superconductors, the sign change of the order 
+parameter in those materials is between the hole pockets at the Γ  point and electron pockets at 
+the M point. In electron-doped FeSe, including monolayer FeSe / SrTiO3, only the electron 
+pockets at M cross the Fermi level. The proposed  s+/- character of the superconducting order 
+parameter in the electron-doped, high-Tc system is qualitatively different, changing sign between 
+only electron pockets at M. In this case, scattering from disorder even with very low momentum 
+transfer would connect the two pockets with opposite sign and act as pair-breaking scattering 
+events, leading to a very sensitive dependence to disorder as our results suggest. We also note 
+that in both the monolayer FeSe / SrTiO3 and surface doped FeSe, superconductivity emerges 
+close to the pair quantum of resistance (RQ), indicating that reduced dimensionality could also 
+play a role in increasing sensitivity to disorder and 2D phase fluctuations regardless of the 
+pairing symmetry, although this may not be relevant in systems further from the 2D limit such as 
+intercalated systems.  
+This systematic study of superconductivity across the entire superconducting dome of 
+electron-doped FeSe clearly demonstrates that Tc scales with ρ0 across the phase diagram, 
+suggesting that superconductivity may be fundamentally disorder-limited once the high-Tc 
+electron-doped region of the phase diagram is reached. Given that surface electron doping 
+combined with in situ electrical transport and photoemission as employed here provides the most 
+direct and cleanest means for probing superconductivity and tuning doping in a uniquely 
+controllable and continuous fashion, this behavior appears not to be isolated to Cs-surface doped 
+thin films, but generic to all electron-doped FeSe, in which case the path to generating a higher 
+Tc is possibly reduced to increasing the cleanliness of the electron-doped material. 
+ 
+ 
+ 
+11 
+ 
+Materials and Methods 
+Thin film synthesis 
+Epitaxial thin films of FeSe were grown on undoped SrTiO3 (001) (10 mm x 10 mm) 
+substrates using molecular beam epitaxy at a substrate growth temperature of 420 oC and 
+background pressure of 6 ´ 10-10 torr in an adsorption-controlled regime where the nominal flux 
+ratio Se:Fe was 5:1 and were monitored during growth using reflective high energy electron 
+diffraction (RHEED). Prior to film growth, the SrTiO3 substrates were annealed at 600 oC for 
+approximately 6 hours. Under these conditions, the growth rate is approximately 36 seconds per 
+FeSe monolayer.  Samples were then transferred through ultrahigh vacuum for in situ ARPES 
+and electrical transport measurements.  
+Alkali surface doping 
+A key for this experiment was the precise control over the surface doping, which was 
+achieved by evaporating Cs from a Cs-In alloy source31 in an effusion cell, which provides a 
+highly stable and reproducible atomic flux of Cs that can be independently measured and 
+calibrated using a QCM, in contrast to conventional strip-style alkali metal dispensers. The QCM 
+calibration was performed at liquid nitrogen temperatures in a vacuum better than 5 x 10-10 to 
+maximize the adsorption of Cs. To facilitate uniform random doping, as opposed to phase 
+separation into ordered overlayers, the Cs was deposited when the sample temperature was T = 8 
+K. The Cs dose was controlled by opening a shutter for a typical dose time between 5 – 60 
+seconds at a typical deposition rate of 0.0012 e/Fe/sec. 
+Electrical transport 
+In situ resistivity measurements were performed using a custom-built UHV four-point 
+transport probe with a base temperature of 7 K and a base pressure of 7 × 10−11 torr. Contact is 
+applied directly to the film by depressing Au-plated spring-loaded probes onto Au contacts 
+evaporated onto the film after synthesis using a shadow mask in a 4-point van der Pauw 
+geometry, with a nominal instrumental contact spacing of 7 mm. Resistance measurements are 
+taken using a Keithley 6221 / 2182A current source–voltmeter combination in delta mode with a 
+ 
+ 
+12 
+ 
+typical applied current of 20 − 30 μA. Measurements were performed in both warming and 
+cooling cycles to verify that the Cs concentration at the surface did not change upon warming. It 
+was found that the resistivity measurements were completely repeatable when keeping the 
+sample temperature below 80 K, whereas hysteresis was observed above 80 K.  
+Extraction of the surface doped layer resistance 
+The layered and highly anisotropic nature of FeSe suggests that modeling the film as a 
+stack of individual FeSe layers as resistors adding in parallel is a reasonable approximation. 
+Assuming such a model for a 10 u.c. thick film and given the measured sheet resistance of the 
+undoped stack (𝑅&!	()*$+,#-./$-) and the measured sheet resistance of the doped stack (𝑅&!	()*$+-./$-), the 
+extracted sheet resistance of the doped surface layer (𝑅&	()*$+-./$-) is given by: 
+𝑅&	()*$+-./$-=% 1𝑅&!	()*$+-./$- −910 1𝑅&!	()*$+,#-./$-*0& 
+ARPES 
+ARPES measurements were taken with a VG Scienta R4000 electron analyzer equipped 
+with a VUV5000 helium discharge lamp using He-I photons at 21.2 eV. The base pressure in the 
+ARPES system is 5 × 10−11 Torr. The energy resolution is nominally set at 12 meV. To avoid 
+sample charging during ARPES measurements, the film is grounded using a retractable contact 
+pin built onto the sample manipulator. Surface doping during ARPES was achieved via flowing 
+current through alkali metal dispensers (SAES) close to the sample surface with the sample held 
+at the base temperature T = 7 K. Doping levels were extracted from the ARPES data by 
+calculating the Luttinger volume using the Fermi momentum (kF) values of the electron pockets 
+at the M point and assuming circular pockets. The optimal doping levels extracted from the 
+Luttinger volumes and from QCM measurements showed good agreement. 
+ 
+ 
+ 
+13 
+ 
+Author Contributions: P.T.M., B.D.F, and K.M.S. conceived the research and designed the 
+experiment. P.T.M, C.J.M, Y.T., and B.D.F. synthesized the FeSe films and performed the 
+surface doping, in situ resistivity, and ARPES measurements. The data were analyzed and 
+interpreted by P.T.M., B.D.F., and K.M.S. D.G.S. developed the Cs-In source for the surface 
+doping. P.T.M. and K.M.S. wrote the manuscript, with contribution from all authors. 
+Competing Interest Statement: Authors declare they have no competing interests. 
+Classification: Physical Sciences 
+Keywords: Superconductivity, Iron-based superconductors, ARPES  
+Acknowledgments 
+This work was primarily supported by the Air Force Office of Scientific Research 
+through Grants No. FA9550-21-1-0168 and FA9550-23-1-0161. Additional support was 
+provided through the National Science Foundation through DMR-2104427 and the Platform for 
+the Accelerated Realization, Analysis, and Discovery of Interface Materials (PARADIM) under 
+Cooperative Agreement No. DMR-2039380 and the Gordon and Betty Moore Foundation’s 
+EPiQS Initiative through Grant Nos. GBMF3850 and GBMF9073. P.T.M. would like to 
+acknowledge support from the Klarman Postdoctoral Fellowship. 
+ 
+ 
+ 
+References 
+1. Shibauchi, T., Carrington, A. & Matsuda, Y. A Quantum Critical Point Lying Beneath 
+the Superconducting Dome in Iron Pnictides. Annu. Rev. Condens. Matter Phys. 5, 113–
+135 (2014). 
+2. Fradkin, E., Kivelson, S. A. & Tranquada, J. M. Colloquium : Theory of intertwined 
+orders in high temperature superconductors. Rev. Mod. Phys. 87, 457–482 (2015). 
+3. Gegenwart, P., Si, Q. & Steglich, F. Quantum criticality in heavy-fermion metals. Nat. 
+Phys. 4, 186–197 (2008). 
+4. Phillips, P. W., Hussey, N. E. & Abbamonte, P. Stranger than metals. Science 377, 
+eabh4273 (2022). 
+5. Lei, B. et al. Evolution of High-Temperature Superconductivity from a Low- Tc Phase 
+Tuned by Carrier Concentration in FeSe Thin Flakes. Phys. Rev. Lett. 116, 077002 
+(2016). 
+6. Jiang, X. et al. Interplay between superconductivity and the strange-metal state in FeSe. 
+Nat. Phys. 19, 365–371 (2023). 
+ 
+ 
+14 
+ 
+7. Lei, B. et al. Gate-tuned superconductor-insulator transition in (Li,Fe)OHFeSe. Phys. 
+Rev. B 93, 060501 (2016). 
+8. Zhang, X. et al. Enhancement of electron correlations in ion-gated FeSe film by in situ 
+Seebeck and Hall measurements. Phys. Rev. B 103, 214505 (2021). 
+9. Meng, Y. et al. Protonation-induced discrete superconducting phases in bulk FeSe single 
+crystals. Phys. Rev. B 105, 134506 (2022). 
+10. Lei, B. et al. Tuning phase transitions in FeSe thin flakes by field-effect transistor with 
+solid ion conductor as the gate dielectric. Phys. Rev. B 95, 020503 (2017). 
+11. Ying, T. P. et al. Discrete Superconducting Phases in FeSe-Derived Superconductors. 
+Phys. Rev. Lett. 121, 207003 (2018). 
+12. Wang, W. X. et al. Discrete superconducting phases in proton-intercalated FeSe thin 
+flakes. Phys. Rev. B 106, 014509 (2022). 
+13. Shiogai, J., Ito, Y., Mitsuhashi, T., Nojima, T. & Tsukazaki, A. Electric-field-induced 
+superconductivity in electrochemically etched ultrathin FeSe films on SrTiO3 and MgO. 
+Nat. Phys. 12, 42–46 (2016). 
+14. Shikama, N. et al. Enhancement of superconducting transition temperature in 
+electrochemically etched FeSe/LaAlO3 films. Appl. Phys. Express 13, 083006 (2020). 
+15. Shiogai, J., Kimura, S., Awaji, S., Nojima, T. & Tsukazaki, A. Anisotropy of the upper 
+critical field and its thickness dependence in superconducting FeSe electric-double-layer 
+transistors. Phys. Rev. B 97, 174520 (2018). 
+16. Miyakawa, T. et al. Enhancement of superconducting transition temperature in FeSe 
+electric-double-layer transistor with multivalent ionic liquids. Phys. Rev. Mater. 2, 
+031801 (2018). 
+17. Guo, J. et al. Superconductivity in the iron selenide KxFe2Se2 ( 0 ≤ x ≤ 1.0 ). Phys. Rev. B 
+82, 180520 (2010). 
+18. Wang, A. F. et al. Superconductivity at 32 K in single-crystalline RbxFe2-ySe2. Phys. Rev. 
+B 83, 060512 (2011). 
+19. Zhang, A. et al. Superconductivity at 44 K in K intercalated FeSe system with excess Fe. 
+Sci. Rep. 3, 1216 (2013). 
+20. Ying, T. et al. Superconducting Phases in Potassium-Intercalated Iron Selenides. J. Am. 
+Chem. Soc. 135, 2951–2954 (2013). 
+21. Zhang, Y. et al. Nodeless superconducting gap in AxFe2Se2 (A=K,Cs) revealed by angle-
+resolved photoemission spectroscopy. Nat. Mater. 10, 273–277 (2011). 
+22. Ying, T. P. et al. Observation of superconductivity at 30-46K in AxFe2Se2 (A = Li, Na, 
+Ba, Sr, Ca, Yb and Eu). Sci. Rep. 2, 426 (2012). 
+23. Shi, M. Z. et al. Organic-ion-intercalated FeSe-based superconductors. Phys. Rev. Mater. 
+2, 074801 (2018). 
+24. Kang, B. L. et al. Preformed Cooper Pairs in Layered FeSe-Based Superconductors. 
+Phys. Rev. Lett. 125, 097003 (2020). 
+25. Faeth, B. D. et al. Incoherent Cooper Pairing and Pseudogap Behavior in Single-Layer 
+FeSe / SrTiO3. Phys. Rev. X 11, 021054 (2021). 
+26. Liu, D. et al. Electronic origin of high-temperature superconductivity in single-layer FeSe 
+superconductor. Nat. Commun. 3, 931 (2012). 
+27. Lee, J. J. et al. Interfacial mode coupling as the origin of the enhancement of Tc in FeSe 
+films on SrTiO3. Nature 515, 245–248 (2014). 
+ 
+ 
+15 
+ 
+28. Song, Q. et al. Evidence of cooperative effect on the enhanced superconducting transition 
+temperature at the FeSe/SrTiO3 interface. Nat. Commun. 10, 758 (2019). 
+29. Ricci, A. et al. Direct observation of nanoscale interface phase in the superconducting 
+chalcogenide KxFe2-ySex with intrinsic phase separation. Phys. Rev. B 91, 020503 (2015). 
+30. Dagotto, E. Colloquium: The unexpected properties of alkali metal iron selenide 
+superconductors. Rev. Mod. Phys. 85, 849–867 (2013). 
+31. Parzyck, C. T. et al. Single-Crystal Alkali Antimonide Photocathodes: High Efficiency in 
+the Ultrathin Limit. Phys. Rev. Lett. 128, 114801 (2022). 
+32. Nabeshima, F., Kawai, M., Ishikawa, T., Shikama, N. & Maeda, A. Systematic study on 
+transport properties of FeSe thin films with various degrees of strain. Jpn. J. Appl. Phys. 
+57, 120314 (2018). 
+33. Seo, J. J. et al. Superconductivity below 20 K in heavily electron-doped surface layer of 
+FeSe bulk crystal. Nat. Commun. 7, 11116 (2016). 
+34. Wen, C. H. P. et al. Anomalous correlation effects and unique phase diagram of electron-
+doped FeSe revealed by photoemission spectroscopy. Nat. Commun. 7, 10840 (2016). 
+35. Miyata, Y., Nakayama, K., Sugawara, K., Sato, T. & Takahashi, T. High-temperature 
+superconductivity in potassium-coated multilayer FeSe thin films. Nat. Mater. 14, 775–
+779 (2015). 
+36. Rullier-Albenque, F., Colson, D., Forget, A. & Alloul, H. Hall Effect and Resistivity 
+Study of the Magnetic Transition, Carrier Content, and Fermi-Liquid Behavior in Ba(Fe1-
+xCox)2As2. Phys. Rev. Lett. 103, 057001 (2009). 
+37. Nakajima, M. et al. Crossover from bad to good metal in BaFe2(As1-xPx)2 induced by 
+isovalent P substitution. Phys. Rev. B 88, 094501 (2013). 
+38. Chen, H. et al. Coexistence of the spin-density wave and superconductivity in Ba1-
+xKxFe2As2. Europhys. Lett. 85, 17006 (2009). 
+39. Ando, Y., Komiya, S., Segawa, K., Ono, S. & Kurita, Y. Electronic Phase Diagram of 
+High- Tc Cuprate Superconductors from a Mapping of the In-Plane Resistivity Curvature. 
+Phys. Rev. Lett. 93, 267001 (2004). 
+40. Tyler, A. W. et al. High-field study of normal-state magnetotransport in Tl2Ba2CuO6+δ. 
+Phys. Rev. B 57, R728–R731 (1998). 
+41. Caviglia, A. D. et al. Electric field control of the LaAlO3/SrTiO3 interface ground state. 
+Nature 456, 624–627 (2008). 
+42. Rout, P. K., Maniv, E. & Dagan, Y. Link between the Superconducting Dome and Spin-
+Orbit Interaction in the (111) LaAlO3/SrTiO3 Interface. Phys. Rev. Lett. 119, 237002 
+(2017). 
+43. Chen, Z. et al. Electric field control of superconductivity at the LaAlO3/KTaO3(111) 
+interface. Science 372, 721–724 (2021). 
+44. Mackenzie, A. P. et al. Extremely Strong Dependence of Superconductivity on Disorder 
+in Sr2RuO4. Phys. Rev. Lett. 80, 161–164 (1998). 
+45. Zhou, N. et al. Disorder-robust high-field superconducting phase of FeSe single crystals. 
+Phys. Rev. B 104, L140504 (2021). 
+46. Böhmer, A. E., Taufour, V., Straszheim, W. E., Wolf, T. & Canfield, P. C. Variation of 
+transition temperatures and residual resistivity ratio in vapor-grown FeSe. Phys. Rev. B 
+94, 024526 (2016). 
+ 
+ 
+16 
+ 
+47. Zhang, Y. et al. Superconducting Gap Anisotropy in Monolayer FeSe Thin Film. Phys. 
+Rev. Lett. 117, 117001 (2016). 
+ 
+ 
+17 
+ 
+ 1 
+Figures and Tables 2 
+ 3 
+Figure 1. Electronic transport as a function of doping via Cs surface deposition. (a) 4 
+Schematic of 10 u.c. thick FeSe film grown on SrTiO3. Deposited Cs atoms (red) dope 5 
+electrons into the surface layer (gold) of the FeSe film. Temperature dependence of the 6 
+sheet resistance as a function of Cs deposition for underdoped (b) and overdoped (c) 7 
+doping levels. (d) Temperature-doping color map of the sheet resistance and doping 8 
+dependence of the superconducting transition temperatures Tons and Tc0. White dashed 9 
+line is a guide to the eye highlighting the low resistance region of the normal state 10 
+resistance above the superconducting dome. 11 
+ 12 
+  13 
+SrTiO
+3
+Undo
+ped FeSe
+a b c d
+Temperature (K)Temperature (K) Doping (e/Fe)
+Temperature (K)
+Resistance (Ω)
+0 20 40 60 800 20 40 60 80 0 0.05 0.1 0.15 0.2 0.25
+200
+400
+600
+20
+40
+60
+80
+Doping Tc0
+Tons
+Doping
+0 600
+R (Ω)
+ 
+ 
+18 
+ 
+ 14 
+ 15 
+Figure 2. Evolution and surface confinement of doping observed in ARPES. (a - d) 16 
+ARPES spectra at T = 7 K at the M point for the as-grown sample (a) and a near 17 
+optimally doped sample (b), and at G for the as-grown undoped sample (c) and the near 18 
+optimally doped sample (d). The white arrows in (d) highlight the hole pocket for the 19 
+undoped second layer and doped surface layer. (e) Momentum distribution curves taken 20 
+at kF at the M point as a function of increased doping. (f) Band maxima of the hole 21 
+pockets for the first and second surface layers. (g) Electron doping extracted from the 22 
+Luttinger volumes as a function of Cs deposition time for two separate doping series. The 23 
+dashed line is a linear fit to the combined datasets. 24 
+  25 
+MM Γ Γ
+x = 0 x = 0.068 x = 0 x = 0.068
+a b c d e f
+gDoping (e/Fe) Band Pos. (eV)
+Intensity (arb. units)
+0 0.2-0.2 0 0 5
+0.05
+0
+-0.02
+-0.04
+-0.06
+0.1
+0.15
+10 150.2-0.2
+Momentum (1/Å) Momentum (1/Å)
+0 0.2-0.2
+Momentum (1/Å)
+0 0.2-0.2
+Momentum (1/Å)
+0 0.2-0.2
+Momentum (1/Å) Deposition Time (minutes)
+0
+-0.05
+-0.1
+-0.15
+0 Max
+ 0 Max
+Layer 2
+Layer 1
+Sequence 2
+Sequence 1
+x = 0Undoped
+E = Ef
+0.018
+0.036
+0.068
+0.087
+0.09
+0.12
+2nd layer
+Doped
+1st layer
+E - Ef (eV)
+ 
+ 
+19 
+ 
+ 26 
+Figure 3. Extracted sheet resistance of the doped surface layer. (a, b) Temperature 27 
+dependence of the extracted resistivity of the doped surface layer for underdoped (a) and 28 
+overdoped (b) doping levels. (c) Extrapolated residual resistivity r0 (left axis) and 29 
+resistivity at T = 50 K (right axis) as a function of electron doping. (d) Superconducting 30 
+critical temperatures Tons and Tc0 as a function of electron doping. The dashed line in (c, 31 
+d) marks the position of optimal doping xopt. (e) Comparison of resistivity curves for pairs 32 
+of under- and overdoped samples with similar values of Tc0. (f) Resistivity as a function 33 
+of temperature for monolayer FeSe / SrTiO3 samples with varying residual resistivities. 34 
+(g) Tc0 as a function of r0 for both the Cs deposited (two different doping series) and 35 
+monolayer FeSe systems. Dashed lines are linear fits to each respective dataset. 36 
+  37 
+0 20 40 60 80
+Temperature (K)
+0
+1
+2
+3
+4
+5
+6Resistance (k)
+0 20 40 60 80
+Temperature (K)
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+5.5Resistance (k)
+0
+2
+40 (k)
+0
+2
+4
+6
+50K (k)
+0 0.1 0.2 0.3
+Doping (e/Fe)
+0
+20
+40T (K)
+Tons
+Tc0
+0 20 40 60 80
+Temperature (K)
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5Resistance (k)
+0 20 40 60
+Temperature (K)
+0
+1
+2
+3
+4
+5
+6
+7Resistance (k)
+0 2000 4000 6000
+0 ()
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Tc0 (K)
+S1 UD
+S1 OD
+S2 UD
+S2 OD
+1uc FeSe
+Cs - FeSe
+ x = 0
+ x = 0.24
+Underdoped
+Overdoped
+Disorder
+b c
+d
+1 u.c FeSe / SrTiO3
+a
+e f g
+ 
+ 
+20 
+ 
+ 38 
+Figure 4. Comparison of systems exhibiting superconducting domes. Normal state 39 
+resistivity (top left axis, diamond markers) and superconducting transition temperature 40 
+(bottom right axis, square markers) as a function of tuning parameter for (a) Fe-pnictide, 41 
+(b) cuprate, (c) gated 2D electron gas, and (d) Cs surface doped FeSe superconductors. 42 
+The resistance data has been normalized by the value of optimal doping for each 43 
+compound and the horizontal axis has been scaled such that the superconducting domes 44 
+for different compounds within a family overlap. (e) Schematic phase diagram for the Tc 45 
+of electron-doped FeSe as a function of disorder and carrier density. Green and purple 46 
+colors on the Fermi surface sheets indicate the sign of the superconducting order 47 
+parameter. 48 
+ 49 
+ 50 
+ 51 

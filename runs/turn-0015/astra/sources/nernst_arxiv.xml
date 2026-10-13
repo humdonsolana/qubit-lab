@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VqYe8QyV8lxoTMEeHYtV31GWLA4</id>
+  <title>arXiv Query: search_query=all:FeSe AND all:Nernst&amp;id_list=&amp;start=0&amp;max_results=60</title>
+  <updated>2026-10-13T21:15:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:FeSe+AND+all:Nernst&amp;start=0&amp;max_results=60&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>60</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11018v1</id>
+    <title>Study on fluctuations of interface-enhanced superconductivity in ultrathin FeSe/SrTiO3 by the Nernst effect</title>
+    <updated>2025-08-14T18:44:26Z</updated>
+    <link href="https://arxiv.org/abs/2508.11018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ultrathin FeSe films on SrTiO3 substrate show interface-enhanced superconductivity. However, how the superconductivity is established including superconducting fluctuations remains unclear. This study investigates the Nernst effect, which is sensitive to superconducting fluctuations, in ultrathin FeSe films on SrTiO3. Temperature dependence of Nernst signals in the normal state is similar to bulk FeSe, suggesting that the electrons of SrTiO3 are transferred only to a few layers near the FeSe/SrTiO3 interface. The Nernst effect caused by SC fluctuations was observed only below T ~ 1.2 Tconset within our measurement resolution, which is similar to other Fe chalcogenide systems. Our results suggest that the pseudogap in monolayer FeSe/STO possibly originates in other electronic states rather than superconductivity.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-14T18:44:26Z</published>
+    <arxiv:comment>8 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>T. Kobayashi, R. Ogawa, and A. Maeda Phys. Rev. B 112, 094525 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Tomoki Kobayashi</name>
+    </author>
+    <author>
+      <name>Ryo Ogawa</name>
+    </author>
+    <author>
+      <name>Atsutaka Maeda</name>
+    </author>
+    <arxiv:doi>10.1103/1yxb-1pl5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/1yxb-1pl5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.03508v1</id>
+    <title>Preformed Cooper pairs in layered FeSe-based superconductors</title>
+    <updated>2019-12-07T14:19:23Z</updated>
+    <link href="https://arxiv.org/abs/1912.03508v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.03508v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superconductivity arises from two distinct quantum phenomena: electron pairing and long-range phase coherence. In conventional superconductors, the two quantum phenomena generally take place simultaneously, while the electron pairing occurs at higher temperature than the long-range phase coherence in the underdoped high-Tc cuprate superconductors. Recently, whether electron pairing is also prior to long-range phase coherence in single-layer FeSe film on SrTiO3 substrate is under debate. Here, by measuring Knight shift and nuclear spin-lattice relaxation rate, we unambiguously reveal a pseudogap behavior below Tp ~ 60 K in two layered FeSe-based superconductors with quasi-two-dimension. In the pseudogap regime, a weak diamagnetic signal and a remarkable Nernst effect are also observed, which indicate that the observed pseudogap behavior is related to superconducting fluctuations. These works confirm that strong phase fluctuation is an important character in the two-dimensional iron-based superconductors as widely observed in high-Tc cuprate superconductors.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-07T14:19:23Z</published>
+    <arxiv:comment>18 pages, 4 figures, supplementary materials available upon request</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 125, 097003 (2020)</arxiv:journal_ref>
+    <author>
+      <name>B. L. Kang</name>
+    </author>
+    <author>
+      <name>M. Z. Shi</name>
+    </author>
+    <author>
+      <name>S. J. Li</name>
+    </author>
+    <author>
+      <name>H. H. Wang</name>
+    </author>
+    <author>
+      <name>Q. Zhang</name>
+    </author>
+    <author>
+      <name>D. Zhao</name>
+    </author>
+    <author>
+      <name>J. Li</name>
+    </author>
+    <author>
+      <name>D. W. Song</name>
+    </author>
+    <author>
+      <name>L. X. Zheng</name>
+    </author>
+    <author>
+      <name>L. P. Nie</name>
+    </author>
+    <author>
+      <name>T. Wu</name>
+    </author>
+    <author>
+      <name>X. H. Chen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.125.097003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.125.097003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.08850v2</id>
+    <title>BCS-like critical fluctuations with limited overlap of Cooper pairs in FeSe</title>
+    <updated>2017-07-14T03:26:09Z</updated>
+    <link href="https://arxiv.org/abs/1704.08850v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.08850v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In conventional superconductors, very narrow superconducting fluctuation regions are observed above $T_c$ because of the strong overlapping of Cooper pairs in a coherence volume. In the bulk form of iron chalcogenide superconductor FeSe, it is argued that the system may locate in the crossover region of BCS to BEC, indicating a strong superconducting fluctuation. In this respect, we have carried out measurements of magnetization, specific heat and Nernst effect on FeSe single crystals in order to investigate the superconducting fluctuation effect near $T_c$. The region of diamagnetization induced by superconducting fluctuation seems very narrow above $T_c$. The crossing point of temperature dependent magnetization curves measured at different magnetic fields, which appears in many systems of cuprate superconductors and is regarded as indication of strong critical fluctuation, is however absent. The magnetization data can be scaled based on the Ginzburg-Landau fluctuation theory for a quasi-two-dimensional system, but the scaling result cannot be described by the theoretical function of the fluctuation theory because of the limited fluctuation regions. The specific heat jump near $T_c$ is rather sharp without the trace of strong superconducting fluctuation. This is also supported by the Nernst effect measurements which indicate a very limited region for vortex motion above $T_c$. Associated with very small value of Ginzburg number and further analyses, we conclude that the superconducting fluctuation is very weak above $T_c$ in this material. Our results are strongly against the picture of significant phase fluctuation in FeSe single crystals, although the system has a very limited overlapping of Cooper pairs in the coherence volume. This dichotomy provides new insights into the superconducting mechanism when the system is with a dilute superfluid density.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-28T08:50:00Z</published>
+    <arxiv:comment>11 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 96, 064501 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Huan Yang</name>
+    </author>
+    <author>
+      <name>Guanyu Chen</name>
+    </author>
+    <author>
+      <name>Xiyu Zhu</name>
+    </author>
+    <author>
+      <name>Jie Xing</name>
+    </author>
+    <author>
+      <name>Hai-Hu Wen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.96.064501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.96.064501" title="doi"/>
+  </entry>
+</feed>

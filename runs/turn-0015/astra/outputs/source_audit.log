@@ -1,0 +1,9 @@
+latest_fese 60
+nernst 3
+double_interface 30
+fe_disputes 35
+strain_disputes 0
+100k 14
+strain_crossref {'doi': '10.1073/pnas.2602209123', 'status': 200, 'title': ['Dual enhancement of superconductivity in FeSe/SrTiO\n                    <sub>3</sub>\n                    via orbital and correlation synergy'], 'published': {'date-parts': [[2026, 6, 9]]}, 'relation': {}, 'update_to': None}
+nernst_crossref {'doi': '10.1103/1yxb-1pl5', 'status': 200, 'title': ['Fluctuations of interface-enhanced superconductivity in ultrathin\n                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">\n                      <mml:msub>\n                        <mml:mrow>\n                          <mml:mi>FeSe</mml:mi>\n                          <mml:mo>/</mml:mo>\n                          <mml:mi>SrTiO</mml:mi>\n                        </mml:mrow>\n                        <mml:mn>3</mml:mn>\n                      </mml:msub>\n                    </mml:math>\n                    studied by the Nernst effect'], 'published': {'date-parts': [[2025, 9, 30]]}, 'relation': {}, 'update_to': None}
+100k_crossref {'doi': '10.1038/nmat4153', 'status': 200, 'title': ['Superconductivity above 100 K in single-layer FeSe films on doped SrTiO3'], 'published': {'date-parts': [[2014, 11, 24]]}, 'relation': {}, 'update_to': None}

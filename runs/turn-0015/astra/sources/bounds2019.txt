@@ -1,0 +1,1106 @@
+Bounds on the superconducting transition temperature: Applications to twisted
+bilayer graphene and cold atoms
+Tamaghna Hazra, 1 Nishchhal Verma, 1 Mohit Randeria 1∗
+1Department of Physics, The Ohio State University, Columbus, Ohio 43210
+(Dated: September 23, 2019)
+Understanding the material parameters that control the superconducting transition temperature
+Tc is a problem of fundamental importance. In many novel superconductors phase ﬂuctuations
+determine Tc, rather than the collapse of the pairing amplitude. We derive rigorous upper bounds
+on the superﬂuid phase stiﬀness for multi-band systems, valid in any dimension. This in turn leads
+to an upper bound on Tc in two dimensions (2D), which holds irrespective of pairing mechanism,
+interaction strength, or order-parameter symmetry. Our bound is particularly useful for the strongly
+correlated regime of low-density and narrow-band systems, where mean ﬁeld theory fails. For a
+simple parabolic band in 2D with Fermi energy EF , we ﬁnd that kBTc≤ EF/8, an exact result
+that has direct implications for the 2D BCS-BEC crossover in ultra-cold Fermi gases. Applying our
+multi-band bound to magic-angle twisted bilayer graphene (MA-TBG), we ﬁnd that band structure
+results constrain the maximum Tc to be close to the experimentally observed value. Finally, we
+discuss the question of deriving rigorous upper bounds on Tc in 3D.
+Our work is motivated by the fundamental question:
+what limits the superconducting (SC) transition temper-
+ature Tc? Within BCS mean-ﬁeld theory, and its ex-
+tensions like Eliashberg theory, the amplitude of the SC
+order parameter is destroyed by the breaking of pairs,
+and Tc scales with the pairing gap ∆. The material pa-
+rameters that control the mean-ﬁeldTc are the electronic
+density of states (DOS) at the chemical potential N(0)
+and the eﬀective interaction, determined by the spectrum
+of ﬂuctuations that mediate pairing.
+Beginning with the pioneering experiments of Ue-
+mura [1] and theoretical ideas of Emery and Kivelson [2]
+on underdoped cuprates, it became clear that the mean
+ﬁeld picture of Tc scaling with the pairing gap is simply
+not valid in many novel superconductors. The loss of SC
+order is then governed by ﬂuctuations of the phase of the
+order parameter, rather than the suppression of its am-
+plitude, and Tc is related to the superﬂuid stiﬀness Ds.
+The material parameters that determine Ds are rather
+diﬀerent from those that determine the pairing gap ∆.
+The question of mean ﬁeld amplitude collapse versus
+phase ﬂuctuation dominated SC transition is brought
+into sharp focus by a variety of recent experiments in
+narrow band and low density systems. One of the most
+exciting recent developments is the observation of very
+narrow bands in magic-angle twisted bilayer graphene
+(MA-TBG) leading to correlation-induced “Mott” insu-
+lating states [3] and superconductivity [4] in their vicin-
+ity. Flat bands are also also expected to arise in various
+topological states of matter; see, e.g., [5–8]. BCS theory-
+based intuition suggests that narrow bands have a large
+DOS N(0) and lead to high temperature superconduc-
+tivity. Is this true or do phase ﬂuctuations limit the Tc?
+The extensive compilation of data in Fig. 6 of ref. [4]
+suggests that all known superconductors have a Tc that
+scales at most like a constant times the “Fermi energy
+EF ”, though there is considerable leeway in deﬁning EF
+in strongly correlated and multi-band materials. We also
+note that ultra-cold Fermi gases in the strongly inter-
+acting regime of the BCS-BEC crossover [9, 10] exhibit
+experimental values [11] of kBTc/EF larger than those
+observed in the solid state. All of these observations raise
+the question of ultimate limits on the Tc of a supercon-
+ductor or paired superﬂuid.
+In this paper, we obtain sharp answers to these ques-
+tions, especially in 2D. First, we derive an upper bound
+on the superﬂuid stiﬀnessDs(T )≤ ~D(T ), where ~D is pro-
+portional to the optical conductivity sum rule. This in-
+equality is valid in all dimensions and for arbitrary inter-
+actions. We then use the Berezinskii-Kosterlitz-Thouless
+(BKT) theory in 2D to obtain kBTc≤π~D(Tc)/2.
+While the bound on Tc is of completely general valid-
+ity, it is most useful in the strongly correlated regime
+of narrow-band and low density systems, precisely where
+conventional mean-ﬁeld approaches fails. We show that
+~D is necessarily “small” in such systems, and, in many
+cases of interest, ~D is essentially determined by the (non-
+interacting) band structure.
+We give several examples that illustrate the useful-
+ness of our bounds for a variety of systems. For a single
+parabolic band we show that kBTc≤ EF/8 in 2D. This
+exact result poses stringent constraints on the Tc of the
+2D BCS-BEC crossover in ultra cold atoms. We also de-
+scribe bounds onTc for the 2D attractive Hubbard model,
+relevant for current optical lattice experiments [12], that
+demonstrate the tension between breaking of pairs and
+phase ﬂuctuations, and highlight the connection with a
+pairing pseudogap [13, 14].
+Turning to multi-band systems, we use available band
+structure results [15–19] for MA-TBG to calculate ~D and
+thus constrain its Tc without any assumptions about the
+pairing mechanism or order-parameter symmetry. We
+obtain a rigorous (but weak) bound of ≃ 15 K. Us-
+ing physically motivated approximations, we estimate a
+bound on Tc as low as 6 K.
+Finally, we discuss the question of deriving similar
+bounds in 3D. We show that the presence of non-universal
+arXiv:1811.12428v3  [cond-mat.supr-con]  19 Sep 2019
+2
+pre-factors in the relation between Tc and Ds, as well
+their scaling behavior near a SC quantum critical point,
+pose challenges in deriving a rigorous bound in 3D.
+Results: We ﬁrst outline our main results and then
+give a detailed derivation and speciﬁc applications. We
+consider a Fermi system described by the general Hamil-
+tonian
+H =HK +Hint; HK =
+∑
+k,m,σ
+ϵm(k)c†kmσckmσ (1)
+where k is crystal momentum, m is a band label, and σ
+the spin.HK is the kinetic energy andHint describes in-
+teractions (electron-phonon, electron-electron, etc.), in-
+cluding those that give rise to superconductivity. The
+external vector potential A entersH through a Peierl’s
+substitution in the tight-binding representation of HK,
+but does not aﬀect Hint. For now, we ignore disorder
+and return to it at the end.
+The macroscopic superﬂuid stiﬀness Ds determines
+the free energy cost of distorting the phase of the
+SC order parameter |∆|eiθ via the Boltzmann factor
+exp
+(
+−Ds
+∫
+ddr|∇θ|2|/2kBT). It is related to the Lon-
+don penetration depth via 1 /λ2L = (4µ0e2/ℏ2)Ds in 3D.
+Microscopically,Ds can be calculated as the static, long
+wavelength limit of the transverse current response [20,
+21] to a vector potential. (Our results are equally valid
+for neutral superﬂuids with rotation playing the role of
+the magnetic ﬁeld.) We obtain a rigorous upper bound
+valid in any dimension
+Ds(T ) ≤ ~D(T ) = ℏ24Ω ∑k,mm′,σ M−1mm′(k)⟨c†kmσckm′σ⟩
+(2)
+where Ω is the volume of the system and M−1mm′(k) is an
+inverse mass tensor that depends only on the electronic
+structure ofHK; see eq. (5) below. The temperature and
+interactions impact ~D only through⟨c†kmσckm′σ⟩, where
+the thermal average is calculated using the full H.
+We next use Ds to provide an upper bound on the
+SC transition temperature in 2D. We use the Nelson-
+Kosterlitz [22] universal relation to obtain
+kBTc≤π~D(Tc)/2 (3)
+For a weak coupling superconductor,Tc is well described
+by mean ﬁeld theory and our result, though valid as an
+upper bound, may not be very useful. On the other hand,
+as we show below, for a strongly interacting system the
+bound gives insight into both the value of Tc and on its
+dependence on parameters.
+Bound on superﬂuid stiﬀness: The intuitive
+idea behind Ds ≤ ~D is as follows. (2πe2/ℏ2)~D =∫∞
+0 dω Reσ(ω) is the optical conductivity spectral weight
+integrated over the bands in eq. (1), and
+(
+4πe2/ℏ2)Ds
+is the coeﬃcient of the δ(ω) piece in Re σ(ω) in the SC
+state; (note:
+∫∞
+0 dωδ (ω) = 1/2). The inequality (2) saysthat the weight in the SC delta-function must be less
+than or equal to the total spectral weight.
+To derive (2), we use the Kubo formula for Ds as a
+linear response [20, 21] to an external vector potential in
+an arbitrary direction a
+Ds = ~D−(ℏ2/4e2) χ⊥jaja(q→ 0,ω = 0), (4)
+where ~D is the diamagnetic response ∼ ⟨δ2H/δAa2⟩,
+while χ⊥ is the transverse current-current correlation
+function. ~D is given by eq. (2) with
+M−1mm′(k) =∑
+αβ
+U†m,α(k) ∂2tαβ(k)∂(ℏka)2 Uβ,m′(k) (5)
+Here α,β label orbitals/sites within a unit cell of a Bra-
+vais lattice, tαβ(k) is the Fourier transform of the hop-
+ping tαβ(riα− rjα), and Uα,m(k) is the unitary trans-
+formation that diagonalizes tαβ(k) to the band basis
+ϵm(k)δm,m′. The inverse mass tensor in eq. (5) also de-
+pends on the directiona =x,y,... through the derivative
+with respect toka on the right hand side, however, we do
+not show this a dependence explicitly to simplify the no-
+tation. These results are derived in Appendix A, and the
+relation to the optical sum rule shown in Appendix B;
+see also ref. [23].
+We next turn to the second term in eq. (4). From its
+Lehmann representation we see thatχ⊥(q→0,ω =0)≥ 0
+at all temperatures; see Appendix C. We thus obtain
+Ds(T )≤ ~D(T ).
+For a single band system eqs. (2) and (5) simplify
+greatly and we get~D = (4Ω)−1∑k,σ(∂2ϵ(k)/∂k 2a)nσ(k),
+where the momentum distribution nσ(k) = ⟨c†kσckσ⟩.
+This allows us to recover well-known special cases. (1)
+With nearest neighbor (NN) hopping on a square or cu-
+bic lattice, ∂2ϵ(k)/∂k 2a∼ϵ(k), and ~D is proportional to
+the kinetic energy. (2) A parabolic dispersion ϵ(k) =
+ℏ2k2/2m leads to the simple result ~D = ℏ2n/4m, in-
+dependent of T and of interactions. Here Ds(T ) =
+ℏ2ns(T )/4m and our bound simply says that the super-
+ﬂuid density ns(T )≤n the total density.
+For materials with non-parabolic dispersion and/or
+multiple bands, ~D depends on T and interactions. It
+is thus illuminating to derive a bound for ~D which de-
+pends only on the density. We describe the single band
+result here, relegating the multi-band generalization to
+Appendix D. We writeHK =−∑Rδσ[t(δ)c†R+δ,σcR,σ +
+h.c.
+]
+with translationally invariant hopping amplitudes
+t(δ) that depend only the vector δ connecting lattice
+sites R and R + δ. We couple the system to a vec-
+tor potential and compute ~D, which involves terms like∑
+i,jδ2at(δ)⟨c†icj⟩ with δ =i−j (schematically). We note
+that ~D ≥ 0, since it is the sum rule for Re σ(ω) ≥
+0. We then use the triangle inequality and Cauchy-
+Schwarz|⟨c†icj⟩| ≤√⟨ni⟩⟨nj⟩ = n to obtain Ds ≤
+~D≤n∑δδ2a|t(δ)|/2. This shows that for small hopping
+and/or low density, one necessarily has a small Ds.
+3
+Tc bound in 2D: For a BKT transition in 2D, the
+Tc and the stiﬀness Ds are related by the universal ra-
+tio [22] kBTc/Ds (T−c ) = π/2. Together with eq. (2)
+Ds (T−c )≤ ~D (Tc), we then immediately obtain eq. (3).
+In an anisotropic system ~D depends on a =x,y through
+the∂2/∂k 2a in eq. (5). We can use ~D = max{~Dx,~Dy} to
+obtain a bound onTc, however, we argue in Appendix H,
+for a much stronger result ~D =
+[
+~Dx~Dy
+]1/2
+in 2D.
+We emphasize that eq. (3) with ~D(Tc) on the RHS is
+suﬃcient to derive the rigorous results below. However,
+to obtain the intuitively more appealing result kBTc≤
+π~D(0)/2, we need to assume that Ds(T ) is a decreasing
+function of T , so that Ds (T−c )≤Ds (0)≤ ~D (0).
+2D Parabolic Dispersion: Consider a single band
+with ϵ(k) = ℏ2k2/2m with density n, so that the Fermi
+energy EF = πℏ2n/m and arbitrary interactions that
+lead to pairing and superconductivity. Then M−1(k) =
+m−1 and Ω−1∑k,σnσ(k;T ) = n independent of T and
+interactions, so that ~D = ℏ2n/4m. Eq. (3) then leads to
+the simple result
+kBTc≤EF/8 (6)
+which must be obeyed independent of the strength of
+attraction or order-parameter symmetry, provided the
+system exhibits a BKT transition. In a weak-coupling
+superconductor Tc will actually be much smaller than
+EF/8 but, as we discuss next, the bound can be satu-
+rated in systems with strong interactions, such as the
+2D BCS-BEC crossover experiments in ultra-cold Fermi
+gases.
+2D BCS-BEC crossover: In ultra-cold Fermi gas
+experiments the two-body s-wave interaction between
+atoms is tuned using a Feshbach resonance. This has
+led to deep insights into the crossover [9, 10] from the
+weak coupling BCS limit with large Cooper pairs all the
+way to the BEC of tightly bound diatomic molecules.
+Asymptotically exact results are available in both the
+BCS and BEC limits, however, the crossover regime be-
+tween the two extremes is very strongly interacting, with
+pair size comparable to the inter-particle spacing, and is
+much less understood. It is precisely here that our exact
+upper bound (6) is relevant.
+The 2D crossover for s-wave pairing is parameterized
+by the dimensionless interaction [24] log(Eb/EF ), where
+Eb is the binding energy of the two-body bound state
+in vacuum and EF the Fermi energy. In the weak-
+coupling BCS limit ( Eb≪EF ), the mean ﬁeld kBTc∼√EFEb [24], with a pre-factor that has been computed
+including the Gorkov-Melik-Barkhudarov (GMB) correc-
+tion [25, 26]. Clearly Tc is much smaller than our bound.
+In the BEC limit ( Eb≫ EF ) the composite bosons
+have mass 2m, densityn/2, and an inter-boson scattering
+length ab where Eb/EF ∼ 1/na2b [26]. The 2D dilute
+Bose gas has kBTc = EF/[2 log log(2/na2b)] [27], which
+is valid in the regime log log ≫ 1. This too is smaller
+than our bound, though our exact result cautions against
+a naive extrapolation of the BEC limit result into the
+strong interaction regime.
+The results of the 2D Fermi gas experiment of ref. [28]
+seems to violate eq. (6) in the crossover regime. We note,
+however, that our bound is obtained for a strictly 2D
+system in the thermodynamic limit, while the experiment
+is on a quasi-2D system in a harmonic trap, from which
+it is diﬃcult to accurately determine the BKT Tc. The
+ﬁnite size of the trap raises Tc; even the non-interacting
+Bose gas in a 2D harmonic trap has a non-zero Tc.
+Magic angle twisted bilayer graphene: Let us
+next turn to a multi-band system of great current in-
+terest. The existence of very narrow bands in MA-
+TBG was predicted by continuum electronic structure
+calculations [15, 16] that pointed out the crucial role of
+α = w/ℏv0FKθ, where θ is the twist angle between the
+two layers, w is the interlayer tunneling, v0F the bare
+Fermi velocity, andK the Dirac-node location in mono-
+layer graphene. It was predicted that vF in TBG can
+be tuned to zero [15], with a bandwidth less than 10
+meV by choosing certain magic angles θ, the largest of
+which≈ 1.1◦ has now been achieved in experiments [3, 4].
+Recently, pressure-tuning of w has also resulted in very
+narrow bands [29].
+Little is known at this time about the nature of the SC
+state or the pairing mechanism, though the observed non-
+linear I-V characteristics [3, 4] are consistent with a BKT
+transition. Proximity to a “Mott” insulator and nar-
+row bandwidth suggest the importance of electron cor-
+relations, while the extreme sensitivity of the dispersion
+to structure suggests that electron-phonon interactions
+could also be important. We argue here that simply us-
+ing the available electronic structure information for MA-
+TBG, and without any prejudice about the interactions
+responsible for SC, we can put strong constraints on its
+superconducting Tc.
+There are two bands for each of the two valleys, one
+above and the other below the charge neutrality point
+(CNP) . Each band has a two-fold spin degeneracy, with
+bands for one valley related to those of the other by time-
+reversal. We include these eight bands in the ∑mm′,σ in
+eq. (2), while the ∑k is over the moir´ e Brillouin zone,
+a hexagon with side 2 K sin(θ/2) ≃ Kθ. We use the
+tight-binding model of ref. [17], a multi-parameter ﬁt to
+the continuum dispersion [15], to calculate M−1m,m′(k) of
+eq. (5), which is block-diagonal in the valley index, so
+that there are no cross-valley terms in eq. (2).
+To derive a general bound, where we make no sim-
+plifying assumptions, we start with ~D≥ 0 and obtain
+~D≤ (ℏ2/4Ω)∑kmm′σ|M−1mm′(k)||⟨c†kmσckm′σ⟩| using the
+triangle inequality. We next use Cauchy-Schwarz to ob-
+tain |⟨c†kmσckm′σ⟩|2 ≤ nmσ(k)nm′σ(k) ≤ 1, since the
+momentum distribution nmσ(k) ≤ 1. We thus ﬁnd
+~D ≤ (ℏ2/4Ω)∑k,m,m′σ|M−1mm′(k)| which leads to the
+bound kBTc≤ 56 K.
+We can obtain a more stringent Tc bound if use fur-
+4
+-4 -3 -2 -1 CNP 1 2 3 4
+0.00
+0.05
+0.10
+0.15
+0.20
+0.25
+0.30
+0.35
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+FIG. 1. ~D as a function of doping from the charge neutrality
+point (CNP) in magic angle-twisted bilayer graphene (MA-
+TBG), calculated using the band structure of ref. [17] at T =
+0.
+(
+2πe2/ℏ2)~D is the integrated optical spectral weight and
+π~D/2 is an upper bound on the SC Tc in MA-TBG.
+ther physical inputs. The “Mott” gap in the correlated
+insulator is experimentally [3, 4] known be ≈ 0.3 meV,
+and we expect a superconducting gap which is at most
+that value. Thus we may assume that, at half-ﬁlling away
+from CNP on the hole doped side, say, the bands above
+the CNP are essentially empty and unaﬀected by pairing.
+Before proceeding, we derive a general result valid for
+arbitrary interactions which shows that inter-band terms
+do not contribute to eq. (2) for completely ﬁlled or empty
+bands. To prove this, we again use the Cauchy-Schwarz
+inequality|⟨c†kmσckm′σ⟩|2 ≤ nmσ(k)nm′σ(k) = 0 when
+either bandm orm′ is empty. A similar argument works
+for the ﬁlled case after a particle-hole transformation; see
+Appendix E. Thus⟨c†kmσckm′σ⟩=0 for m⁄=m′, whenever
+either of the two bands is completely ﬁlled or empty, and
+only m=m′ terms survive in eq. (2).
+To boundTc for MA-TBG near half-ﬁlling on the hole-
+doped side of the CNP, we take nm(k)=0 for the empty
+bands above the CNP, as explained above. Keeping only
+band-diagonal terms and using the triangle inequality
+we obtain ~D≤ (ℏ2/4Ω)∑k,m,σ|M−1mm(k)|nmσ(k). Us-
+ing n(k)≤ 1 for the bands below CNP we obtain the
+bound Tc≤ 14.4 K near half-ﬁlling for hole doping using
+the tight-binding model of ref. [17]. A similar calculation
+leads to Tc≤ 15.0 K near half-ﬁlling for electron doping;
+see Appendix F. We note that using
+⏐⏐M−1⏐⏐ and general
+constraints onn(k) leads to rigorous results, but weakens
+the bounds.
+Finally, we make a physically motivated estimate of
+~D, which yields an improved, but approximate, result.
+We use the T = 0 band theory result ⟨c†kmσckm′σ⟩ =
+δm,m′Θ (µ−ϵm(k)), with the chemical potential µ de-
+termined by the density Ω −1∑k,m,σnmσ(k). This, to-
+gether with M−1mm(k) calculated from the tight binding
+model of ref. [17], leads to the density-dependent esti-
+mate of ~D plotted in Fig. 1. We note that using ∂2/∂k 2x
+0 1 2 3 4 5 6 7 8
+0.00
+0.05
+0.10
+0.15
+0.20
+0.25
+0.30
+FIG. 2. Tc for the 2D attractive Hubbard model at density
+n = 0.7 with QMC results from ref. [30]. The BCS mean
+ﬁeld T MFTc controlsTc at weak coupling. Phase ﬂuctuations,
+estimated using our upper bound T boundc (see text) dominate
+at intermediate and strong coupling, where we also show the
+t2/|U| asymptotics of our bound.
+versus∂2/∂k 2y to calculate M−1 aﬀects our estimates by
+less than a percent.
+The integrated optical spectral weight, given by(
+2πe2/ℏ2)~D, vanishes at the band insulators when all
+bands are either ﬁlled or empty. Clearly our band-
+structure based estimate does not know about the
+“Mott” insulating states at half-ﬁlling away from CNP.
+(π/2) times the ~D plotted in Fig. 1 is an estimated upper
+bound on the SC Tc. The system is not SC over most of
+the doping range, but our bound is the maximum attain-
+able Tc if the system were to exhibit superconductivity.
+We ﬁnd the maximum Tc to be about 6 K, while the
+experimental value is 3 K [29].
+We note that theTc bounds are sensitive to the precise
+electronic structure results we use as input for calculating
+M−1. As shown in Appendix F, using the tight binding
+results of ref. [18] for MA-TBG, leads to a Tc estimate
+about 2.5 times higher than the one presented above,
+based on the band structure of ref. [17]. We emphasize
+that these diﬀerences arise from the fact that the details
+of the non-interacting band structure of MA-TBG are
+not very well established. Irrespective of that, our results
+suggest that MA-TBG is a strongly correlated SC in a
+phase ﬂuctuation dominated regime.
+2D attractive Hubbard model and optical lat-
+tices: We next obtain important insights on the value of
+Tc and its interaction-dependence for the 2D attractive
+Hubbard model, where we can compare our bound with
+sign problem free Quantum Monte Carlo (QMC) simu-
+lations [30]. This system has also been investigated in
+recent optical lattice experiments [12].
+Consider nearest-neighbor (NN) hopping on a
+square lattice with H = −t∑⟨i,j⟩σc†i,σcjσ + h.c.−
+|U|∑i (ni↑− 1/2) (ni↓− 1/2). For n⁄= 1 the system has
+an s-wave SC ground state, exhibiting a crossover from
+5
+a weak coupling BCS state ( |U|/t ≪ 1) to a BEC of
+hard-core on-site bosons ( |U|/t≫ 1). The QMC esti-
+mate [30] of Tc, obtained from the BKT jump in the Ds,
+is a non-monotonic function of|U|/t at a ﬁxed densityn;
+see Fig. 2. The BCS mean ﬁeld T MFTc correctly describes
+the weak couplingTc, (For a more accurate estimate, one
+should take into account the GMB correction [25] which
+suppresses the numerical pre-factor, but does not alter
+the functional form of T MFTc .) For |U|/t > 2, T MFTc is
+the scale at which pairs dissociate and lies well above Tc.
+In the|U|/t≫ 1 limit we see Tc∼ t2/|U|, the eﬀective
+boson hopping.
+Our bound permits us to understand Tc(|U|/t) in the
+intermediate coupling regime where there are no other
+reliable analytical estimates. To estimate ~D analytically,
+we need to make an approximation forn(k). If we choose
+a step-function (as we did for the MA-TBG) we get Tc≤
+0.3t for n=0.7, independent of|U|/t.
+To obtain a better estimate, we note that, as |U|/t
+increases, the pair-size shrinks and n(k) broadens. In
+the extreme|U|/t-limit of on-site bosons, n(k) is ﬂat (k-
+independent), leading to ~D→ 0, since ∂2ϵ/∂k 2x is a peri-
+odic function with zero mean whose k-sum vanishes. To
+model this broadening of n(k), we use the results of the
+T = 0 BCS-Leggett crossover theory; see Appendix G.
+This gives us the (approximate) bound plotted in Fig. 2,
+which has the correctt2/|U| asymptotic behavior at large
+|U|.
+In general, we see that Tc ≤ min
+{
+T MFTc ,π ~D/2kB
+}
+.
+For temperatures between the pairing scale T MFTc and
+Tc at which phase coherence sets in, the “normal state”
+exhibits a pseudogap due to pre-formed pairs [13, 14].
+Three dimensional systems: Experiments suggest
+that there may be an upper bound on Tc in 3D systems;
+see, e.g., Fig. 6 of ref. [4]. We have not succeeded in
+deriving a rigorous bound on the 3D Tc, unlike in 2D.
+There are two challenges that one faces in trying to de-
+rive a bound in 3D, one related to rigorous control on nu-
+merical pre-factors and the other to the functional form
+of the relation between Tc and Ds. Both are related to
+the fact that in 3D the superﬂuid stiﬀness does not have
+dimensions of energy, unlike in 2D.
+Following Emery and Kivelson (EK) [2], we focus on
+the 3D phase ordering temperature kBTθ = ADs(0)a,
+which could provide a bound on Tc. Here A is a (dimen-
+sionless) constant and a is the length-scale up to which
+one has to coarse-grain to derive an eﬀective XY model.
+EK use a2 = πξ 2, where ξ is the coherence length, and
+suggest, based on Monte Carlo results for classical XY
+models, that A≃ 4.4 gave a reasonable account of ex-
+periments on underdoped cuprates and other materials.
+However, the coeﬃcient A is non-universal and can
+vary from one system to another. Consider the 3D
+problem of the BCS-BEC crossover in ultra-cold Fermi
+gases [10] with ℏ2k2/2m dispersion and interaction, char-
+acterized by the s-wave scattering length as, tuned us-
+ing a Feshbach resonance. At unitarity ( |as| = ∞),
+the experimental kBTc ≃ 0.17EF [11], while QMC es-
+timates [31, 32] range from kBTc ≃ 0.15EF− 0.17EF .
+QMC shows the expected non-monotonic behavior of
+kBTc/EF as a function of 1 /kFas, with a maximum
+kBTc/EF≃ 0.22 at a small positive 1 /kFas. The maxi-
+mum value ofkBTc/EF is larger than the non-interacting
+BEC result, consistent with the rigorous result [33] that
+repulsive interactions increase theTc of a dilute Bose gas
+in 3D.
+We choose ξ≃ k−1F near unitarity [34] and try to use
+kBTθ =A(ℏ2n/4m)(√πξ) as a bound onTc. Consistency
+with the observed kBTc/EF ≃ 0.22 then requires A≃
+7.4, quite diﬀerent from the 4 .4 quoted above. We do
+not know if there is a deﬁnite value of A that would give
+a “phase-ordering” upper bound on Tc in 3D.
+The following argument suggests that there may, in
+fact, be no general bound on Tc that is linear in Ds(0)
+in 3D. From a practical point of view, one is interested
+in learning about the highest Tc in a class of materials.
+But, if a general bound were to exist, it should be equally
+valid in situations where both Tc and Ds(0) are driven
+to zero by tuning a (dimensionless) parameter δ→ 0+
+toward a quantum critical point (QCP). From the ac-
+tionS = 12Ds∫β0 dτ∫ ddr|∇θ|2 +... describing the phaseﬂuctuations of the SC order parameter, we get the quan-
+tum Josephson scaling relation [35] Ds(0)∼ δ(z+d−2)ν.
+One also obtains, as usual, Tc ∼ δzν, where z and ν
+are the dynamical and correlation length exponents in
+d spatial dimensions. Thus Tc∼ [Ds(0)]z/(z+d−2) near
+the QCP. In 2D, this gives a linear scaling between Tc
+and Ds(0). However, in 3D we get Tc ∼ Ds(0)z/(z+1)
+which, suﬃciently close to the QCP, will necessarily vi-
+olate an upper bound on Tc that is conjectured to scale
+linearly with Ds(0). This is not just an academic issue,
+as experiments see precisely such a deviation from lin-
+ear scaling with Tc ∼
+√
+Ds(0), consistent with z = 1,
+both in highly underdoped [36, 37] and in highly over-
+doped [38, 39] cuprates.
+Concluding remarks: We have thus far ignored dis-
+order. We note that Ds of the pure system is necessar-
+ily larger than that in the disordered system. This can
+be seen by generalizing Leggett’s bound [40] on the su-
+perﬂuid density (derived in the context of supersolids)
+to the case of disordered systems [41]. Thus our upper
+bounds for translationally invariant systems continue to
+be valid in the presence of disorder, although they can
+be improved.
+Although we have focused on narrow band and low
+density systems here, our bounds have also important
+implications for systems close to insulating states, either
+correlation-driven or disorder-driven. In either case, if
+there is a continuous superconductor to insulator tran-
+sition, the superﬂuid stiﬀness will eventually become
+smaller than the energy gap and control the SC Tc.
+As a design principle, it is interesting to ask if one
+can have multi-band systems where a narrow band has
+a large energy gap and large “mean ﬁeld” Tc interacting
+with a broad band that makes a large contribution to the
+6
+superﬂuid stiﬀness, thus getting the best of both worlds.
+Acknowledgments We are grateful to P. T¨ orm¨ a, S.
+Peotta and L. Liang for pointing out an error in an earlier
+version of our paper that led us to the correct multi-band
+result presented here. We thank J. Kang and O. Vafek for
+providing the tight-binding parameters for ref. [18]. We
+acknowledge support from NSF DMR-1410364 and the
+Center for Emergent Materials, an NSF MRSEC, under
+Award Number DMR-1420451.
+[1] Y. J. Uemura et. al. , Physical Review Letters 62, 2317
+(1989).
+[2] V. J. Emery and S. A. Kivelson, Nature 374, 434 (1995).
+[3] Y. Cao, V. Fatemi, A. Demir, S. Fang, S. L. Tomarken,
+J. Y. Luo, J. D. Sanchez-Yamagishi, K. Watanabe,
+T. Taniguchi, E. Kaxiras, R. C. Ashoori, and P. Jarillo-
+Herrero, Nature 556, 80 (2018).
+[4] Y. Cao, V. Fatemi, S. Fang, K. Watanabe, T. Taniguchi,
+E. Kaxiras, and P. Jarillo-Herrero, Nature 556, 43
+(2018).
+[5] N. B. Kopnin, T. T. Heikkil¨ a, and G. E. Volovik, Phys-
+ical Review B 83, 220503 (2011).
+[6] E. Tang and L. Fu, Nature Physics 10, 964 (2014).
+[7] S. Peotta and P. T¨ orm¨ a, Nature Communications6, 8944
+(2015).
+[8] L. Liang, T. I. Vanhala, S. Peotta, T. Siro, A. Harju, and
+P. T¨ orm¨ a, Physical Review B95, 024515 (2017).
+[9] W. Ketterle and M. W. Zwierlein, in Ultracold Fermi
+Gases, Proc. of the Int. Sch. of Phys. “Enrico Fermi,
+Course CLXIV, Varenna, 2006 , edited by M. Inguscio,
+W. Ketterle, and C. Salomon (IOS Press, Amsterdam,
+2008).
+[10] M. Randeria and E. Taylor, Annual Review of Condensed
+Matter Physics 5, 209 (2014).
+[11] M. J. H. Ku, A. T. Sommer, L. W. Cheuk, and M. W.
+Zwierlein, Science 335, 563 (2012).
+[12] D. Mitra, P. Brown, E. Guardado-Sanchez, S. S. Kon-
+dov, T. Devakul, D. A. Huse, P. Schauss, and W. Bakr,
+Nature Physics 14, 173 (2018).
+[13] M. Randeria, N. Trivedi, A. Moreo, and R. T. Scalettar,
+Physical Review Letters 69, 2001 (1992).
+[14] N. Trivedi and M. Randeria, Physical Review Letters 75,
+312 (1995).
+[15] R. Bistritzer and A. H. MacDonald, Proceedings of the
+National Academy of Sciences 108, 12233 (2011).
+[16] J. M. B. Lopes dos Santos, N. M. R. Peres, and A. H.
+Castro Neto, Physical Review Letters 99, 256802 (2007).
+[17] M. Koshino, N. F. Q. Yuan, T. Koretsune, M. Ochi,
+K. Kuroki, and L. Fu, Physical Review X 8, 031087
+(2018).
+[18] J. Kang and O. Vafek, Physical Review X 8, 031088
+(2018).
+[19] H. C. Po, L. Zou, A. Vishwanath, and T. Senthil, Phys-
+ical Review X 8, 031089 (2018).
+[20] G. Baym, in Mathematical Methods in Solid State and
+Superﬂuid Theory, edited by R. C. Clark and G. H. Der-
+rick (Springer US, 1968).
+[21] D. J. Scalapino, S. R. White, and S. Zhang, Physical
+Review B 47, 7995 (1993).
+[22] D. R. Nelson and J. M. Kosterlitz, Physical Review Let-
+ters 39, 1201 (1977).
+[23] B. Valenzuela, M. J. Calder´ on, G. Le´ on, and E. Bas-
+cones, Physical Review B 87, 075136 (2013).
+[24] M. Randeria, J.-M. Duan, and L.-Y. Shieh, Physical
+Review Letters 62, 981 (1989).
+[25] L. P. Gor’kov and T. Melik-Barkhudarov, Zh. Eksp. Teor.
+Fiz. 40, 1452 (1961), [Sov. Phys. JETP, 13 1018 (1961)].
+[26] D. S. Petrov, M. A. Baranov, and G. V. Shlyapnikov,
+Physical Review A 67, 031601 (2003).
+[27] D. S. Fisher and P. C. Hohenberg, Physical Review B 37,
+4936 (1988).
+[28] M. G. Ries, A. N. Wenz, G. Z¨ urn, L. Bayha, I. Boettcher,
+D. Kedar, P. A. Murthy, M. Neidig, T. Lompe, and
+S. Jochim, Physical Review Letters 114, 230401 (2015).
+[29] M. Yankowitz, S. Chen, H. Polshyn, Y. Zhang, K. Watan-
+abe, T. Taniguchi, D. Graf, A. F. Young, and C. R. Dean,
+Science 363, 1059 (2019).
+[30] T. Paiva, R. Scalettar, M. Randeria, and N. Trivedi,
+Physical Review Letters 104, 066406 (2010).
+[31] E. Burovski, E. Kozik, N. Prokof’ev, B. Svistunov, and
+M. Troyer, Physical Review Letters 101, 090402 (2008).
+[32] O. Goulko and M. Wingate, Physical Review A 82,
+053621 (2010).
+[33] R. Seiringer and D. Ueltschi, Physical Review B 80,
+014502 (2009).
+[34] J. R. Engelbrecht, M. Randeria, and C. A. R. S´ ade Melo,
+Physical Review B 55, 15153 (1997).
+[35] M. P. A. Fisher, P. B. Weichman, G. Grinstein, and D. S.
+Fisher, Physical Review B 40, 546 (1989).
+[36] I. Hetel, T. R. Lemberger, and M. Randeria, Nature
+Physics 3, 700 (2007).
+[37] D. M. Broun, W. A. Huttema, P. J. Turner, S. ¨Ozcan,
+B. Morgan, R. Liang, W. N. Hardy, and D. A. Bonn,
+Physical Review Letters 99, 237003 (2007).
+[38] T. R. Lemberger, I. Hetel, A. Tsukada, M. Naito, and
+M. Randeria, Physical Review B 83, 140507 (2011).
+[39] I. Boˇ zovi´ c, X. He, J. Wu, and A. T. Bollinger, Nature
+536, 309 (2016).
+[40] A. J. Leggett, Phys. Rev. Lett. 25, 1543 (1970).
+[41] A. Paramekanti, N. Trivedi, and M. Randeria, Physical
+Review B 57, 11639 (1998).
+7
+Appendix A: Linear response, Ds and ~D
+Let us consider the general Hamiltonian
+H =HK +Hint (A1)
+whereHint represents arbitrary interactions, including
+those that gives rise to superconductivity, and HK is
+the most general single particle Hamiltonian for a multi-
+band/multi-orbital lattice model
+HK =
+∑
+iαjβσ
+tαβ(riα− rjβ)c†iαcjβ. (A2)
+Heretαβ(riα−rjβ) represents the hopping matrix element
+from orbital β in unit cell j to orbital α in unit cell i
+withi,j spanning all unit cells, includingi =j. We omit
+the spin label σ only to simplify notation but we are not
+ignoring spin , as emphasized by the spin sum. In the
+presence of an external vector potential A, the hopping
+picks up the Peierls phase
+HK → HK =
+∑
+Rr,αβσ
+tαβ(r)e−ieA(R)·r/ℏc†iαcjβ (A3)
+where we use the notation R = (riα + rjβ)/2 and r =
+riα−rjβ for simplicity. Since we are eventually interested
+in the long wavelength limit q→ 0, we choose a very
+slowly varying vector potential and write
+riα∫
+rjβ
+A· dl ≃
+A(R)· r.
+Within linear response theory we can Taylor expand
+the exponential retaining terms which are linear (para-
+magnetic) and quadratic (diamagnetic) in A. We trans-
+form to Fourier space using tαβ(k) = ∑rtαβ(r)e−ik·r
+and ciα = Ω−1/2∑keik·riαdkα. We can then write the
+current operatorjx =δHK/δAx as the sum of the param-
+agnetic (P ) and diamagnetic (D) current operators given
+by
+jPx (q) = eℏΩ ∑αβ,kσ∂tαβ(k)∂kx d†k+q/2,αdk−q/2,β (A4)
+jDx (q) = e2ℏ2Ω ∑αβ,kσ∂2tαβ(k)∂k 2x d†kαdkβAx(q), (A5)
+where we only show thex-component for simplicity. Note
+that the paramagnetic current operator, when trans-
+formed to the band basis, will in general have interband
+matrix elements [7, 8]. The only property of jPx (q) that
+we will need to use below, however, is that it is a Hermi-
+tian operator; see equation (C1).
+The superﬂuid stiﬀnessDs is deﬁned as the static long-
+wavelength limit of the transverse response of the current
+density j to a vector potential A
+⟨jx⟩(q,ω ) =−4e2ℏ2 DsAx(q,ω )
+with qx = 0,q⊥→ 0,ω = 0 (A6)
+and⊥ represents the orthogonal directions to x. Stan-
+dard linear response theory leads to the Kubo formula
+Ds = ~D− ℏ24e2χ⊥jxjx(q→ 0,ω = 0) (A7)
+where the ﬁrst term is the diamagnetic term, which is of
+central interest in this work, and the second is the trans-
+verse paramagnetic current-current correlation function.
+We will focus on the latter in Appendix C, where we show
+that χ⊥jxjx≥ 0 at all temperatures.
+Here we focus on the ﬁrst term that can be read oﬀ
+from the form of the diamagnetic current operator. We
+ﬁnd it convenient to write it in the band basis as
+~D = ℏ2
+4Ω
+∑
+mm′,kσ
+M−1mm′(k)⟨c†kmckm′⟩ (A8)
+with the inverse mass tensor given by
+M−1mm′(k) =∑
+αβ
+U†m,α(k) ∂2tαβ(k)∂(ℏkx)2 Uβ,m′(k). (A9)
+The unitary transformation U that transforms from the
+orbital to the band basis is deﬁned by
+∑
+αβ
+U†m,α(k) tαβ(k) Uα,m′(k) =ϵm(k) δm,m′. (A10)
+This allows us to write the ﬁnal result in the band basis
+using
+dkα =
+∑
+m
+Uα,m(k)ckm. (A11)
+We note several important points about the inverse
+mass tensor M−1mm′(k). (i) It depends only on the bare
+band structure, and is independent of temperature and
+interactions, (ii) it has both diagonal and oﬀ-diagonal
+terms in the band indices. and (iii) it isnot simply related
+to the curvature of the bands ∂2ϵm(k)/∂k 2x, in contrast
+to the single-band case in equation (A12).
+The standard reference on the formalism for calculat-
+ing the superﬂuid stiﬀness in lattice systems is Scalapino,
+White and Zhang (SWZ) [21]. Our normalization con-
+ventions diﬀer from them and, more importantly, they
+focus on the special case of a single band model with
+nearest-neighbor (NN) hopping on a square (or cubic)
+lattice. Thus it may be useful for us to provide a “dic-
+tionary” relating our results to theirs.
+In the single-band case our expression for ~D reduces
+to
+~D = 14Ω∑kσ ∂2ϵ(k)∂k 2x n(k) (A12)
+where the momentum distribution
+n(k) =
+⟨
+c†kck
+⟩
+. (A13)
+8
+This result is valid for arbitrary one-band dispersion. For
+the special case of nearest-neighbor (NN) hopping on a
+square (or cubic) lattice, it is easy to see that the right
+hand side of equation (A12) is proportional to the kinetic
+energy in thex-direction,⟨−Kx⟩ in the notation of SWZ.
+Our result thus reduces to
+~D→⟨−Kx⟩/4. (A14)
+Finally, we note that our superﬂuid stiﬀnessDs is related
+to that of SWZ by
+Ds = (ℏ2/4πe2) DSWZs (A15)
+Appendix B: Relation between ~D and optical
+spectral weight
+To see that ~D is proportional to the optical sum rule
+spectral weight, we identify the dynamical conductivity
+σ(ω) as the current response to an electric ﬁeld E =
+−∂tA
+iω σ(ω) =
+[
+χjxjx(q = 0,ω )− 4e2ℏ2 ~D] (B1)
+Using the Kramers-Kr¨ onig relation
+ω Im σ(ω) =− 2π P
+∞∫
+0
+dω′ Re σ(ω′) ω2
+ω′2−ω2 (B2)
+and Reχjxjx(ω→∞ )→ 0, we obtain the sum rule for
+the optical conductivity as
+∞∫
+0
+dω Re σ(ω) = 2πe2
+ℏ2
+~D (B3)
+Appendix C: Derivation of Bound Ds≤ ~D
+We show thatχjxjx(q,ω = 0)≥ 0 at any temperature.
+This follows directly from its Lehmann representation
+1
+Z
+∑
+ij
+[e−βEi−e−βEj
+Ej−Ei
+]
+|⟨i|jPx (q)|j⟩|2 ≥ 0 (C1)
+where|i⟩ and|j⟩ are exact eigenstates of the full Hamil-
+tonianH in equation (A1) with eigenvalues Ei,Ej and
+Z = Tr[e−βH]. The last inequality follows from ( e−x−
+e−y)/(y−x)≥ 0. At zero temperature, this expression
+reduces to
+χjxjx(q,ω = 0) = 2
+∑
+i
+|⟨i|jPx (q)|0⟩|2
+Ei−E0
+≥ 0 (C2)
+where|0⟩ is the ground state. From equation (A7), we
+thus conclude that
+Ds≤ ~D (C3)
+Appendix D: Real space bound on ~D
+Except in the case of a single parabolic band, ~D de-
+pends in general on both theT and the interactions, since
+the thermal average in
+⟨
+c†kmckm′
+⟩
+is calculated using the
+fullH. It is thus illuminating to derive an upper bound
+for ~D which shows that ~D must become small when the
+densities are low or if all the hopping parameters are
+small. Such a bound for the single-band case with arbi-
+trary dispersion was sketched in the paper. Here we turn
+to the multi band case.
+It is convenient to start with the real space represen-
+tation
+~D = 14Ω ∑Rr,αβσr2x tαβ(r)⟨c†iαcjβ⟩. (D1)
+Here both forward and backward hopping are accounted
+for in ∑r with tαβ(|r|) = t∗βα(|r|). Since ~D≥ 0 we can
+use the triangle inequality. Further using the Cauchy-
+Schwarz inequality we get
+~D≤ 14Ω ∑Rr,αβσr2x ⏐⏐⏐tαβ(r)⟨c†iαcjβ⟩⏐⏐⏐
+≤ 14Ω ∑Rr,αβσr2x|tαβ(r)|√niαnjβ (D2)
+where niα =⟨c†iαciα⟩.
+Here and below we deﬁne an inner product for op-
+erators A,B in terms of the thermal expectation value
+⟨A†B⟩, which allows us to use the Cauchy-Schwarz in-
+equality|⟨A†B⟩|2≤⟨A†A⟩⟨B†B⟩.
+Appendix E: Interband contributions to ~D
+We discuss here the conditions under which we can
+ignore the inter-band contributions to ~D given by
+~D = ℏ2
+4Ω
+∑
+mm′,kσ
+M−1mm′(k)⟨c†kmckm′⟩ (E1)
+This requires us to understand when
+⟨
+c†kmckm′
+⟩
+= 0 for
+m⁄=m′. We show here that this is the case, independent
+of interactions , when (a) either one of the two bands in
+empty, and (b) when either one of the two bands is fully
+ﬁlled.
+We use the Cauchy-Schwarz inequality (see end of Ap-
+pendix D) to obtain
+⏐⏐⏐⟨c†kmckm′⟩⏐⏐⏐≤√nm(k)nm′(k) (E2)
+wherenm(k) =
+⟨
+c†mkcmk
+⟩
+is the momentum distribution
+function, and equality holds for m = m′. For m⁄= m′,
+if either band is completely empty, nm(k) = 0 for all k
+9
+FIG. 3. Energy dispersion for MA-TBG along high-symmetry
+lines in the moire Brillouin zone (BZ) for the continuum
+model dispersion [15] that is accurately described by the tight-
+binding model of Koshino et. al. [17]. The bands shown in
+red and blue correspond to the two valleys of the original BZ
+and are related by time reversal.
+and the inter-band contribution to ~D in equation (E1)
+vanishes.
+A similar argument for completely ﬁlled bands follows
+from a particle-hole transformation cmk→ h†mk. Since⟨
+c†kmckm′
+⟩
+=−
+⟨
+h†kmhkm′
+⟩
+,
+⏐⏐⏐⟨c†kmckm′⟩⏐⏐⏐ =⏐⏐⏐⟨h†kmhkm′⟩⏐⏐⏐
+≤
+√
+nhm (k)nhm′(k)
+=
+√
+(1−nm(k)) (1−nm′(k)). (E3)
+Thus we conclude that for ﬁlled and empty bands, the
+inter-band terms do not contribute to the sum in equa-
+tion (E1), even in the presence of arbitrary interactions.
+Finally, we note the simple fact that within band the-
+ory there are no inter-band contributions to ~D. In the
+absence of interactions (denoted by subscript 0) we ob-
+tain
+⟨
+c†kmckm′
+⟩
+0
+=f (ϵm(k))δm,m′ (E4)
+where f is the Fermi function.
+Appendix F: Magic Angle Twisted Bilayer
+Graphene (MA-TBG)
+Magic angles in twisted bilayer graphene were ﬁrst pre-
+dicted by the continuum model [15]. Following up on the
+experimental discovery of correlation-induced insulators
+and superconductivity in MA-TBG, there has been con-
+siderable progress in understanding its electronic struc-
+ture [17–19]. We ﬁrst focus on the bounds that we obtain
+from the tight binding model of Koshino et. al. [17], and
+then at the end of the Appendix compare these with the
+results we obtain from the tight binding model of Kang
+and Vafek [18].
+The continuum model dispersion [15] is accurately re-
+produced by the multi-parameter tight binding ﬁt of
+Koshino et. al. [17] (see Fig. 3) which takes into ac-
+count hopping over distances up to 9 |LM| where LM
+is the moire lattice vector. We use the hopping inte-
+grals presented in the Supplementary Information ﬁle
+eff hopping ver2.dat of ref. [17] to construct the non-
+interacting HamiltonianHK of equation (A2). We then
+identify the unitary matrixU(k) that diagonalizestαβ(k)
+(see equation (A10)) and use it together with tαβ(k) to
+compute the inverse mass tensor
+M−1mm′,a(k) =∑
+αβ
+U†m,α(k) ∂2tαβ(k)∂(ℏka)2 Uβ,m′(k).(F1)
+Note that we have made explicit here the direction a =
+x,y as an additional subscript on M−1.
+The inverse mass tensor, obtained from the band struc-
+ture information as described above, is used to compute
+~Dx and ~Dy and bound Tc as described in the paper.
+The additional input needed to determine ~D using equa-
+tion (A8) is
+⟨
+c†kmckm′
+⟩
+, and we took two diﬀerent ap-
+proaches to compute this.
+In the ﬁrst approach, we looked at SC near half-ﬁlling
+on the hole-doped side of the CNP, and argued that the
+chemical potential was suﬃciently far from the CNP that
+we can take the band above the CNP to be empty. Then
+using the result of Appendix E we can ignore all inter-
+band terms with m⁄= m′. For the occupied band we
+only used the general constraint that n(k)≤ 1. Using
+the triangle inequality, we then obtain
+~Da≤ ℏ24Ω ∑km,σ⏐⏐M−1mm,a(k)⏐⏐. (F2)
+where the empty bands above the CNP are excluded from
+the sum.
+A similar reasoning also works for SC in the vicinity of
+half-ﬁlling on the electron-doped side of the CNP, where
+we need to use the fact that the bands below CNP are
+ﬁlled to eliminate inter-band terms following Appendix
+E. We use a particle hole transformation cmk → h†mk,
+under whichtαβ(k)→−tαβ(k) and thusM−1→−M−1.
+We write ~D in terms of the hole momentum distribution
+functions nhm(k) =⟨h†mkhmk⟩ to get
+~Da = ℏ24Ω ∑m,kσM−1mm,a(k)(nhm(k)− 1). (F3)
+We then show that the second term on the right hand
+side vanishes as follows:
+∑
+m,k
+M−1mm,a(k) = ∑
+k,αβ
+∂2tαβ(k)
+∂(ℏka)2
+∑
+m
+U†m,α(k)Uβ,m(k)
+=
+∑
+k,α
+∂2tαα(k)
+∂(ℏka)2 = 0. (F4)
+10
+(a)
+ (b)
+FIG. 4. Comparison of (a) the band structure and (b) the integrated spectral weight ~D for the models in ref. [17] (in black)
+and ref. [18] (in red).
+We have ﬁrst used ∑mUβ,m(k)U†m,α(k) = δβ,α, which
+follows from the unitarity of U, and then the fact that
+∂2tαα(k)/∂k 2a is a periodic function with zero mean,
+whose ∑k vanishes. Using the triangle inequality and
+the general constraint nh(k)≤ 1, we obtain an expres-
+sion for electron doping which is similar to the hole-doped
+case:
+~Da≤ ℏ24Ω ∑km,σ⏐⏐M−1mm,a(k)⏐⏐ (F5)
+where now the ﬁlled bands below the CNP are excluded
+from the sum. These bounds, though rigorous, are weak
+because they involve |M−1| and only very general con-
+straints on n(k).
+The second (approximate) approach was to simply use
+aT = 0 (non-interacting) band-theory estimate. We thus
+use equation (E4) to obtain
+~Da≃ ℏ24Ω ∑km,σ M−1mm,a(k)Θ(µ−ϵm(k)) (F6)
+with the chemical potential µ determined by the density.
+We found that~Dx and ~Dy calculated from the tight bind-
+ing model of ref. [17] diﬀer by less than a percent. The
+resulting density-dependent ~D is shown in Fig. 1 of the
+main paper.
+We note that there are many diﬀerent tight binding
+models for describing the narrow bands in MA-TBG and
+our Tc bounds depend on this input. We have focused
+above on the results based on ref. [17] with an electronic
+structure that has separate charge conservation at the
+K and K′ valleys. A rather diﬀerent model without
+valley-charge conservation was derived [18] using only
+time-reversal and point group symmetry. We compare
+in Fig. 4(a) the band structures of ref. [17] in black and
+that of ref. [18] in red. The corresponding integrated
+spectral weights ~D are shown in Fig. 4(b) using the same
+color convention. The maximum Tc based on the band
+structure of ref. [18] is 15 K, which is 2.5 times larger
+than that estimated from ref. [17].
+Appendix G: Attractive Hubbard Model
+It is interesting to ask how our bound on SC Tc in 2D
+depends on interactions. We use the attractive Hubbard
+model on a square lattice as a concrete example to un-
+derstand these trends, and to compare our bound with
+estimates of Tc from sign-problem free quantum Monte
+Carlo simulations.
+Our bound is kBTc ≤ π/(8Ω)∑k,σ(∂2kxϵ(k))nσ(k).This result can be written in terms of the kinetic en-
+ergy⟨−Kx⟩ as discussed at the end of Appendix A. The
+interaction-dependence is contained in the momentum
+distribution function nσ(k) which, as we argued in the
+paper, must become increasingly broader and ﬂatter as
+|U|/t increases. In the weak coupling BCS limit (small
+|U|/t) nσ(k) is almost like the Fermi function at T = 0,
+very slightly broadened by the superconductivity. On
+the other hand in the extreme BEC limit (large |U|/t)
+of nearly on-site bosons, the nσ(k) of the constituent
+fermions is essentially ﬂat.
+We model this|U|/t trend in the momentum distribu-
+tionn using the BCS-Leggett crossover theory expression
+nσ(k) = 12(1− ϵ(k)−µE(k) ) (G1)
+where E(k) =
+√
+(ϵ(k)−µ)2 + ∆2 is the Bogoliubov
+quasiparticle energy. The chemical potential µ and the
+pair potential ∆ are determined self-consistently for a
+given density n and attraction|U| by solving the T = 0
+gap and number equations
+1
+|U| = 1Ω∑k,σ 12E(k) (G2)
+n = 1Ω∑k,σnσ(k) (G3)
+We see from Fig. 2 that the Tc obtained from QMC
+data [30] is always lower than T boundc . Fig. 2 also shows
+that the bound is most useful in the intermediate to
+11
+strong coupling regime, and less useful in the weak cou-
+pling regime whereTc is, in fact, well described byT MFTc ,
+the pair breaking energy scale.
+Appendix H: Tc Bounds in spatially anisotropic
+systems
+We collect here some results on the role of spatial
+anisotropy focusing mainly on 2D. We note that vari-
+ous quantities that we have considered are diﬀerent in
+diﬀerent directions labeled by a = x,y . We have shown
+that
+Ds,a(T )≤ ~Da(T ). (H1)
+The most conservative bound on Tc in 2D is then
+kBTc≤ π2 max{~Dx,~Dy}. (H2)
+Clearly this bound is not optimal because we expect
+Tc to go to zero if either Ds,x orDs,y goes to zero. Using
+BKT theory we can show that
+kBTc = π2 (Ds,x(T−c )Ds,y(T−c ))1/2 (H3)
+which leads to the improved bound
+kBTc≤ π2 (~Dx~Dy)1/2 (H4)
+To derive equation (H3) we start with the Free energy
+for phase ﬂuctuations
+F = 12 ∫ dxdy[Ds,x(∂xθ)2 +Ds,y(∂yθ)2]. (H5)
+We then rescale lengths using x′ = (D0/Ds,x)1/2x and
+y′ = (D0/Ds,y)1/2y, where D0 is any convenient energy
+scale for normalization, to obtain
+F = 12 (Ds,xDs,y)1/2
+∫
+dx′dy′[(∂x′θ)2 + (∂y′θ)2].
+(H6)
+This immediately leads to the generalization of the
+Nelson-Kosterlitz result in equation (H3). We empha-
+size that the reason this seemingly naive argument works
+is that the line of ﬁxed points below Tc are actually de-
+scribed by a Gaussian theory and the BKTTc is precisely
+when vortex-antivortex unbinding becomes relevant at a
+Gaussian ﬁxed point. We thank Steve Kivelson and C.
+Jayaprakash for very useful conversations related to this
+argument.

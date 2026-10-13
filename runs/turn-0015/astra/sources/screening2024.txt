@@ -1,0 +1,967 @@
+Inferior interfacial superconductivity in 1 UC
+FeSe/SrVO3/SrTiO3 with screened interfacial
+electron-phonon coupling
+Nan Guo,† Xiaoyang Chen,† Tianlun Yu,† Yu Fan,† Qinghua Zhang,‡ Minyinan
+Lei,† Xiaofeng Xu,‡ Xuetao Zhu,‡ Jiandong Guo,‡ Lin Gu,‡ Haichao Xu,∗,†,¶ Rui
+Peng,∗,†,¶ and Donglai Feng∗,§,†,∥,⊥
+†Advanced Materials Laboratory, State Key Laboratory of Surface Physics, and Department
+of Physics, Fudan University, Shanghai 200433, China
+‡Beijing National Laboratory for Condensed Matter Physics and Institute of Physics,
+Chinese Academy of Sciences, Beijing 100190, China
+¶Shanghai Research Center for Quantum Sciences, Shanghai 201315, China
+§National Synchrotron Radiation Laboratory and School of Nuclear Science and
+Technology, University of Science and Technology of China, Hefei 230026, China
+∥New Cornerstone Science Laboratory, University of Science and Technology of China,
+Hefei 230026, China
+⊥Collaborative Innovation Center of Advanced Microstructures, Nanjing, 210093, China
+E-mail: xuhaichao@fudan.edu.cn; pengrui@fudan.edu.cn; dlfeng@ustc.edu.cn
+Abstract
+Monolayer FeSe/TiO x and FeSe/FeO x inter-
+faces exhibit significant superconductivity en-
+hancement compared to bulk FeSe, with inter-
+facial electron-phonon coupling (EPC) playing
+a crucial role. However, the reduced dimension-
+ality in monolayer FeSe, which may drive su-
+perconducting fluctuations, complicates the un-
+derstanding of the enhancement mechanisms.
+Here we construct a new superconducting inter-
+face: monolayer FeSe/SrVO3/SrTiO3, in which
+the itinerant electrons of highly metallic SrVO3
+films can screen all the high-energy Fuchs-
+Kliewer phonons, including those of SrTiO 3,
+making it the first FeSe/oxide system with
+screened interfacial EPC while maintaining the
+monolayer FeSe thickness. Despite compara-
+ble doping levels, the heavily electron-doped
+monolayer FeSe/SrVO3 exhibits a lower pair-
+ing temperature (Tg ∼ 48 K) than FeSe/SrTiO3
+and FeSe/LaFeO3. Our findings disentangle the
+contributions of interfacial EPC from dimen-
+sionality on enhancing Tg in FeSe/oxide inter-
+faces, underscoring the importance of interfa-
+cial EPC in Tg enhancement. This FeSe/VO x
+interface also provides a platform for studying
+the interfacial superconductivity.
+Keywords
+Iron selenide, angle-resolved photoemission
+spectroscopy, interfacial electron-phonon cou-
+pling
+Introduction
+Single unit-cell FeSe thin films grown on SrTiO3
+(001) substrate (1 UC FeSe/STO) have at-
+tracted intensive research interests over the past
+decades. 1–5 1 UC FeSe/STO hosts a supercon-
+ducting pairing temperature ( Tg) as high as 65
+K 3,6 , which is close to the boiling point of liq-
+1
+arXiv:2407.09880v1  [cond-mat.supr-con]  13 Jul 2024
+uid nitrogen, and significantly enhanced com-
+pared with the transition temperature ( Tc) of
+the bulk FeSe ( ∼ 8 K). 7 It is commonly recog-
+nized that the interfacial charge transfer from
+the oxygen vacancies in STO induces heavy
+electron doping in the top monolayer FeSe, and
+contributes to the enhancement of Tg. 2,3,8–10
+However, the superconducting Tc of various
+electron-doped FeSe8,11,12 is lower than theTg of
+1 UC FeSe/STO and there should be additional
+factors that further boost the superconduct-
+ing pairing. In angle-resolved photoemission
+spectroscopy (ARPES) studies, 4,13,14 “replica
+bands” were observed, suggesting that the elec-
+trons in FeSe couple with the Fuchs-Kliewer
+(FK) phonons in STO at small momentum
+transfer. 5,8,15 Such interfacial electron-phonon
+coupling (EPC) is theoretically proposed to ef-
+fectively enhance the superconducting pairing
+in heavy electron-doped FeSe/oxides. 16–19 On
+the other hand, it is recently proposed that
+pairing strength is possibly enhanced by two-
+dimensionality.20 For example, in (TBA)xFeSe,
+by intercalating organic ion layers between ad-
+jacent FeSe layers to push the system closer to
+the ideal two-dimensional limit, the supercon-
+ducting gap is enhanced, 20 and the Tg is ob-
+served at a higher temperature than the Tc, 20
+similar to the behavior in 1 UC FeSe/STO. 21
+It remains perplexing whether both interfacial
+EPC and two-dimensionality or one of the two
+factors contribute to the superconducting pair-
+ing enhancement in 1 UC FeSe/STO.
+Numerous studies have focused on engineer-
+ing the interfacial EPC to gain insights into
+its role in superconducting pairing. For in-
+stance, experiments on increasing the thick-
+ness of FeSe grown on SrTiO 3 from 1 unit cell
+to 20 unit cells and tuning the doping level
+with surface potassium dosing show that the
+decay of the superconducting gap correlates
+with the decay of interfacial EPC, emphasizing
+the importance of interfacial EPC in supercon-
+ductivity.17,22 However, the varied FeSe thick-
+ness between 1 unit cell and 20 unit cells in
+FeSe/STO makes it challenging to isolate the
+effect of interfacial EPC from that of dimen-
+sionality. More recently, the interfacial EPC
+strength has also been successfully modulated
+in 1 UC FeSe/STO, revealing a linear relation-
+ship between the gap size and the interfacial
+EPC constant (λ). 23 However, 1 UC FeSe/STO
+in the limit of zero interfacial EPC could not be
+reached, and the role of dimensionality can not
+be distinguished. To discern the effect of inter-
+facial EPC and two-dimensionality, a promising
+approach is to completely screen the interfacial
+EPC while maintaining the monolayer thickness
+of FeSe.
+To screen the FK phonons, we here insert
+highly metallic films between FeSe and STO,
+whose itinerant electrons provide strong screen-
+ing effects. Note that the 93 meV FK phonons
+generate a strong dipolar field perpendicular
+to the interface, which could not be screened
+by two-dimensional electron gas. 24 Metallic
+film with three-dimensional bulk metallicity
+should be used. Here we designed and obtained
+high-quality 1 UC FeSe/SrVO 3/Nb:SrTiO3
+(FeSe/SVO/STO) heterostructures. By sys-
+tematic studies on the interfacial atomic struc-
+ture, electronic structure, and phonon spectra,
+we demonstrate that 1 UC FeSe/SVO/STO is
+a high-quality interfacial superconductor with
+superconducting Tg of ∼ 48 K, in which the
+interaction between FeSe electrons and the FK
+phonons in oxides is fully screened. Our ex-
+perimental findings reveal a superconducting
+pairing temperature of 48 K in the absence of
+interfacial EPC, while the increase from 48 K
+to 65 K can be solely attributed to the effect of
+interfacial EPC. These results disentangle the
+contributions from dimensionality and interfa-
+cial EPC on the enhancement of the pairing
+temperature in 1 UC FeSe/oxides.
+Results and discussion
+SVO is a perovskite-type transition-metal ox-
+ide whose lattice constant (3.8425 ˚A) is com-
+parable to that of STO (3.905 ˚A). 25 It exhibits
+metallic behavior when the thickness exceeds 5
+UC. 26,27 Thick SVO films with VO2 termination
+were epitaxially grown on the commercial Nb-
+doped STO (001) substrates at 750 ◦C under an
+oxygen pressure of 1.9 ×10−7 mbar by molec-
+ular beam epitaxy (see details in Supplemen-
+2
+(c) 
+0.4 -0.4 -0.2 0.0 0.2
+k//  (Å -1 )
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0.0
+(a) (e) k// = -0.45 
+High
+Low
+(b) 
+k// = 0.45 
+-0.6
+-0.7
+-0.8
+E - EF (eV) 
+Intensity (arb. units) 
+Intensity (arb. units) 
+Energy loss (meV) 
+0 50 100 
+42 UC SVO/STO 
+STO 
+(d) (f) 
+0.0 -0.1 -0.2 -0.3
+E - EF (eV) 
+X
+-1.0
+-0.5
+0.0
+0.5
+1.0
+k [110]  (Å -1 )
+-1.0 -0.5 0.0 0.5 1.0
+k[110]  (Å -1 )
+Y
+ΓM
+Figure 1: Electronic structure of SVO/STO and screening of the FK phonons. aLow-
+energy electron diffraction (LEED) patterns of 42 UC SVO/STO. Blue and orange filled circles
+represent the
+√
+2 ×
+√
+2 R45 ◦ and √5 × √5 R26 .6◦ surface reconstructions, respectively. b In-
+plane photoemission intensity map of 42 UC SVO/STO integrated over [ EF − 100 meV, EF + 100
+meV] using 21.2 eV photons. Green dashed lines schematically illustrate the Fermi surfaces of
+SVO/STO. c Photoemission spectra near the Γ point as indicated by the orange line in panel b.
+d The corresponding Momentum distribution curves (MDCs) taken at [ EF − 0.8 eV, EF] of the
+spectra in c. e Energy distribution curves (EDCs) along cut in (c). f Electron energy loss spectra
+of 42 UC SVO/STO and bare STO substrate.
+tary Note 1). The low energy electron diffrac-
+tion (LEED) patterns of SVO films (Figure 1a)
+shows sharp diffraction spots, indicating a high-
+quality two-dimensional surface. Two distinct
+surface reconstructions,
+√
+5 ×
+√
+5 R26 .6◦ and√
+2 ×
+√
+2 R45◦, are observed. The complex sur-
+face reconstruction does not affect the subse-
+quent growth of tetragonal FeSe, which is in
+line with the previous report on the growth of
+FeSe on the reconstructed STO surfaces. 28
+The Fermi surface (FS) of thick SVO films,
+measured using 21.2 eV photons, mainly con-
+sists a rounded-square pocket around the Γ
+point, and weak parallel-line spectral weight
+extending along Γ-X and Γ-Y directions (Fig-
+ure 1b). The ARPES spectra along Γ-M direc-
+tion (Figure 1c) and the corresponding momen-
+tum distribution curves (MDCs) (Figure 1d)
+show an electron-like dispersion which is con-
+tributed by the dxy orbital of vanadium ac-
+cording to previous reports. 29,30 The parallel
+features could be contributed by the spectral
+weight from d xz/dyz orbitals 29 with finite k z
+broadening or
+√
+2 ×
+√
+2 R45 ◦ reconstruction-
+induced band folding. 31,32 The energy distribu-
+tion curves (EDCs) display pronounced Fermi
+cut-offs at EF (Figure 1e), demonstrating the
+metallic nature of the SVO films. Consider-
+ing three cylindrical FSs of dxy, dyz and dxz, 29,30
+the three-dimensional carrier density of SVO
+films estimated by the Luttinger theorem 33 is
+approximately 2 × 1022 /cm3. Such a large den-
+sity of itinerant electrons in thick SVO films is
+expected to provide strong screening effects to
+the dipolar field of FK phonons. 34
+To assess the screening effects on interfacial
+phonons, high-resolution electron energy loss
+(HR-EELS) measurements were performed on
+SVO/STO to study the phonon spectra and
+compare them to those at the STO surface (Fig-
+ure 1f). The HR-EELS spectra of STO surface
+show two prominent peaks at ∼ 60 meV and
+∼ 92 meV, which correspond to the FK sur-
+face phonons of STO. 35,36 However, these two
+3
+Amorphous Se 
+FeSe + amorphous Se 
+FeSe 
+100 
+ 110 
+FeSe+Se 
+FeSe 
+SrVO3
+Amorphous Se 
+(Fe, V)(O, Se) X
+SrVO3
+(a) 
+V
+O
+Sr 
+Se 
+Fe 
+FeSe 
+Nb: SrTiO 3
+(d) 
+(Fe, V)(O, Se) X
+Sr V Fe Se 
+(b) (c)
+(e) 
+Figure 2: Interfacial atomic structure of Se capped 1.5 UC FeSe/SVO/STO. aSchematic
+illustration of the FeSe/SVO/STO heterostructure. b High angle annular dark field (HAADF)
+image of amorphous Se capped 1.5 UC FeSe/SVO/STO along the [100] direction of the SVO lattice.
+c Zoom-in HAADF image near the FeSe/SVO interface as indicated by the orange box in (b), and
+the side view of the corresponding atomic structure is overlaid. d The same as c but along [110]
+direction. e Element-resolved maps based on the EELS data at the Sr- L2,3, V- L2,3, Fe-L2,3 and
+Se-L2,3 absorption edges. The first image is the region where the measurement is applied.
+peaks disappear in SVO/STO. Given that the
+incident electrons are highly sensitive to the
+dipole electric field, 17,37 signals of the STO FK
+phonons should be detected if they could pene-
+trate through the top SVO films.17,38 Moreover,
+signals of the SVO phonons are also weak in
+the energy range of 80 ∼ 100 meV. Overall, the
+FK phonons either from SVO or STO in the
+SVO/STO heterostructure get screened by the
+mobile electrons in SVO.
+FeSe films were grown on the thick SVO
+films subsequently at 490 ◦C by co-evaporating
+Fe and Se and then post-annealed at 520 ◦C
+for 3 hours (Figure 2a). The cross-sectional
+atomic structure of amorphous-Se-capped 1.5
+UC FeSe/SVO/STO was resolved at the atomic
+level using scanning transmission electron mi-
+croscopy (STEM) (Figure 2b-2d). The first
+layer of FeSe shows clear atomic structure and
+no intermixing with the capped Se.
+An atomically-resolved intermediate layer be-
+tween the SVO films and the first layer of
+FeSe is observed. By analyzing the elementary-
+resolved maps (Figure 2e), it was observed that
+the top layer of VO x double layers, 39 as well
+as some Fe and Se atoms diffusing downward,
+contribute to the formation of this intermediate
+layer
+(see details in Supplementary Note 2). The
+first layer of FeSe and the intermediate layer
+form a sharp interface, indicating that FeSe
+can be well grown on the VOx-terminated SVO.
+Our results provide a new interfacial system of
+monolayer FeSe grown on non-TiOx terminated
+oxides after FeSe/MgO,40 FeSe/NdGaO3 41 and
+FeSe/LaFeO3 (FeSe/LFO).38
+In-situ ARPES measurements were con-
+ducted on 1 UC FeSe/SVO/STO heterostruc-
+tures to study the electronic structure. The FS
+of 1 UC FeSe/SVO is composed of two elliptical
+electron pockets located at the Brillouin zone
+corner, while no hole pocket at the Brillouin
+zone center (Figure 3b), indicating that the
+monolayer FeSe is heavily electron-doped by
+the interface, similar to 1 UC FeSe/STO and
+1 UC FeSe/LFO. The photoemission spectra
+4
+High Low
+Γ M
+#1 #2 
+(a) 
+Low High 
+-0.3
+-0.2
+-0.1
+0.0 #1 
+-0.4 -0.2 0.0 0.2 0.4
+ -0.4 -0.2 0.0 0.2 0.4
+-0.2
+-0.1
+0.0
+Intensity (arb. units) 
+High Low 
+#2 
+I	k, ω 
+ ∂2ωI(k,ω) 
+α/β α/β 
+γ2/γ 1 γ2/γ 1
+β β
+(c)(c)(c) (d) (e) 
+(f) (g) (h) 
+1 UC FeSe/SVO 
+1 UC FeSe/STO 
+k//  (Å -1 ) k//  (Å -1 )
+Ti 
+O
+FeSe 
+q = 0 
+FeSe FeSe 
+e-
+SrTiO/g3677
+SrVO/g3677
+electronic 
+screening 
+(b) 
+(i) 
+E - EF (eV) E - EF (eV) 
+Energy Loss (meV) 
+Intensity (arb. units) 
+0 50 100 
+1 UC FeSe/SVO 
+1 UC FeSe/STO 
+Figure 3: Electronic structure of 1 UC FeSe/SVO/STO. aSketch of FeSe/SVO/STO het-
+erostructures and the screening of phonons by itinerant electrons. b Photoemission intensity map
+of 1 UC FeSe/SVO/STO integrated over [EF − 20 meV, EF + 20 meV] using 21.2 eV photons. c-e
+Photoemission spectra along cut #1 in b ( c), the second derivative of the photoemission intensity
+with respect to energy (d), EDC integrated over the momentum range indicated by the blue dashed
+rectangle in c (e). f-h The same as c-e, but along cut #2 in panel b. The EDC of 1 UC FeSe/STO
+from ref. 23 with the same integration range is appended in h. i Electron energy loss spectra of 1
+UC FeSe/STO and 1 UC FeSe/SVO/STO.
+along high symmetric cuts #1 (Figure 3c-e)
+exhibit two parabolic bands (noted as α and β)
+located near the Γ point with their band top at
+E −EF ∼ −59 meV. Along high symmetric cuts
+#2 (Figure 3f-h), two-electron bands (noted as
+γ1 and γ2) are resolved around the M point
+with their band bottom at E − EF ∼ −51 meV.
+According to Luttinger theorem, 33 the doping
+level was estimated to be about 0.088 e−/Fe
+based on the Fermi surface volume, slightly
+lower than the optimal doping (0.12 e−/Fe) of
+1 UC FeSe/STO, 8 but almost identical to that
+of 1 UC FeSe/LFO (0.087 e−/Fe),38 indicat-
+ing that 1 UC FeSe/SVO and 1 UC FeSe/LFO
+should locate at the same position in the phase
+diagram when only considering the effect of
+electron doping. 8
+As the small- q FK phonons of STO are
+screened by the itinerant electrons in thick SVO
+layers (Figure 3a), the replica bands, which
+are the signature of interfacial EPC, 4,14,42–44
+were expected to be absent. Consistently, in
+the ARPES spectra of 1 UC FeSe/SVO/STO,
+replica bands for all the main bands of mono-
+layer FeSe (α, β, γ1, and γ2) are not observed
+[Figs. 3c-h], in contrast with the ARPES spec-
+tra of 1 UC FeSe/STO and 1 UC FeSe/LFO,
+in which the prominent band replicas are ob-
+served at ∼ 100 meV, and ∼ 80 meV below
+the main bands, respectively. 4,23,38 Compared
+with the high-quality 1 UC FeSe/STO, 23 the
+momentum-integrated EDCs near the M point
+show a comparable signal-to-noise ratio and
+similar main band intensity (Figure 3h), and
+the replica should be observed if exists. How-
+ever, the lineshape at the replica band region
+is dramatically different, with no replica band
+intensity in 1uc FeSe/SVO. The analysis of
+the quasiparticle lifetime also suggests a sim-
+ilar scattering rate in 1 UC FeSe/SVO/STO.
+Therefore, the absence of replica bands in 1
+UC FeSe/SVO/STO is not an effect of the sam-
+ple quality. It should be noted that the absence
+of replica bands is consistent across multiple
+ARPES measurements and analyses conducted
+on several 1 UC FeSe/SVO/STO samples. Con-
+sistent with ARPES results, the HR-EELS
+measurements show the significantly suppressed
+FK phonon peaks in 1 UC FeSe/SVO/STO in
+comparison with that of 1 UC FeSe/STO (Fig-
+5
+80
+70
+60
+50
+0.50.40.30.20.10.0
+High 
+Low 
+(a) (c) (e) 
+(d) 
+(b) 
+15
+10
+5
+0
+60 40 200
+T (K)
+Δ (meV) 
+EPC coupling constant /g79E - EF (meV) 
+Intensity (arb. units)
+0 20 -20 
+1 UC 
+FeSe/STO 
+1 UC 
+FeSe/LFO 0 50 -50 
+E - EF (meV) 
+Inte
+nsity (arb. units)
+25.2 K 
+33.5 K 
+37.5 K 
+41.7 K 
+46.3 K 
+48.3 K 
+50.5 K 
+54.6 K 
+-50 0 50 
+E - EF (meV) 
+0.4 
+0.2 
+0
+-0.2 
+-0.4 k//  (Å -1 )
+1 UC FeSe/LFO 
+6 K 
+kF
+E - EF (meV) 
+-50 0 50 
+20.4 K 
+1 UC FeSe/SVO 
+kF
+6 K 
+ 1 UC FeSe/SVO/STO 
+Tg  (K)  1 UC FeSe/STO 
+ 1 UC FeSe/LFO/STO 
+-10 10 
+1 UC 
+FeSe/SVO 
+Figure 4: Superconducting gap of 1 UC FeSe/SVO/STO. aSymmetrized photoemission spec-
+tra with respect to the correspondingEF at 6 K of 1 UC FeSe/LFO/STO and 1 UC FeSe/SVO/STO.
+b Symmetrized EDCs at the corresponding Fermi momentum kF of 1 UC FeSe/SVO, 1 UC
+FeSe/STO,23 and 1 UC FeSe/LFO. 38 The fittings to a superconducting function based on the
+simplified Bardeen-Cooper-Schrieffer (BCS) self-energy are appended. c, d Temperature depen-
+dence of the symmetrized EDC at the kF (c), and the determined superconducting gap ( d) of
+1 UC FeSe/SVO/STO. The error bars of the gap are from the standard deviation of the fitting
+process and the measurement uncertainty. e Superconducting gap close temperatures ( Tgs) of 1
+UC FeSe/SVO/STO, 1 UC FeSe/STO, and 1 UC FeSe/LFO/STO are plotted as a function of the
+interfacial EPC constant λ.
+ure 3i). All these findings suggest that the
+dipole field generated by the FK phonons is in-
+capable of penetrating through the thick SVO
+layers and the interfacial EPC is well-screened
+in 1 UC FeSe/SVO/STO.
+As shown in Fig.4a, the electron bands
+(γ2/γ1) exhibit an evident back bending near
+EF at low temperature, which is a charac-
+teristic behavior of the Bogoliubov quasipar-
+ticle dispersion. With almost the same elec-
+tron doping level, 1 UC FeSe/LFO has a sig-
+nificantly larger superconducting gap (see the
+right panel of Figure 4a). To quantitatively
+compare the size of the superconducting gap,
+the EDC at Fermi momentum ( kF) is fit-
+ted by the superconducting spectral function
+with the simplified BCS self-energy Σ( k, ω) =
+−iΓ1 + ∆2/ [ω + ϵ(k)] 23,45,46 (Figure 4b), where
+∆ is the superconducting gap, Γ 1 is the energy
+broadening caused by the quasiparticle scat-
+tering off impurities, and hence an indication
+of the quasiparticle lifetime. The three films
+show similar values of Γ1, where Γ1(FeSe/SVO)
+= 21.7 meV, Γ 1(FeSe/STO) = 20.8 meV, and
+Γ1(FeSe/LFO) = 20 meV, suggesting similar
+sample quality. On the other hand, the su-
+perconducting gap size of γ1 band (∆ 1) of
+FeSe/SVO (∆ 1 = 9.6 meV) is significantly
+smaller than that of 1 UC FeSe/STO (∆1=12.1
+meV) and FeSe/LFO (∆1=17 meV). 23,38 These
+values are summarized in Table 1 to visually
+compare these three systems. Since the sam-
+ple qualities are comparable, the reduced gap
+size indicates a weaker pairing strength in 1 UC
+FeSe/SVO/STO.
+Temperature-dependent measurements to de-
+termine the Tg were conducted on the same
+sample (Figure 4c). The gap gradually de-
+creases with increasing temperature and even-
+tually closes at Tg = 48 K, which is well fitted
+by the BCS formula (Figure 4d).
+6
+Table 1: Summary of doping level, superconducting gap size ∆ 1, and quasiparticle lifetime Γ 1 of 1
+UC FeSe/SVO, 1 UC FeSe/STO, 23 and 1 UC FeSe/LFO. 38
+FeSe/oxides doping level ( e−/Fe) ∆ 1 (meV) Γ 1 (meV)
+1 UC FeSe/SVO 0.088 9.6 21.7
+1 UC FeSe/STO 0.12 12.1 20.8
+1 UC FeSe/LFO 0.087 17 20
+Discussion
+Monolayer FeSe grown on SVO/STO demon-
+strates a high-quality heterostructure with a
+well-ordered interfacial atomic structure. The
+quasiparticle scattering rate is similar to that
+in 1 UC FeSe/STO and FeSe/LFO. The well-
+screened interfacial EPC makes it a prototyp-
+ical system to investigate the role of the in-
+terfacial EPC in FeSe/oxide interfacial systems
+at the 1 UC limit. The gap-closing temper-
+ature Tg, which represents the onset of the
+superconducting pairing, can be directly com-
+pared among the 1 UC FeSe/SVO, FeSe/STO,
+and FeSe/LFO as a function of interfacial EPC
+strength while preserving the identical thick-
+ness of FeSe. A monotonic suppression of the
+Tg is observed as the interfacial EPC strength
+decreases from the 1 UC FeSe/LFO, 1 UC
+FeSe/STO to 1 UC FeSe/SVO (Figure 4e).
+Therefore, our observations emphasize the cru-
+cial role of interfacial EPC in the enhance-
+ment of the superconducting pairing in 1 UC
+FeSe/oxide systems.
+It is also noticeable that the Tg of 1 UC
+FeSe/SVO/STO is quite similar to the highest
+Tg of surface potassium-dosed multilayer FeSe,
+in spite of their different FeSe thicknesses, sug-
+gesting a minimal influence of dimensionality on
+the superconducting pairing in these systems.
+In regard to the higher Tg in organic molecules
+intercalated FeSe,20 the contribution of the cou-
+pling between FeSe electrons and certain vibra-
+tional modes of organic molecules may need to
+be investigated and taken into account.
+Moreover, the discovery of the high-quality
+FeSe/VOx interface and its superconductivity
+provide a new playground for studying the
+FeSe/oxide interfaces. Perovskite vanadates,
+typically the family of RVO3 (R being a rare
+earth or yttrium atom), possess highly tun-
+able orbital and spin orderings with exter-
+nal stimuli. 47 For example, in PrVO 3 thin
+films, tunable magnetic properties have been
+achieved by epitaxial strain, 48,49 or chemical
+strain through the control of oxygen vacan-
+cies. 50,51 1 UC FeSe/SVO/STO, as a new re-
+alization of FeSe grown on the non-TiOx termi-
+nated substrate, inspires the future designing
+of the heterostructure in investigating strongly
+correlated physics, such as bandwidth con-
+trol, relationship between superconductivity
+and magnetic orders, and electron-boson inter-
+actions.
+Method
+Sample fabrication. SVO films were epitax-
+ially grown on the TiO x terminated SrTiO 3
+(001) substrates (Crystech GmbH) by using
+atomic layer-by-layer molecular beam epitaxy
+(MBE) method, at a substrate temperature
+of 750 ◦C and an oxygen partial pressure of
+1.9 ×10−7 mbar. The thickness of SVO was
+confirmed by the real-time intensity oscilla-
+tion of reflective high-energy electron diffrac-
+tion (RHEED) (Figure S1). FeSe films were
+grown on SVO subsequently at 490 ◦C by co-
+evaporation method and annealed at 520 ◦C for
+3 h before ARPES measurement.
+ARPES measurements. In-situ ARPES
+measurements were performed on FeSe/SVO/STO
+using a Scienta DA30 electron analyzer and a
+Fermi Instruments 21.2 eV helium discharge
+lamp, under a typical vacuum of 2 ×10−11
+mbar. The total energy resolution is 6 meV
+7
+and the angular resolution is 0.3 ◦.
+HR-EELS measurements. For the in-situ
+HR-EELS measurements, the samples were an-
+nealed at ∼ 520 ◦ in an ultra-high vacuum of 5
+× 10−9 mbar to get the clean surface. RHEED
+patterns were collected to verify the surface
+quality before HR-EELS measurements. The
+incident electron beam in HR-EELS measure-
+ments is produced by an electron gun of Model
+LK5000M (LK Technologies). The incident
+electron energy was 13.6 eV and the incident
+angle with respect to the surface normal was
+45◦. Data were collected by an analyzer A-1
+(MBS) under an ultra-high vacuum of 5× 10−11
+mbar. The measurements were conducted at 6
+K.
+STEM measurements. For STEM measure-
+ments, a 1.5 UC FeSe/SVO/STO sample was
+capped with Se and taken out of the vacuum
+chamber to protect the FeSe layers from be-
+ing oxidized. Then the sample was prepared
+for STEM measurements by using Focused Ion
+Beam (FIB) milling. Cross-sectional lamella
+was thinned down to 100 nm at an accelerating
+voltage of 30 kV with a decreasing current from
+the maximum 2.5 nA, followed by fine polish
+at an accelerating voltage of 2 kV with a small
+current of 40 pA. The atomic structures of the
+FeSe/SVO/STO films were characterized using
+an ARM-200CF (JEOL, Tokyo, Japan) trans-
+mission electron microscope operated at 200 kV
+and equipped with double spherical aberration
+(Cs) correctors. HAADF images were acquired
+at acceptance angles of 90-370 mrad.
+Acknowledgement This work is sup-
+ported in part by the National Science
+Foundation of China under the grant Nos.
+11922403, 12274085, 12074074, the National
+Key R&D Program of the MOST of China
+(2023YF A1406300), the New Cornerstone Sci-
+ence Foundation, the Innovation Program for
+Quantum Science and Technology (Grant No.
+2021ZD0302803), and Shanghai Municipal Sci-
+ence and Technology Major Project (Grant
+No.2019SHZDZX01).
+Supporting Information Avail-
+able
+Details for sample preparation and experimen-
+tal method, additional data from cross-sectional
+STEM.
+References
+(1) Wang, Q.-Y. et al. Interface-Induced
+High-Temperature Superconductivity in
+Single Unit-Cell FeSe Films on SrTiO 3.
+Chin. Phys. Lett.2012, 29, 037402.
+(2) Liu, D. et al. Electronic origin of high-
+temperature superconductivity in single-
+layer FeSe superconductor.Nat. Commun.
+2012, 3, 931.
+(3) He, S. et al. Phase diagram and electronic
+indication of high-temperature supercon-
+ductivity at 65 K in single-layer FeSe films.
+Nat. Mater. 2013, 12, 605.
+(4) Lee, J. J.; Schmitt, F. T.; Moore, R. G.;
+Johnston, S.; Cui, Y. T.; Li, W.; Yi, M.;
+Liu, Z. K.; Hashimoto, M.; Zhang, Y.;
+Lu, D. H.; Devereaux, T. P.; Lee, D. H.;
+Shen, Z. X. Interfacial mode coupling as
+the origin of the enhancement ofTc in FeSe
+films on SrTiO 3. Nature 2014, 515, 245.
+(5) Peng, R.; Xu, H. C.; Tan, S. Y.;
+Cao, H. Y.; Xia, M.; Shen, X. P.;
+Huang, Z. C.; Wen, C. H.; Song, Q.;
+Zhang, T.; Xie, B. P.; Gong, X. G.;
+Feng, D. L. Tuning the band structure
+and superconductivity in single-layer FeSe
+by interface engineering. Nat. Commun.
+2014, 5, 5044.
+(6) Tan, S. et al. Interface-induced supercon-
+ductivity and strain-dependent spin den-
+sity waves in FeSe/SrTiO3 thin films. Nat.
+Mater. 2013, 12, 634.
+(7) Hsu, F. Q.; Luo, J. Y.; Yeh, K. W.;
+K., C. T.; Huang, T. W.; Wu, P. M.;
+Lee, Y. C.; Huang, Y. L.; Chu, Y. Y.;
+Yan, D. C.; Wu, M. K. Superconductivity
+8
+in the PbO-type structure α-FeSe. PNAS
+2008, 105, 14262–14264.
+(8) Wen, C. H. P.; Xu, H. C.; Chen, C.;
+Huang, Z. C.; Lou, X.; Pu, Y. J.;
+Song, Q.; Xie, B. P.; Abdel-Hafiez, M.;
+Chareev, D. A.; Vasiliev, A. N.; Peng, R.;
+Feng, D. L. Anomalous correlation effects
+and unique phase diagram of electron-
+doped FeSe revealed by photoemission
+spectroscopy. Nat. Commun. 2016, 7,
+10840.
+(9) Zhang, H.; Zhang, D.; Lu, X.; Liu, C.;
+Zhou, G.; Ma, X.; Wang, L.; Jiang, P.;
+Xue, Q. K.; Bao, X. Origin of charge trans-
+fer and enhanced electron-phonon cou-
+pling in single unit-cell FeSe films on
+SrTiO3. Nat. Commun. 2017, 8, 214.
+(10) Zhao, W.; Li, M.; Chang, C.; Jiang, J.;
+Wu, L.; Liu, C.; Moodera, J. S.; Chan, M.
+H. W. Direct imaging of electron transfer
+and its influence on superconducting pair-
+ing at FeSe/SrTiO 3 interface. Sci. Adv.
+2018, 4, eaao2682.
+(11) Guo, J.; Jin, S.; Wang, G.; Wang, S.;
+Zhu, K.; Zhou, T.; He, M.; Chen, X.
+Superconductivity in the iron selenide
+KxFe2Se2 (0≤x≤1.0). Phys. Rev. B2010,
+82 .
+(12) Lu, X. F.; Wang, N. Z.; Wu, H.; Wu, Y. P.;
+Zhao, D.; Zeng, X. Z.; Luo, X. G.; Wu, T.;
+Bao, W.; Zhang, G. H.; Huang, F. Q.;
+Huang, Q. Z.; Chen, X. H. Coexis-
+tence of superconductivity and antiferro-
+magnetism in (Li 0.8Fe0.2)OHFeSe. Nat.
+Mater. 2015, 14, 325.
+(13) Xiang, Y.-Y.; Wang, F.; Wang, D.;
+Wang, Q.-H.; Lee, D.-H. High-
+temperature superconductivity at the
+FeSe/SrTiO3 interface. Phys. Rev. B
+2012, 86 .
+(14) Lee, D.-H. What makes the Tc of
+FeSe/SrTiO3 so high? Chin. Phys. B
+2015, 24 .
+(15) Ding, H.; Lv, Y. F.; Zhao, K.;
+Wang, W. L.; Wang, L.; Song, C. L.;
+Chen, X.; Ma, X. C.; Xue, Q. K.
+High-Temperature Superconductivity in
+Single-Unit-Cell FeSe Films on Anatase
+TiO2 (001). Phys. Rev. Lett. 2016, 117,
+067001.
+(16) Lee, D.-H. Routes to High-Temperature
+Superconductivity: A Lesson from
+FeSe/SrTiO3. Annu. Rev. Condens.
+2018, 9, 261–282.
+(17) Zhang, S.; Guan, J.; Jia, X.; Liu, B.;
+Wang, W.; Li, F.; Wang, L.; Ma, X.;
+Xue, Q.; Zhang, J.; Plummer, E. W.;
+Zhu, X.; Guo, J. Role of SrTiO 3 phonon
+penetrating into thin FeSe films in the
+enhancement of superconductivity. Phys.
+Rev. B 2016, 94 .
+(18) Rebec, S. N.; Jia, T.; Zhang, C.;
+Hashimoto, M.; Lu, D. H.; Moore, R. G.;
+Shen, Z. X. Coexistence of Replica Bands
+and Superconductivity in FeSe Monolayer
+Films. Phys. Rev. Lett.2017, 118, 067002.
+(19) Tang, C.; Liu, C.; Zhou, G.; Li, F.;
+Ding, H.; Li, Z.; Zhang, D.; Li, Z.;
+Song, C.; Ji, S.; He, K.; Wang, L.; Ma, X.;
+Xue, Q.-K. Interface-enhanced electron-
+phonon coupling and high-temperature
+superconductivity in potassium-coated ul-
+trathin FeSe films on SrTiO 3. Phys. Rev.
+B 2016, 93 .
+(20) Kang, B. L.; Shi, M. Z.; Li, S. J.;
+Wang, H. H.; Zhang, Q.; Zhao, D.; Li, J.;
+Song, D. W.; Zheng, L. X.; Nie, L. P.;
+Wu, T.; Chen, X. H. Preformed Cooper
+Pairs in Layered FeSe-Based Supercon-
+ductors. Phys. Rev. Lett.2020, 125 .
+(21) Faeth, B. D.; Yang, S. L.; Kawasaki, J. K.;
+Nelson, J. N.; Mishra, P.; Parzyck, C. T.;
+Li, C.; Schlom, D. G.; Shen, K. M. Inco-
+herent Cooper Pairing and Pseudogap Be-
+havior in Single-Layer FeSe/SrTiO3. Phys.
+Rev. X 2021, 11 .
+(22) Zhang, W. H.; Liu, X.; Wen, C. H.;
+Peng, R.; Tan, S. Y.; Xie, B. P.; Zhang, T.;
+9
+Feng, D. L. Effects of Surface Electron
+Doping and Substrate on the Supercon-
+ductivity of Epitaxial FeSe Films. Nano
+Lett. 2016, 16, 1969–73.
+(23) Song, Q.; Yu, T. L.; Lou, X.; Xie, B. P.;
+Xu, H. C.; Wen, C. H. P.; Yao, Q.;
+Zhang, S. Y.; Zhu, X. T.; Guo, J. D.;
+Peng, R.; Feng, D. L. Evidence of co-
+operative effect on the enhanced super-
+conducting transition temperature at the
+FeSe/SrTiO3 interface. Nat. Commun.
+2019, 10, 758.
+(24) Jia, T.; Chen, Z.; Rebec, S. N.;
+Hashimoto, M.; Lu, D.; Devereaux, T. P.;
+Lee, D. H.; Moore, R. G.; Shen, Z. X.
+Magic Doping and Robust Superconduc-
+tivity in Monolayer FeSe on Titanates.
+Adv. Sci. (Weinh)2021, 8, 2003454.
+(25) Rey, M.; Dehaudt, P.; Joubert, J.;
+Lambert-Andron, B.; Cyrot, M.; Cyrot-
+Lackmann, F. Preparation and structure
+of the compounds SrVO 3 and Sr 2VO4. J.
+Solid State Chem.1990, 86, 101–108.
+(26) Gu, M.; Wolf, S. A.; Lu, J. Two-
+Dimensional Mott Insulators in SrVO 3
+Ultrathin Films. Adv. Mater. Interfaces
+2014, 1, 1300126.
+(27) Yoshimatsu, K.; Okabe, T.; Kumi-
+gashira, H.; Okamoto, S.; Aizaki, S.;
+Fujimori, A.; Oshima, M. Dimensional-
+Crossover-Driven Metal-Insulator Transi-
+tion in SrVO3 Ultrathin Films. Phys. Rev.
+Lett. 2010, 104 .
+(28) Peng, R.; Zou, K.; Han, M. G.; Al-
+bright, S. D.; Hong, H.; Lau, C.; Xu, H. C.;
+Zhu, Y.; Walker, F. J.; Ahn, C. H. Pi-
+coscale structural insight into supercon-
+ductivity of monolayer FeSe/SrTiO 3. Sci.
+Adv. 2020, 6, eaay 4517.
+(29) Yoshida, T.; Tanaka, K.; Yagi, H.; Ino, A.;
+Eisaki, H.; Fujimori, A.; Shen, Z. X. Direct
+Observation of the Mass Renormalization
+in SrVO 3 by Angle Resolved Photoemis-
+sion Spectroscopy. Phys. Rev. Lett.2005,
+95, 146404.
+(30) Yoshida, T.; Kobayashi, M.; Yoshi-
+matsu, K.; Kumigashira, H.; Fujimori, A.
+Correlated electronic states of SrVO 3 re-
+vealed by angle-resolved photoemission
+spectroscopy. J. Electron Spectros. Relat.
+Phenomena 2016, 208, 11–16.
+(31) Oka, H.; Okada, Y.; Hitosugi, T.; Fuku-
+mura, T. Two distinct surface termina-
+tions of SrVO 3 (001) ultrathin films as
+an influential factor on metallicity. Appl.
+Phys. Lett.2018, 113, 171601.
+(32) Singh, A. K.; Kar, U.; Redell, M. D.;
+Wu, T.-C.; Peng, W.-H.; Das, B.; Ku-
+mar, S.; Lee, W.-C.; Lee, W.-L. Field-
+induced resistance peak in a supercon-
+ducting niobium thin film proximity cou-
+pled to a surface reconstructed SrTiO3.
+npj Quantum Materials2020, 5, 45.
+(33) Luttinger, J. M. Fermi surface and some
+simple equilibrium properties of a system
+of interacting fermions. Phys. Rev. 1960,
+119, 1153.
+(34) Theophilou, A. K. An analytic estimate of
+the field penetration into metal surfaces.
+J. Phys. F: Metal Phys. 1972, 2, 1124–
+1136.
+(35) Fuchs, R.; Kliewer, K. L. Optical Modes of
+Vibration in an Ionic Crystal Slab. Phys.
+Rev. 1965, 140, A2076–A2088.
+(36) Baden, A. D.; Cox, P. A.; Egdell, R. G.;
+Orchard, A. F.; Willmer, R. J. D. Observa-
+tion of surface optical phonons on SrTiO 3
+(100). J. Phys. C: Solid State Phys.1981,
+14 .
+(37) Ibach, H.; Mills, D. L. Electron energy loss
+spectroscopy and surface vibrations; Aca-
+demic press, 1982.
+(38) Song, Y. et al. High temperature super-
+conductivity at FeSe/LaFeO 3 interface.
+Nat. Commun. 2021, 12, 5926.
+(39) Erdman, N.; Poeppelmeier, K. R. The
+structure and chemistry of the TiO 2-rich
+surface of SrTiO 3 (001). Nature 2002,
+419, 55–58.
+10
+(40) Zhou, G.; Zhang, Q.; Zheng, F.;
+Zhang, D.; Liu, C.; Wang, X.; Song, C. L.;
+He, K.; Ma, X. C.; Gu, L.; Zhang, P.;
+Wang, L.; Xue, Q. K. Interface enhanced
+superconductivity in monolayer FeSe films
+on MgO (001): charge transfer with
+atomic substitution. Sci. Bull. (Beijing)
+2018, 63, 747–752.
+(41) Yang, H.; Zhou, G.; Zhu, Y.; Gong, G. M.;
+Zhang, Q.; Liao, M.; Li, Z.; Ding, C.;
+Meng, F.; Rafique, M.; Wang, H.; Gu, L.;
+Zhang, D.; Wang, L.; Xue, Q. K. Super-
+conductivity above 28 K in single unit cell
+FeSe films interfaced with GaO2−δ layer on
+NdGaO3 (110). Sci. Bull. (Beijing)2019,
+64, 490–494.
+(42) Rademaker, L.; Wang, Y.; Berlijn, T.;
+Johnston, S. Enhanced superconductivity
+due to forward scattering in FeSe thin
+films on SrTiO 3 substrates. New J. Phys.
+2016, 18, 022001.
+(43) Wang, Y.; Linscheid, A.; Berlijn, T.; John-
+ston, S. Ab initio study of cross-interface
+electron-phonon couplings in FeSe thin
+films on SrTiO 3 and BaTiO 3. Phys. Rev.
+B 2016, 93, 134513.
+(44) Wang, Y.; Rademaker, L.; Dagotto, E.;
+Johnston, S. Phonon linewidth due to
+electron-phonon interactions with strong
+forward scattering in FeSe thin films on
+oxide substrates. Phys. Rev. B 2017, 96,
+054515.
+(45) Norman, M. R. Phenomenology of the
+low-energy spectral function in high-Tc
+superconductors. Phys. Rev. B1998, 57,
+R11093–R11096.
+(46) Zhang, Y.; Ye, Z. R.; Ge, Q. Q.;
+Chen, F.; Jiang, J.; Xu, M.; Xie, B. P.;
+Feng, D. L. Nodal superconducting-gap
+structure in ferropnictide superconductor
+BaFe2(As0.7P0.3)2. Nat. Phys. 2012, 8,
+371–375.
+(47) Miyasaka, S.; Okimoto, Y.; Iwama, M.;
+Tokura, Y. Spin-orbital phase diagram of
+perovskite-type R VO3 (R=rare-earth ion
+or Y). Phys. Rev. B2003, 68, 100406(R).
+(48) Kumar, D.; David, A.; Fouchet, A.; Pau-
+trat, A.; Varignon, J.; Jung, C. U.;
+L¨ uders, U.; Domeng` es, B.; Copie, O.;
+Ghosez, P. Magnetism tailored by me-
+chanical strain engineering in PrVO 3 thin
+films. Phys. Rev. B2019, 99, 224405.
+(49) Kumar, D.; Fouchet, A.; David, A.;
+Cheikh, A.; Suraj, T.; Copie, O.; Jung, C.;
+Pautrat, A.; Rao, M. R.; Prellier, W.
+Enhancement of magnetic properties in
+compressively strained PrVO 3 thin films.
+Phys. Rev. Mater.2019, 3, 124413.
+(50) Copie, O.; Rotella, H.; Boullay, P.;
+Morales, M.; Pautrat, A.; Janolin, P.; In-
+fante, I.; Pravathana, D.; L¨ uders, U.; Prel-
+lier, W. Structure and magnetism of epi-
+taxial PrVO 3 films. J. Phys.: Condens.
+Matter 2013, 25, 492201.
+(51) Copie, O.; Varignon, J.; Rotella, H.;
+Steciuk, G.; Boullay, P.; Pautrat, A.;
+David, A.; Mercey, B.; Ghosez, P.; Prel-
+lier, W. Chemical strain engineering of
+magnetism in oxide thin films. Adv.
+Mater. 2017, 29, 1604112.
+11

@@ -1,0 +1,134 @@
+{
+  "scope": "Turn 15: add finite-T phase-stiffness gate to turn7's ideal-forward pair scale.\nNOT material Tc predictions or bounds on all iron superconductors.\nSingle effectively isolated parabolic 2D sheet, electron density n=2x/a^2;\nJ_s=hbar^2*n_s/(4 m); T_BKT=pi J_s(T_BKT)/(2 k_B).\nL_k=m/(n_s e^2); universal-jump L_k=pi hbar^2/(8 e^2 k_B T).\nFinite-T depletion is phenomenological clean isotropic Yosida with prescribed\nDelta(T)=Delta0*tanh(1.74*sqrt(Tpair/T-1)); R=2Delta0/(kB*Tpair).\nBare quasiparticle stiffness used, NO vortex fugacity/RG, disorder, anisotropy,\nmultiband geometric stiffness, Pearl-length cutoff or interlayer coupling.\nThus optimistic conditional screening only, not a rigorously renormalized Tc.\n",
+  "rows": 2160,
+  "passing_rows": 35,
+  "grid_not_probability_distribution": true,
+  "best_case": {
+    "x_e_per_Fe": 0.16,
+    "mass_over_me": 1.0,
+    "condensate_fraction_zero": 1.0,
+    "gap_ratio_R": 8.0,
+    "second_interface_retention": 1.0,
+    "omega_meV": 100.0,
+    "lambda_total": 0.4,
+    "pair_scale_K": 145.05647651937602,
+    "bare_BKT_ceiling_K": 728.6984250070777,
+    "conditional_clean_BKT_K": 141.9584367252095,
+    "passes133": true
+  },
+  "reference_x0p12_f1": [
+    {
+      "mass_over_me": 1,
+      "gap_ratio_R": 3.53,
+      "T0_K": 546.5238187553082,
+      "conditional_BKT_K": 127.47084096805932
+    },
+    {
+      "mass_over_me": 1,
+      "gap_ratio_R": 6.35,
+      "T0_K": 546.5238187553082,
+      "conditional_BKT_K": 138.49983752223815
+    },
+    {
+      "mass_over_me": 2,
+      "gap_ratio_R": 3.53,
+      "T0_K": 273.2619093776541,
+      "conditional_BKT_K": 112.84104024194724
+    },
+    {
+      "mass_over_me": 2,
+      "gap_ratio_R": 6.35,
+      "T0_K": 273.2619093776541,
+      "conditional_BKT_K": 130.48913360281335
+    },
+    {
+      "mass_over_me": 3,
+      "gap_ratio_R": 3.53,
+      "T0_K": 182.1746062517694,
+      "conditional_BKT_K": 100.66140896062767
+    },
+    {
+      "mass_over_me": 3,
+      "gap_ratio_R": 6.35,
+      "T0_K": 182.1746062517694,
+      "conditional_BKT_K": 120.85780487369388
+    },
+    {
+      "mass_over_me": 4,
+      "gap_ratio_R": 3.53,
+      "T0_K": 136.63095468882705,
+      "conditional_BKT_K": 90.40475870600946
+    },
+    {
+      "mass_over_me": 4,
+      "gap_ratio_R": 6.35,
+      "T0_K": 136.63095468882705,
+      "conditional_BKT_K": 109.77792845424611
+    },
+    {
+      "mass_over_me": 6,
+      "gap_ratio_R": 3.53,
+      "T0_K": 91.0873031258847,
+      "conditional_BKT_K": 74.08624601316167
+    },
+    {
+      "mass_over_me": 6,
+      "gap_ratio_R": 6.35,
+      "T0_K": 91.0873031258847,
+      "conditional_BKT_K": 86.5095269676314
+    }
+  ],
+  "necessary_thresholds_at133": [
+    {
+      "R": 3.53,
+      "pair_scale_K": 145.05647651937602,
+      "s_fraction_at133": 0.16203953420841544,
+      "T0_required_K": 820.7873507519174,
+      "max_mass_over_me_if_x0p12_f1": 0.6658531204880797,
+      "max_Lk_zero_pH": 15.013345630462675
+    },
+    {
+      "R": 5,
+      "pair_scale_K": 145.05647651937602,
+      "s_fraction_at133": 0.2912706875687402,
+      "T0_required_K": 456.61992667426193,
+      "max_mass_over_me_if_x0p12_f1": 1.1968899884327229,
+      "max_Lk_zero_pH": 26.98691727209925
+    },
+    {
+      "R": 6.35,
+      "pair_scale_K": 145.05647651937602,
+      "s_fraction_at133": 0.41542839874089277,
+      "T0_required_K": 320.15143982237373,
+      "max_mass_over_me_if_x0p12_f1": 1.7070790593930494,
+      "max_Lk_zero_pH": 38.49042251000728
+    },
+    {
+      "R": 8,
+      "pair_scale_K": 145.05647651937602,
+      "s_fraction_at133": 0.5563477392747797,
+      "T0_required_K": 239.0591182654405,
+      "max_mass_over_me_if_x0p12_f1": 2.286145045295753,
+      "max_Lk_zero_pH": 51.54693230428337
+    }
+  ],
+  "universal_jump_inductance_pH_at133": 92.65236230037844,
+  "universal_jump_inductance_pH_at300": 41.07588061983444,
+  "strain_check": {
+    "source": "Jia et al PNAS123 e2602209123, arXiv2607.27104; gaps measured, not Tc",
+    "outer_gap_meV": [
+      17.8,
+      23.6
+    ],
+    "inner_gap_meV": [
+      11.5,
+      16.0
+    ],
+    "assumed_reference_pair_scale_K": 65.0,
+    "outer_constant_gap_ratio_extrapolation_K": 86.17977528089887,
+    "inner_constant_gap_ratio_extrapolation_K": 90.43478260869566,
+    "outer_gap_needed_for133_same_ratio_meV": 36.42153846153846,
+    "ratio_required_for133_at23p6": 4.118295152911006,
+    "warning": "65K is from other FeSe/STO reports, not measured Tc of the strained STM spot. Scaling is sensitivity, not prediction."
+  }
+}

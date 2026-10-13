@@ -1,0 +1,49 @@
+{
+  "job_id": "db79tamil99s73fnlcpg",
+  "backend": "ibm_kingston",
+  "quantum_seconds": 3.0,
+  "shots": 4096,
+  "returned_counts_total": 3989,
+  "missing_counts": 107,
+  "missing_fraction": 0.026123046875,
+  "worst_case_sampling_SE": 0.015625,
+  "rows": [
+    {
+      "delta_over_J": 0.0,
+      "ideal_XX": 1.0,
+      "aer": {
+        "XX": 1.0,
+        "XX_stderr": 0.0,
+        "ZZ": -1.0,
+        "odd_parity_probability": 1.0
+      },
+      "hardware_XX_full_sample_interval": [
+        0.44873046875,
+        0.5009765625
+      ],
+      "hardware_ZZ_full_sample_interval": [
+        -0.96533203125,
+        -0.9130859375
+      ]
+    },
+    {
+      "delta_over_J": 3.0,
+      "ideal_XX": 0.31622776601683794,
+      "aer": {
+        "XX": 0.30224609375,
+        "XX_stderr": 0.014894217651046157,
+        "ZZ": -1.0,
+        "odd_parity_probability": 1.0
+      },
+      "hardware_XX_full_sample_interval": [
+        0.28955078125,
+        0.341796875
+      ],
+      "hardware_ZZ_full_sample_interval": [
+        -0.9912109375,
+        -0.93896484375
+      ]
+    }
+  ],
+  "verdict": "Hardware XX=1 preparation is strongly biased; neither error mitigation nor material inference justified. Raw output truncated; all intervals account for missing shots. XX contrasts test toy phase coherence only, not FeSe Tc."
+}

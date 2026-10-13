@@ -1,0 +1,2252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//y1RNtoWQxaxDRpzqX4eMuVxZlU</id>
+  <title>arXiv Query: search_query=all:FeSe AND submittedDate:"202401010000 TO 202610132359"&amp;id_list=&amp;start=0&amp;max_results=60</title>
+  <updated>2026-10-13T21:15:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:FeSe+AND+submittedDate:%22202401010000+TO+202610132359%22&amp;start=0&amp;max_results=60&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>60</opensearch:itemsPerPage>
+  <opensearch:totalResults>140</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.28446v1</id>
+    <title>Field-induced incipient spin-density phase stabilized inside the nematic phase of FeSe$_{1-x}$S$_x$</title>
+    <updated>2026-09-23T17:43:34Z</updated>
+    <link href="https://arxiv.org/abs/2609.28446v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.28446v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spin-density wave (SDW) order and superconductivity frequently compete and coexist in unconventional superconductors, where spin fluctuations often mediate superconducting pairing. In iron-chalcogenide superconductors, FeSe$_{1-x}$S$_x$, SDW order has only been detected under applied pressure, while both spin and nematic fluctuations are involved in determining their rich superconducting phase diagrams. Here, we report evidence for an incipient SDW phase, within the nematic state of FeSe$_{1-x}$S$_x$, revealed in magnetic fields up to 68~T. Once superconductivity is quenched, we observe sharp upturns in longitudinal resistivity accompanied by anomalies in tunnel diode oscillator frequency response and torque anisotropy, consistent with a field-induced electronic order. Dominant low-frequency quantum oscillations reveal a small reconstructed Fermi surface, consistent with a field-induced SDW order. Direct experimental comparisons with a pressure-tuned nematic, analogue, FeSe$_{0.96}$S$_{0.04}$, demonstrate that SDW phases are stabilized within the nematic phase of FeSe$_{1-x}$S$_x$ via both chemical substitution and applied pressure. These findings reveal that by weakening nematicity, the SDW orders are stabilised, which promotes the dominant superconducting pairing mechanism in iron chalcogenides.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-23T17:43:34Z</published>
+    <arxiv:comment>10 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>I. Paulescu</name>
+    </author>
+    <author>
+      <name>R. M. Abedin</name>
+    </author>
+    <author>
+      <name>J. S. Pearce</name>
+    </author>
+    <author>
+      <name>W. H. Fong</name>
+    </author>
+    <author>
+      <name>Z. Zajicek</name>
+    </author>
+    <author>
+      <name>A. Morfoot</name>
+    </author>
+    <author>
+      <name>W. Knafo</name>
+    </author>
+    <author>
+      <name>O. Squire</name>
+    </author>
+    <author>
+      <name>D. Graf</name>
+    </author>
+    <author>
+      <name>A. A. Haghighirad</name>
+    </author>
+    <author>
+      <name>A. I. Coldea</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.10381v1</id>
+    <title>A First-Principles Multiscale Framework for Topological Superconductivity</title>
+    <updated>2026-09-09T16:06:41Z</updated>
+    <link href="https://arxiv.org/abs/2609.10381v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.10381v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A microscopic understanding of topological superconductivity (TSC) in real materials requires a materials-informed approach that integrates first-principles electronic structure, superconductivity, and topology within a unified computational framework. Here, we develop such an approach by combining density functional theory, Wannier-based low-energy Hamiltonians, Bogoliubov-de Gennes theory, and Matsubara Green's-function-based Chern number calculations performed directly on realistic multiorbital superconducting Hamiltonians. We apply this framework to bulk-like and monolayer FeTeSe and to FeSe/GaAs heterostructures, enabling a unified investigation of both intrinsic and proximity-induced topological superconductivity. We identify key electronic-structure ingredients that promote robust TSC, including Rashba-active states near the Fermi level, strong induced superconducting pairing, and substantial orbital hybridization between spin-orbit-active and superconducting sectors. Guided by these design principles, we predict multiple topological superconducting phases in Fe-based materials and demonstrate that FeSe/GaAs heterostructures are particularly promising, exhibiting topological transitions at experimentally accessible chemical potentials and low Zeeman fields. Complementing the theoretical predictions, we demonstrate the growth and structural characterization of FeSe/GaAs heterostructures, establishing the experimental feasibility of the proposed materials platform. Our results provide a quantitative route for engineering and screening candidate Majorana materials and heterostructures directly from realistic electronic structures and establish a foundation for future materials-by-design approaches to topological superconductivity.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-09T16:06:41Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Christopher L. Jacobs</name>
+    </author>
+    <author>
+      <name>Baishali Mandal</name>
+    </author>
+    <author>
+      <name>Taehwan Jung</name>
+    </author>
+    <author>
+      <name>Purna P. Paudel</name>
+    </author>
+    <author>
+      <name>Jason Kawasaki</name>
+    </author>
+    <author>
+      <name>Tudor D. Stanescu</name>
+    </author>
+    <author>
+      <name>Subhasish Mandal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.05875v1</id>
+    <title>Extended strange metal regime in a pure nematic quantum critical superconductor</title>
+    <updated>2026-09-05T04:38:06Z</updated>
+    <link href="https://arxiv.org/abs/2609.05875v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.05875v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-temperature superconductivity often emerges from a strange metallic state, where the electrical resistivity exhibits a linear-in-temperature dependence over an anomalously extended temperature range. The prevailing belief is that magnetic critical fluctuations gives rise to strange metallicity, enhancing the superconducting transition temperature. Here, using high pulsed magnetic fields, we have uncovered the strange metallic ground state hidden below the superconducting dome of nonmagnetic FeSe$_{1-x}$Te$_{x}$, which harbors a quantum critical point (QCP) of pure electronic nematicity, characterized by spontaneous rotational symmetry breaking. Unlike the conventional quantum criticality, this strange metallic state does not appear in a fan-shaped region above the singular QCP but spans a wide compositional range, where pairing interactions are strengthened by nonmagnetic nematic critical fluctuations. This stands in sharp contrast to the much cleaner system FeSe$_{1-x}$S$_{x}$, which displays a quantum critical fan above nematic QCP, indicating that disorder-induced spatial randomness of the nematic fluctuations likely enlarges the QCP of FeSe$_{1-x}$Te$_{x}$ into an extended region of criticality, as suggested by relevant hybrid Quantum Monte Carlo simulations. These observations highlight superconductivity promoted by a unique interplay between pure nematic critical fluctuations, strange metallicity and disorder, providing new insight into the emergence of non-Fermi-liquid transport in various correlated materials.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-05T04:38:06Z</published>
+    <arxiv:comment>18 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Kousuke Ishida</name>
+    </author>
+    <author>
+      <name>Kiyotaka Mukasa</name>
+    </author>
+    <author>
+      <name>Shusaku Imajo</name>
+    </author>
+    <author>
+      <name>Andrew Hardy</name>
+    </author>
+    <author>
+      <name>Mingwei Qiu</name>
+    </author>
+    <author>
+      <name>Mikihiko Saito</name>
+    </author>
+    <author>
+      <name>Aavishkar A. Patel</name>
+    </author>
+    <author>
+      <name>Kohei Matsuura</name>
+    </author>
+    <author>
+      <name>Yuichi Sugimura</name>
+    </author>
+    <author>
+      <name>Yu Uezono</name>
+    </author>
+    <author>
+      <name>Takumi Otsuka</name>
+    </author>
+    <author>
+      <name>Nigel E. Hussey</name>
+    </author>
+    <author>
+      <name>Takao Watanabe</name>
+    </author>
+    <author>
+      <name>Koichi Kindo</name>
+    </author>
+    <author>
+      <name>Takasada Shibauchi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.29407v1</id>
+    <title>Controlling Intertwined Electronic Orders in FeSe with Exfoliation</title>
+    <updated>2026-08-29T19:19:31Z</updated>
+    <link href="https://arxiv.org/abs/2608.29407v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.29407v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Controlling intertwined electronic orders in two-dimensional superconductors offers an effective route to answering fundamental questions and engineering new quantum devices. However, tuning the balance between competing orders typically requires complex chemistry, strain, or interface engineering. Here, we show that a pristine alternative is the dimensional reduction of the unconventional superconductor FeSe. Exfoliation suppresses the bulk electronic nematic response and switches the superconducting symmetry from bulk s-wave to d-wave-dominant. Transport, electron microscopy, and Raman spectroscopy establish the substantial weakening of nematic order in thin flakes. To probe superconductivity, we perform angle-dependent Andreev reflection spectroscopy on pristine crystal edges. As the junction's orientation is rotated, the spectra evolve from zero-energy bound states to coherence peaks. The injection angle, field, and temperature dependence, along with theoretical modeling, confirm that exfoliation switches the superconducting symmetry. Our results suggest a versatile superconducting platform for engineering quantum orders and provide fresh insights into the underlying pairing mechanisms.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-29T19:19:31Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Wenyao Liu</name>
+    </author>
+    <author>
+      <name>Gabriel Natale</name>
+    </author>
+    <author>
+      <name>Kyung-Mo Kim</name>
+    </author>
+    <author>
+      <name>Birender Singh</name>
+    </author>
+    <author>
+      <name>Piyush Sakrikar</name>
+    </author>
+    <author>
+      <name>Stephen D. Funni</name>
+    </author>
+    <author>
+      <name>Leo Kondo</name>
+    </author>
+    <author>
+      <name>Augustin Davignon</name>
+    </author>
+    <author>
+      <name>Antoine de Lagrave</name>
+    </author>
+    <author>
+      <name>Kota Ishihara</name>
+    </author>
+    <author>
+      <name>Michael Geiwitz</name>
+    </author>
+    <author>
+      <name>Maia G. Vergniory</name>
+    </author>
+    <author>
+      <name>Takasada Shibauchi</name>
+    </author>
+    <author>
+      <name>Jun Sung Kim</name>
+    </author>
+    <author>
+      <name>Michał Papaj</name>
+    </author>
+    <author>
+      <name>Judy J. Cha</name>
+    </author>
+    <author>
+      <name>Kenneth S. Burch†</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.28994v1</id>
+    <title>Electronic state of vortices at twin boundaries in a nematic superconductor</title>
+    <updated>2026-08-29T01:58:18Z</updated>
+    <link href="https://arxiv.org/abs/2608.28994v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.28994v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Local electronic states of vortices in an s $\pm$ d wave nematic superconductor are studied both in the absence and presence of twin boundaries. The Bogoliubov-de Gennes theory for a tight-binding model is used with its nematicity represented by the anisotropy in the transfer integrals and attractive interactions between the nearest-neighbor sites. We evaluate s and d wave components of the pair potentials and the local density of states, and analyze the effects of nematicity on the vortex core structures with/without twin boundaries. We find that a single vortex trapped at the twin boundary is composed of a bound pair of fractional vortices accompanied by weakly-induced s $\pm$ id wave components, despite that such s $\pm$ id wave components do not appear in a zero magnetic field. The calculated spatial structures of the local electronic states are compared with the vortex image measured by STM experiments in an iron-based superconductor FeSe.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-29T01:58:18Z</published>
+    <arxiv:comment>9 pages, 9 figures,</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Keita Goto</name>
+    </author>
+    <author>
+      <name>Hiroto Adachi</name>
+    </author>
+    <author>
+      <name>Masanori Ichioka</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.27349v2</id>
+    <title>High-Temperature Superconductivity of the Fe-Se-H compound</title>
+    <updated>2026-08-29T21:26:18Z</updated>
+    <link href="https://arxiv.org/abs/2608.27349v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.27349v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using an EPR spectrometer, the dependences of microwave power absorption on magnetic field up to 6000 Oe were measured at temperatures of 3.6-25 K and 295 K in a powdered compound Fe-Se-H, obtained by thermal diffusion of hydrogen into a FeSe single crystal with a critical temperature of 8 K. The shape of the dependences and the analysis of the measurement results confirm the superconductivity of the Fe-Se-H compound at normal pressure, both at temperatures of 3.6-25 K and at 295 K, i.e., at room temperature.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-27T16:47:29Z</published>
+    <arxiv:comment>8 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>S. I. Bondarenko</name>
+    </author>
+    <author>
+      <name>A. A. Prokhorov</name>
+    </author>
+    <author>
+      <name>N. N. Galtsov</name>
+    </author>
+    <author>
+      <name>V. P. Timofeev</name>
+    </author>
+    <author>
+      <name>V. P. Koverya</name>
+    </author>
+    <author>
+      <name>I. S. Bondarenko</name>
+    </author>
+    <author>
+      <name>A. V. Krevsun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.24710v1</id>
+    <title>Enhanced Superconductivity in Multilayer FeSe Films by Simplified Molecular Beam Epitaxy</title>
+    <updated>2026-08-25T15:27:37Z</updated>
+    <link href="https://arxiv.org/abs/2608.24710v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.24710v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-unit-cell (UC) \b{eta}-FeSe films grown on SrTiO3(100) continue to attract attention because of the significant enhancement in the superconducting transition temperature (Tc) compared to that in bulk FeSe. In prior reports of molecular beam epitaxy (MBE)-grown \b{eta}-FeSe/SrTiO3(100), elaborate growth protocols have been used to achieve enhanced Tc, leading to a general belief that careful pre-treatment of the SrTiO3 substrate and post-growth annealing in ultrahigh vacuum (UHV) are essential. Here, we report a greatly simplified protocol for the MBE growth of superconducting multi-UC \b{eta}-FeSe films on SrTiO3(100), eliminating the need for careful substrate pre-treatment and post-growth UHV annealing while still achieving an enhanced Tc. With appropriate capping, epitaxial films with 14 UC thickness exhibit a zero-resistance transition temperature Tc ~ 20 K in ex situ electrical transport measurements. The MBE optimization process is guided by the growth-parameter dependencies of film morphology and structural properties, as characterized by reflection high-energy electron diffraction, X-ray diffraction, atomic force microscopy, and scanning transmission electron microscopy.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-25T15:27:37Z</published>
+    <arxiv:comment>20 pages, 4 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Maria Hilse</name>
+    </author>
+    <author>
+      <name>Hemian Yi</name>
+    </author>
+    <author>
+      <name>Zhe Chen</name>
+    </author>
+    <author>
+      <name>Jessica L. Thompson</name>
+    </author>
+    <author>
+      <name>Kalana D. Halanayake</name>
+    </author>
+    <author>
+      <name>Danielle Reifsnyder Hickey</name>
+    </author>
+    <author>
+      <name>Seong H. Kim</name>
+    </author>
+    <author>
+      <name>Cui-Zu Chang</name>
+    </author>
+    <author>
+      <name>Nitin Samarth</name>
+    </author>
+    <author>
+      <name>Roman Engel-Herbert</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.23467v1</id>
+    <title>Competing Extended-$s$- and $d$-Wave Pairing from Distinct Spin-Fluctuation Channels in Stoichiometric $\mathrm{FeTe}$</title>
+    <updated>2026-08-24T16:36:15Z</updated>
+    <link href="https://arxiv.org/abs/2608.23467v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.23467v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recent observation of superconductivity in stoichiometric $\mathrm{FeTe}$ raises the question of how pairing develops in this tetragonal 11-type chalcogenide once interstitial Fe is removed. We construct an experimentally constrained five-orbital tight-binding model from first-principles calculations and treat electronic correlations and pairing within the fluctuation-exchange approximation. The linearized Eliashberg equation yields competing extended-$s$- and $d_{x^2-y^2}$-wave spin-singlet pairing instabilities. Near stoichiometric filling, spin fluctuations near $(π,0)$ and $(0,π)$ in the unfolded one-Fe Brillouin zone connect the $Γ/M$ hole pockets with the $X/Y$ electron pockets and favor an extended-$s$ gap that changes sign between the hole and electron sheets. Upon electron doping, depletion of the hole pockets shifts the dominant scattering toward the $X$--$Y$ channel near $(π,π)$, making the $d_{x^2-y^2}$-wave state the leading instability, with nodal lines that avoid most of the Fermi surface. The relative strengths of the two pairing channels vary with filling and interaction strength as the dominant spin-fluctuation channel changes. Under matched interaction strength, temperature, and filling, the extended-$s$ eigenvalue is larger in $\mathrm{FeTe}$ than in $\mathrm{FeSe}$ throughout the range considered, while the $d_{x^2-y^2}$-wave eigenvalue is also generally larger, particularly under electron doping. These results give concrete gap structures against which spectroscopic measurements of stoichiometric $\mathrm{FeTe}$ can be compared.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T16:36:15Z</published>
+    <arxiv:comment>5 pages and 5 figures in Main text, 8 figures in Supplementary Material</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Yichen Hua</name>
+    </author>
+    <author>
+      <name>Wen-lin Yang</name>
+    </author>
+    <author>
+      <name>Jian-Jian Miao</name>
+    </author>
+    <author>
+      <name>Hu Xu</name>
+    </author>
+    <author>
+      <name>Changming Yue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.20994v1</id>
+    <title>Scalable photoexcitation-induced molecular dynamics with machine-learned Hamiltonians</title>
+    <updated>2026-08-21T11:23:54Z</updated>
+    <link href="https://arxiv.org/abs/2608.20994v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.20994v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ultrafast photoexcitation offers a controllable route to steer structural dynamics in solids, yet predicting how nonequilibrium electronic excitation drives lattice motion across extended spatial and temporal scales remains a major computational challenge. Here we introduce time-dependent ab-initio propagation with electronic machine learning (TDAP-eML), a framework that explicitly incorporates electronic evolution into scalable simulations of photoexcitation-induced lattice dynamics. By integrating machine-learned electronic structure with atomistic propagation, TDAP-eML describes how photoexcitation reshapes the evolving energy landscapes and forces governing structural motion. Across representative examples including silicon and FeSe, the framework reproduces key photoexcited lattice responses obtained from first-principles time-dependent density functional theory calculations and captures coherent phonon dynamics together with their dependence on excitation conditions. Its computational advantage increases with system size, reaching nearly three orders of magnitude reduction in computational cost for the large systems examined. TDAP-eML thus establishes a scalable framework for coupled electronic and lattice evolution, linking nonequilibrium excitation to photoinduced forces, predictive structural dynamics, and experimentally accessible observables.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-21T11:23:54Z</published>
+    <arxiv:comment>13 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Leyu Cai</name>
+    </author>
+    <author>
+      <name>Yunzhe Jia</name>
+    </author>
+    <author>
+      <name>Daqiang Chen</name>
+    </author>
+    <author>
+      <name>Sheng Meng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.13427v2</id>
+    <title>Modeling Bond-Dependent Kitaev-like interaction in 2D Edge-Sharing Tetrahedral Magnets: FeX (X=Te, Se)</title>
+    <updated>2026-08-27T09:40:34Z</updated>
+    <link href="https://arxiv.org/abs/2608.13427v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.13427v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bond-dependent magnetic interactions, exemplified by the Kitaev model, are known to arise from the interplay between spin-orbit coupling (SOC) and specific coordination geometries, but have so far been almost exclusively identified in edge-sharing octahedral systems. Whether such interactions persist in edge-sharing tetrahedral environments, characteristic of the parent compounds of iron-based superconductors, remains an open question. Here, we construct a Kitaev-like model for monolayer FeTe and FeSe and demonstrate the presence of a previously unrecognized bond-dependent Ising-type interaction, induced jointly by chalcogen-mediated SOC and the tetrahedral crystal-field geometry. A microscopic spin model for these bond-dependent interactions is derived via strong-coupling perturbation theory, and the strengths of the individual exchange terms are extracted by partitioning the magnetic anisotropy energy calculated using density functional theory across various collinear magnetic orders. We reveal that the Kitaev-like interaction dominates the magnetic anisotropy in FeTe, whereas in FeSe, it strongly competes with a single-ion anisotropy of opposite sign. The resulting noncollinear local anisotropy axes generate intrinsic single-site spin frustration, providing a microscopic mechanism for magnetic disorder that transcends isotropic exchange models. Our results establish edge-sharing tetrahedral magnets as a new platform for bond-dependent interactions and extend the scope of Kitaev physics beyond octahedral coordination.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-13T16:16:06Z</published>
+    <arxiv:comment>40 pages, 20 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Mengdong Li</name>
+    </author>
+    <author>
+      <name>Can Huangb</name>
+    </author>
+    <author>
+      <name>Bingjie Liu</name>
+    </author>
+    <author>
+      <name>Zhixin Liu</name>
+    </author>
+    <author>
+      <name>Yanfei Pan</name>
+    </author>
+    <author>
+      <name>Jiyu Fan</name>
+    </author>
+    <author>
+      <name>Chunlan Ma</name>
+    </author>
+    <author>
+      <name>Daning Shi</name>
+    </author>
+    <author>
+      <name>Yan Zhua</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.09054v1</id>
+    <title>Altermagnetism-Induced Spin-resolved electronic structure in Janus FeX0.5Y0.5 Monolayers (X, Y = S, Se, Te)</title>
+    <updated>2026-08-10T03:00:42Z</updated>
+    <link href="https://arxiv.org/abs/2608.09054v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.09054v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Realizing the spin-resolved electronic properties in superconducting materials stands as a critical frontier, offering both novel fundamental physics and potential for dissipationless spin-based devices. Here, we predict a series of Janus FeX0.5Y0.5 monolayers derived from iron-based superconductors (e.g., FeSe, FeTe, and FeS) by using Kondo-type model and first-principles calculations. These Janus structures exhibit significant spin-splittingelectronic states, large topological band gaps (51.4 meV) and high Néel temperatures (415 K). We further reveal that valley polarization can be effectively tuned via applied in-plane strain and the resulting valley-polarized anomalous Hall conductivity can be manipulated by shifting the Fermi level. Our work suggests a new strategy based on altermagnetism for engineering spin-splitting states in superconducting systems and inspires further exploration of superconducting spintronics.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-10T03:00:42Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Mengyang Zhang</name>
+    </author>
+    <author>
+      <name>Jie Li</name>
+    </author>
+    <author>
+      <name>Yifei Chen</name>
+    </author>
+    <author>
+      <name>Shifang Li</name>
+    </author>
+    <author>
+      <name>Zhentao Fu</name>
+    </author>
+    <author>
+      <name>Jianxin Zhong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.06602v1</id>
+    <title>Determination of the properties of a superconducting single crystal FeSe using an EPR spectroscopy</title>
+    <updated>2026-08-06T21:20:08Z</updated>
+    <link href="https://arxiv.org/abs/2608.06602v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.06602v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using an EPR spectrometer, the properties of single-crystal FeSe were studied in a magnetic field up to 6000 Oe at temperatures from 3.5 K to 8 K in the superconducting state and at temperatures above 8K and up to 25K in the normal state. It was shown that by measuring non-resonant spectrometer signals in zero and weak magnetic fields up to 30 Oe, it is possible to determine critical temperature Tc, the superconducting transition width, and the value of the first critical magnetic field Hc1 in FeSe single-crystal. Resonant EPR signals are observed in fields at 1400 Oe and 3400 Oe, which corresponds to the paramagnetism of doubly ionized iron atoms (Fe2+) in the FeSe crystal. Non-resonant EPR signals in a magnetic field up to 6000 Oe at temperatures from 3.5K to 8K are a nonlinear function of the field, and correspond to the superconducting mixed state of the FeSe, but at temperatures above 8K (up to 25K) they are field independent.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-06T21:20:08Z</published>
+    <arxiv:comment>9 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>S. I. Bondarenko</name>
+    </author>
+    <author>
+      <name>A. A. Prokhorov</name>
+    </author>
+    <author>
+      <name>N. N. Galtsov</name>
+    </author>
+    <author>
+      <name>V. P. Timofeev</name>
+    </author>
+    <author>
+      <name>V. P. Koverya</name>
+    </author>
+    <author>
+      <name>A. V. Krevsun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.01264v1</id>
+    <title>$d$-spacing distributions as a probe of nematoelastic response in iron-based superconductors</title>
+    <updated>2026-08-02T14:16:37Z</updated>
+    <link href="https://arxiv.org/abs/2608.01264v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.01264v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electronic nematicity in iron-based superconductors (FeSCs) couples bilinearly to orthorhombic strain, allowing nematic correlations to appear in the lattice response. Here we use neutron Larmor diffraction to measure the temperature-dependent distribution of relative $d$ spacings in electron-doped Ba(Fe$_{1-x}$Co$_x$)$_2$As$_2$, hole-doped Ba$_{0.83}$K$_{0.17}$Fe$_2$As$_2$, FeSe, and Fe$_{1.07}$Te. In Ba(Fe$_{1-x}$Co$_x$)$_2$As$_2$ crystals without intentionally applied uniaxial stress, the in-plane distribution width, $\varepsilon_{\rm FWHM}$, increases on cooling in the tetragonal phase and can be described phenomenologically by a Curie--Weiss-like form. The fitted scale $T^*$ decreases with Co doping and evolves similarly to the nematic phase diagram inferred from elastoresistance, although the two experiments probe different response functions. Related broadening in Ba$_{0.83}$K$_{0.17}$Fe$_2$As$_2$ and FeSe supports extending this interpretation beyond electron-doped BaFe$_2$As$_2$. By contrast, Fe$_{1.07}$Te shows no extended Curie--Weiss-like regime without applied stress, whereas uniaxial pressure produces a strongly anisotropic broadening that can contain contributions from both the field-biased lattice response and inhomogeneous loading. A mean-field model with bilinear nematoelastic coupling and spatially varying symmetry-breaking stress explains the Curie--Weiss-like broadening in terms of the renormalized orthorhombic compliance. Neutron Larmor diffraction therefore provides a bulk-sensitive probe of nematic-related lattice broadening that complements electronic and elastic measurements.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-02T14:16:37Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Wenting Zhang</name>
+    </author>
+    <author>
+      <name>Ruixian Liu</name>
+    </author>
+    <author>
+      <name>Tingjun Zhang</name>
+    </author>
+    <author>
+      <name>Weiliang Yao</name>
+    </author>
+    <author>
+      <name>Xüe Fu</name>
+    </author>
+    <author>
+      <name>Hanqing Xie</name>
+    </author>
+    <author>
+      <name>Ziye Mo</name>
+    </author>
+    <author>
+      <name>Ting Guo</name>
+    </author>
+    <author>
+      <name>Kuo-Feng Tseng</name>
+    </author>
+    <author>
+      <name>Thomas Keller</name>
+    </author>
+    <author>
+      <name>Jitae T. Park</name>
+    </author>
+    <author>
+      <name>Fankang Li</name>
+    </author>
+    <author>
+      <name>Masaaki Matsuda</name>
+    </author>
+    <author>
+      <name>Avishek Maity</name>
+    </author>
+    <author>
+      <name>Long Tian</name>
+    </author>
+    <author>
+      <name>Pengcheng Dai</name>
+    </author>
+    <author>
+      <name>Xingye Lu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.27331v1</id>
+    <title>Altermagnetism from a Cu-Fe Lieb Lattice in FeSe/Cuprate Heterostructures</title>
+    <updated>2026-07-29T18:00:04Z</updated>
+    <link href="https://arxiv.org/abs/2607.27331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.27331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Realizing altermagnetism in high-$T_c$ cuprate-based systems would provide a direct route for studying spin-split electronic bands in the absence of net magnetization and investigate their interplay with unconventional superconductivity. Here, we propose that FeSe/cuprate heterostructures offer such a platform, where a 45$^\circ$ twist of Cu and Fe layers creates an effective CuFe$_2$ Lieb lattice in which Fe magnetic order and Cu-Fe hybridization through the ligands induces altermagnetic $d$-wave spin splitting. A minimal tight-binding model shows that this mechanism is generic. Furthermore, a substrate-induced inequivalence of the two Se sites in FeSe provides a second route in which altermagnetism originates in the Fe layer and is transferred to the cuprate layer by proximity. Density functional theory calculations for FeSe/Bi$_2$Sr$_2$CuO$_6$ heterostructures confirm the viability of both mechanisms and reveal ways to enhance the spin splitting. These results establish superconducting cuprate/transition metal chalcogenide heterostructures as a promising setting for engineering altermagnetism and studying its coupling to unconventional superconductivity.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-29T18:00:04Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Ying Li</name>
+    </author>
+    <author>
+      <name>Augustin Davignon</name>
+    </author>
+    <author>
+      <name>Peng Rao</name>
+    </author>
+    <author>
+      <name>Runhan Li</name>
+    </author>
+    <author>
+      <name>Maia G. Vergniory</name>
+    </author>
+    <author>
+      <name>Roser Valentí</name>
+    </author>
+    <author>
+      <name>Johannes Knolle</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.27104v1</id>
+    <title>Dual Enhancement of Superconductivity in FeSe/SrTiO3 via Orbital and Correlation Synergy</title>
+    <updated>2026-07-29T16:31:51Z</updated>
+    <link href="https://arxiv.org/abs/2607.27104v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.27104v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In iron-based superconductors, the dz2 orbital band typically resides far below the Fermi level and has not been considered to participate in Cooper pairing. Here, using monolayer FeSe/SrTiO3 as a model system, we demonstrate that tip-induced tensile strain controllably shifts the dz2 band toward the Fermi level, driving a two-stage enhancement of superconductivity. In-plane lattice expansion first enhances electronic correlation, amplifying superconductivity in the initial stage. As strain further increases, the upward-shifted dz2 band hybridizes with the dxy band, reconstructing the pairing-active d-orbital bands and inducing a secondary, stronger gap enhancement. Collectively, these two stages enlarge the superconducting gap from 17.8 to 23.6 meV. Throughout this process, invariant Fermi wave vectors confirm that the enhancement originates from band renormalization and reconstruction rather than carrier doping. Our work establishes a route to tailor superconducting states via strain-activated electronic correlations and band engineering, and reveals a previously unrecognized orbital-selective pairing mechanism with broad implications for correlated multiband superconductors.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-29T16:31:51Z</published>
+    <arxiv:comment>17 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Proc. Natl. Acad. Sci. U.S.A. 123, e2602209123 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Guihao Jia</name>
+    </author>
+    <author>
+      <name>Jingming Yan</name>
+    </author>
+    <author>
+      <name>Yucong Peng</name>
+    </author>
+    <author>
+      <name>Shendong Su</name>
+    </author>
+    <author>
+      <name>Pei Ouyang</name>
+    </author>
+    <author>
+      <name>Xiaopeng Hu</name>
+    </author>
+    <author>
+      <name>Qi-Kun Xue</name>
+    </author>
+    <author>
+      <name>Wei Li</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.2602209123</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.2602209123" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.24906v1</id>
+    <title>Even/Odd-parity STS spectra induced by quantum well mirror symmetry breaking in iron-based superconductors</title>
+    <updated>2026-07-21T13:14:17Z</updated>
+    <link href="https://arxiv.org/abs/2608.24906v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.24906v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Determining whether superconducting scanning tunneling spectroscopy (STS) is uniquely dictated by crystal structure constitutes a fundamental challenge in condensed matter physics. Here, we systematically investigate bulk FeSe single crystals, monolayer FeSe, and $\mathrm{KCa_2Fe_4As_4F_2}$. We resolve one-, two-, and three-order checkerboard quantum-well structures that perfectly match the experimentally observed one, two, and three pairs of superconducting coherence peaks. In bulk FeSe, quantum wells promote real-space Cooper pairing and form degenerate antiferromagnetic checkerboard sublattices, yielding bosonic even-parity STS responses. In monolayer FeSe, mirror symmetry breaking suppresses Cooper pairing and induces nondegenerate ferromagnetic sublattice dichotomy, producing fermionic odd-parity STS spectra. We establish a universal gap scaling law $Δ(T, ξ) = η(T)/ξ^2$, where $η(T)$ is a temperature-dependent prefactor and $ξ$ denotes quantum-well depth that governs the number and magnitude of superconducting gaps. For $\mathrm{KCa_2Fe_4As_4F_2}$, our predicted gap pairs of $\pm6.2$ meV, $\pm5.6$ meV, and $\pm4.2$ meV are in excellent agreement with experimental results of $\pm6.2$ meV, $\pm5.4$ meV, and $\pm4.4$ meV. This quantum-well mechanism unifies mirror symmetry breaking, checkerboard sublattice ordering, Cooper pairing, fermion-boson duality, and half-Bogoliubov states for STS interpretation, offering new insights toward a unified high-$T_\text{c}$ superconductivity theory.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-21T13:14:17Z</published>
+    <arxiv:comment>10 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Xiuqing Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.15197v1</id>
+    <title>Emergent d-wave altermagnetism in chlorine-adsorbed FeSe monolayer</title>
+    <updated>2026-07-16T16:57:03Z</updated>
+    <link href="https://arxiv.org/abs/2607.15197v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.15197v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recent emergence of altermagnetism has opened new frontiers in condensed matter physics, yet material platforms capable of hosting both intrinsic altermagnetic order and superconductivity remain exceedingly rare. Here, based on symmetry analysis and first-principles calculations, we propose a realistic route to engineer robust altermagnetism in monolayer FeSe, a prototypical iron-based superconductor. By designing a stoichiometric Fe2Se2Cl structure through single-side Cl adsorption and introducing gate-tunable hole doping, we achieve a highly stable altermagnetic ground state. Our calculations reveal a synergistic mechanism: hole doping firmly stabilizes the checkerboard magnetic order, while the asymmetric ligand environment intrinsically breaks the outof-plane spatial inversion symmetry. Consequently, this interplay induces a giant altermagnetic spin splitting of up to 620 meV. Crucially, we demonstrate that this altermagnetic state and its giant spin splitting are highly resilient, persisting even in a 10-layer slab model that accurately simulates the bulk limit. By introducing altermagnetism into the well-established FeSe-based superconducting family, our findings identify Fe2Se2Cl as a promising platform for spintronic applications and motivate future studies of the possible interplay between altermagnetism and superconductivity.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-16T16:57:03Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Zi-Hao Ding</name>
+    </author>
+    <author>
+      <name>Ze-Feng Gao</name>
+    </author>
+    <author>
+      <name>Kai Liu</name>
+    </author>
+    <author>
+      <name>Peng-Jie Guo</name>
+    </author>
+    <author>
+      <name>Zhong-Yi Lu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.11355v2</id>
+    <title>Iron-Based Superconductors: A Decade of Materials, Magnetism, and Mechanisms</title>
+    <updated>2026-07-15T08:24:59Z</updated>
+    <link href="https://arxiv.org/abs/2607.11355v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.11355v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since its discovery in 2008, iron-based superconductors (FeSCs) have become a central platform for exploring high-temperature superconductivity in multiband, electron-correlated materials. This review focuses on major developments over the past decade or so, emphasizing experimental advances, pairing mechanisms, and emerging applications. Structural tuning through chemical substitution, pressure, and epitaxial growth enables precise control of the electronic, magnetic, and superconducting ground states, thereby revealing their interplay. In particular, the electronic nematic phase and stripe-type antiferromagnetic order-often coexisting or competing-are central to understanding the phase diagrams. Spin waves in magnetically ordered parent compounds and spin excitations (fluctuations) in doped superconductors are extensively characterized by inelastic neutron scattering. While high-energy spin excitations in doped superconductors retain substantial spectral weight across a wide energy range reminiscent of spin waves in their undoped parents, the low-energy response reveals a collective spin excitation termed "resonance" coupled to superconductivity. The momentum structure of superconductivity-induced resonance provides strong evidence for sign-changing pairing in many FeSCs, while disorder effects, orbital-fluctuation scenarios, quasiparticle damping, and compound-dependent gap structures indicate that $s_{\pm}$, $s_{++}$, nodal $s$, $d$-wave, and multicomponent states must be discussed in a material-specific framework. Advances in thin-film growth, intercalation chemistry, and interface engineering-particularly in FeSe-based systems-have enabled enhanced $T_{c}$ and novel device geometries. With high upper critical fields, moderate anisotropy, and improving current densities, FeSCs continue to drive both fundamental insight and technological applications in superconductivity.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-13T10:16:39Z</published>
+    <arxiv:comment>73 pages, 43 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Xingye Lu</name>
+    </author>
+    <author>
+      <name>Hechang Lei</name>
+    </author>
+    <author>
+      <name>Jun Zhao</name>
+    </author>
+    <author>
+      <name>Hideo Hosono</name>
+    </author>
+    <author>
+      <name>Pengcheng Dai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.03908v1</id>
+    <title>Surface Functionalization Enables Two-Dimensional Altermagnetism and Giant Tunnel Magnetoresistance</title>
+    <updated>2026-07-04T15:09:54Z</updated>
+    <link href="https://arxiv.org/abs/2607.03908v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.03908v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two-dimensional (2D) altermagnets (AMs) are highly desirable for ultrafast, stray-field-free spintronics because they combine compensated magnetic order and momentum-dependent spin splitting with the scalability, tunability, and interface compatibility of atomically thin materials. However, practical 2D AMs remain scarce. Rather than relying solely on the search for intrinsic 2D AMs, an appealing route is to transform known 2D antiferromagnets (AFMs) into AMs through symmetry engineering. Here, we propose surface functionalization as a symmetry-guided, nonvolatile chemical switch for realizing this AFM-to-AM transformation. By breaking inversion and out-of-plane mirror symmetries while preserving the rotation symmetry connecting opposite-spin sublattices, single-sided functionalization lifts spin degeneracy and induces altermagnetic spin splitting. Using monolayer FeSe as a representative platform, first-principles calculations show that hydrogenation, oxidation, and fluorination convert spin-degenerate antiferromagnetic FeSe into a d-wave AM with pronounced momentum-dependent spin splitting. At the device level, our transport simulations reveal that the functionalized FeSe monolayer magnetic tunnel junctions exhibit giant tunnel magnetoresistance (TMR) up to $1.87\times10^3\%$, originating from momentum-selective spin filtering between parallel and antiparallel Néel-vector configurations. The strong dependence of TMR on functionalization geometry further demonstrates that surface chemistry provides an effective control knob for altermagnetic transport. Our work establishes a symmetry-to-chemistry-to-device strategy for engineering 2D AMs and developing high-performance altermagnetic spintronic devices.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-04T15:09:54Z</published>
+    <arxiv:comment>7 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Zhou Cui</name>
+    </author>
+    <author>
+      <name>Ziye Zhu</name>
+    </author>
+    <author>
+      <name>Bowen Hao</name>
+    </author>
+    <author>
+      <name>Xunkai Duan</name>
+    </author>
+    <author>
+      <name>Xuan Zhou</name>
+    </author>
+    <author>
+      <name>Yali Xie</name>
+    </author>
+    <author>
+      <name>Huali Yang</name>
+    </author>
+    <author>
+      <name>Baisheng Sa</name>
+    </author>
+    <author>
+      <name>Runwei Li</name>
+    </author>
+    <author>
+      <name>Tong Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.25862v2</id>
+    <title>First-Principles Quantum-Spectral framework for Elementary Vortex Pinning in superconductors</title>
+    <updated>2026-08-04T14:53:32Z</updated>
+    <link href="https://arxiv.org/abs/2606.25862v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.25862v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The critical current of a type-II superconductor is controlled by vortex pinning, whose microscopic input is the elementary pinning force. Scanning tunneling spectroscopy has shown that a defect pins a vortex by reorganizing the Caroli--de Gennes--Matricon (CdGM) states in its core, but why this spectral reorganization amounts to a pinning force has lacked a quantum-mechanical, first-principles account. Here we establish a transferable first-principles computational framework for elementary vortex pinning, in which defect-resolved DFT/Wannier electronic structures are embedded into a finite-box projected Bogoliubov--de Gennes free-energy formalism to convert quasiparticle spectral reorganization into vortex-pinning energies and forces. Using this framework, we confirm that the defect-induced reorganization of the vortex-core spectrum is the microscopic origin of the elementary pinning force. The force is evaluated as a finite-box vortex-insertion free energy whose four-configuration subtraction isolates the meV-scale interaction from much larger backgrounds. With the superconducting gap scale and vortex-core profile fixed from experiments, the FeSe Fe-site vacancy reproduces the microscopic STM force scale together with the measured spectral reorganization. All five point defects in FeSe and FeTe pin attractively, with FeTe Fe-site vacancy strongest. Elementary vortex pinning thereby becomes a computable electronic-structure quantity, opening the first-principles screening of point defects toward higher critical currents.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-24T14:09:55Z</published>
+    <arxiv:comment>10 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Haozhe Shi</name>
+    </author>
+    <author>
+      <name>Yuncheng Xie</name>
+    </author>
+    <author>
+      <name>Tong Zhang</name>
+    </author>
+    <author>
+      <name>Weibin Chu</name>
+    </author>
+    <author>
+      <name>Xin-Gao Gong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.13257v1</id>
+    <title>Selective stabilization of antiferromagnetic orders in FeTe films via local strain engineering</title>
+    <updated>2026-06-11T12:15:02Z</updated>
+    <link href="https://arxiv.org/abs/2606.13257v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.13257v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The parent compound FeTe hosts a complex magnetic landscape that is highly susceptible to lattice distortions. Although theoretical models have predicted a bicollinear to dimer antiferromagnetic (AFM) phase transition under tensile strain, its experimental realization and deterministic control has remained elusive owing to severe magnetic frustration. Here, combining high-resolution scanning tunneling microscopy (STM) and density functional theory (DFT) calculations, we demonstrate the selective stabilization of bicollinear and dimer AFM orders in few-layer FeTe films via local uniaxial strain engineering. By mapping the strain fields near dislocation areas in FeTe films and FeTe/FeSe heterostructures, we establish a direct correspondence between specific strain components and the resulting magnetic ground states. We find that uniaxial compression along the Fe-Fe next-nearest-neighbor direction stabilizes the bicollinear AFM order, with the stripe orientation aligning parallel to the compression axis. Crucially, we report the experimental realization of the long-range dimer AFM order, which emerges under anisotropic strain along the Fe-Fe nearest-neighbor direction. This phase manifests as a distinct $\sqrt{2} \times \sqrt{2}$ electronic reconstruction and shares a common Neel temperature with the bicollinear phase. Our findings reveal that anisotropic strain effectively lifts the magnetic degeneracy among competing states. This work provides a robust strategy for the manipulation of elusive magnetic orders and offers insights into the interplay between lattice, spin, and electronic degrees of freedom in iron-based superconductors.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-11T12:15:02Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Hao Xu</name>
+    </author>
+    <author>
+      <name>Jing Jiang</name>
+    </author>
+    <author>
+      <name>Xuesong Gai</name>
+    </author>
+    <author>
+      <name>Haicheng Lin</name>
+    </author>
+    <author>
+      <name>Kai Liu</name>
+    </author>
+    <author>
+      <name>Zhong-Yi Lu</name>
+    </author>
+    <author>
+      <name>Kai Chang</name>
+    </author>
+    <author>
+      <name>Chong Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.09281v1</id>
+    <title>Unconventional incommensurate epitaxy of superconducting FeSe films on SrTiO$_3$</title>
+    <updated>2026-06-08T09:49:26Z</updated>
+    <link href="https://arxiv.org/abs/2606.09281v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.09281v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a combined X-ray diffraction and transmission electron microscopy study of superconducting FeSe/FeTe multilayers grown by molecular beam epitaxy on SrTiO$_3$(001) substrates. While X-ray diffraction confirms perfect in-plane epitaxial alignment between FeSe, FeTe, and the substrate, scanning transmission electron microscopy reveals a surprising lack of atomic registry at the FeSe/SrTiO$_3$ interface. Instead of adapting to the substrate lattice, FeSe retains its own in-plane lattice spacing. A periodic lateral shift between the atomic positions of FeSe and SrTiO$_3$ is observed, with a registry recurrence length that matches the lattice mismatch determined by X-ray diffraction. No misfit dislocations or other relaxation features are detected at the interface. This coexistence of directional alignment and registry-free growth suggests an unconventional regime of epitaxy in which crystallographic orientation is maintained without atomic matching. The findings offer insight into strain accommodation in layered systems and may have implications for interface engineering in Fe-based superconductors.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-08T09:49:26Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. Materials 10, 064801 (2026)</arxiv:journal_ref>
+    <author>
+      <name>M. Klement</name>
+    </author>
+    <author>
+      <name>K. M. Fijalkowski</name>
+    </author>
+    <author>
+      <name>M. Kamp</name>
+    </author>
+    <author>
+      <name>C. Gould</name>
+    </author>
+    <author>
+      <name>L. W. Molenkamp</name>
+    </author>
+    <arxiv:doi>10.1103/j4j1-jfcf</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/j4j1-jfcf" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.02152v1</id>
+    <title>Stacking-Engineered Switchable Altermagnetism in Topological FeSe bilayer systems</title>
+    <updated>2026-06-01T12:19:09Z</updated>
+    <link href="https://arxiv.org/abs/2606.02152v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.02152v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Altermagnetism and topological insulators represent two of the most transformative frontiers in modern condensed matter physics, spintronics, and quantum information science. Bringing these two paradigms together opens a largely unexplored route toward fundamentally new quantum phenomena. Here, we predict a topological altermagnetic phase in bilayer tetragonal Fe-based superconductors and reveal it as a highly tunable platform for valley-polarized anomalous Hall physics. Based on first-principles calculations, we show that the characteristic spin-splitting and valley polarization can be effectively tuned via applied strain. Moreover, the resulting valley-polarized anomalous Hall conductivity can be manipulated by shifting the Fermi level. These findings reveal a powerful route for controlling altermagnetism in topological materials and identify a realistic material platform for its experimental realization and technological exploitation.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-01T12:19:09Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Jie Li</name>
+    </author>
+    <author>
+      <name>Shifang Li</name>
+    </author>
+    <author>
+      <name>Mengyang Zhang</name>
+    </author>
+    <author>
+      <name>Pan Zhou</name>
+    </author>
+    <author>
+      <name>Jianxin Zhong</name>
+    </author>
+    <author>
+      <name>Ruqian Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.31459v1</id>
+    <title>What controls the superconducting dome of electron-doped FeSe?</title>
+    <updated>2026-05-29T15:51:35Z</updated>
+    <link href="https://arxiv.org/abs/2605.31459v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.31459v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superconducting domes are conspicuous features of the phase diagrams of most unconventional and high-temperature superconductors. The superconducting transition temperature ($T_{c}$) of FeSe can be dramatically enhanced with electron doping, but unlike all other high-temperature and unconventional superconductors, its full phase diagram and superconducting dome have yet to be fully explored. Here, we employ a combination of molecular beam epitaxy synthesis, alkali surface doping, in-vacuum electrical transport, and angle-resolved photoemission spectroscopy to investigate the entire superconducting dome of electron-doped FeSe, achieving a fully metallic state where superconductivity is suppressed in the heavily overdoped regime. We discover a robust scaling between $T_{c}$ and the residual resistivity ($ρ_{0}$) which holds across the entire superconducting dome, suggesting that the evolution of $T_{c}$ is heavily influenced by the evolution of the elastic scattering rate in the high-$T_{c}$ electron-doped phase. This in turn suggests that the superconducting dome in electron-doped FeSe appears to be fundamentally different than that of other unconventional superconductors where doping plays the primary role, and may be driven primarily by the sensitivity of the superconductivity to disorder.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-29T15:51:35Z</published>
+    <arxiv:comment>20 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Paul T. Malinowski</name>
+    </author>
+    <author>
+      <name>Chad J. Mowers</name>
+    </author>
+    <author>
+      <name>Yaoju Tarn</name>
+    </author>
+    <author>
+      <name>Darrell G. Schlom</name>
+    </author>
+    <author>
+      <name>Brendan D. Faeth</name>
+    </author>
+    <author>
+      <name>Kyle M. Shen</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.2608091123</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.2608091123" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.12293v2</id>
+    <title>Phase-slip residual-order spin state in FeSe</title>
+    <updated>2026-06-22T04:50:49Z</updated>
+    <link href="https://arxiv.org/abs/2605.12293v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.12293v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In unconventional superconductors, the microscopic form of magnetic correlations is crucial for identifying the origin of spin fluctuations and the associated pairing interaction. FeSe superconducts without chemical doping and shows no static long-range magnetic order, yet inelastic neutron scattering reveals a strong stripe response, finite linewidths, and reproducible Neel-side spectral weight. Here we propose a phase-slip residual-order spin state (ROSS). Stripe, Neel, pair-checkerboard, and staggered trimer antiferromagnetic states can be unified as symmetric phase-slip derivatives of a stripe background, while more general asymmetric phase slips form lower-energy configurations and reconstruct the spin structure factor S(q) within a finite coherence length. The ROSS therefore reconciles the absence of static magnetic order with strong spin excitations, provides a microscopic picture for the origin of spin fluctuations in FeSe, and establishes a magnetic basis for understanding pairing in unconventional superconducting systems with similar magnetic fingerprints.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T15:48:12Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Zhixin Liu</name>
+    </author>
+    <author>
+      <name>Jiyu Fan</name>
+    </author>
+    <author>
+      <name>Lei Zhang</name>
+    </author>
+    <author>
+      <name>Ma Chunlan</name>
+    </author>
+    <author>
+      <name>Zhongqin Yang</name>
+    </author>
+    <author>
+      <name>Yan Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.26631v2</id>
+    <title>Programmable superconducting diode from nematic domain control in FeSe</title>
+    <updated>2026-04-30T17:23:00Z</updated>
+    <link href="https://arxiv.org/abs/2604.26631v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.26631v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The superconducting diode effect (SDE) allows polarity-dependent critical currents when time-reversal and current-inverting spatial symmetries are broken. Superconducting diodes show promise for applications, but inversion asymmetry is usually encoded in sample geometry or non-centrosymmetric crystals, rendering them static circuit elements. Here we demonstrate a programmable superconducting diode whose functionality is encoded in correlated electronic domains. We use the nematic superconductor FeSe as a platform and report a large intrinsic SDE with efficiencies up to $η\sim 75\%$ due to vortices interacting with nematic twin boundaries. The domain wall configuration thus encodes the SDE of the device. Through intense microsecond current pulses to quench the nematic order at rates exceeding $10^7$ K/s, we modify the domain pattern and control the polarity and strength of the SDE. These results establish a new paradigm in which superconducting circuit elements can be programmed through patterns imprinted into correlated electronic states.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-29T12:56:58Z</published>
+    <arxiv:comment>12 pages, 4 main figures, 16 extended data</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>R. D. H. Hinlopen</name>
+    </author>
+    <author>
+      <name>C. Putzke</name>
+    </author>
+    <author>
+      <name>L. Holeschovsky</name>
+    </author>
+    <author>
+      <name>R. Nicholls</name>
+    </author>
+    <author>
+      <name>F. Ronning</name>
+    </author>
+    <author>
+      <name>E. D. Bauer</name>
+    </author>
+    <author>
+      <name>N. E. Hussey</name>
+    </author>
+    <author>
+      <name>P. J. W. Moll</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.26239v1</id>
+    <title>Coexistence of d-Wave Altermagnetism and Topological States in Janus FeSeX (X = S, Te) Monolayers</title>
+    <updated>2026-04-29T02:41:02Z</updated>
+    <link href="https://arxiv.org/abs/2604.26239v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.26239v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The interplay between unconventional magnetism and band topology in two-dimensional materials has emerged as an important theme in condensed matter physics. Here, we present first-principles calculations that reveal the coexistence of d-wave altermagnetism and topological behavior in Janus FeSeX (X = S, Te) monolayers. The chemical asymmetry of the Janus structure breaks both out-of-plane mirror and inversion symmetries, leading to anisotropic exchange interactions and momentum-dependent spin splittings even in the absence of spin-orbit coupling, the defining signature of altermagnetism. Phonon dispersion analyses confirm the dynamical stability of both compounds, while strain-dependent calculations demonstrate that the magnitude of the altermagnetic exchange splitting ($Δ_s$) can be efficiently tuned by biaxial strain. When spin-orbit coupling is included, a finite topological band gap emerges at the Fermi level, accompanied by quantized spin Hall conductivity plateaus and nontrivial topological invariants (spin Chern number = 1, Z2=1). These findings establish FeSeS and FeSeTe as promising two-dimensional platforms for realizing topological altermagnetism and spin--orbit--driven charge--spin conversion, thus opening new avenues for low-dissipation spintronic devices.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-29T02:41:02Z</published>
+    <arxiv:comment>10 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Materials 10, 044004 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Alvaro Gonzalez-Garcia</name>
+    </author>
+    <author>
+      <name>William Lopez-Perez</name>
+    </author>
+    <author>
+      <name>Paola Pacheco</name>
+    </author>
+    <author>
+      <name>Luz Ramirez-Montes</name>
+    </author>
+    <author>
+      <name>Rafael Gonzalez-Hernandez</name>
+    </author>
+    <arxiv:doi>10.1103/3kkj-s5jk</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/3kkj-s5jk" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.25500v1</id>
+    <title>Critical Role of Hydrogen in Unconventional Superconductors: The Case of Hydrogenated FeSe Layers</title>
+    <updated>2026-04-28T11:01:55Z</updated>
+    <link href="https://arxiv.org/abs/2604.25500v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.25500v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogenation is known to tune superconductivity in a wide range of materials. While its microscopic role has been clarified in phonon-mediated superconductors such as hydrogenated MgB2, LaH10, and H3S, much less is known for hydrogenated cuprates and iron-based superconductors, where even the underlying structural motifs remain elusive. Using hydrogenated FeSe as a prototypical example, we reveal how hydrogen affects superconductivity in the presence of strong electronic correlations: correlation-induced orbital renormalization shifts hydrogen-derived spectral weight from the high-energy region toward the Fermi surface (FS), remarkably enhancing the electron-phonon coupling (EPC). We predict a structurally stable FeSeH phase where, compared to bare FeSe, hydrogen incorporation reshapes the FS topology and increases the number of channels for electron-phonon scattering, while simultaneously introducing high-frequency phonons that strengthen pairing. First-principles EPC calculations combined with dynamical mean field theory (DMFT) yield a superconducting transition temperature (Tc) exceeding 40 K. Fully anisotropic Eliashberg theory reveals a two-gap superconducting state, consistent with the gap structure experimentally observed in doped FeSe. Our findings identify correlation-enhanced EPC as a plausible microscopic mechanism for iron-based superconductivity and offer a new perspective on pairing in strongly correlated systems. In addition, this work establishes hydrogenated FeSe as a promising platform for engineering two-dimensional superconductors and superconducting quantum devices.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-28T11:01:55Z</published>
+    <arxiv:comment>4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Lan-Lin Du</name>
+    </author>
+    <author>
+      <name>Yang Yang</name>
+    </author>
+    <author>
+      <name>Shiqi Hu</name>
+    </author>
+    <author>
+      <name>Sheng Meng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.19443v1</id>
+    <title>Competing Constraints on Superconductivity in Thick FeSe films</title>
+    <updated>2026-04-21T13:24:00Z</updated>
+    <link href="https://arxiv.org/abs/2604.19443v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.19443v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superconducting films emerge from the complex interplay of multiple growth parameters, making their optimization challenging. In iron-based superconductors, compressive strain is known to enhance the transition temperature (Tc) of FeSe films, yet reported Tc values vary widely even on identical substrates, indicating factors beyond strain are critical. Here, we develop a high-throughput off-center pulsed laser deposition strategy that transforms plume inhomogeneity into combinatorial FeSe film libraries with continuous gradients in lattice parameter, composition, and disorder. We discover that the maximum Tc does not coincide with the plume center but can shift off-center, revealing a competition between favorable c-axis expansion, stoichiometry, and defect scattering. Systematic characterization of 80 thick films (&gt;50 nm), combined with interpretable machine learning, shows that besides the strong correlate of c-axis lattice parameter to Tc, the stoichiometry and disorder scattering impose critical constraints on the achievable transition temperature, defining a narrow optimization window rather than a simple monotonic relationship. This framework yields Tconset=17.1 K in thick FeSe films and establishes a general framework combining combinatorial synthesis with machine learning to uncover constrained optimization landscapes in complex functional materials.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-21T13:24:00Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Ya-Xun He</name>
+    </author>
+    <author>
+      <name>Xing-Jian Liu</name>
+    </author>
+    <author>
+      <name>Qun Wang</name>
+    </author>
+    <author>
+      <name>Ting Chen</name>
+    </author>
+    <author>
+      <name>Hassan Ali</name>
+    </author>
+    <author>
+      <name>Jia-Ying Zhang</name>
+    </author>
+    <author>
+      <name>Bao-Juan Kang</name>
+    </author>
+    <author>
+      <name>Zheng Zhang</name>
+    </author>
+    <author>
+      <name>Jun-Yi Ge</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.09172v1</id>
+    <title>Nonmonotonic Evolution of the Superconducting Transition Temperature and Robust Multigap Extended s-wave + s-wave Pairing in Zn-Substituted FeSe Single Crystals</title>
+    <updated>2026-04-10T09:54:22Z</updated>
+    <link href="https://arxiv.org/abs/2604.09172v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.09172v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report a systematic study of superconductivity on Fe1-xZnxSe single crystals synthesized over a broad Zn doping range (x = 0-0.023). High-quality single crystals across all compositions range exhibit superconducting transitions, while the transition temperature Tc shows a pronounced nonmonotonic dependence on Zn doping concentration, indicating that the underlying mechanism govering Tc its evolution cannot be explained solely by simple impurity pair breaking alone. Magnetization and transport measurements confirm the bulk behavior of superconductivity and reveal enhanced scattering effects with Zn doping. Low-temperature specific heat is consistently described by a two-gap scenario composed of an isotropic s-wave gap and an anisotropic extended s-wave gap, whereas single-gap and alternative pairing symmetries fail to describe the data. The nearly unchanged relative weights of the two gap components suggest the weak interband scattering induced by Zn substitution, thereby preserving multiband superconductivity. These results demonstrate the robustness of multigap superconductivity in FeSe and impose stringent constraints on candidate pairing mechanisms, highlighting the role of multiband electronic structure and anisotropic gap formation.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-10T09:54:22Z</published>
+    <arxiv:comment>16 pages,6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Han-Shu Xu</name>
+    </author>
+    <author>
+      <name>Changhao Ding</name>
+    </author>
+    <author>
+      <name>Guanyin Gao</name>
+    </author>
+    <author>
+      <name>Xin Zhang</name>
+    </author>
+    <author>
+      <name>Xinyu Yin</name>
+    </author>
+    <author>
+      <name>Xucai Kan</name>
+    </author>
+    <author>
+      <name>Jiaping Hu</name>
+    </author>
+    <author>
+      <name>Wen Xie</name>
+    </author>
+    <author>
+      <name>Wensen Wei</name>
+    </author>
+    <author>
+      <name>Yuxiao Hou</name>
+    </author>
+    <author>
+      <name>Keyu An</name>
+    </author>
+    <author>
+      <name>Haoxiang Li</name>
+    </author>
+    <author>
+      <name>Kaibin Tang</name>
+    </author>
+    <author>
+      <name>Yu-Yan Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.01062v2</id>
+    <title>Uniaxial Compression-Induced Anisotropy and Electronic Dimensionality in the Iron-Based Superconductor FeSe</title>
+    <updated>2026-04-03T09:27:13Z</updated>
+    <link href="https://arxiv.org/abs/2604.01062v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.01062v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The evolution of the superconducting transition temperature ($T_c$) in FeSe was investigated under in-plane, out-of-plane, and hydrostatic compression. For pressures up to 0.6 GPa, $T_c$ increases regardless of the compression mode, consistent with the suppression of nematic ordering. However, once nematicity is suppressed, $T_c$ exhibits a striking directional dependence: out-of-plane compression shows behavior similar to the hydrostatic case, with a sharp increase in $T_c$, whereas in-plane compression suppresses superconductivity. First-principles calculations suggest that in-plane compression shifts a hybridized band of Se $p_z$ and Fe $d_{x^2-y^2}$ character so that it crosses the Fermi level along the $Γ$-Z direction, leading to the emergence of an additional metallic band. This leads to an increased three-dimensionality of the electronic structure and may be interpreted as a possible Lifshitz-type change in the Fermi surface.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-01T16:02:24Z</published>
+    <arxiv:comment>14 pages with Supporting Information files, added a table in SI</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Alexy Bertrand</name>
+    </author>
+    <author>
+      <name>Masaki Mito</name>
+    </author>
+    <author>
+      <name>Kazuma Nakamura</name>
+    </author>
+    <author>
+      <name>Mahmoud Abdel-Hafiez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.21959v1</id>
+    <title>A possible superconducting gap signature with filling temperature around 40 K in hexagonal iron telluride islands</title>
+    <updated>2026-03-23T13:19:47Z</updated>
+    <link href="https://arxiv.org/abs/2603.21959v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.21959v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superconductivity in the iron-chalcogenide series FeSe-Fe(Te, Se)-FeTe has been restricted to the near neighbor of iron selenide (FeSe), with a general consensus that iron telluride (FeTe) is not superconducting. In this study, we report the method to grow FeTe islands with atomically flat surface and hexagonal lattice on SrTiO3 (001) substrates, in which a gap structure with a gap-filling temperature close to 40 K is detected by scanning tunneling spectroscopy. Such signature is examined under various conditions and reminiscent of a superconducting gap structure. This work might offer a potential platform to explore new superconductors at ambient pressure.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-23T13:19:47Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Guanyang He</name>
+    </author>
+    <author>
+      <name>Yuxuan Lei</name>
+    </author>
+    <author>
+      <name>Tianheng Wei</name>
+    </author>
+    <author>
+      <name>Yanzhao Liu</name>
+    </author>
+    <author>
+      <name>Jian Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.16115v1</id>
+    <title>Stoichiometric FeTe is a Superconductor</title>
+    <updated>2026-03-17T04:27:55Z</updated>
+    <link href="https://arxiv.org/abs/2603.16115v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.16115v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Iron-based superconductors are a fascinating family of materials in which multiple electronic bands and strong antiferromagnetic (AFM) correlations are key ingredients for competing ground states, including antiferromagnetism, electronic nematicity, and unconventional superconductivity. FeTe, unlike its superconducting isostructural counterpart FeSe, has long been regarded as an AFM metal sans superconductivity. In this work, we employ molecular beam epitaxy to grow FeTe films and perform post-growth annealing under a Te flux. By performing spin-polarized scanning tunneling microscopy and spectroscopy, we demonstrate that the AFM order in as-grown FeTe films is induced by interstitial Fe atoms that disrupt the ideal 1:1 stoichiometry. Remarkably, the removal of these interstitial Fe atoms through Te annealing yields stoichiometric FeTe films that show no AFM order and instead exhibit robust superconductivity with a critical temperature of ~13.5K. This superconducting state is further confirmed by the observation of Cooper pair tunneling, zero electrical resistance, and the Meissner effect. Therefore, our results demonstrate that stoichiometric FeTe is inherently a superconductor, overturning a long-held view that it is an AFM metal. This work clarifies the origin of superconductivity in FeTe-based heterostructures and demonstrates the importance of stoichiometry control in understanding the competition between AFM and superconductivity in iron-based superconductors.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-17T04:27:55Z</published>
+    <arxiv:comment>39 pages, 4 main figures, and 10 extended data figures. Accepted by Nature. Comments are very welcome</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Nature 652, 342(2026)</arxiv:journal_ref>
+    <author>
+      <name>Zi-Jie Yan</name>
+    </author>
+    <author>
+      <name>Zihao Wang</name>
+    </author>
+    <author>
+      <name>Bing Xia</name>
+    </author>
+    <author>
+      <name>Stephen Paolini</name>
+    </author>
+    <author>
+      <name>Ying-Ting Chan</name>
+    </author>
+    <author>
+      <name>Nikalabh Dihingia</name>
+    </author>
+    <author>
+      <name>Hongtao Rong</name>
+    </author>
+    <author>
+      <name>Pu Xiao</name>
+    </author>
+    <author>
+      <name>Kalana D. Halanayake</name>
+    </author>
+    <author>
+      <name>Jiatao Song</name>
+    </author>
+    <author>
+      <name>Veer Gowda</name>
+    </author>
+    <author>
+      <name>Danielle Reifsnyder Hickey</name>
+    </author>
+    <author>
+      <name>Weida Wu</name>
+    </author>
+    <author>
+      <name>Jiabin Yu</name>
+    </author>
+    <author>
+      <name>Peter J. Hirschfeld</name>
+    </author>
+    <author>
+      <name>Cui-Zu Chang</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-026-10321-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-026-10321-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.20756v1</id>
+    <title>Fluctuation-enhanced electron-phonon coupling in FeSe</title>
+    <updated>2026-02-24T10:35:35Z</updated>
+    <link href="https://arxiv.org/abs/2602.20756v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.20756v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The interactions among lattice, charge, and spin degrees of freedom fundamentally shape material properties. In FeSe, symmetry-breaking perturbations serve as highly sensitive probes of these couplings. Previous work has shown that defects and isoelectronic substitution can substantially alter these interactions, giving rise to additional phonon modes. In this study, uniaxial strain is employed as a tunable symmetry-breaking control parameter to probe the intrinsic lattice response in the absence of disorder. The temperature evolution of phonon excitations was examined with fine temperature resolution in the vicinity of the nemato-structural transition temperature $T_s$, under strain applied along the $\langle 110 \rangle$ and $\langle 100 \rangle$ crystallographic directions. A subtle asymmetry of the $A_{1g}^{ph}$ mode appears in the unstrained crystal within a narrow temperature window around $T_s$, originating from the emergence of an additional mode in the fully symmetric channel. With applied strain, this feature becomes more distinctly resolved. The anomaly is attributed to modifications of the coupling between lattice and electronic degrees of freedom driven by the ordering fluctuations right above the nematic transition. These fluctuations enhance susceptibility for phonon-electron-phonon coupling in the vicinity of the X and R points of the Brillouin zone and promote two-phonon scattering close to the $A_{1g}^{ph}$ mode. The presence of this two-phonon scattering depends on both the strength and the direction of the applied strain, indicating a high sensitivity of FeSe to local symmetry breaking.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-24T10:35:35Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 114, 235105 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Jovan Blagojević</name>
+    </author>
+    <author>
+      <name>Ana Milosavljević</name>
+    </author>
+    <author>
+      <name>Tea Belojica</name>
+    </author>
+    <author>
+      <name>Marko Opačić</name>
+    </author>
+    <author>
+      <name>Andrijana Šolajić</name>
+    </author>
+    <author>
+      <name>Jelena Pešić</name>
+    </author>
+    <author>
+      <name>Enrico Di Lucente</name>
+    </author>
+    <author>
+      <name>Novica Paunović</name>
+    </author>
+    <author>
+      <name>Milorad V. Milošević</name>
+    </author>
+    <author>
+      <name>Emil S. Božin</name>
+    </author>
+    <author>
+      <name>Aifeng Wang</name>
+    </author>
+    <author>
+      <name>Cedomir Petrović</name>
+    </author>
+    <author>
+      <name>Zoran V. Popović</name>
+    </author>
+    <author>
+      <name>Rudi Hackl</name>
+    </author>
+    <author>
+      <name>Bojana Višić</name>
+    </author>
+    <author>
+      <name>Nenad Lazarević</name>
+    </author>
+    <arxiv:doi>10.1103/yhzg-7n5t</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/yhzg-7n5t" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.19678v2</id>
+    <title>Bridging atomic and mesoscopic length scales with Replica Scanning Tunneling Microscopy: Visualizing the atomic lattice of UTe$_2$ and the atomic scale superconducting gap modulations of FeSe close to micron length scales</title>
+    <updated>2026-08-20T14:23:25Z</updated>
+    <link href="https://arxiv.org/abs/2602.19678v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.19678v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scanning Tunneling Microscopy is a cornerstone technique for visualizing the electronic density of states with atomic resolution (typically below 0.1 nm). While the field of view of most STM setups extends up to a few microns, obtaining atomic resolution over these large areas is often impractical and excessively time-consuming. This is due to the need to acquire maps with a point number reaching $10^7$ or more with a full current or conductance vs voltage curve at each point. The standard procedure is to make large scale maps and then select small regions to zoom-in for high-resolution atomic scale analysis. However, this approach fails to address a question which is often critical: Does a specific atomic-scale modulation of the electronic density of states persist over much larger, mesoscopic length scales? Here we present a new method: Replica STM (R-STM), that overcomes this limitation, allowing the study of atomic-scale phenomena up to micron length scales. We obtained new large-area STM tunneling conductance maps in UTe$_2$ and FeSe, spanning areas over 200 nm in size. In these large scale maps we discovered periodic signals with wavelengths significantly exceeding interatomic distances. We show that these large-wavelength periodic signals are replicas of the underlying atomic-scale density of states modulations. R-STM leverages these replica signals to efficiently track atomic-scale features over large areas. We discuss the influence of phase slips, disorder and defects in the replicas. Our results suggest that atomic scale modulations of the superconducting density of states could persist over large length scales in FeSe. R-STM provides a new capability for STM to compare atomic scale with micrometer scale phenomena. The proof of principle of R-STM can be extended to any other scanning probe microscopy experiment where a periodic signal is traced as a function of position.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-23T10:21:09Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Miguel Águeda Velasco</name>
+    </author>
+    <author>
+      <name>Jose D. Bermúdez-Pérez</name>
+    </author>
+    <author>
+      <name>Pablo García Talavera</name>
+    </author>
+    <author>
+      <name>Raquel Sánchez-Barquilla</name>
+    </author>
+    <author>
+      <name>Jose Antonio Moreno</name>
+    </author>
+    <author>
+      <name>Juan Schmidt</name>
+    </author>
+    <author>
+      <name>Sergey L. Bud'ko</name>
+    </author>
+    <author>
+      <name>Paul C. Canfield</name>
+    </author>
+    <author>
+      <name>Georg Knebel</name>
+    </author>
+    <author>
+      <name>Midori Amano Patino</name>
+    </author>
+    <author>
+      <name>Gerard Lapertot</name>
+    </author>
+    <author>
+      <name>Jacques Flouquet</name>
+    </author>
+    <author>
+      <name>Jean Pascal Brison</name>
+    </author>
+    <author>
+      <name>Dai Aoki</name>
+    </author>
+    <author>
+      <name>Paula Giraldo-Gallo</name>
+    </author>
+    <author>
+      <name>Jose Augusto Galvis</name>
+    </author>
+    <author>
+      <name>Isabel Guillamón</name>
+    </author>
+    <author>
+      <name>Edwin Herrera Vasco</name>
+    </author>
+    <author>
+      <name>Hermann Suderow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06705v1</id>
+    <title>Quasi-one-dimensional spin excitations in the iron pnictide NaFe$_{0.53}$Cu$_{0.47}$As</title>
+    <updated>2026-02-06T13:49:48Z</updated>
+    <link href="https://arxiv.org/abs/2602.06705v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06705v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spectroscopic measurements in model one-dimensional (1D) correlated systems offer insights for understanding their two-dimensional counterparts, which include the cuprate and iron pnictide/chalcogenide superconductors. A major challenge is the identification of such correlated systems with dominantly 1D physics. In this work, inelastic neutron scattering measurements on NaFe$_{0.53}$Cu$_{0.47}$As single crystal directly reveal quasi-1D spin excitations, resulting from atomic order that lead to magnetic Fe and nonmagnetic Cu chains. The dominant exchange interaction is antiferromagnetic along the chain ($SJ_{\rm \parallel}\approx90.1(3)$~meV), whereas the inter-chain couplings are much weaker ($SJ_{\rm \perp}\approx-2.4(1)$~meV and $SJ_{\rm c}\approx0.15(5)$~meV). The quasi-1D spin excitations in NaFe$_{0.53}$Cu$_{0.47}$As stem from both the Néel and stripe vectors, with Néel excitations sensitive to Fe impurities on the Cu site. The spin excitations in quasi-1D NaFe$_{0.53}$Cu$_{0.47}$As and quasi-2D FeSe exhibit a striking resemblance, suggesting a common origin for their coexistent stripe and Néel excitations. Our findings demonstrate magnetic dilution in NaFeAs leads to dimension reduction of its magnetic degree of freedom, presenting a strategy for discovering low-dimensional quantum materials.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T13:49:48Z</published>
+    <arxiv:comment>supplementary information available upon request</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 136, 066503 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Yifan Wang</name>
+    </author>
+    <author>
+      <name>David W. Tam</name>
+    </author>
+    <author>
+      <name>Weiyi Wang</name>
+    </author>
+    <author>
+      <name>R. A. Ewings</name>
+    </author>
+    <author>
+      <name>J. Ross Stewart</name>
+    </author>
+    <author>
+      <name>Masaaki Matsuda</name>
+    </author>
+    <author>
+      <name>Chongde Cao</name>
+    </author>
+    <author>
+      <name>Changle Liu</name>
+    </author>
+    <author>
+      <name>Rong Yu</name>
+    </author>
+    <author>
+      <name>Pengcheng Dai</name>
+    </author>
+    <author>
+      <name>Yu Song</name>
+    </author>
+    <arxiv:doi>10.1103/5vdj-9wlt</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/5vdj-9wlt" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06312v1</id>
+    <title>Superconductivity of 30.4 K and its Reemergence under Pressure in Fe1.11Se Synthesized via Ion-exchange and De-intercalation Reaction</title>
+    <updated>2026-02-06T02:14:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.06312v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06312v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Binary stoichiometry FeSe (s-FeSe) is a well-known parent of high-temperature unconventional superconductors owing to its charge-neutral layer, highly tunable structure and electronic properties, and rich interplays among multiple electronic phases. Yet the s-FeSe synthesized via high-temperature equilibrium reactions bears the notorious interstitial Fe,where merely 3% of them is sufficient to kill the superconductivity. Here, we successfully synthesized a new non-stoichiometric Fe1.11Se single crystal with a superconducting onset temperature (Tconset) of 30.4 K through a hydrothermal ion-exchange and de-intercalation route. 11% interstitial Fe ions exceed the equilibrium phase diagram limit. Intriguingly, under physical pressure, the Tconset of exhibits a "V"-shaped evolution with a minimum at 2-2.6 GPa, and then upturning into a second superconducting region, reminiscent of the behaviors in FeSe intercalates. Furthermore, a pressure-induced possible magnetic order, previously only observed in pressurized s-FeSe, shows up. These results offer fresh insights into the role of interstitial Fe in governing superconducting and transport properties under non-equilibrium synthesis and tuning strategies.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T02:14:46Z</published>
+    <arxiv:comment>9 pages, 4 figures,Accepted in J. Am. Chem. Soc</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Mingzhang Yang</name>
+    </author>
+    <author>
+      <name>Yuxin Ma</name>
+    </author>
+    <author>
+      <name>Qi Li</name>
+    </author>
+    <author>
+      <name>Ke Ma</name>
+    </author>
+    <author>
+      <name>Jiali Lu</name>
+    </author>
+    <author>
+      <name>Zhaolong Liu</name>
+    </author>
+    <author>
+      <name>Ruijin Sun</name>
+    </author>
+    <author>
+      <name>Tianping Ying</name>
+    </author>
+    <author>
+      <name>Mengdi Wang</name>
+    </author>
+    <author>
+      <name>Xin Chen</name>
+    </author>
+    <author>
+      <name>Changchun Zhao</name>
+    </author>
+    <author>
+      <name>Jian-gang Guo</name>
+    </author>
+    <author>
+      <name>Shifeng Jin</name>
+    </author>
+    <author>
+      <name>Xiaolong Chen</name>
+    </author>
+    <arxiv:doi>10.1021/jacs.5c22761</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/jacs.5c22761" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05771v2</id>
+    <title>Fit-Free Optical Determination of Electronic Thermalization Time in Nematic Iron-Based Superconductors</title>
+    <updated>2026-04-01T23:42:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.05771v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05771v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a nematic response function model (NRFM) for fit-free direct extraction of the characteristic time of ultrafast electronic thermalization in iron-based superconductors, materials with electronic nematicity. By combining the NRFM for polarization-dependent pump--probe measurements of electronic nematic response with the two-temperature model (TTM) for sub-picosecond quasiparticle relaxation, we quantify the electronic thermalization timescales and their anisotropy. The nematic response function is modeled as the difference of normalized reflectivity signals, revealing a pronounced sub-picosecond extremum in signal evolution that directly yields the characteristic electronic thermalization time. This method demonstrates that the NRFM is consistent with TTM fits of transient optical response, yielding electronic thermalization time constants on the order of 110--230~fs for the FeSe$_{1-x}$Te$_x$ and Ba(Fe$_{0.92}$Co$_{0.08}$)$_2$As$_2$ thin films. The proposed approach can be applied to any material that exhibits electronic nematicity, providing a powerful tool for direct mapping of the relaxation time in nematic materials, avoiding complex experimental data-fitting procedures.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T15:33:13Z</published>
+    <arxiv:comment>13 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Alexander Bartenev</name>
+    </author>
+    <author>
+      <name>Roman Kolodka</name>
+    </author>
+    <author>
+      <name>Ki-Tae Eom</name>
+    </author>
+    <author>
+      <name>Jong-Hoon Kang</name>
+    </author>
+    <author>
+      <name>Adrian Rua-Melendez</name>
+    </author>
+    <author>
+      <name>Jason Kawasaki</name>
+    </author>
+    <author>
+      <name>Chang-Beom Eom</name>
+    </author>
+    <author>
+      <name>Armando Rua</name>
+    </author>
+    <author>
+      <name>Sergiy Lysenko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18531v1</id>
+    <title>Exotic vortex states at high magnetic fields in a quasi-two-dimensional FeSe-based superconductor</title>
+    <updated>2026-01-26T14:39:02Z</updated>
+    <link href="https://arxiv.org/abs/2601.18531v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18531v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Owing to strong electronic correlations, high-temperature superconductivity always exhibits intricate intertwinement with various competing electronic orders in phase diagrams, such as spin/charge density waves (S/CDWs). In cuprate superconductors,the intertwinement of superconductivity and CDW order could strongly affect the fundamental properties of superconductivity, such as the critical temperature(Tc) and critical magnetic field(Hc). Recent high-field transport measurements indicate that when quantum fluctuations become important at low temperatures and high magnetic fields, the CDW order also reshapes the vortex states, which leads to fragile superconductivity with extremely low critical current(Jc). Here, by performing comprehensive high-field transport measurements, the H-T phase diagram of vortex states is mapped to H = 33 T in a quasi-two-dimensional FeSe-based superconductor (TBA+)xFeSe with a zero-resistivity transition temperature above 40 K. Our results indicate that (TBA+)xFeSe is an extremely type II superconductor with significant thermal fluctuations.At low temperatures, high magnetic fields cause the vortex solid state to exhibit similar current-dependent zero-resistance behavior as the fragile superconductivity in cuprate superconductors with CDW order. When the vortex solid state is melted with increasing temperature, a superconducting regime with vortex-like phase fluctuations emerges as an intermediate state, which features finite longitudinal resistance and vanishing Hall resistance. At higher temperatures, a vortex liquid state with finite Hall resistance eventually appears due to thermal fluctuations. All these observations suggest exotic vortex states beyond the classical paradigm of vortex matter.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T14:39:02Z</published>
+    <arxiv:comment>33 pages, 13 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Xuyang Li</name>
+    </author>
+    <author>
+      <name>Jian Li</name>
+    </author>
+    <author>
+      <name>Kai Liu</name>
+    </author>
+    <author>
+      <name>Jiaqiang Cai</name>
+    </author>
+    <author>
+      <name>Shunjiao Li</name>
+    </author>
+    <author>
+      <name>Baolei Kang</name>
+    </author>
+    <author>
+      <name>Mengzhu Shi</name>
+    </author>
+    <author>
+      <name>Dan Zhao</name>
+    </author>
+    <author>
+      <name>Chuanying Xi</name>
+    </author>
+    <author>
+      <name>Jinglei Zhang</name>
+    </author>
+    <author>
+      <name>Tao Wu</name>
+    </author>
+    <author>
+      <name>Xianhui Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.20862v1</id>
+    <title>Drastic field-induced resistivity upturns as signatures of unconventional magnetism in superconducting iron chalcogenides</title>
+    <updated>2025-12-24T00:42:10Z</updated>
+    <link href="https://arxiv.org/abs/2512.20862v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.20862v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electronic scattering is a powerful tool to identify underlying changes in electronic behavior and incipient electronic and magnetic orders. The nematic and magnetic phases are strongly intertwined under applied pressure in FeSe, however, the additional isoelectronic substitution of sulphur offers an elegant way to separate them. Here we report the detailed evolution of the electronic and superconducting behaviour of FeSe$_{0.96}$S$_{0.04}$ under applied pressure via longitudinal magnetoresistance studies up to 15T. At intermediate pressures, inside the nematic phase, the resistivity displays an upturn in zero magnetic field, which is significantly enhanced in the magnetic field, suggesting the stabilization of a spin-density wave phase, which competes with superconductivity. At higher pressures, beyond the nematic phase boundaries, the resistivity no longer displays any clear anomalies in the zero magnetic field, but an external magnetic field induces significant upturns in resistivity reflecting a field-induced order, where superconductivity and magnetic anomalies are enhanced in tandem. This study highlights the essential role of high magnetic fields in stabilizing different electronic phases and revealing a complex interplay between magnetism and superconductivity tuned by applied pressure in FeSe$_{1-x}$S$_{x}$.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-24T00:42:10Z</published>
+    <arxiv:comment>8 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 113, 075135 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Z. Zajicek</name>
+    </author>
+    <author>
+      <name>I. Paulescu</name>
+    </author>
+    <author>
+      <name>P. Reiss</name>
+    </author>
+    <author>
+      <name>R. M. Abedin</name>
+    </author>
+    <author>
+      <name>K. Sun</name>
+    </author>
+    <author>
+      <name>S. J. Singh</name>
+    </author>
+    <author>
+      <name>A. A. Haghighirad</name>
+    </author>
+    <author>
+      <name>A. I. Coldea</name>
+    </author>
+    <arxiv:doi>10.1103/gbfx-x9w1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/gbfx-x9w1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.19900v1</id>
+    <title>Semi-automated estimation of hydrogenic initial states for localized Wannier functions</title>
+    <updated>2025-12-22T22:06:27Z</updated>
+    <link href="https://arxiv.org/abs/2512.19900v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.19900v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a semi-automated method for obtaining an initial estimate of Wannier functions, designed to facilitate the construction of Wannier functions for describing low-energy effective models of solids, particularly those relevant to strongly correlated electron systems. Our approach automatically determines the hydrogenic projections orbitals and the center of the Wannier functions from information on Bloch wavefunctions at the $Γ$ point. This method is integrated into cif2qewan, enabling seamless generation of input files for Quantum ESPRESSO and Wannier90. We validate our method through applications to both inorganic and organic compounds, such as Si, SrVO$_3$, FeSe, Na$_8$Al$_6$Si$_6$O$_{24}$, and (TMTTF)$_2$PF$_6$. The obtained results demonstrate that our semi-automated projections give a good initial estimate of the Wannier functions. We also show the comparisons with other methods for estimating the initial states of the Wannier functions, such as the Selected Columns of the Density Matrix (SCDM). Our methodology shows an efficient way to construct Wannier functions, paving the way for high-throughput calculations in the study of complex materials.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-22T22:06:27Z</published>
+    <arxiv:comment>12 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Tatsuki Oikawa</name>
+    </author>
+    <author>
+      <name>Kota Ido</name>
+    </author>
+    <author>
+      <name>Takahiro Misawa</name>
+    </author>
+    <author>
+      <name>Takashi Koretsune</name>
+    </author>
+    <author>
+      <name>Kazuyoshi Yoshimi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.16796v2</id>
+    <title>Magneto-elasto-resistivity in FeSe</title>
+    <updated>2025-12-19T08:36:24Z</updated>
+    <link href="https://arxiv.org/abs/2512.16796v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.16796v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>FeSe stands out among iron-based superconductors due to its extended nematic phase without the onset of long-range magnetic order. While strain-dependent electrical resistivity has been extensively explored to probe nematicity, its influence on magneto-transport properties remains less understood. In this work, we present measurements of the magneto-elasto-resistivity in FeSe as a function of temperature and applied magnetic field. Using a minimal multiband Boltzmann model for transport we derive analytical expressions that capture the magnetic behavior of the whole set of experimental data both in the paramagnetic and in the nematic phase. These findings indicate that a multiband framework can robustly describe the magneto-elasto-transport properties in FeSe and arguably in other iron-based superconductors.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-18T17:28:23Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>M. Wissmann</name>
+      <arxiv:affiliation>FW Dresden, Dresden, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Institut für Festkörper- und Materialphysik, Technische Universität Dresden, Dresden, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Université Grenoble Alpes, CNRS, CEA, Grenoble-INP, Spintec, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. Fanfarillo</name>
+      <arxiv:affiliation>Istituto dei Sistemi Complessi</arxiv:affiliation>
+    </author>
+    <author>
+      <name>X. -C. Hong</name>
+      <arxiv:affiliation>FW Dresden, Dresden, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Caprara</name>
+      <arxiv:affiliation>Dipartimento di Fisica, Sapienza Università di Roma, Rome, Italy</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Aswartham</name>
+      <arxiv:affiliation>FW Dresden, Dresden, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. Büchner</name>
+      <arxiv:affiliation>FW Dresden, Dresden, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Institut für Festkörper- und Materialphysik, Technische Universität Dresden, Dresden, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Hess</name>
+      <arxiv:affiliation>FW Dresden, Dresden, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Institut für Festkörper- und Materialphysik, Technische Universität Dresden, Dresden, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Fakultät für Mathematik und Naturwissenschaften, Bergische Universität Wuppertal, Wuppertal, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Seibold</name>
+      <arxiv:affiliation>Institut für Physik, Brandenburg Technical University Cottbus-Senftenberg, Cottbus, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Caglieris</name>
+      <arxiv:affiliation>CNR-SPIN, Genova, Italy</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/qq37-26x6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/qq37-26x6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.16211v1</id>
+    <title>Visualizing Pair-breaking Scattering Interference in Bulk FeSe</title>
+    <updated>2025-12-18T05:59:33Z</updated>
+    <link href="https://arxiv.org/abs/2512.16211v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.16211v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spatially periodic modulations of the superconducting gap have been recently reported in diverse materials and are often attributed to pair density wave order. An alternative mechanism, termed pair-breaking scattering interference (PBSI), was proposed to produce gap modulations without finite-momentum pairing. Here we investigate signatures of PBSI in bulk FeSe using scanning tunneling microscopy with superconductive tips, enabling enhanced energy resolution and Josephson tunneling. Subsurface magnetic scatterers with Yu-Shiba-Rusinov states are identified in FeSe, around which we observe particle-hole symmetric gap modulations accompanied by spatial modulation of the Josephson current. Those modulations have wavevectors consistent with intra-pocket PBSI. We further demonstrate that phase-referenced quasiparticle interference imaging offers an independent and direct probe of PBSI beyond gap mapping. These results establish PBSI as a viable origin of gap modulations in superconductors lacking preexisting charge/spin density wave orders, and motivate further investigation of the intriguing gap modulation phenomenology.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-18T05:59:33Z</published>
+    <arxiv:comment>4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Nano Letters, 2026</arxiv:journal_ref>
+    <author>
+      <name>Matthew Toole</name>
+    </author>
+    <author>
+      <name>Nileema Sharma</name>
+    </author>
+    <author>
+      <name>James McKenzie</name>
+    </author>
+    <author>
+      <name>Fangjun Cheng</name>
+    </author>
+    <author>
+      <name>Sheng Ran</name>
+    </author>
+    <author>
+      <name>Xiaolong Liu</name>
+    </author>
+    <arxiv:doi>10.1021/acs.nanolett.6c01266</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acs.nanolett.6c01266" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.19058v1</id>
+    <title>Increase of critical current density in FeSe superconductor by strain effect</title>
+    <updated>2025-11-24T12:52:47Z</updated>
+    <link href="https://arxiv.org/abs/2511.19058v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.19058v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conventional $J_c$-enhancement methods like doping and irradiation often introduce extrinsic elements or defects, altering intrinsic properties. Here, we report a significant $J_c$ enhancement in FeSe single crystals through compressive strain applied using a glass-fiber-reinforced plastic substrate with anisotropic thermal contraction during cooling. Under zero field at 2 K, $J_{\text{c}}$ increases by a factor of $\sim$4 from $\sim 2.3 \times 10^{4}$ to $\sim 8.7 \times 10^{4}$ A cm$^{-2}$; at 5 T, it achieves an order-of-magnitude enhancement, rising from $\sim 1.0 \times 10^{3}$ to $\sim 1.0 \times 10^{4}$ A cm$^{-2}$. Analysis based on the Dew-Hughes model of the $f_{\text{p}}$(h) relationship shows that strain strengthens vortex pinning, and shifts the pinning mechanism from point-like pinning to combined point and surface pinnings. This work offers an effective method to enhance FeSe's current-carrying limitation, deepens understanding of iron-based superconductors' pinning mechanisms, and highlights strain engineering's potential for optimizing superconducting performance.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-24T12:52:47Z</published>
+    <arxiv:comment>8 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Supercond. Sci. Technol. 38 115004 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Han Luo</name>
+    </author>
+    <author>
+      <name>Xinyue Wang</name>
+    </author>
+    <author>
+      <name>Xin Zhou</name>
+    </author>
+    <author>
+      <name>Longfei Sun</name>
+    </author>
+    <author>
+      <name>Mengqin Liu</name>
+    </author>
+    <author>
+      <name>Ran Guo</name>
+    </author>
+    <author>
+      <name>Sheng Li</name>
+    </author>
+    <author>
+      <name>Yue Sun</name>
+    </author>
+    <author>
+      <name>Zhixiang Shi</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6668/ae1896</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6668/ae1896" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.19054v1</id>
+    <title>Depairing critical current density and the vortex-free state in FeSe nanobridges</title>
+    <updated>2025-11-24T12:44:56Z</updated>
+    <link href="https://arxiv.org/abs/2511.19054v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.19054v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The depairing limit and the vortex-free state in a superconductor is crucial for both the study of supercurrent related physics and the application eliminating noise linked to vortex motion. In this work, we report the evidence of depairing limit and the vortex-free state achieved by geometric constraint in FeSe superconductors. A series of narrow bridges with varying widths at the same location of a single crystal were prepared by the \textquotedblleft pickup\textquotedblright method using successive focused ion beam millings. By simply reducing the width of bridge, the magnitude of critical current density ($J_{\rm{c}}$) is enhanced more than one order, evidence the achievement of depairing limit. Moreover, in the bridge with a width smaller than the penetration depth ($λ$), $J_{\rm{c}}$ is found to be robust against magnetic field up to 1 kOe. The field-robust $J_{\rm{c}}$ is a strong piece of evidence for vortex-free state, which is created by the enhancement of lower critical fields due to geometric constraint.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-24T12:44:56Z</published>
+    <arxiv:comment>6 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Physical Review B 112, 184503 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Yue Sun</name>
+    </author>
+    <author>
+      <name>Yuling Xiang</name>
+    </author>
+    <author>
+      <name>Zhixiang Shi</name>
+    </author>
+    <author>
+      <name>Tsuyoshi Tamegai</name>
+    </author>
+    <arxiv:doi>10.1103/gqqr-q4nv</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/gqqr-q4nv" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.19050v1</id>
+    <title>Boost of critical current density near quantum critical points in FeSe-Based superconductors with two superconducting domes</title>
+    <updated>2025-11-24T12:37:53Z</updated>
+    <link href="https://arxiv.org/abs/2511.19050v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.19050v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies have identified two superconducting domes in FeSe-based superconductors. It was discovered that each dome is accompanied by a distinct nematic quantum critical point (QCP): one associated with a pure nematic QCP, and the other with a nematic QCP entangled with antiferromagnetism (AFM). In this study, we delve into the evolution of the critical current density ($J_{\rm{c}}$) with doping in FeSe${_{1-x}}$(Te/S)${_{x}}$ single crystals, focusing on the behavior within the two superconducting domes. Surprisingly, three maxima of $J_{\rm{c}}$ were found in the two superconducting domes, with two sharp peaks in $J_{\rm{c}}$ observed precisely at the endpoints of the nematic phases, at $x$(Te) $\sim$ 0.5 for Te-doped and $x$(S) $\sim$ 0.17 for S-doped FeSe. The mechanisms of vortex pinning and the influence of quantum critical fluctuations have been extensively explored, emphasizing the contribution of quantum critical fluctuations in modulating $J_{\rm{c}}$. Additionally, an increase in $J_{\rm{c}}$ was also noted near FeSe$_{0.1}$Te$_{0.9}$, where its origin has been explored and discussed. This finding provides crucial clues about the existence of an ordered phase endpoint beneath the superconducting dome, offering an initial basis for further investigation into the potential presence of a QCP beneath it.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-24T12:37:53Z</published>
+    <arxiv:comment>10 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Materials Today Physics 59 101892 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Wei Wei</name>
+    </author>
+    <author>
+      <name>Qiang Hou</name>
+    </author>
+    <author>
+      <name>Jiajia Feng</name>
+    </author>
+    <author>
+      <name>Xinyue Wang</name>
+    </author>
+    <author>
+      <name>Xin Zhou</name>
+    </author>
+    <author>
+      <name>Nan Zhou</name>
+    </author>
+    <author>
+      <name>Yan Meng</name>
+    </author>
+    <author>
+      <name>Wei Zhou</name>
+    </author>
+    <author>
+      <name>Wenjie Li</name>
+    </author>
+    <author>
+      <name>Xiangzhuo Xing</name>
+    </author>
+    <author>
+      <name>Tsuyoshi Tamegai</name>
+    </author>
+    <author>
+      <name>Yue Sun</name>
+    </author>
+    <author>
+      <name>Zhixiang Shi</name>
+    </author>
+    <arxiv:doi>10.1016/j.mtphys.2025.101892</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.mtphys.2025.101892" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.19030v1</id>
+    <title>Temperature-Induced Superconductivity Enhancement under Large Exchange Field</title>
+    <updated>2025-11-24T12:04:29Z</updated>
+    <link href="https://arxiv.org/abs/2511.19030v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.19030v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Through a comprehensive free energy analysis, we demonstrate that finite temperature can simultaneously weaken superconductivity and mitigate spin polarization induced depairing, leading to potential non-monotonic temperature-dependent behaviors in superconductors subjected to large exchange fields. Remarkably, superconductivity can be counterintuitively enhanced by temperature when the Zeeman energy exceeds the superconducting order parameter, owing to the competition between thermal and magnetic effects. We propose that multiband effect offers one possible microscopic route for this temperature-induced enhancement and demonstrate it explicitly within a two-band superconducting model. A detailed parameter analysis identifies the conditions under which this phenomenon emerges, suggesting that temperature-enhanced superconductivity may be observable in materials such as MgB2 and FeSe through transport and tunneling measurements.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-24T12:04:29Z</published>
+    <arxiv:comment>5 pages and 4 figures for main text; 13 pages and 11 figures for Supplementary Material</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Xusheng Wang</name>
+    </author>
+    <author>
+      <name>Lianyi He</name>
+    </author>
+    <author>
+      <name>Shuai-hua Ji</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.10443v2</id>
+    <title>The True Parent Phase of K1.9Fe4.2Se5: A Stripe-type Orthorhombic Phase Requiring a Superconducting Distortion</title>
+    <updated>2025-11-14T09:44:03Z</updated>
+    <link href="https://arxiv.org/abs/2511.10443v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.10443v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The origin of the four-fold Tc amplification in A_xFe_{2-y}Se_2 (&gt;30 K) compared to FeSe (8 K) remains a central puzzle, complicated by a debate over the true superconducting (SC) parent phase--the I4/m (245) insulating matrix or a supposed I4/mmm metallic phase. Here, we resolve this ambiguity by identifying a novel "stripe-type orthorhombic phase" as the true parent phase of the high-Tc state, whose diffraction signature is the d2 peaks. Through decisive experiments, we demonstrate that this d2 parent phase is not intrinsically superconducting. Instead, superconductivity emerges only after this stripe phase undergoes a subsequent structural distortion, the definitive signature of which is the asymmetric broadening of the d1 main peaks. Our findings establish that the d2 peaks signal the formation of the parent phase, while the broadening of d1 peaks signals the transition into the superconducting state. This discovery of a two-step transition--formation of a stripe parent phase, followed by a superconducting distortion--provides a new mechanism for Tc amplification via controlled heterogeneity.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-13T16:08:46Z</published>
+    <arxiv:comment>19 pages, 4 main figures. Includes Supplementary Information (3 figures, 4 tables)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Chih-Han Wang</name>
+    </author>
+    <author>
+      <name>Jie-Yu Yang</name>
+    </author>
+    <author>
+      <name>Wu Phillip M</name>
+    </author>
+    <author>
+      <name>Gwo-Tzong Huang</name>
+    </author>
+    <author>
+      <name>Ming-Jye Wang</name>
+    </author>
+    <author>
+      <name>Maw-Kuen Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.08511v1</id>
+    <title>Interband pairing as the origin of the sublattice dichotomy in monolayer FeSe/SrTiO_3</title>
+    <updated>2025-11-11T17:45:39Z</updated>
+    <link href="https://arxiv.org/abs/2511.08511v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.08511v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sublattice dichotomy in monolayer FeSe/SrTiO$_3$, signaling the breaking of symmetries exchanging the two Fe sublattices, has recently been reported. We propose that interband pairing serves as the origin of this dichotomy, regardless of whether the symmetry is broken in the normal state or in the pairing state. If symmetry breaking occurs in the normal state, the Fermi surfaces are sublattice-polarized, and the intersublattice d-wave pairing naturally acts as interband pairing, reproducing the observed dichotomy in the spectra. Alternatively, if symmetry breaking takes place in the pairing state, it manifests as the coexistence of intraband and interband pairing, with the constraint that interband pairings share the same sign while intraband pairings carry opposite signs. In both cases, interband pairing is indispensable, establishing it as a key ingredient for understanding superconductivity in monolayer FeSe/SrTiO$_3$.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-11T17:45:39Z</published>
+    <arxiv:comment>6+2 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Chinese Physics Letters 43, 020707 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Zhipeng Xu</name>
+    </author>
+    <author>
+      <name>Shengshan Qin</name>
+    </author>
+    <author>
+      <name>Kun Jiang</name>
+    </author>
+    <author>
+      <name>Jiangping Hu</name>
+    </author>
+    <arxiv:doi>10.1088/0256-307X/43/2/020707</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0256-307X/43/2/020707" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.02226v1</id>
+    <title>Origin of sublattice particle-hole asymmetry in monolayer FeSe superconductors</title>
+    <updated>2025-11-04T03:40:35Z</updated>
+    <link href="https://arxiv.org/abs/2511.02226v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.02226v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In iron-based superconductors, the two Fe atoms in the unit cell are typically related by crystal symmetries; therefore, we expect no intra-unit cell variations in the superconducting gap. However, recent experiments have challenged this expectation, reporting intra-unit cell variations in the gap with an unusual particle-hole asymmetry. Here, we examine the origin of this asymmetry between the two Fe sublattices in monolayer FeSe grown on SrTiO$_3$. We reveal that, in addition to the substrate-induced broken inversion symmetry, substrate nematic symmetry breaking is key to observing this asymmetry. We further identify two possible mechanisms through which this can occur. The first is through an odd-parity gap function that coexists with an extended $s$-wave function. The second is via a nodeless $d$-wave gap function that develops in the presence of a symmetry-breaking substrate. We argue that the latter mechanism is more physical. To test our theory, we performed scanning tunneling spectroscopy measurements across the nematic domain walls, which exhibit a clear enhancement of the asymmetry between the two Fe sublattices. In addition, we reveal that the observed sublattice particle-hole asymmetry is associated with odd-frequency pairing correlations, providing an experimental realization of this unusual pairing correlation.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-04T03:40:35Z</published>
+    <arxiv:comment>5 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Mercè Roig</name>
+    </author>
+    <author>
+      <name>Kazi Ranjibul Islam</name>
+    </author>
+    <author>
+      <name>Basu Dev Oli</name>
+    </author>
+    <author>
+      <name>Huimin Zhang</name>
+    </author>
+    <author>
+      <name>P. M. R. Brydon</name>
+    </author>
+    <author>
+      <name>Aline Ramires</name>
+    </author>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Michael Weinert</name>
+    </author>
+    <author>
+      <name>Lian Li</name>
+    </author>
+    <author>
+      <name>Daniel F. Agterberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.15788v1</id>
+    <title>Interband-Pairing-Boosted Supercurrent Diode Effect in Multiband Superconductors</title>
+    <updated>2025-10-17T16:11:05Z</updated>
+    <link href="https://arxiv.org/abs/2510.15788v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.15788v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We unveil a mechanism that enables a robust supercurrent diode effect in Josephson junctions based on multiband superconductors. We predict that interband pairing can significantly amplifies this effect, even under weak spin-orbit coupling while intraband pairing alone would render it negligible. To illustrate this, we examine monolayer FeSe/STO, a system where recent experiments suggest interband pairing in either a nodeless $d$-wave or $η$ pairing state. Using experimentally derived parameters, we predict that FeSe/STO can serve as a high-temperature platform for realizing a substantial supercurrent diode effect, with efficiencies reaching up to $30\%$ for $d$-wave pairing and $12\%$ for $η$ pairing. These results demonstrate that measuring the supercurrent diode effect can provides a powerful probe of the pairing symmetry in monolayer FeSe/STO, offering critical insights into its superconducting state.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-17T16:11:05Z</published>
+    <arxiv:comment>6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Jiong Mei</name>
+    </author>
+    <author>
+      <name>Shengshan Qin</name>
+    </author>
+    <author>
+      <name>Jiangping Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.15537v2</id>
+    <title>Growth and microwave properties of FeSe thin films and comparison with Fe(Se,Te)</title>
+    <updated>2026-03-13T14:47:31Z</updated>
+    <link href="https://arxiv.org/abs/2510.15537v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.15537v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we have grown $\sim$100 nm thick pristine FeSe films by pulsed laser deposition. The films were structurally characterized with X-ray diffraction and their surface morphology checked through atomic force microscopy. Microwave measurements, performed with a dielectric loaded resonator tuned at the frequency of 8 GHz, allowed the characterization of the samples surface resistance, in view of potential applications in microwave haloscopes for dark matter search. Here, we report the comparison of the microwave properties of FeSe with Fe(Se,Te) thin films, as the temperature is swept from 4 K to 20 K. By applying a constant static magnetic field of 12 T, it was also possible to discern the magnetic field resilience of the two samples. FeSe showed a larger critical temperature drift as the field is applied, while the Fe(Se,Te) response broadens remarkably less. A preliminary analysis of vortex pinning shows margins for optimizing pinning in FeSe.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-17T11:10:42Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>IEEE Transactions on Applied Superconductivity, vol. 36, no. 5, pp. 1-5, Aug. 2026, Art no. 1500305</arxiv:journal_ref>
+    <author>
+      <name>Alessandro Magalotti</name>
+    </author>
+    <author>
+      <name>Andrea Alimenti</name>
+    </author>
+    <author>
+      <name>Valeria Braccini</name>
+    </author>
+    <author>
+      <name>Giuseppe Celentano</name>
+    </author>
+    <author>
+      <name>Matteo Cialone</name>
+    </author>
+    <author>
+      <name>Antonella Mancini</name>
+    </author>
+    <author>
+      <name>Andrea Masi</name>
+    </author>
+    <author>
+      <name>Nicola Pompeo</name>
+    </author>
+    <author>
+      <name>Enrico Silva</name>
+    </author>
+    <author>
+      <name>Giovanni Sotgiu</name>
+    </author>
+    <author>
+      <name>Kostiantyn Torokhtii</name>
+    </author>
+    <author>
+      <name>Pablo Vidal García</name>
+    </author>
+    <author>
+      <name>Angelo Vannozzi</name>
+    </author>
+    <arxiv:doi>10.1109/TASC.2026.3665171</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TASC.2026.3665171" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.23591v2</id>
+    <title>Fabrication of oxide/FeSe multilayer films using the PLD technique</title>
+    <updated>2026-08-05T12:28:35Z</updated>
+    <link href="https://arxiv.org/abs/2509.23591v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.23591v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this study, we demonstrate the successful fabrication of TiO2/FeSe/STO and TiO2/FeSe/LaAlO3 heterostructures using PLD. When the growth rates were sufficiently low, anatase TiO2, which has been reported to induce superconductivity in FeSe, could be grown epitaxially on FeSe. For TiO2/FeSe/STO, the FeSe/TiO2 interface was relatively clean, as confirmed by the observation of Laue fringes in FeSe(001) reflection. Although a thinner FeSe layer is expected to enhance Tc, our results instead suggest that deposition of TiO2 introduces additional disorder in FeSe. Most strikingly, superconductivity appeared when TiO2 was deposited on FeSe/LaAlO3, clearly demonstrating that the interaction between the top oxide layer and underlying FeSe can induce superconductivity. This work demonstrates the feasibility of fabricating FeSe/oxide superlattices by PLD, establishing a novel platform for the exploration of interfacial superconductivity in iron-based superconductors.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-28T02:49:35Z</published>
+    <arxiv:comment>14 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. Materials 10, 074802 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Tomoki Kobayashi</name>
+    </author>
+    <author>
+      <name>Hiroki Nakagawa</name>
+    </author>
+    <author>
+      <name>Ryo Ogawa</name>
+    </author>
+    <author>
+      <name>Atsutaka Maeda</name>
+    </author>
+    <arxiv:doi>10.1103/q829-ztzb</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/q829-ztzb" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.09976v1</id>
+    <title>Impact of Disorder on the Superconducting Properties and BCS-BEC Crossover in FeSe Single Crystals</title>
+    <updated>2025-09-12T05:35:55Z</updated>
+    <link href="https://arxiv.org/abs/2509.09976v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.09976v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the crystal structure, transport properties and specific heat in five selected FeSe single crystals containing different amounts of disorder. Transport measurements show that disorder significantly suppresses superconducting transition temperature, $T_\mathrm{c}$, and upper critical field, $H_\mathrm{c2}$. Specific heat results confirm a robust multi-gap nature, a larger isotropic gap ($Δ_\mathrm{s}$) and a smaller anisotropic gap ($Δ_\mathrm{es}$). The smaller gap $Δ_\mathrm{es}$ becomes more isotropic with increasing disorder. Additionally, FeSe is regarded as a superconductor in the crossover regime from Bardeen-Cooper-Schrieffer (BCS) to Bose-Einstein condensation (BEC) because of its comparable $Δ$ and Fermi energy $E_\mathrm{F}$. By introducing disorder, the BCS-BEC crossover in FeSe can be tuned closer to BCS limit, reducing $Δ/E_\mathrm{F}$ from 1.3 to 0.4.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-12T05:35:55Z</published>
+    <arxiv:comment>8 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Supercond. Sci. Technol. 38 095003 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Jianping Fu</name>
+    </author>
+    <author>
+      <name>Yue Sun</name>
+    </author>
+    <author>
+      <name>Jingting Chen</name>
+    </author>
+    <author>
+      <name>Zhixiang Shi</name>
+    </author>
+    <author>
+      <name>Tsuyoshi Tamegai</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6668/adfb03</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6668/adfb03" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.06313v1</id>
+    <title>Nonlinear planar Hall effect from superconducting vortex motion</title>
+    <updated>2025-09-08T03:36:44Z</updated>
+    <link href="https://arxiv.org/abs/2509.06313v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.06313v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report the nonreciprocal charge transport along the longitudinal and transverse directions in the vortex flow regime of FeSe superconducting films. Clear nonreciprocal signals under an inplane magnetic field reveals symmetry breaking at the film surfaces since the crystal structure of FeSe is centrosymmetric. Although the symmetry in such polar superconductors allows the nonreciprocal transverse response under a magnetic field parallel to the electric current, its observation is physically counterintuitive because vortex motion is not expected in this configuration. We propose that thermally excited (anti)vortices due to the two-dimensional nature of FeSe give rise to the nonreciprocal transverse signals when the mirror symmetry is broken by the inplane magnetic field.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-08T03:36:44Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Mio Hashimoto</name>
+    </author>
+    <author>
+      <name>Takako Konoike</name>
+    </author>
+    <author>
+      <name>Tomoki Kobayashi</name>
+    </author>
+    <author>
+      <name>Shintaro Hoshino</name>
+    </author>
+    <author>
+      <name>Takuya Kawada</name>
+    </author>
+    <author>
+      <name>Tomoyuki Yokouchi</name>
+    </author>
+    <author>
+      <name>Shinya Uji</name>
+    </author>
+    <author>
+      <name>Atsutaka Maeda</name>
+    </author>
+    <author>
+      <name>Yuki Shiomi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.06180v2</id>
+    <title>Symmetry-required Orbital Selectivity in Monolayer FeSe</title>
+    <updated>2026-07-29T18:16:40Z</updated>
+    <link href="https://arxiv.org/abs/2509.06180v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.06180v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Orbital-selective correlations have been observed to play an important role in Fe-based superconductors. Here, in contrast to previous site-local Mott transition-based origins, we present a band-theory-based mechanism for orbital-selective physics in monolayer FeSe, for which only electron pockets appear. Underlying our mechanism is the observation in density functional theory (DFT) calculations that around the M point in the Brillouin zone, antiferromagnetic fluctuations are strongly coupled to electrons in $x^2-y^2$ orbitals but weakly coupled to those in $\{xz,yz\}$ orbitals. Symmetry-arguments reveal that this orbital selective coupling originates from the different intertwined orbital and Fe-site sublattice Bloch wavefunctions for these two sets of orbitals at the M point, specifically, the $x^2-y^2$ orbitals can be Fe-site localized. The strong coupling of electrons in $x^2-y^2$ orbitals to the magnetic fluctuations enables orbital-selective electronic renormalizations that can account for important features of our angle-resolved photoemission spectroscopy (ARPES) measurements. Our symmetry-required mechanism for orbital selective physics can be generalized to a range of crystal space groups with four-fold and six-fold screw axes.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-07T19:13:49Z</published>
+    <arxiv:comment>7 pages, 4 figures; v2: published version including Supplemental Material</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Communications Materials 7, 199 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Mercè Roig</name>
+    </author>
+    <author>
+      <name>Qiang Zou</name>
+    </author>
+    <author>
+      <name>Basu Dev Oli</name>
+    </author>
+    <author>
+      <name>Tatsuya Shishidou</name>
+    </author>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Huimin Zhang</name>
+    </author>
+    <author>
+      <name>Daniel F. Agterberg</name>
+    </author>
+    <author>
+      <name>Lian Li</name>
+    </author>
+    <author>
+      <name>Michael Weinert</name>
+    </author>
+    <arxiv:doi>10.1038/s43246-026-01186-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s43246-026-01186-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.04912v2</id>
+    <title>Flux flow and orbital upper critical field in multiband FeSe$_{0.5}$Te$_{0.5}$ explored by microwave magnetotransport</title>
+    <updated>2026-03-30T09:26:14Z</updated>
+    <link href="https://arxiv.org/abs/2509.04912v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.04912v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We measure the flux flow resistivity in FeSe$_{0.5}$Te$_{0.5}$ epitaxial films using a microwave dual-frequency technique (16 GHz and 27 GHz), in the range 5 K-$T_c$, in static magnetic fields up to 1.2 T. By applying a temperature scaling procedure, we extract from flux flow measurements the temperature dependence of the orbital upper critical field, that shows features of multiband superconductors. The reduced orbital upper critical field is then fitted with a two-band model with strong intraband and weak interband coupling, as expected in 11 Fe-based systems. We derive the vortex viscosity and we estimate the bands-averaged vortex core quasiparticle reduced scattering time within the Bardeen-Stephen framework. Our data suggest that, for our epitaxial FeSe$_{0.5}$Te$_{0.5}$ films, the quasiparticle scattering rate values are at the upper edge for the dirty regime. Finally, tentative numerical values of the orbital upper critical field and coherence length are provided.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-05T08:25:31Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Superconductor Science and Technology, 39, 035018 (2026)</arxiv:journal_ref>
+    <author>
+      <name>A. Magalotti</name>
+    </author>
+    <author>
+      <name>A. Alimenti</name>
+    </author>
+    <author>
+      <name>V. Braccini</name>
+    </author>
+    <author>
+      <name>P. Manfrinetti</name>
+    </author>
+    <author>
+      <name>E. Silva</name>
+    </author>
+    <author>
+      <name>K. Torokhtii</name>
+    </author>
+    <author>
+      <name>N. Pompeo</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6668/ae5151</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6668/ae5151" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.17443v1</id>
+    <title>Pulsed laser synthesis of mesoporous metal chalcogenide thin films</title>
+    <updated>2025-08-24T16:46:39Z</updated>
+    <link href="https://arxiv.org/abs/2508.17443v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.17443v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mesoporous films of the metal chalcogenide $β$-FeSe were grown on MgO substrates by KrF pulsed laser deposition (PLD) in an argon background. At 100 mTorr, gated intensified charge-coupled device imaging and ion probe measurements showed that the plasma plume responsible for crystal growth initially comprised three components, with distinct expansion velocities. Plume interactions with the substrate heater and ablation target gave rise to complex dynamics, including collisions between the charged leading edge -- rebounding between the substrate and the target -- and slower-moving species in the plume interior. Film growth was dominated by species with kinetic energies $\le$0.5 eV/atom. X-ray reflectivity and atomic force microscopy revealed that films grown in this environment -- with a substrate temperature of 350$^\circ$C, a laser fluence of 1.0 J cm$^{-2}$, and a 7.5 mm$^2$ spot area -- formed a porous framework with 15% porosity and pore sizes below 100 nm. X-ray diffraction indicated that the porous films were epitaxial with respect to the substrate and likely grew by oriented-attachment of gas-phase molecular clusters or very small nanoparticles, in contrast to the conventional epitaxy of vacuum films from atomic constituents. The in-plane orientation of the mesoporous films was $β$-FeSe[100]$\parallel$[110]MgO, attributed to the soft landing of pre-formed crystallites on the MgO substrates, where protruding Se rows of $β$-FeSe aligned with corrugations of the MgO surface. This work implies that growth of candidate electrocatalyst materials by PLD in inert gas background may allow mesoporous frameworks with a single crystallographic orientation that expose specific crystal facets for electrochemical reactions and active site engineering.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-24T16:46:39Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Dorien E. Carpenter</name>
+    </author>
+    <author>
+      <name>Zahra Nasiri</name>
+    </author>
+    <author>
+      <name>Nithesh R. Palagiri</name>
+    </author>
+    <author>
+      <name>Kamron L. Strickland</name>
+    </author>
+    <author>
+      <name>Sumner B. Harris</name>
+    </author>
+    <author>
+      <name>David B. Geohegan</name>
+    </author>
+    <author>
+      <name>Renato P. Camata</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11018v1</id>
+    <title>Study on fluctuations of interface-enhanced superconductivity in ultrathin FeSe/SrTiO3 by the Nernst effect</title>
+    <updated>2025-08-14T18:44:26Z</updated>
+    <link href="https://arxiv.org/abs/2508.11018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ultrathin FeSe films on SrTiO3 substrate show interface-enhanced superconductivity. However, how the superconductivity is established including superconducting fluctuations remains unclear. This study investigates the Nernst effect, which is sensitive to superconducting fluctuations, in ultrathin FeSe films on SrTiO3. Temperature dependence of Nernst signals in the normal state is similar to bulk FeSe, suggesting that the electrons of SrTiO3 are transferred only to a few layers near the FeSe/SrTiO3 interface. The Nernst effect caused by SC fluctuations was observed only below T ~ 1.2 Tconset within our measurement resolution, which is similar to other Fe chalcogenide systems. Our results suggest that the pseudogap in monolayer FeSe/STO possibly originates in other electronic states rather than superconductivity.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-14T18:44:26Z</published>
+    <arxiv:comment>8 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>T. Kobayashi, R. Ogawa, and A. Maeda Phys. Rev. B 112, 094525 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Tomoki Kobayashi</name>
+    </author>
+    <author>
+      <name>Ryo Ogawa</name>
+    </author>
+    <author>
+      <name>Atsutaka Maeda</name>
+    </author>
+    <arxiv:doi>10.1103/1yxb-1pl5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/1yxb-1pl5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.09063v1</id>
+    <title>Enhanced superconductivity in ultrathin FeSe films on SrTiO3 via resonant anti-shielding: Superconductivity meets superfluidity</title>
+    <updated>2025-08-12T16:26:46Z</updated>
+    <link href="https://arxiv.org/abs/2508.09063v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.09063v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A vanishingly small dielectric function reflects a singular polarization response in a medium, leading to collective plasmonic or polaronic excitations that can enhance Cooper pairing in superconductors via a resonant anti-shielding (RAS) effect. Here, we show that RAS can explain the dramatic enhancement of superconductivity-relative to bulk FeSe, observed in single-unit-cell FeSe films on SrTiO$_3$ (STO) and related substrates. Moreover, we present evidence that RAS may play a central role in driving the Cooper pair condensate into a bipolaronic superfluid state. This interpretation aligns with a recent quantum Monte Carlo simulation by Zhang, et al. [Phys. Rev. X 13, 011010 (2023)], which indicated enhanced bipolaronic superconductivity in two-dimensional systems with moderately strong electron-phonon coupling. RAS may therefore represent a promising strategy for engineering high-T$_c$ superconducting heterostructures.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-12T16:26:46Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Krzysztof Kempa</name>
+    </author>
+    <author>
+      <name>Michael J. Naughton</name>
+    </author>
+    <author>
+      <name>Hanno H. Weitering</name>
+    </author>
+  </entry>
+</feed>
