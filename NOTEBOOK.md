@@ -113,3 +113,23 @@ _No notes this turn._
 Summary: GPT-6 Astra: No summary.
 
 Claude Fable 5.1: Now let me write the literature notes and README while QE relaxes.
+
+## Turn 14 · GPT-6 Astra and Claude Fable 5.1
+
+Direction: machine-learning screens of known crystals for strong electron-phonon coupling
+
+_No notes this turn._
+
+Summary: GPT-6 Astra: No summary.
+
+Claude Fable 5.1: I'll start by orienting in the sandbox and reading what turn 12 (same direction) left behind.
+
+## Turn 15 · GPT-6 Astra and Claude Fable 5.1
+
+Direction: iron-based superconductors past their 55 K bulk record
+
+Turn 15 (Fable; bulk iron-based past 55 K). Split with Astra: Astra = FeSe/STO interface audit + phase-stiffness gate + QPU; Fable = bulk frontier, dispute audit, CHGNet structural screen. Design tested: a bulk FeSe "self-interface", 42622-type Sr4(Mg1-xTix)2O6Fe2Se2 (P4/nmm; FeSe analogue of the 37–39 K Sr2VO3FeAs / Sr4(Mg,Ti)2O6Fe2As2), aiming to place a dopable perovskite-oxide block ~3 Å from every FeSe layer like FeSe/SrTiO3. Result (runs/turn-0015/fable): novel in all databases + arXiv (OQMD down), but CHGNet puts the Se variants 153–291 meV/atom above the hull versus 103–110 for the real, synthesised arsenides (Alexandria DFT: 111 for Sr2VFeAsO3), decomposing to Fe + SrSe + Ruddlesden–Popper oxide; the oxide block stretches FeSe to a≈3.97 Å (5%, more than on STO) and pushes the anion height to 1.57–1.73 Å (Mizuguchi optimum 1.38 Å), whereas for FeAs the same block gives h≈1.5 Å. Calibration caveat: CHGNet phonons call the known, stable Sr4V2O6Fe2As2 dynamically unstable (−3.1 THz), so CHGNet phonon verdicts are unreliable for this structure type. No candidate submitted; bulk Fe-based verdict: no descriptor-backed route past 55–56 K, let alone 133 K. No QE and no Fable QPU use this turn (Astra ran the QPU job, 3 s).
+
+Summary: GPT-6 Astra: I’m separating three quantities that can easily be conflated here: the local pairing gap, the temperature where resistance vanishes, and phase stiffness. The 2026 FeSe strain result is a useful design lead, but a larger tunnelling gap alone does not establish a higher superconducting transition temperature.
+
+Claude Fable 5.1: Turn 15 (Fable; bulk iron-based past 55 K). Split: Astra = FeSe/STO interface audit, phase-stiffness gate, QPU (ibm_kingston, 3 s); Fable = bulk frontier, dispute audit, CHGNet structural screen; no QE by either. Design tested (runs/turn-0015/fable: README.md, build_structures.py, analyze.py, dispute_audit.md, structures/, outputs/): a bulk FeSe "self-interface", 42622-type Sr4(Mg1-xTix)2O6Fe2Se2 (P4/nmm; FeSe analogue of the 37–39 K Sr2VO3FeAs / Sr4(Mg,Ti)2O6Fe2As2) putting a Ti-dopable perovskite-oxide block ~3 Å from every FeSe layer. Result: novel in all databases + arXiv (OQMD down), but CHGNet puts the Se variants 153–291 meV/atom above the hull vs 103–110 for the real synthesised arsenides (Alexandria DFT 111 for Sr2VFeAsO3), decomposing to Fe + SrSe + Ruddlesden–Popper oxide; the RP block stretches FeSe to a≈3.97 Å (5%) and pushes anion height to 1.57–1.73 Å (optimum 1.38) while for FeAs it gives ~1.5 Å. Calibration caveat: CHGNet phonons call the known stable Sr4V2O6Fe2As2 unstable (−3.1 THz) — don't trust CHGNet phonons for this structure type. Prior art: Coh/Lee/Louie/Cohen PRB 93, 245138 (2016) already proposed a FeSe–SrTiO3 superlattice (a 3.87–3.90 Å, h 1.37–1.39 Å, unsynthesised after 10 yr) — the right geometry but prior work. Newest bulk data: (THA)xFeSe (CPL 43, 050710, 2026) bulk χ Tc 42–44 K, R onset 50.7–55.4 K, zero R 33 K — electron-doped FeSe plateaus at ~50–55 K onset in bulk, same scale as the monolayer. No retractions found for any Fe-based record; FeSe/STO 100 K transport remains single-group. No candidate submitted. Family verdict: bulk Fe-based has no evidence-backed route past 55–56 K (let alone 133 K); the interface regime is capped by Astra's stiffness gate (needs m* < 1.7 me, FeSe/STO has 2–3 me). Lit-review sub-agent did not return in time (no lit_bulk_fe_based_2024_2026.md). Recommend next turns return to cuprate pressure-quench retention (turn 8) or nickelate films (turns 5/10).
